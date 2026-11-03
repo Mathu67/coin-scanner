@@ -1,0 +1,55 @@
+name: Coin-Scanner
+
+on:
+  schedule:
+    - cron: "23 * * * *"   # jede Stunde
+  workflow_dispatch:
+    inputs:
+      bilanz:
+        description: "Nur Zwischenbilanz schicken (statt scannen)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # state.json speichern
+  issues: write     # Bilanz als Issue (GitHub schickt dir dann eine E-Mail)
+
+concurrency:
+  group: scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Scanner laufen lassen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # optional, nur wenn du direkt per Gmail willst (siehe README):
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          if [ "${{ inputs.bilanz }}" = "true" ]; then
+            python scanner.py --bilanz
+          else
+            python scanner.py
+          fi
+
+      - name: Stand speichern
+        run: |
+          git config user.name "coin-scanner"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json
+          git diff --cached --quiet || git commit -m "Scanner-Update $(date -u +%F_%H:%M)"
+          git push
