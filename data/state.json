@@ -8,7 +8,7 @@
    "gekauft": "2026-11-03T09:33:47.530088+00:00",
    "einstieg_preis": 0.0001235,
    "einstieg_mcap": 121798,
-   "letzter_preis": 6.942e-05,
+   "letzter_preis": 5.959e-05,
    "hoechst_x": 1.3125506072874495,
    "status": "offen",
    "info": "Top10 25%, LP 100% gesperrt",
@@ -17,7 +17,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.5621,
+   "letzter_x": 0.4825,
    "tiefst_x": 0.359838056680162
   },
   {
@@ -28,7 +28,7 @@
    "gekauft": "2026-11-03T09:33:49.013352+00:00",
    "einstieg_preis": 0.001056,
    "einstieg_mcap": 1056606,
-   "letzter_preis": 0.001791,
+   "letzter_preis": 0.001921,
    "hoechst_x": 2.4374999999999996,
    "status": "offen",
    "info": "Top10 12%, LP 100% gesperrt",
@@ -37,7 +37,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 1.696,
+   "letzter_x": 1.8191,
    "tiefst_x": 1.0
   },
   {
@@ -48,7 +48,7 @@
    "gekauft": "2026-11-03T09:34:10.302784+00:00",
    "einstieg_preis": 0.0007009,
    "einstieg_mcap": 700938,
-   "letzter_preis": 0.0003064,
+   "letzter_preis": 0.0003497,
    "hoechst_x": 1.0709088315023543,
    "status": "offen",
    "info": "Top10 20%, LP 100% gesperrt",
@@ -57,8 +57,8 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.4372,
-   "tiefst_x": 0.437152232843487
+   "letzter_x": 0.4989,
+   "tiefst_x": 0.3100299614780996
   },
   {
    "mint": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
@@ -68,7 +68,7 @@
    "gekauft": "2026-11-03T09:34:13.259963+00:00",
    "einstieg_preis": 0.0006369,
    "einstieg_mcap": 585538,
-   "letzter_preis": 0.000364,
+   "letzter_preis": 0.0003404,
    "hoechst_x": 1.1637619720521275,
    "status": "offen",
    "info": "Top10 22%, LP 100% gesperrt",
@@ -77,8 +77,8 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.5715,
-   "tiefst_x": 0.5127963573559429
+   "letzter_x": 0.5345,
+   "tiefst_x": 0.4710315591144606
   },
   {
    "mint": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
@@ -88,10 +88,10 @@
    "gekauft": "2026-11-03T15:09:08.714582+00:00",
    "einstieg_preis": 0.0009449,
    "einstieg_mcap": 934085,
-   "letzter_preis": 0.0007576,
+   "letzter_preis": 0.0007157,
    "hoechst_x": 1.0,
    "tiefst_x": 0.670229653931633,
-   "letzter_x": 0.8018,
+   "letzter_x": 0.7574,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -134,10 +134,10 @@
    "gekauft": "2026-11-03T18:16:00.023765+00:00",
    "einstieg_preis": 0.000115,
    "einstieg_mcap": 111080,
-   "letzter_preis": 9.027e-05,
+   "letzter_preis": 7.986e-05,
    "hoechst_x": 1.0869565217391304,
-   "tiefst_x": 0.6514782608695652,
-   "letzter_x": 0.785,
+   "tiefst_x": 0.6122608695652174,
+   "letzter_x": 0.6944,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -154,10 +154,10 @@
    "gekauft": "2026-11-03T19:42:11.750735+00:00",
    "einstieg_preis": 0.002016,
    "einstieg_mcap": 2007162,
-   "letzter_preis": 0.002473,
-   "hoechst_x": 1.2336309523809523,
+   "letzter_preis": 0.002408,
+   "hoechst_x": 1.376984126984127,
    "tiefst_x": 0.9454365079365079,
-   "letzter_x": 1.2267,
+   "letzter_x": 1.1944,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -174,10 +174,10 @@
    "gekauft": "2026-11-03T20:28:28.053541+00:00",
    "einstieg_preis": 0.0001155,
    "einstieg_mcap": 111205,
-   "letzter_preis": 0.0001239,
-   "hoechst_x": 1.0926406926406926,
+   "letzter_preis": 0.0001289,
+   "hoechst_x": 1.1393939393939394,
    "tiefst_x": 0.9792207792207792,
-   "letzter_x": 1.0727,
+   "letzter_x": 1.116,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -316,7 +316,6 @@
   "6n8hfMeseyaEsZ6BvHaxFoGpXVp3rxfr85Bfzk58755R": "2026-11-03T13:29:44.135809+00:00",
   "HjkX6rLUAsiKYZ1hwkD4TV1bsEoXgkSjVTF4gHSmpump": "2026-11-03T15:09:04.218079+00:00",
   "CHVA3CgnnV9y38ge8bqsyM3WGweCmkxzBcKCZoGQpump": "2026-11-03T15:09:04.218123+00:00",
-  "JCdE6KcCEUcgmhiCQfXTL11524wSgqJCnGtYDA757q4a": "2026-11-03T15:09:04.218129+00:00",
   "3bWha9qCv7Yu1DzXZ89D8YD9fjEms5W7EBRZqUSxpump": "2026-11-03T15:09:04.218134+00:00",
   "CkCyVMw8xXf8HqFK3ppJVqsCSrpaBeaPuVQ37Tc96666": "2026-11-03T15:09:04.218143+00:00",
   "864LDRm68LQPQo1H4xMcVGozSxm5iSmFZVyW8TCgpump": "2026-11-03T15:09:04.218150+00:00",
@@ -882,7 +881,133 @@
   "9Js33fAz2XB2vS5oo8SEfiBitgrHcUFooZiq1iZHBnRt": "2026-11-03T20:43:16.881964+00:00",
   "ABQWVMqPiMr8PdSx5zKjMcuG9JsYBnkFJM7z2roupump": "2026-11-03T20:43:16.881972+00:00",
   "9d8EooZffZFiB8E1vSaLJaRq1FypyxXdcripfJ638Kuu": "2026-11-03T20:43:16.882010+00:00",
-  "E7o53D34wWANFvUy8EyBfc7xt5QKGvKWthkSvjZjx1cm": "2026-11-03T20:43:16.882029+00:00"
+  "E7o53D34wWANFvUy8EyBfc7xt5QKGvKWthkSvjZjx1cm": "2026-11-03T20:43:16.882029+00:00",
+  "BrvMqW6UKSja39TYqHF7x8TD7dDTkknqxJwx9jTEpump": "2026-11-03T20:48:41.283688+00:00",
+  "HisKZXaBNbR79om8grdTj1EyZzWcE4vYfa7Y7HSFpump": "2026-11-03T20:48:41.283693+00:00",
+  "3YBRTJWWbQVcFoU49pgvHeVRihgTzSXTjti4JZVrpump": "2026-11-03T20:48:41.283702+00:00",
+  "8JX5YTfk5Czvq9Ls2VneATZe2iQGujtnTHfHkVmEpump": "2026-11-03T20:48:41.283716+00:00",
+  "5FhYA3GN45YagbFW36SnTsFrzTyUK5ffTjyiWgiGpump": "2026-11-03T20:48:41.283769+00:00",
+  "79Hw6qxm5tAncX5SsQxp8BLUKqQpYSgUnVuCEyEApump": "2026-11-03T20:48:41.283771+00:00",
+  "5Tgs82w7iJrMRK57TsSxGRqyXHih95e7U2SrKgG1pump": "2026-11-03T20:48:41.283799+00:00",
+  "6YjpiQLnUFWJY4LXZh8ngNmKc378iMsJYRAGjYaQpump": "2026-11-03T20:48:41.283803+00:00",
+  "8sDCaEfurJQzK4rKeYCCgzkNPMoxR4LQK4J5UACgpump": "2026-11-03T20:48:41.283810+00:00",
+  "GRhSxat7TdgApwfoiiUkU3XXy7sEUixv3LnwLDsMHoDL": "2026-11-03T20:48:41.283820+00:00",
+  "5wzzsngmKq4fiWgqAaezQpVoHC8krxCDJ3HTYojfpump": "2026-11-03T20:48:41.283822+00:00",
+  "4GKa81CaXu2wrQ9Q25r6FwVV5yXoXwA2RYnk3tXrgvMU": "2026-11-03T20:48:41.283837+00:00",
+  "B4dsUA3F7cyuyaZdq9DqgRzLopfNyXpKVftMqXz1BWGq": "2026-11-03T20:53:41.441204+00:00",
+  "FC2eHiJYLh4GMB9TF8qzQN9exWu4krvhCvXoYf18w3Xu": "2026-11-03T20:53:41.441209+00:00",
+  "H2DTDHWxAo44Ue4BTgEVdVgdUrhGENzB7GQBdJWaeBGB": "2026-11-03T20:53:41.441233+00:00",
+  "4ZXzgHNyLzvm9KxR8n2ACEL5QGYBYCR7UfmkRy9hoMWH": "2026-11-03T20:53:41.441240+00:00",
+  "FFN9AjCZDV9dTeYcWcTpjc7L37kDzwFF8aYAhAXr6b4H": "2026-11-03T20:53:41.441262+00:00",
+  "oqbqRnxmMtyVJmxAFGHZNueWcdYVq2uqJmhGU7envpj": "2026-11-03T20:53:41.441271+00:00",
+  "AFgwSZbJwzxwxdkE49HsAXnEt254Cp6BkF5UHFDtAdz1": "2026-11-03T20:53:41.441276+00:00",
+  "GL4jpMNBgT94qUhW1YR19F4gh5pAJy4B3gcrb9GJmVZ3": "2026-11-03T20:53:41.441281+00:00",
+  "D3uvHx4cKemnnnkEjbC4hQhdyyjTA6w7aD3oFCbrjLLa": "2026-11-03T20:53:41.441302+00:00",
+  "6cqzo8KfTujdoNRTxcLXbjCL2kuGE5PmkXikqs6ubpnM": "2026-11-03T20:53:41.441317+00:00",
+  "FtJ4ujcTLqb64PMMjvu6doA2xQ79R4vGDwhFaPqBkuMB": "2026-11-03T20:58:41.363155+00:00",
+  "8HJs6eQBpfw94YHHCiEaebs3kNhM7HbPemD5Etirpump": "2026-11-03T20:58:41.363167+00:00",
+  "6ZKg2DCErsxyExUxD2xuC2kdUzB6BuiCPE9PkNzDpump": "2026-11-03T20:58:41.363185+00:00",
+  "6Na6huTtPekKeeJpmtpq8mw2ZVAC2qCaRBj8KeB4pump": "2026-11-03T20:58:41.363187+00:00",
+  "FvKSGuV6Vckk6hni2EMyCM6NjziP7agoJXmAaR8xpubH": "2026-11-03T20:58:41.363212+00:00",
+  "9ZTqwiKEzLJ2q6UWdBibdQGDHpc8fZgxQQCYtNE2YnRX": "2026-11-03T20:58:41.363226+00:00",
+  "4qDtgwRsZfx1FyhocwWMbnJWvJuHxpZXvbTwtPo1pump": "2026-11-03T20:58:41.363235+00:00",
+  "6u5J1ZsMKtUCjWV1Bv12vM5zKZWtVQDS6sdp8a9Gpump": "2026-11-03T20:58:41.363236+00:00",
+  "DRU58dwfhnkEGedzFAJNEjNbZyT3tM4sJGMo5Tujvn9Z": "2026-11-03T20:58:41.363238+00:00",
+  "DwuEfDhzfL4vhfYJR1BWny7grxQKrXToeR8kjBt8pump": "2026-11-03T20:58:41.363241+00:00",
+  "CSuUbbDZFRcBEmYTPRJogVRmt2KY9EdwfMHU7YyvViNH": "2026-11-03T20:58:41.363258+00:00",
+  "5516MSrgi2EaeMdCuArzBLvmTuaeMZ5pZCxKE7NyTiYs": "2026-11-03T21:03:41.252521+00:00",
+  "HrSqcrbhuRqCZi3Uq85M1BYqegCTFStwdpCegH27pump": "2026-11-03T21:03:41.252553+00:00",
+  "BUSdZXc8RgGEH8VPMNwDxLT2TDjVrBgmxabrpjTrAo5W": "2026-11-03T21:03:41.252579+00:00",
+  "HgdxLp89d3FXTNL3nQoYbmnfKcnfxhu8UrZ1TWeK8eKX": "2026-11-03T21:03:41.252591+00:00",
+  "6uddPvCR1G8BQYWFrqQGsYoEmJLPbyx9yVH2iGGikFPV": "2026-11-03T21:03:41.252605+00:00",
+  "7B85zY7xFXypiEZ2W4YsPQ8AP9V5TYV8Na9aoB16pump": "2026-11-03T21:03:41.252608+00:00",
+  "2yUz9MAAEdtdEoGdiyaAT5dEQ1CRVoFX4UvPHthypump": "2026-11-03T21:03:41.252611+00:00",
+  "1ypZzDZ5fbYsJ74Vtwu1czvkF2kcdyLiRYHq7ozE2ms": "2026-11-03T21:03:41.252617+00:00",
+  "C2kDTKx9Y8NoRtzQBfVHetNH8XfRWauV72qb9wB29izi": "2026-11-03T21:03:41.252620+00:00",
+  "5g5hzbx5AjB8e5F7m6od5bw2cZM8qpQB6KZrvgvrwy3K": "2026-11-03T21:03:41.252625+00:00",
+  "hWgWqL4uzBSdji8EAvw3Kg33jShUS6UjxEZB9YBpump": "2026-11-03T21:03:41.252633+00:00",
+  "i2LKAbCTomTftvBBJHWQWpbSRuT7LWxrLpvEK52A5uH": "2026-11-03T21:03:41.252677+00:00",
+  "9sygjs54pAnRGrYeuLJoroRwpdCE3TFYFQT126MLhvXh": "2026-11-03T21:03:41.252682+00:00",
+  "5mTZKFB7hFK6nkWCJGLP6kwZrgeXVXy1LXDDaUxz1E47": "2026-11-03T21:08:41.153551+00:00",
+  "BSZZGgb6hvajCxj4VZup6fBehrR59GGYnBL85NY6pump": "2026-11-03T21:08:41.153576+00:00",
+  "EwKSrcroxheQSrdWef7r9g6kAnovtGy3HgVrbcdTpump": "2026-11-03T21:08:41.153597+00:00",
+  "6BXP2bQbsjpWYUSEhFY9iRXsVQyp87nZsDcNK4yp9Ukc": "2026-11-03T21:08:41.153598+00:00",
+  "FqXhaKRedgupF3Xsh3Xw8ntZoJtXTrP1UaxEN3ZDpump": "2026-11-03T21:08:41.153607+00:00",
+  "ChatbxK32pGJ3Gm6ga36aHzXiJ1w2EmhJ3m8jA5UCoiN": "2026-11-03T21:08:41.153609+00:00",
+  "Bph61Cb7yKdPDi6LimrQ5Z6xK3KqzUxMrAWTwkV1pump": "2026-11-03T21:08:41.153625+00:00",
+  "2nUaDdA3TvSFVx2EENX3WxWc2AYiEKo7xJU2jzYrpump": "2026-11-03T21:08:41.153632+00:00",
+  "AX7FysqUyDE968YzxeoRuMXRomy6UDAjLqUpCYTepump": "2026-11-03T21:08:41.153645+00:00",
+  "DfZY9S9xar57z7HmeRXJSKzYAoSXKaCpo3xnDdTDpump": "2026-11-03T21:08:41.153680+00:00",
+  "8jfp3uGPTPq1PM2cWG2vTfmNgTUGpTLnPv8fkWDMpump": "2026-11-03T21:08:41.153691+00:00",
+  "Gm4DanjrHZNTGFGPFHxrwp7YpebmQrXXXtZ6KdNYpump": "2026-11-03T21:08:41.153696+00:00",
+  "E9DHdS1m5hp5p9mNMcTtA5unB9b1U8uau1vY88GM7PsD": "2026-11-03T21:08:41.153708+00:00",
+  "8HE8EtLJK1C1SnjF7Zf5Sq2k32Pr584m5sN21qYNnaLj": "2026-11-03T21:13:41.189267+00:00",
+  "8xtsAFUZGZxCdBwDnHrYekh1puJmBPwWjcG1hR99YGAU": "2026-11-03T21:13:41.189300+00:00",
+  "Y6ehWY7y3CpYwVhDUg3mKFD8SLaT5Ja4sewaP2Jpump": "2026-11-03T21:13:41.189309+00:00",
+  "BccAQXfGwHjB3at4N8mM18vrEApaXBx3d1ibsX6auvcJ": "2026-11-03T21:13:41.189321+00:00",
+  "HZnH5K6jd9ysdVubNSfoiPfhQBFphabNjVvE1Yhapump": "2026-11-03T21:13:41.189352+00:00",
+  "BHuxfp9qjCNuhSHXmgVbEy7tGV58YRZzVMpLamXGpump": "2026-11-03T21:13:41.189373+00:00",
+  "BLnKKgYY7kgr1YZs6MSeo53cRSrkJuwK5dJ8NfptkPeA": "2026-11-03T21:13:41.189409+00:00",
+  "46kbgSLP5s1QgRjgmh3UcuAVnaLuzHtP9LAy4mJepump": "2026-11-03T21:13:41.189412+00:00",
+  "7135AgJW8Qqh8sDveTGdVZhjSAjeBsbw8tpeVb38pump": "2026-11-03T21:13:41.189421+00:00",
+  "29Sfu7xoDf4vpLybUKWryf2k7G96jSJa1WtB6SSipump": "2026-11-03T21:13:41.189427+00:00",
+  "D1BHYkELnNhZS8DgkCb13ZqLvxgxFoZDRFV2aqMFpump": "2026-11-03T21:13:41.189429+00:00",
+  "r8tHVYc2brGbtop5beRQT3nj5QwFABvUyLhAhJCpump": "2026-11-03T21:13:41.189439+00:00",
+  "HBJdSDmvzEoXE6nzj8cLEzJdxk7dy6dxbDo2v1vdpump": "2026-11-03T21:18:41.310443+00:00",
+  "6brThR5kXVaPaiKtisTfeAMWNN5hwmap8LLnw2V4pump": "2026-11-03T21:18:41.310495+00:00",
+  "DjicoTVuXPaWqLMSQnhhkJgPdBPEdwcJW2ZPDmQWpump": "2026-11-03T21:18:41.310505+00:00",
+  "4iua2mPhmFadGSBQ3pEiMfA9Gxut3y2DF5QNTkJapump": "2026-11-03T21:18:41.310514+00:00",
+  "DBjtcw4qc57yuF1SkUFKV6FBT4bwYeJ7DQQWFxV9864F": "2026-11-03T21:18:41.310544+00:00",
+  "CCAbCoash6yQQWr66VPHXgK57q5XZf3gcZR94KdFpump": "2026-11-03T21:18:41.310556+00:00",
+  "4QRodNUvysMXCkrpPRN42aE2JoJU1ipPTiy3C1rupump": "2026-11-03T21:18:41.310574+00:00",
+  "BJq5TaVhQbYtkUz1aYqsowGezw4osVaUt6zgTEhppump": "2026-11-03T21:18:41.310577+00:00",
+  "6aURyunC5WCSkZqRZBytDdVjAogQgLiCffway7iVpump": "2026-11-03T21:18:41.310586+00:00",
+  "DF52dCKohkfRGdqoriAb2tpsZLemZo8sH4fQrqy9pump": "2026-11-03T21:18:41.310592+00:00",
+  "JBzMKJW6YBTEv69xzwB5GX8NXRtA5A7oFLjsQn4F85oo": "2026-11-03T21:23:41.276361+00:00",
+  "2ewXJGMYsfpCPVZ72jvDg665T6KnzdFdJXpjfGZBpump": "2026-11-03T21:23:41.276367+00:00",
+  "BSmYBYR1inh3epsHmPAv6CL1pGtFTCPZfv7VDa6qpump": "2026-11-03T21:23:41.276389+00:00",
+  "H1eok11PMF1vFHJV1ovLepdUCKukPWukSN7m5TsoAQqJ": "2026-11-03T21:23:41.276398+00:00",
+  "2AbyTep8WdN433av7VuHuNzaqoSd2QhsLBHHQoUipump": "2026-11-03T21:23:41.276412+00:00",
+  "9oprLWTDPrse67pb1zyGs9fktRrHSpABz32vo9cnpump": "2026-11-03T21:23:41.276435+00:00",
+  "27bFepj5Ui84vrrTS3kDWmZeSGMng5QSXhr6wt5fpump": "2026-11-03T21:23:41.276437+00:00",
+  "5EwZwBPXpfic82NTEtFw9aF1ZJ4hvaQeonsxKaPNbmcL": "2026-11-03T21:23:41.276442+00:00",
+  "5DKNG4KGw6zfSwTnYkWsHdA98RmGY2PYHeM1YmNspump": "2026-11-03T21:23:41.276449+00:00",
+  "GPirE6Va4LNEHLtGncRvQmrJnUCEiL4dMFWh9NKPpump": "2026-11-03T21:23:41.276464+00:00",
+  "6CTvungMfwgE6N1nBfb7U7hQvHhBVo1ZPUkiSKorpump": "2026-11-03T21:28:41.221280+00:00",
+  "48TQZk1GpCJkj2khnjfUtaYT7m1mrLheYmHjXTfxpump": "2026-11-03T21:28:41.221307+00:00",
+  "4HK6ADZH3pv5Nb1C6S6u1CBYMh5fVh8hQrLQpBfgpump": "2026-11-03T21:28:41.221311+00:00",
+  "GNJQZBQmr77FAPZvq4tfa62HWXGwxV18cfzx5MmDpump": "2026-11-03T21:28:41.221313+00:00",
+  "AFxgbkwYDx8yvaQivWRu7zTxEjayCyszcTEVU39Qpump": "2026-11-03T21:28:41.221366+00:00",
+  "9WJBSAfSkyA8K3HcZDPpxsvMYfktCUgYj2SyJcpMQoW5": "2026-11-03T21:28:41.221368+00:00",
+  "H4PfRntmvem1jeZiSFGZThmzXoakHXCiSCCdV8ybpump": "2026-11-03T21:28:41.221369+00:00",
+  "35m1cyCN7yjF83ev3SeXBhQar4L4ab274FsMJ7tfpump": "2026-11-03T21:28:41.221371+00:00",
+  "GvXVifsHqKunRtg6pqaDQujgfj8aht1udH2a8aJhmRgC": "2026-11-03T21:28:41.221375+00:00",
+  "BrZr2xuaUbVRNbRmabihWX5ELy2jkeytSXwvwPP6pump": "2026-11-03T21:28:41.221385+00:00",
+  "Hc6jaorfJyB4eJjNjcS877woXeP51G1mbHP1TjXEmG4x": "2026-11-03T21:28:41.221389+00:00",
+  "CZx2gQLVYzujFgbTiYTmKJEutmdmUzPnoEPQqu9vpump": "2026-11-03T21:28:41.221397+00:00",
+  "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": "2026-11-03T21:28:41.221404+00:00",
+  "GsyCzJNLvcjuroJ3VXrjvi2WcZ14onfR7R91NT8Xq54v": "2026-11-03T21:28:41.221411+00:00",
+  "3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump": "2026-11-03T21:33:41.277791+00:00",
+  "1kyw1yuPGJZaHim54552wVbP917mwMKMZbARKh5pump": "2026-11-03T21:33:41.277804+00:00",
+  "27WnbuC6YczzfBPF3iuTChgdjv6QdnqXH3RWPKNypump": "2026-11-03T21:33:41.277815+00:00",
+  "EHe5idAdTPhML8fyBcZJmdFiQnpSFd3xyySkJWE9Mysi": "2026-11-03T21:33:41.277836+00:00",
+  "7w4gsfbXBYhc3FzCwkAvixbCBdbAS5j8ws39hEBrpump": "2026-11-03T21:33:41.277839+00:00",
+  "8UUqYkts59RKke2Lb7K7TLsoCZX231qqXwJgNfnHCnz8": "2026-11-03T21:33:41.277853+00:00",
+  "H8kRM6NXCMpHL8pWD2Z9ggE6F2TdsbxiJJxwZ9JRMTNT": "2026-11-03T21:33:41.277899+00:00",
+  "BzChmxvGKMJP4JoYEdAp2e9rru42phCcCaQPB3mnpump": "2026-11-03T21:33:41.277905+00:00",
+  "Bd9J9P6Qk88Pf9jUvHn98pJqobQo47VJnWp2P5bUpump": "2026-11-03T21:33:41.277912+00:00",
+  "4ZsS5gemUyoaLAU4oMpunnyrTsFyVEjLtm9MT7zRpump": "2026-11-03T21:33:41.277932+00:00",
+  "7yDhFbB8RQR8wboF6c3fX2f8VgMMfGcHafaKtvnZpump": "2026-11-03T21:33:41.277944+00:00",
+  "C52gw7afKLsjcGACuxEUgQ5BBQrNJmi3d5BVCYj2pump": "2026-11-03T21:38:41.514695+00:00",
+  "DbS6v8rR4v29w2yHR7tST4rSzxB1jz7Kbhxtkbpkpump": "2026-11-03T21:38:41.514707+00:00",
+  "7wV64ekzJzhz48oR35LrN2tZr82Uumd3MGiTdsmMpump": "2026-11-03T21:38:41.514719+00:00",
+  "8qX7Bgdae9n68VTeH2TKRG13sZLbLKp98mPJSZPHK9YS": "2026-11-03T21:38:41.514722+00:00",
+  "Dqa9yR3CtgcsaEBZyCNbM7m9fy2bmS6QPYrPKwS2pump": "2026-11-03T21:38:41.514750+00:00",
+  "FpnxkjL1MW2uaNhDG4bfBk1LodqMVHdSE7ARh5rJ672E": "2026-11-03T21:38:41.514782+00:00",
+  "3Gkt6H6fcMvcCEe4Fu6PtHkZPyNrMeuPPLNNcnPUpump": "2026-11-03T21:38:41.514787+00:00",
+  "GiyPr499v627ZwkTqN5oxFuHZzd4x9bZpec9r5v2pump": "2026-11-03T21:38:41.514801+00:00",
+  "4BZbSGcZ2EEj6enLFL9rHSDt6VyV7TCNz24c35pdpump": "2026-11-03T21:38:41.514814+00:00",
+  "DwmZ4DXGycTQgTNofKjzxiYnvySLU9CVCsRk5uRUUkiE": "2026-11-03T21:38:41.514825+00:00"
  },
  "abgelehnt": {
   "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": {
@@ -910,6 +1035,11 @@
    "zeit": "2026-11-03T17:50:59.752505+00:00",
    "grund": "Risiko: Low Liquidity",
    "symbol": "PUMP"
+  },
+  "JCdE6KcCEUcgmhiCQfXTL11524wSgqJCnGtYDA757q4a": {
+   "zeit": "2026-11-03T21:08:55.566666+00:00",
+   "grund": "Top-10 halten 46%",
+   "symbol": "MIDTURDS"
   }
  },
  "letzte_bilanz": "2026-11",
@@ -920,20 +1050,20 @@
    "url": "https://dexscreener.com/solana/6ts4lyzuuuc59mjjiskzdha4bewdecampaa547ylg3fu",
    "zuerst_gesehen": "2026-11-03T10:15:01.609896+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 12683$",
-    "Markt-Filter: Liquidität 12967$",
-    "Markt-Filter: Liquidität 13219$",
-    "Markt-Filter: Liquidität 12733$",
-    "Markt-Filter: Liquidität 12701$",
-    "Markt-Filter: Liquidität 12823$",
-    "Markt-Filter: Liquidität 12451$",
-    "Markt-Filter: Liquidität 12203$"
+    "Markt-Filter: Liquidität 12203$",
+    "Markt-Filter: Liquidität 12073$",
+    "Markt-Filter: Liquidität 12405$",
+    "Markt-Filter: Liquidität 12490$",
+    "Markt-Filter: Liquidität 13118$",
+    "Markt-Filter: Liquidität 13058$",
+    "Markt-Filter: Liquidität 13019$",
+    "Markt-Filter: Liquidität 12886$"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.627580+00:00",
-   "entscheid": "Markt-Filter: Liquidität 12203$",
-   "alter_h": 13.7,
-   "liquiditaet_usd": 12203,
-   "mcap_usd": 24115
+   "zuletzt_gesehen": "2026-11-03T21:38:54.927348+00:00",
+   "entscheid": "Markt-Filter: Liquidität 12886$",
+   "alter_h": 14.6,
+   "liquiditaet_usd": 12886,
+   "mcap_usd": 26440
   },
   "CjQ494q5yYfbHMoEpXdbi6mrS5sd3Norx8VEDUwgkXZR": {
    "symbol": "VICE",
@@ -941,20 +1071,20 @@
    "url": "https://dexscreener.com/solana/9vgtxavb3pnzictnneb47uat2tsyynrrtrimnukjoch4",
    "zuerst_gesehen": "2026-11-03T10:15:01.609963+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 18669$",
-    "Markt-Filter: Liquidität 18745$",
-    "Markt-Filter: Liquidität 18587$",
-    "Markt-Filter: Liquidität 18568$",
-    "Markt-Filter: Liquidität 18554$",
-    "Markt-Filter: Liquidität 18565$",
     "Markt-Filter: Liquidität 18561$",
-    "Markt-Filter: Liquidität 18570$"
+    "Markt-Filter: Liquidität 18570$",
+    "Markt-Filter: Liquidität 18574$",
+    "Markt-Filter: Liquidität 18590$",
+    "Markt-Filter: Liquidität 19173$",
+    "Markt-Filter: Liquidität 19291$",
+    "Markt-Filter: Liquidität 19285$",
+    "Markt-Filter: Liquidität 19328$"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.627631+00:00",
-   "entscheid": "Markt-Filter: Liquidität 18570$",
-   "alter_h": 62.8,
-   "liquiditaet_usd": 18570,
-   "mcap_usd": 51809
+   "zuletzt_gesehen": "2026-11-03T21:38:54.927399+00:00",
+   "entscheid": "Markt-Filter: Liquidität 19328$",
+   "alter_h": 63.7,
+   "liquiditaet_usd": 19328,
+   "mcap_usd": 55865
   },
   "G6F6SYSUAUxsnKLyeRW29hE5A4BGCbw91x7HMPySpump": {
    "symbol": "GTA",
@@ -962,20 +1092,20 @@
    "url": "https://dexscreener.com/solana/yu4uk83r3sctmnnzqgqoperr2ajeny6jiwpnq1sewvt",
    "zuerst_gesehen": "2026-11-03T10:15:01.610024+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 4379$",
-    "Markt-Filter: Liquidität 4447$",
-    "Markt-Filter: Liquidität 4307$",
-    "Markt-Filter: Liquidität 4301$",
-    "Markt-Filter: Liquidität 4258$",
-    "Markt-Filter: Liquidität 4158$",
     "Markt-Filter: Liquidität 4118$",
-    "Markt-Filter: Liquidität 4081$"
+    "Markt-Filter: Liquidität 4081$",
+    "Markt-Filter: Liquidität 4249$",
+    "Markt-Filter: Liquidität 4350$",
+    "Markt-Filter: Liquidität 4305$",
+    "Markt-Filter: Liquidität 4397$",
+    "Markt-Filter: Liquidität 4504$",
+    "Markt-Filter: Liquidität 4538$"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.627710+00:00",
-   "entscheid": "Markt-Filter: Liquidität 4081$",
-   "alter_h": 21.2,
-   "liquiditaet_usd": 4081,
-   "mcap_usd": 4736
+   "zuletzt_gesehen": "2026-11-03T21:38:54.927475+00:00",
+   "entscheid": "Markt-Filter: Liquidität 4538$",
+   "alter_h": 22.1,
+   "liquiditaet_usd": 4538,
+   "mcap_usd": 5516
   },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "symbol": "GATO",
@@ -985,11 +1115,11 @@
    "verlauf": [
     "Markt-Filter: zu alt"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.629694+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.929498+00:00",
    "entscheid": "Markt-Filter: zu alt",
-   "alter_h": 1688.3,
-   "liquiditaet_usd": 356321,
-   "mcap_usd": 11808724
+   "alter_h": 1689.2,
+   "liquiditaet_usd": 355143,
+   "mcap_usd": 11689192
   },
   "G4vV9RNiYEMXWXVe7pQtad49BMNMPRQPAa1oU7hSpump": {
    "symbol": "Busted",
@@ -1000,9 +1130,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.627869+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.927585+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 9.5,
+   "alter_h": 10.4,
    "liquiditaet_usd": 0,
    "mcap_usd": 4213
   },
@@ -1015,9 +1145,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 1788$"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.628039+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.927770+00:00",
    "entscheid": "Markt-Filter: Liquidität 1788$",
-   "alter_h": 6.1,
+   "alter_h": 7.1,
    "liquiditaet_usd": 1788,
    "mcap_usd": 1703
   },
@@ -1029,11 +1159,11 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.628331+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928037+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 3.6,
-   "liquiditaet_usd": 2361,
-   "mcap_usd": 2119
+   "alter_h": 4.5,
+   "liquiditaet_usd": 2340,
+   "mcap_usd": 2096
   },
   "DRpCis79jS5CQEA4eypoBio8njn5KgCMeorH6EfFw5UX": {
    "symbol": "RICO",
@@ -1043,9 +1173,9 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.628316+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928024+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 3.0,
+   "alter_h": 3.9,
    "liquiditaet_usd": 0,
    "mcap_usd": 4
   },
@@ -1057,11 +1187,11 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.628564+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928251+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 3.1,
+   "alter_h": 4.0,
    "liquiditaet_usd": 0,
-   "mcap_usd": 3153
+   "mcap_usd": 3121
   },
   "J918pB6P7r7t58G3TmX3EMVACNtmScFmrn8FTFqFpump": {
    "symbol": "GTA",
@@ -1071,9 +1201,9 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.628587+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928271+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 2.9,
+   "alter_h": 3.8,
    "liquiditaet_usd": 0,
    "mcap_usd": 3051
   },
@@ -1085,9 +1215,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.628599+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928283+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 2.9,
+   "alter_h": 3.8,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -1099,9 +1229,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.628799+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928440+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 2.4,
+   "alter_h": 3.3,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -1113,11 +1243,11 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.629000+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928619+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 1.4,
-   "liquiditaet_usd": 14579,
-   "mcap_usd": 32824
+   "alter_h": 2.3,
+   "liquiditaet_usd": 11282,
+   "mcap_usd": 20817
   },
   "FkCsZuswJoz6rAVoPiLHYWYPwtfFikK38kSPJZvBpump": {
    "symbol": "DCYC",
@@ -1128,9 +1258,9 @@
     "Markt-Filter: kein USD-Preis",
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.629137+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928785+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 1.4,
+   "alter_h": 2.3,
    "liquiditaet_usd": 0,
    "mcap_usd": 3040
   },
@@ -1142,9 +1272,9 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.629281+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.928913+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 0.8,
+   "alter_h": 1.7,
    "liquiditaet_usd": 2,
    "mcap_usd": 1
   },
@@ -1156,11 +1286,11 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-03T20:43:25.629614+00:00",
+   "zuletzt_gesehen": "2026-11-03T21:38:54.929199+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 0.1,
+   "alter_h": 1.0,
    "liquiditaet_usd": 0,
-   "mcap_usd": 2607
+   "mcap_usd": 2615
   }
  }
 }
