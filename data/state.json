@@ -8,10 +8,18 @@
    "gekauft": "2026-11-03T09:33:47.530088+00:00",
    "einstieg_preis": 0.0001235,
    "einstieg_mcap": 121798,
-   "letzter_preis": 0.0001235,
-   "hoechst_x": 1.0,
+   "letzter_preis": 0.0001363,
+   "hoechst_x": 1.1036437246963564,
    "status": "offen",
-   "info": "Top10 25%, LP 100% gesperrt"
+   "info": "Top10 25%, LP 100% gesperrt",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "fehlt": 0,
+   "letzter_x": 1.1036,
+   "tiefst_x": 1.0
   },
   {
    "mint": "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK",
@@ -21,10 +29,18 @@
    "gekauft": "2026-11-03T09:33:49.013352+00:00",
    "einstieg_preis": 0.001056,
    "einstieg_mcap": 1056606,
-   "letzter_preis": 0.001056,
-   "hoechst_x": 1.0,
+   "letzter_preis": 0.001128,
+   "hoechst_x": 1.0681818181818181,
    "status": "offen",
-   "info": "Top10 12%, LP 100% gesperrt"
+   "info": "Top10 12%, LP 100% gesperrt",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "fehlt": 0,
+   "letzter_x": 1.0682,
+   "tiefst_x": 1.0
   },
   {
    "mint": "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr",
@@ -34,10 +50,18 @@
    "gekauft": "2026-11-03T09:34:10.302784+00:00",
    "einstieg_preis": 0.0007009,
    "einstieg_mcap": 700938,
-   "letzter_preis": 0.0007009,
+   "letzter_preis": 0.000649,
    "hoechst_x": 1.0,
    "status": "offen",
-   "info": "Top10 20%, LP 100% gesperrt"
+   "info": "Top10 20%, LP 100% gesperrt",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "fehlt": 0,
+   "letzter_x": 0.926,
+   "tiefst_x": 0.9259523469824511
   },
   {
    "mint": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
@@ -47,10 +71,18 @@
    "gekauft": "2026-11-03T09:34:13.259963+00:00",
    "einstieg_preis": 0.0006369,
    "einstieg_mcap": 585538,
-   "letzter_preis": 0.0006369,
-   "hoechst_x": 1.0,
+   "letzter_preis": 0.0006517,
+   "hoechst_x": 1.0232375569163132,
    "status": "offen",
-   "info": "Top10 22%, LP 100% gesperrt"
+   "info": "Top10 22%, LP 100% gesperrt",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "fehlt": 0,
+   "letzter_x": 1.0232,
+   "tiefst_x": 1.0
   }
  ],
  "beobachtet": {
@@ -101,7 +133,34 @@
   "G6F6SYSUAUxsnKLyeRW29hE5A4BGCbw91x7HMPySpump": "2026-11-03T09:33:41.589418+00:00",
   "GRKbh1ncSAQC4A3aGRsFsctG7KyTy9ebWNcDGGaupump": "2026-11-03T09:33:41.589420+00:00",
   "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": "2026-11-03T09:33:41.589421+00:00",
-  "6Jpv23MPcstWkATuchuxHq5tLShd23Hfqht6u69Spump": "2026-11-03T09:33:41.589423+00:00"
+  "6Jpv23MPcstWkATuchuxHq5tLShd23Hfqht6u69Spump": "2026-11-03T09:33:41.589423+00:00",
+  "BuiaYn1wqDzbDCjvRJkaHeH6rXDGdi95Md7Ed1iae8mJ": "2026-11-03T10:15:00.089841+00:00",
+  "9AVRfku4PsercAQdtVPfCsRFtqjRimQ1KmDktvdknb27": "2026-11-03T10:15:00.089848+00:00",
+  "3a9gwCqpZzohw1y6DQaM91JC64tirpd1KSs6g1sApump": "2026-11-03T10:15:00.089854+00:00",
+  "2JbY2GKPh3qNp9DfPYANv5rv6cBVFkNF4Cs9x2Pgpump": "2026-11-03T10:15:00.089856+00:00",
+  "31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": "2026-11-03T10:15:00.089860+00:00",
+  "5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": "2026-11-03T10:15:00.089862+00:00",
+  "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump": "2026-11-03T10:15:00.089863+00:00",
+  "3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump": "2026-11-03T10:15:00.089867+00:00",
+  "7owS2yhP8JHvXxV4CMe55duJYef9ekvBSkxCZ1QWpump": "2026-11-03T10:15:00.089868+00:00",
+  "3MhExM7cm1cGnS9CNFeWn6JWpvfHDGMF5h4RE9Sqpump": "2026-11-03T10:15:00.089869+00:00",
+  "9W7Dyv9CV9UhwKfW9gCuYoPncAY8M3EScLiD8ZHemDAr": "2026-11-03T10:15:00.089871+00:00",
+  "9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": "2026-11-03T10:15:00.089873+00:00",
+  "9QgKbqrvMDqRTvroLsUQYQGJvK8QzFo1PXRpdkJ7pump": "2026-11-03T10:15:00.089874+00:00",
+  "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": "2026-11-03T10:15:00.089877+00:00",
+  "CXKwLHe9xwi4YEx3Z9pfg7ju6tinXnawgC8GstWCpump": "2026-11-03T10:15:00.089878+00:00",
+  "9upgjAi98ewek2gvQiRYGRcHtuJNsWF9vjBQEBk3pump": "2026-11-03T10:15:00.089879+00:00",
+  "BJUFxaSPF5S1K9rPayANzWQNjqkCjq3yWheKrMxdpump": "2026-11-03T10:15:00.089880+00:00",
+  "D6r6v8nJbVfPFGr7nW6VfQCshm63V1f6mUtya3QZpump": "2026-11-03T10:15:00.089881+00:00",
+  "7zxwJZTqXorx6JFaJauws7ZLNpsCChu58uv2Rgpmpump": "2026-11-03T10:15:00.089887+00:00",
+  "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": "2026-11-03T10:15:00.089899+00:00",
+  "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": "2026-11-03T10:15:00.089900+00:00",
+  "5NqnRkPKs8WgwEBuV8ZWNpTjQcb9ecwz3M9WmBuoCXTP": "2026-11-03T10:15:00.089908+00:00",
+  "DJKxtKz5BQdcGwbo2xdbZD6HbapJnDm1JkooCWB9pump": "2026-11-03T10:15:00.089909+00:00",
+  "Au3krVfaBWJzDWoD66ZVQjfvFJ5QhYfbf876ZrcVpump": "2026-11-03T10:15:00.089910+00:00",
+  "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": "2026-11-03T10:15:00.089912+00:00",
+  "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": "2026-11-03T10:15:00.089914+00:00",
+  "8tdaYkL24twvYA6fpRL2G2UxngahDAtgMWxRTRLNpump": "2026-11-03T10:15:00.089921+00:00"
  },
  "abgelehnt": {
   "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": {
@@ -121,5 +180,63 @@
    "grund": "LP nur 0% gesperrt"
   }
  },
- "letzte_bilanz": "2026-11"
+ "letzte_bilanz": "2026-11",
+ "schlagwort_log": {
+  "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": {
+   "symbol": "GTAFY",
+   "name": "GTAFICATION",
+   "url": "https://dexscreener.com/solana/6ts4lyzuuuc59mjjiskzdha4bewdecampaa547ylg3fu",
+   "zuerst_gesehen": "2026-11-03T10:15:01.609896+00:00",
+   "verlauf": [
+    "Markt-Filter: zu jung"
+   ],
+   "zuletzt_gesehen": "2026-11-03T10:15:01.609918+00:00",
+   "entscheid": "Markt-Filter: zu jung",
+   "alter_h": 3.2,
+   "liquiditaet_usd": 20126,
+   "mcap_usd": 59709
+  },
+  "CjQ494q5yYfbHMoEpXdbi6mrS5sd3Norx8VEDUwgkXZR": {
+   "symbol": "VICE",
+   "name": "GTA 6 VICE CITY",
+   "url": "https://dexscreener.com/solana/9vgtxavb3pnzictnneb47uat2tsyynrrtrimnukjoch4",
+   "zuerst_gesehen": "2026-11-03T10:15:01.609963+00:00",
+   "verlauf": [
+    "Markt-Filter: Liquidität 19122$"
+   ],
+   "zuletzt_gesehen": "2026-11-03T10:15:01.609966+00:00",
+   "entscheid": "Markt-Filter: Liquidität 19122$",
+   "alter_h": 52.3,
+   "liquiditaet_usd": 19122,
+   "mcap_usd": 55555
+  },
+  "G6F6SYSUAUxsnKLyeRW29hE5A4BGCbw91x7HMPySpump": {
+   "symbol": "GTA",
+   "name": "Grand Theft America",
+   "url": "https://dexscreener.com/solana/yu4uk83r3sctmnnzqgqoperr2ajeny6jiwpnq1sewvt",
+   "zuerst_gesehen": "2026-11-03T10:15:01.610024+00:00",
+   "verlauf": [
+    "Markt-Filter: Liquidität 6110$"
+   ],
+   "zuletzt_gesehen": "2026-11-03T10:15:01.610026+00:00",
+   "entscheid": "Markt-Filter: Liquidität 6110$",
+   "alter_h": 10.8,
+   "liquiditaet_usd": 6110,
+   "mcap_usd": 8765
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "symbol": "GATO",
+   "name": "GTA6CAT",
+   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+   "zuerst_gesehen": "2026-11-03T10:15:01.610123+00:00",
+   "verlauf": [
+    "Markt-Filter: zu alt"
+   ],
+   "zuletzt_gesehen": "2026-11-03T10:15:01.610125+00:00",
+   "entscheid": "Markt-Filter: zu alt",
+   "alter_h": 1677.8,
+   "liquiditaet_usd": 369304,
+   "mcap_usd": 13048819
+  }
+ }
 }
