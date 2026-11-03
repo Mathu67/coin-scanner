@@ -1,17 +1,17 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-03 22:37 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-03 23:36 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
-- Läuft seit **0.5 Tagen**, **10 Coins** gekauft (Einsatz 100.00 Fr.)
+- Läuft seit **0.6 Tagen**, **10 Coins** gekauft (Einsatz 100.00 Fr.)
 - Status Regel A: 0 bei 4x verkauft, 1 tot, 9 noch offen
 - Noch offene Positionen sind mit dem letzten Kurs bewertet (nicht endgültig).
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 67.83 Fr. | **-32.17 Fr.** | -32 % |
-| B: Hälfte bei 4x, Rest läuft | 67.83 Fr. | **-32.17 Fr.** | -32 % |
+| A: alles bei 4x | 72.79 Fr. | **-27.21 Fr.** | -27 % |
+| B: Hälfte bei 4x, Rest läuft | 72.79 Fr. | **-27.21 Fr.** | -27 % |
 
 Nur abgeschlossene Coins (Regel A, ohne offene): 1 Coins, **-9.97 Fr.** (-100 %)
 
@@ -28,27 +28,27 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -26.45 Fr. | -26 % |
-| alles bei 3x | -32.16 Fr. | -32 % |
-| alles bei 4x | -32.16 Fr. | -32 % |
-| alles bei 5x | -32.16 Fr. | -32 % |
-| alles bei 10x | -32.16 Fr. | -32 % |
-| alles bei 20x | -32.16 Fr. | -32 % |
+| alles bei 2x | -20.91 Fr. | -21 % |
+| alles bei 3x | -27.21 Fr. | -27 % |
+| alles bei 4x | -27.21 Fr. | -27 % |
+| alles bei 5x | -27.21 Fr. | -27 % |
+| alles bei 10x | -27.21 Fr. | -27 % |
+| alles bei 20x | -27.21 Fr. | -27 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Max. erreicht |
 |---|---|---|---|
-| [MAMESUKE](https://dexscreener.com/solana/hpexrue5msv7paz5wpviwsclesywgzr8vhdakuiep5ku) | A: offen, B: offen | 12.72 Fr. | 2.4x |
-| [WAR](https://dexscreener.com/solana/cwgmfkacp2qny7gjcg7j9giwd1x6y8kliuxnw5brzxku) | A: offen, B: offen | 10.47 Fr. | 1.1x |
-| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 9.72 Fr. | 1.1x |
-| [ANONVOYAGE](https://dexscreener.com/solana/2yx74z677vrmwjn4qnm9aqthbxqi1dsxrysifk4rsmma) | A: offen, B: offen | 8.52 Fr. | 1.4x |
-| [Slingoor](https://dexscreener.com/solana/hc4r8zmxkkpvdrsacuh1yxasvhmykud85ckavctb2gjo) | A: offen, B: offen | 7.23 Fr. | 1.3x |
-| [CAPY](https://dexscreener.com/solana/4wutfjfujupwjm5uuidxoumgupauxg4saejvayqjrmbw) | A: offen, B: offen | 4.02 Fr. | 1.1x |
-| [RICO](https://dexscreener.com/solana/fby8nv8frjznzriihudvanbadtljfbnt9mvkkn61foly) | A: offen, B: offen | 3.72 Fr. | 1.2x |
+| [WAR](https://dexscreener.com/solana/cwgmfkacp2qny7gjcg7j9giwd1x6y8kliuxnw5brzxku) | A: offen, B: offen | 16.45 Fr. | 1.8x |
+| [MAMESUKE](https://dexscreener.com/solana/hpexrue5msv7paz5wpviwsclesywgzr8vhdakuiep5ku) | A: offen, B: offen | 12.13 Fr. | 2.4x |
+| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 8.47 Fr. | 1.3x |
+| [ANONVOYAGE](https://dexscreener.com/solana/2yx74z677vrmwjn4qnm9aqthbxqi1dsxrysifk4rsmma) | A: offen, B: offen | 8.16 Fr. | 1.4x |
+| [Slingoor](https://dexscreener.com/solana/hc4r8zmxkkpvdrsacuh1yxasvhmykud85ckavctb2gjo) | A: offen, B: offen | 8.07 Fr. | 1.3x |
+| [RICO](https://dexscreener.com/solana/fby8nv8frjznzriihudvanbadtljfbnt9mvkkn61foly) | A: offen, B: offen | 3.70 Fr. | 1.2x |
+| [CAPY](https://dexscreener.com/solana/4wutfjfujupwjm5uuidxoumgupauxg4saejvayqjrmbw) | A: offen, B: offen | 3.68 Fr. | 1.1x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 1.0x |
 
-Der beste Coin macht 85 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
+Der beste Coin macht 75 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
 
 ## Aussagekraft
 
