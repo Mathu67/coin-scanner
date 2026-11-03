@@ -1,7 +1,7 @@
 """
 Coin-Scanner (Paper Trading) – Solana Memecoins
 
-Was er macht (läuft stündlich über GitHub Actions):
+Was er macht (läuft über GitHub Actions, im Dauerlauf mit Kurs-Check alle 60 Sekunden):
   1. Sammelt neue/aktive Solana-Coins (DexScreener + RugCheck).
   2. Prüft sie gegen Anti-Rugpull-Filter.
   3. "Kauft" jeden Treffer simuliert für 10 Fr.
@@ -30,7 +30,8 @@ import requests
 
 # ---------------------------------------------------------------- Einstellungen
 EINSATZ_CHF = 10.0          # simulierter Einsatz pro Coin
-GEBUEHR_PCT = 1.0           # simulierte Gebühren + Slippage pro Trade (Kauf und Verkauf)
+GEBUEHR_PCT = 4.0           # realistischere Kosten pro Trade (Kauf UND Verkauf): Swap-Gebühr,
+                            # Priority-Fee, Slippage bei dünner Liquidität
 TAKE_PROFIT_X = 4.0         # 4x = +300 % -> verkaufen
 MAX_KAEUFE_PRO_TAG = 10     # Schutz, falls der Markt komplett heiss läuft
 
@@ -49,7 +50,11 @@ SCHLAGWORTE = ["gta", "grand theft", "rockstar", "claude", "anthropic"]
 # "Tot"-Regeln (eine reicht)
 TOT_LIQ_USD = 1_000         # Liquidität unter 1'000 $
 TOT_WERT_ANTEIL = 0.05      # Kurs ist 95 % oder mehr unter dem Einstieg
-TOT_FEHLT_CHECKS = 24       # Coin 24 Checks in Folge (~1 Tag) nicht mehr auffindbar
+TOT_FEHLT_STUNDEN = 24      # Coin 24 Stunden am Stück nicht mehr auffindbar
+
+# Takt (im Dauerlauf, siehe SCAN_DAUER_MIN)
+CHECK_INTERVALL_S = 60      # offene Positionen: Kurs alle 60 Sekunden prüfen
+SCAN_INTERVALL_MIN = 5      # nach neuen Coins suchen: alle 5 Minuten
 
 # Einstiegs-Filter (Markt)
 MIN_ALTER_H = 6             # die ersten Stunden sind die gefährlichsten
@@ -259,14 +264,15 @@ def update_positionen(state):
         b = pos["b"]
         p = paare.get(pos["mint"])
         if not p or not p.get("priceUsd"):
-            pos["fehlt"] = pos.get("fehlt", 0) + 1
-            if pos["fehlt"] >= TOT_FEHLT_CHECKS:
+            seit = pos.setdefault("fehlt_seit", jetzt().isoformat())
+            if (jetzt() - datetime.fromisoformat(seit)).total_seconds() >= TOT_FEHLT_STUNDEN * 3600:
                 if pos["status"] == "offen":
                     schliesse(pos, "tot", 0.0, "nicht mehr auffindbar")
                 if b["status"] == "offen":
                     schliesse_b(pos, "tot", 0.0, "nicht mehr auffindbar")
             continue
-        pos["fehlt"] = 0
+        pos.pop("fehlt_seit", None)
+        pos.pop("fehlt", None)
         preis = float(p["priceUsd"])
         liq = (p.get("liquidity") or {}).get("usd") or 0
         x = preis / pos["einstieg_preis"]
@@ -431,7 +437,7 @@ def pos_wert_b(p):
 
 
 def pos_wert_ziel(p, ziel_x):
-    """Was wäre gewesen, wenn alles bei Nx verkauft worden wäre? (Näherung aus Stundenpreisen)
+    """Was wäre gewesen, wenn alles bei Nx verkauft worden wäre? (Näherung aus den Minutenpreisen)
     Erreicht der Coin das Ziel nie, zählt sein letzter bekannter Stand."""
     f = 1 - GEBUEHR_PCT / 100
     x = ziel_x if p.get("hoechst_x", 1.0) >= ziel_x else max(p.get("letzter_x", 1.0), 0.0)
@@ -498,7 +504,7 @@ def auswertung_text(state):
     n = len(alle)
     z = ["# Coin-Scanner – Auswertung", "",
          f"_Stand: {jetzt().strftime('%Y-%m-%d %H:%M')} UTC. Paper Trading, kein echtes Geld, "
-         f"Werte inkl. {GEBUEHR_PCT:.0f} % Gebühr pro Kauf und Verkauf._", ""]
+         f"Werte inkl. {GEBUEHR_PCT:.0f} % Kosten pro Kauf und Verkauf._", ""]
     if not n:
         return "\n".join(z + ["Noch keine Coins gekauft."])
 
@@ -539,7 +545,7 @@ def auswertung_text(state):
 
     # Zielvergleich
     z += ["## Was wäre bei anderen Verkaufszielen gewesen?", "",
-          "_Näherung aus Stundenpreisen: Wer das Ziel erreicht hat, gilt genau zum Ziel verkauft, "
+          "_Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Ziel verkauft, "
           "alle anderen zu ihrem letzten Stand. Regel A oben kann leicht abweichen, weil sie zum "
           "tatsächlich beobachteten Kurs verkauft._", "",
           "| Verkaufsziel | Ergebnis | Rendite |", "|---|---|---|"]
@@ -572,9 +578,9 @@ def auswertung_text(state):
     else:
         urteil = "Genug Coins für eine brauchbare Einschätzung (kein Beweis)."
     z += ["## Aussagekraft", "", urteil,
-          "Grenzen der Simulation: Bei einem echten Rugpull zwischen zwei Stundenchecks "
+          "Grenzen der Simulation: Bei einem echten Rugpull zwischen zwei Kurs-Checks "
           "würde man schlechter aussteigen als hier. Echte Gebühren und Slippage bei Memecoins "
-          "liegen oft über 1 %. Der Kurs wird nur stündlich geprüft, Spitzen dazwischen fehlen.", ""]
+          "können auch über den angenommenen Kosten liegen. Der Kurs wird nur alle 60 Sekunden geprüft, Spitzen dazwischen fehlen.", ""]
 
     # Schlagwörter
     log = state.get("schlagwort_log") or {}
@@ -637,23 +643,43 @@ def monatsbilanz_faellig(state):
 
 
 # ---------------------------------------------------------------- Start
+def lauf_einmal(state, scan):
+    print("== Positionen aktualisieren")
+    update_positionen(state)
+    if scan:
+        print("== Neue Coins scannen")
+        scanne(state)
+
+
 def main():
     state = lade_state()
-    nur_bilanz = "--bilanz" in sys.argv
     if "--auswertung" in sys.argv:  # nur anzeigen, nichts verändern
         print(auswertung_text(state))
         return
-    if not nur_bilanz:
-        print("== Positionen aktualisieren")
-        update_positionen(state)
-        print("== Neue Coins scannen")
-        scanne(state)
+    if "--bilanz" in sys.argv:
+        monat = jetzt().strftime("%Y-%m")
+        sende(f"🪙 Coin-Scanner Zwischenstand {monat}", bilanz_text(state, monat))
+    else:
         monat = monatsbilanz_faellig(state)
         if monat:
             sende(f"🪙 Coin-Scanner Monatsbilanz {monat}", bilanz_text(state, monat))
-    else:
-        monat = jetzt().strftime("%Y-%m")
-        sende(f"🪙 Coin-Scanner Zwischenstand {monat}", bilanz_text(state, monat))
+        # Dauerlauf: so viele Minuten lang laufen lassen (0 = nur ein Durchgang)
+        dauer_s = float(os.getenv("SCAN_DAUER_MIN", "0") or 0) * 60
+        start = time.time()
+        letzter_scan = 0.0
+        while True:
+            takt = time.time()
+            scan = takt - letzter_scan >= SCAN_INTERVALL_MIN * 60
+            try:
+                lauf_einmal(state, scan)
+                if scan:
+                    letzter_scan = takt
+            except Exception as e:  # ein Fehler darf den Dauerlauf nicht beenden
+                print(f"  ! Fehler im Durchgang: {e!r}")
+            speichere_state(state)
+            if time.time() - start + CHECK_INTERVALL_S >= dauer_s:
+                break
+            time.sleep(max(1.0, CHECK_INTERVALL_S - (time.time() - takt)))
     speichere_state(state)
     schreibe_auswertung(state)
     offen = sum(1 for p in state["positionen"] if p["status"] == "offen")

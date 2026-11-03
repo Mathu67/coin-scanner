@@ -1,6 +1,6 @@
 # 🪙 Coin-Scanner (Paper Trading)
 
-Durchsucht stündlich neue Solana-Memecoins (die gleichen, die du in Fomo siehst), filtert offensichtliche Rug Pulls raus und "kauft" jeden Treffer **simuliert** für 10 Fr. Es wird kein echtes Geld bewegt.
+Durchsucht alle 5 Minuten neue Solana-Memecoins und prüft offene Positionen alle 60 Sekunden. Durchsucht neue Solana-Memecoins (die gleichen, die du in Fomo siehst), filtert offensichtliche Rug Pulls raus und "kauft" jeden Treffer **simuliert** für 10 Fr. Es wird kein echtes Geld bewegt.
 
 ## Regeln
 
@@ -16,7 +16,9 @@ Durchsucht stündlich neue Solana-Memecoins (die gleichen, die du in Fomo siehst
 
 **Verkaufen** bei +300 % (4x).
 **Abschreiben**, wenn der Coin tot ist: −95 % oder mehr, Liquidität unter 1'000 $ oder 1 Tag lang nicht auffindbar.
-Pro Kauf und Verkauf wird je 1 % Gebühren/Slippage abgezogen.
+Pro Kauf und Verkauf werden je 4 % Gebühren/Slippage abgezogen (realistisch für Memecoins).
+Zusätzlich läuft Regel B mit: bei 4x die Hälfte verkaufen, den Rest bis 20x oder bis der Kurs auf 50 % der Spitze fällt.
+Bei jedem Lauf entsteht `data/auswertung.md` (Regel A gegen B, Trefferquote, Zielvergleich).
 
 Am 1. jedes Monats kommt die **Monatsbilanz** für alle Coins, die im Vormonat gekauft wurden.
 
