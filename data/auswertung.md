@@ -1,26 +1,26 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-03 23:36 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-04 00:34 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
-- Läuft seit **0.6 Tagen**, **10 Coins** gekauft (Einsatz 100.00 Fr.)
-- Status Regel A: 0 bei 4x verkauft, 1 tot, 9 noch offen
+- Läuft seit **0.6 Tagen**, **13 Coins** gekauft (Einsatz 130.00 Fr.)
+- Status Regel A: 0 bei 4x verkauft, 1 tot, 12 noch offen
 - Noch offene Positionen sind mit dem letzten Kurs bewertet (nicht endgültig).
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 72.79 Fr. | **-27.21 Fr.** | -27 % |
-| B: Hälfte bei 4x, Rest läuft | 72.79 Fr. | **-27.21 Fr.** | -27 % |
+| A: alles bei 4x | 95.25 Fr. | **-34.75 Fr.** | -27 % |
+| B: Hälfte bei 4x, Rest läuft | 95.25 Fr. | **-34.75 Fr.** | -27 % |
 
 Nur abgeschlossene Coins (Regel A, ohne offene): 1 Coins, **-9.97 Fr.** (-100 %)
 
 ## Wie oft steigt ein Coin?
 
-- Mindestens 2x erreicht: 1 von 10 (10 %)
-- Mindestens 4x erreicht: 0 von 10 (0 %)
-- Mindestens 10x erreicht: 0 von 10 (0 %)
-- Auf -95 % oder Liquidität weg (tot): 1 von 10 (10 %)
+- Mindestens 2x erreicht: 1 von 13 (8 %)
+- Mindestens 4x erreicht: 0 von 13 (0 %)
+- Mindestens 10x erreicht: 0 von 13 (0 %)
+- Auf -95 % oder Liquidität weg (tot): 1 von 13 (8 %)
 
 ## Was wäre bei anderen Verkaufszielen gewesen?
 
@@ -28,27 +28,27 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -20.91 Fr. | -21 % |
-| alles bei 3x | -27.21 Fr. | -27 % |
-| alles bei 4x | -27.21 Fr. | -27 % |
-| alles bei 5x | -27.21 Fr. | -27 % |
-| alles bei 10x | -27.21 Fr. | -27 % |
-| alles bei 20x | -27.21 Fr. | -27 % |
+| alles bei 2x | -28.37 Fr. | -22 % |
+| alles bei 3x | -34.75 Fr. | -27 % |
+| alles bei 4x | -34.75 Fr. | -27 % |
+| alles bei 5x | -34.75 Fr. | -27 % |
+| alles bei 10x | -34.75 Fr. | -27 % |
+| alles bei 20x | -34.75 Fr. | -27 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Max. erreicht |
 |---|---|---|---|
-| [WAR](https://dexscreener.com/solana/cwgmfkacp2qny7gjcg7j9giwd1x6y8kliuxnw5brzxku) | A: offen, B: offen | 16.45 Fr. | 1.8x |
-| [MAMESUKE](https://dexscreener.com/solana/hpexrue5msv7paz5wpviwsclesywgzr8vhdakuiep5ku) | A: offen, B: offen | 12.13 Fr. | 2.4x |
-| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 8.47 Fr. | 1.3x |
-| [ANONVOYAGE](https://dexscreener.com/solana/2yx74z677vrmwjn4qnm9aqthbxqi1dsxrysifk4rsmma) | A: offen, B: offen | 8.16 Fr. | 1.4x |
-| [Slingoor](https://dexscreener.com/solana/hc4r8zmxkkpvdrsacuh1yxasvhmykud85ckavctb2gjo) | A: offen, B: offen | 8.07 Fr. | 1.3x |
-| [RICO](https://dexscreener.com/solana/fby8nv8frjznzriihudvanbadtljfbnt9mvkkn61foly) | A: offen, B: offen | 3.70 Fr. | 1.2x |
-| [CAPY](https://dexscreener.com/solana/4wutfjfujupwjm5uuidxoumgupauxg4saejvayqjrmbw) | A: offen, B: offen | 3.68 Fr. | 1.1x |
+| [WAR](https://dexscreener.com/solana/cwgmfkacp2qny7gjcg7j9giwd1x6y8kliuxnw5brzxku) | A: offen, B: offen | 12.87 Fr. | 2.0x |
+| [MAMESUKE](https://dexscreener.com/solana/hpexrue5msv7paz5wpviwsclesywgzr8vhdakuiep5ku) | A: offen, B: offen | 12.05 Fr. | 2.4x |
+| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 11.03 Fr. | 1.3x |
+| [SA](https://dexscreener.com/solana/4km4wu8na28qqay9gnmunknzxvfefqpyh3czyse1jlwv) | A: offen, B: offen | 10.49 Fr. | 1.2x |
+| [STONKS](https://dexscreener.com/solana/4khfhnqxv4brgvwortufj2p8p6jesy65swecvpxfhdpn) | A: offen, B: offen | 9.16 Fr. | 1.0x |
+| [CAPY](https://dexscreener.com/solana/4wutfjfujupwjm5uuidxoumgupauxg4saejvayqjrmbw) | A: offen, B: offen | 4.34 Fr. | 1.1x |
+| [Ahsoka](https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj) | A: offen, B: offen | 4.31 Fr. | 1.3x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 1.0x |
 
-Der beste Coin macht 75 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
+Der beste Coin macht 45 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
 
 ## Aussagekraft
 
@@ -59,20 +59,24 @@ Grenzen der Simulation: Bei einem echten Rugpull zwischen zwei Kurs-Checks würd
 
 | Coin | Letzte Entscheidung | Liquidität | MCap | zuerst gesehen |
 |---|---|---|---|---|
-| [GTA](https://dexscreener.com/solana/hauqq4cjezrbmyqqfcy9qg4nqcgnw9fdw71ucqxdxsi3) Giga Titty Ass | Markt-Filter: zu jung | 2'078 $ | 1'993 $ | 2026-11-03 |
+| [GTA6 Coin](https://dexscreener.com/solana/axxyygwaopywgfadeq4und1jeoqzptuauhtnnxnipwqv) GTA6 Coin | Markt-Filter: zu jung | 51'863 $ | 35'713 $ | 2026-11-04 |
+| [CLAUDE](https://dexscreener.com/solana/byfrhegmod5tvnaztw9zyqn41b6ch6j6f6fsdpnyb1fa) Flower Claude | Markt-Filter: zu jung | 0 $ | 2'594 $ | 2026-11-04 |
+| [CLAUDE](https://dexscreener.com/solana/bov8f4qkdl8snxam9iyjbslwk5erut7bxhrnhkhfkg2a) Flower Claude | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-04 |
+| [Claude](https://dexscreener.com/solana/9b6pw6qlonosusasc9fgx4hwt8a9ryqneghikruujbvz) Claudecoin | Markt-Filter: zu jung | 0 $ | 2'609 $ | 2026-11-04 |
+| [GTA](https://dexscreener.com/solana/hauqq4cjezrbmyqqfcy9qg4nqcgnw9fdw71ucqxdxsi3) Giga Titty Ass | Markt-Filter: zu jung | 2'001 $ | 1'913 $ | 2026-11-03 |
 | [GTAPINS](https://dexscreener.com/solana/6jfo93x45nj1wd7blzsctl9e1yy1l1syuey5dba4kcg2) gtapins.fun | Markt-Filter: zu jung | 0 $ | 2'615 $ | 2026-11-03 |
 | [ATHAI](https://dexscreener.com/solana/efyiirm8lq2rh9ss39w6m4gaz41hb6nbbmfsuzn13waa) Anthropic  | Markt-Filter: zu jung | 2 $ | 1 $ | 2026-11-03 |
 | [DCYC](https://dexscreener.com/solana/4ua4qgn73fqj84xeonf3obbufuk35o7uysmosplkmt5a) GTA$ | Markt-Filter: zu jung | 0 $ | 3'040 $ | 2026-11-03 |
-| [GTA$](https://dexscreener.com/solana/wxknizcuj7jbpaeaqcwrmxe7zmvmu9ttafwvmg2xm8y) GTA$ | Markt-Filter: zu jung | 10'404 $ | 18'174 $ | 2026-11-03 |
+| [GTA$](https://dexscreener.com/solana/wxknizcuj7jbpaeaqcwrmxe7zmvmu9ttafwvmg2xm8y) GTA$ | Markt-Filter: zu jung | 10'547 $ | 18'566 $ | 2026-11-03 |
 | [GTA 6 Coin](https://dexscreener.com/solana/fnxy3zfftnlhvcc9j6ion61vuaclrbbneg5eqg8wtcfu) GTA6 | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-03 |
 | [GTA](https://dexscreener.com/solana/2yzqbw4xhy8eraxb9xwf5zhwat5n9mfazhfsd45uoeq5) Grand Theft Auto Coin | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-03 |
-| [GTA](https://dexscreener.com/solana/6e4s7vi4rk2e5wnz3vycvzcpsrv876a3ctnjxpicznr9) Grand Theft Auto Coin | Markt-Filter: zu jung | 0 $ | 3'051 $ | 2026-11-03 |
-| [VERSE](https://dexscreener.com/solana/an6xcac8aadvaxwrjfnydkxvxedk5mn36zbcqejaxa3x) GTA VERSE | Markt-Filter: zu jung | 0 $ | 3'121 $ | 2026-11-03 |
-| [RICO](https://dexscreener.com/solana/huhgph1qy4qhgznzuzz7ydnej6cfhunsf2vawwjcenrd) GTA6DOG | Markt-Filter: zu jung | 0 $ | 4 $ | 2026-11-03 |
-| [GTAVI](https://dexscreener.com/solana/gpokn6bngangcelblykrcgxxv2mevaznzy1frmafbcmd) GTAVI ARC | Markt-Filter: zu jung | 2'340 $ | 2'096 $ | 2026-11-03 |
+| [GTA](https://dexscreener.com/solana/6e4s7vi4rk2e5wnz3vycvzcpsrv876a3ctnjxpicznr9) Grand Theft Auto Coin | Markt-Filter: Liquidität 0$ | 0 $ | 3'051 $ | 2026-11-03 |
+| [VERSE](https://dexscreener.com/solana/an6xcac8aadvaxwrjfnydkxvxedk5mn36zbcqejaxa3x) GTA VERSE | Markt-Filter: Liquidität 0$ | 0 $ | 2'994 $ | 2026-11-03 |
+| [RICO](https://dexscreener.com/solana/huhgph1qy4qhgznzuzz7ydnej6cfhunsf2vawwjcenrd) GTA6DOG | Markt-Filter: Liquidität 0$ | 0 $ | 4 $ | 2026-11-03 |
+| [GTAVI](https://dexscreener.com/solana/gpokn6bngangcelblykrcgxxv2mevaznzy1frmafbcmd) GTAVI ARC | Markt-Filter: Liquidität 2297$ | 2'297 $ | 2'052 $ | 2026-11-03 |
 | [GTAMAS](https://dexscreener.com/solana/eeu8yvw4ukdn9f1kzrynvc86g3xeknjb8kqebcks3zds) GTAMAS | Markt-Filter: Liquidität 1788$ | 1'788 $ | 1'703 $ | 2026-11-03 |
 | [Busted](https://dexscreener.com/solana/cqh8ghawx63bzudglj6bzyqbbzqspmtqrfgrkknuxch3) GTAVI | Markt-Filter: Liquidität 0$ | 0 $ | 4'213 $ | 2026-11-03 |
-| [GATO](https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m) GTA6CAT | Markt-Filter: zu alt | 346'086 $ | 11'129'884 $ | 2026-11-03 |
-| [GTA](https://dexscreener.com/solana/yu4uk83r3sctmnnzqgqoperr2ajeny6jiwpnq1sewvt) Grand Theft America | Markt-Filter: Liquidität 4370$ | 4'370 $ | 5'231 $ | 2026-11-03 |
-| [VICE](https://dexscreener.com/solana/9vgtxavb3pnzictnneb47uat2tsyynrrtrimnukjoch4) GTA 6 VICE CITY | Markt-Filter: Liquidität 19382$ | 19'382 $ | 56'283 $ | 2026-11-03 |
-| [GTAFY](https://dexscreener.com/solana/6ts4lyzuuuc59mjjiskzdha4bewdecampaa547ylg3fu) GTAFICATION | Markt-Filter: Liquidität 12828$ | 12'828 $ | 26'230 $ | 2026-11-03 |
+| [GATO](https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m) GTA6CAT | Markt-Filter: zu alt | 333'846 $ | 10'445'276 $ | 2026-11-03 |
+| [GTA](https://dexscreener.com/solana/yu4uk83r3sctmnnzqgqoperr2ajeny6jiwpnq1sewvt) Grand Theft America | Markt-Filter: Liquidität 4089$ | 4'089 $ | 4'785 $ | 2026-11-03 |
+| [VICE](https://dexscreener.com/solana/9vgtxavb3pnzictnneb47uat2tsyynrrtrimnukjoch4) GTA 6 VICE CITY | Markt-Filter: Liquidität 18917$ | 18'917 $ | 53'919 $ | 2026-11-03 |
+| [GTAFY](https://dexscreener.com/solana/6ts4lyzuuuc59mjjiskzdha4bewdecampaa547ylg3fu) GTAFICATION | Markt-Filter: Liquidität 12189$ | 12'189 $ | 23'986 $ | 2026-11-03 |
