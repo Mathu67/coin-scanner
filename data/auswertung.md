@@ -1,26 +1,26 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-04 10:18 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-04 10:33 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
 - Läuft seit **1.0 Tagen**, **20 Coins** gekauft (Einsatz 200.00 Fr.)
-- Status Regel A: 0 bei 4x verkauft, 1 tot, 19 noch offen
+- Status Regel A: 0 bei 4x verkauft, 2 tot, 18 noch offen
 - Noch offene Positionen sind mit dem letzten Kurs bewertet (nicht endgültig).
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 176.23 Fr. | **-23.77 Fr.** | -12 % |
-| B: Hälfte bei 4x, Rest läuft | 176.23 Fr. | **-23.77 Fr.** | -12 % |
+| A: alles bei 4x | 179.86 Fr. | **-20.14 Fr.** | -10 % |
+| B: Hälfte bei 4x, Rest läuft | 179.86 Fr. | **-20.14 Fr.** | -10 % |
 
-Nur abgeschlossene Coins (Regel A, ohne offene): 1 Coins, **-9.97 Fr.** (-100 %)
+Nur abgeschlossene Coins (Regel A, ohne offene): 2 Coins, **-19.91 Fr.** (-100 %)
 
 ## Wie oft steigt ein Coin?
 
 - Mindestens 2x erreicht: 4 von 20 (20 %)
 - Mindestens 4x erreicht: 0 von 20 (0 %)
 - Mindestens 10x erreicht: 0 von 20 (0 %)
-- Auf -95 % oder Liquidität weg (tot): 1 von 20 (5 %)
+- Auf -95 % oder Liquidität weg (tot): 2 von 20 (10 %)
 
 ## Was wäre bei anderen Verkaufszielen gewesen?
 
@@ -28,27 +28,27 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -21.74 Fr. | -11 % |
-| alles bei 3x | -23.77 Fr. | -12 % |
-| alles bei 4x | -23.77 Fr. | -12 % |
-| alles bei 5x | -23.77 Fr. | -12 % |
-| alles bei 10x | -23.77 Fr. | -12 % |
-| alles bei 20x | -23.77 Fr. | -12 % |
+| alles bei 2x | -17.17 Fr. | -9 % |
+| alles bei 3x | -20.14 Fr. | -10 % |
+| alles bei 4x | -20.14 Fr. | -10 % |
+| alles bei 5x | -20.14 Fr. | -10 % |
+| alles bei 10x | -20.14 Fr. | -10 % |
+| alles bei 20x | -20.14 Fr. | -10 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Max. erreicht |
 |---|---|---|---|
-| [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: offen, B: offen | 20.79 Fr. | 2.4x |
-| [MAMESUKE](https://dexscreener.com/solana/hpexrue5msv7paz5wpviwsclesywgzr8vhdakuiep5ku) | A: offen, B: offen | 18.25 Fr. | 2.4x |
-| [VI](https://dexscreener.com/solana/dtmxvpiszpxlhdidwxgt4rzuptd5ezaa5z9echjno93k) | A: offen, B: offen | 16.86 Fr. | 2.1x |
-| [WAR](https://dexscreener.com/solana/cwgmfkacp2qny7gjcg7j9giwd1x6y8kliuxnw5brzxku) | A: offen, B: offen | 15.79 Fr. | 2.3x |
-| [Mag](https://dexscreener.com/solana/54m3aczla7hk76hsbgrhyysvecaabp7t4j75uxe2esne) | A: offen, B: offen | 15.09 Fr. | 1.7x |
-| [ANONVOYAGE](https://dexscreener.com/solana/2yx74z677vrmwjn4qnm9aqthbxqi1dsxrysifk4rsmma) | A: offen, B: offen | 2.34 Fr. | 1.4x |
-| [Ahsoka](https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj) | A: offen, B: offen | 1.08 Fr. | 1.3x |
+| [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: offen, B: offen | 21.23 Fr. | 2.4x |
+| [MAMESUKE](https://dexscreener.com/solana/hpexrue5msv7paz5wpviwsclesywgzr8vhdakuiep5ku) | A: offen, B: offen | 17.50 Fr. | 2.4x |
+| [VI](https://dexscreener.com/solana/dtmxvpiszpxlhdidwxgt4rzuptd5ezaa5z9echjno93k) | A: offen, B: offen | 16.32 Fr. | 2.1x |
+| [WAR](https://dexscreener.com/solana/cwgmfkacp2qny7gjcg7j9giwd1x6y8kliuxnw5brzxku) | A: offen, B: offen | 15.71 Fr. | 2.3x |
+| [Mag](https://dexscreener.com/solana/54m3aczla7hk76hsbgrhyysvecaabp7t4j75uxe2esne) | A: offen, B: offen | 12.84 Fr. | 1.7x |
+| [ANONVOYAGE](https://dexscreener.com/solana/2yx74z677vrmwjn4qnm9aqthbxqi1dsxrysifk4rsmma) | A: offen, B: offen | 2.51 Fr. | 1.4x |
+| [Ahsoka](https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj) | A: tot, B: tot | 0.06 Fr. | 1.3x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 1.0x |
 
-Der beste Coin macht 29 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
+Der beste Coin macht 31 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
 
 ## Aussagekraft
 
