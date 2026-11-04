@@ -20,6 +20,7 @@ Es wird KEIN echtes Geld bewegt. Alles ist Simulation.
 import json
 import os
 import smtplib
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -55,6 +56,7 @@ TOT_FEHLT_STUNDEN = 24      # Coin 24 Stunden am Stück nicht mehr auffindbar
 # Takt (im Dauerlauf, siehe SCAN_DAUER_MIN)
 CHECK_INTERVALL_S = 60      # offene Positionen: Kurs alle 60 Sekunden prüfen
 SCAN_INTERVALL_MIN = 5      # nach neuen Coins suchen: alle 5 Minuten
+CHECKPOINT_MIN = 15         # Zwischenstand ins Repo sichern (bei GitHub Actions)
 
 # Einstiegs-Filter (Markt)
 MIN_ALTER_H = 6             # die ersten Stunden sind die gefährlichsten
@@ -643,6 +645,20 @@ def monatsbilanz_faellig(state):
 
 
 # ---------------------------------------------------------------- Start
+def checkpoint(state):
+    """Sichert den Stand zwischendurch ins Repo, damit bei einem Fehler nicht eine ganze Stunde fehlt."""
+    if not os.getenv("GITHUB_ACTIONS"):
+        return
+    schreibe_auswertung(state)
+    befehl = ("git add data && (git diff --cached --quiet || git commit -qm 'Scanner-Zwischenstand') "
+              "&& git pull -q --rebase origin main && git push -q")
+    try:
+        subprocess.run(befehl, shell=True, check=True, timeout=120, cwd=Path(__file__).parent)
+        print("  (Zwischenstand gesichert)")
+    except Exception as e:  # nicht schlimm, der Abschluss-Schritt versucht es nochmal
+        print(f"  ! Zwischenstand nicht gesichert: {e!r}")
+
+
 def lauf_einmal(state, scan):
     print("== Positionen aktualisieren")
     update_positionen(state)
@@ -667,6 +683,7 @@ def main():
         dauer_s = float(os.getenv("SCAN_DAUER_MIN", "0") or 0) * 60
         start = time.time()
         letzter_scan = 0.0
+        letzter_check = time.time()
         while True:
             takt = time.time()
             scan = takt - letzter_scan >= SCAN_INTERVALL_MIN * 60
@@ -677,6 +694,9 @@ def main():
             except Exception as e:  # ein Fehler darf den Dauerlauf nicht beenden
                 print(f"  ! Fehler im Durchgang: {e!r}")
             speichere_state(state)
+            if time.time() - letzter_check >= CHECKPOINT_MIN * 60:
+                checkpoint(state)
+                letzter_check = time.time()
             if time.time() - start + CHECK_INTERVALL_S >= dauer_s:
                 break
             time.sleep(max(1.0, CHECK_INTERVALL_S - (time.time() - takt)))

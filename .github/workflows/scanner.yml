@@ -35,6 +35,11 @@ jobs:
 
       - run: pip install requests
 
+      - name: Git einrichten
+        run: |
+          git config user.name "coin-scanner"
+          git config user.email "actions@users.noreply.github.com"
+
       - name: Scanner laufen lassen
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -54,13 +59,11 @@ jobs:
       - name: Stand speichern
         if: always()
         run: |
-          git config user.name "coin-scanner"
-          git config user.email "actions@users.noreply.github.com"
           git add data
-          git diff --cached --quiet && exit 0
-          git commit -m "Scanner-Update $(date -u +%F_%H:%M)"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push && exit 0
-            sleep 5
+          git diff --cached --quiet || git commit -m "Scanner-Update $(date -u +%F_%H:%M)"
+          for i in 1 2 3 4 5 6; do
+            if git pull --rebase origin main && git push; then exit 0; fi
+            echo "Push fehlgeschlagen (Versuch $i), warte..."
+            sleep $((i * 20))
           done
           exit 1
