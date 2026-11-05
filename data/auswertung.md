@@ -1,26 +1,26 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-05 00:37 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-05 01:16 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
-- Läuft seit **1.6 Tagen**, **30 Coins** gekauft (Einsatz 300.00 Fr.)
-- Status Regel A: 1 bei 4x verkauft, 5 tot, 24 noch offen
+- Läuft seit **1.7 Tagen**, **30 Coins** gekauft (Einsatz 300.00 Fr.)
+- Status Regel A: 1 bei 4x verkauft, 7 tot, 22 noch offen
 - Noch offene Positionen sind mit dem letzten Kurs bewertet (nicht endgültig).
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 244.88 Fr. | **-55.12 Fr.** | -18 % |
-| B: Hälfte bei 4x, Rest läuft | 317.86 Fr. | **+17.86 Fr.** | +6 % |
+| A: alles bei 4x | 241.58 Fr. | **-58.42 Fr.** | -19 % |
+| B: Hälfte bei 4x, Rest läuft | 314.57 Fr. | **+14.57 Fr.** | +5 % |
 
-Nur abgeschlossene Coins (Regel A, ohne offene): 6 Coins, **-15.38 Fr.** (-26 %)
+Nur abgeschlossene Coins (Regel A, ohne offene): 8 Coins, **-35.29 Fr.** (-44 %)
 
 ## Wie oft steigt ein Coin?
 
 - Mindestens 2x erreicht: 5 von 30 (17 %)
 - Mindestens 4x erreicht: 1 von 30 (3 %)
 - Mindestens 10x erreicht: 1 von 30 (3 %)
-- Auf -95 % oder Liquidität weg (tot): 5 von 30 (17 %)
+- Auf -95 % oder Liquidität weg (tot): 7 von 30 (23 %)
 
 ## Was wäre bei anderen Verkaufszielen gewesen?
 
@@ -28,27 +28,27 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -45.06 Fr. | -15 % |
-| alles bei 3x | -67.79 Fr. | -23 % |
-| alles bei 4x | -61.64 Fr. | -21 % |
-| alles bei 5x | -52.43 Fr. | -17 % |
-| alles bei 10x | -6.35 Fr. | -2 % |
-| alles bei 20x | +85.81 Fr. | +29 % |
+| alles bei 2x | -50.87 Fr. | -17 % |
+| alles bei 3x | -80.66 Fr. | -27 % |
+| alles bei 4x | -64.94 Fr. | -22 % |
+| alles bei 5x | -55.72 Fr. | -19 % |
+| alles bei 10x | -9.64 Fr. | -3 % |
+| alles bei 20x | +82.52 Fr. | +28 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Max. erreicht |
 |---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 20.5x |
-| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 24.58 Fr. | 3.4x |
-| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 13.55 Fr. | 1.8x |
-| [MEMECOIN](https://dexscreener.com/solana/af3p8v8eowqumkfasm47jbxe6pxxnibhxipc2pwp2reu) | A: offen, B: offen | 11.96 Fr. | 1.3x |
-| [FIX](https://dexscreener.com/solana/g3fedslfxccvuo96wwytfwgvfqsgtqamo9tddpnxevfn) | A: offen, B: offen | 11.64 Fr. | 1.3x |
-| [SA](https://dexscreener.com/solana/4km4wu8na28qqay9gnmunknzxvfefqpyh3czyse1jlwv) | A: tot, B: tot | 0.29 Fr. | 1.7x |
+| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 34.15 Fr. | 3.7x |
+| [FIX](https://dexscreener.com/solana/g3fedslfxccvuo96wwytfwgvfqsgtqamo9tddpnxevfn) | A: offen, B: offen | 16.74 Fr. | 2.0x |
+| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 12.36 Fr. | 1.8x |
+| [MEMECOIN](https://dexscreener.com/solana/af3p8v8eowqumkfasm47jbxe6pxxnibhxipc2pwp2reu) | A: offen, B: offen | 12.33 Fr. | 1.3x |
 | [Ahsoka](https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj) | A: tot, B: tot | 0.06 Fr. | 1.3x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 1.0x |
+| [AMD](https://dexscreener.com/solana/e9wpfxjqvwvdjkculu2xs742t6ehbn2cnzv2ps24fz14) | A: tot, B: tot | 0.02 Fr. | 1.2x |
 
-Der beste Coin macht 83 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
+Der beste Coin macht 75 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
 
 ## Aussagekraft
 
