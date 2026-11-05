@@ -1,6 +1,6 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-05 22:34 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-05 22:42 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
@@ -10,8 +10,8 @@ _Stand: 2026-11-05 22:34 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % K
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 163.47 Fr. | **-136.53 Fr.** | -46 % |
-| B: Hälfte bei 4x, Rest läuft | 236.45 Fr. | **-63.55 Fr.** | -21 % |
+| A: alles bei 4x | 164.05 Fr. | **-135.95 Fr.** | -45 % |
+| B: Hälfte bei 4x, Rest läuft | 237.03 Fr. | **-62.97 Fr.** | -21 % |
 
 Nur abgeschlossene Coins (Regel A, ohne offene): 10 Coins, **-54.86 Fr.** (-55 %)
 
@@ -28,19 +28,19 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -100.57 Fr. | -34 % |
-| alles bei 3x | -142.72 Fr. | -48 % |
-| alles bei 4x | -143.06 Fr. | -48 % |
-| alles bei 5x | -133.84 Fr. | -45 % |
-| alles bei 10x | -87.76 Fr. | -29 % |
-| alles bei 20x | +4.40 Fr. | +1 % |
+| alles bei 2x | -100.73 Fr. | -34 % |
+| alles bei 3x | -142.07 Fr. | -47 % |
+| alles bei 4x | -142.48 Fr. | -47 % |
+| alles bei 5x | -133.26 Fr. | -44 % |
+| alles bei 10x | -87.18 Fr. | -29 % |
+| alles bei 20x | +4.98 Fr. | +2 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Max. erreicht |
 |---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 20.5x |
-| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 18.09 Fr. | 3.7x |
+| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 18.02 Fr. | 3.7x |
 | [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 10.91 Fr. | 1.9x |
 | [UAV](https://dexscreener.com/solana/fwaqynqgehz58rwkyrr6bcp4c4runhpcq8dxytfrzvcr) | A: offen, B: offen | 10.10 Fr. | 2.0x |
 | [MEMECOIN](https://dexscreener.com/solana/af3p8v8eowqumkfasm47jbxe6pxxnibhxipc2pwp2reu) | A: offen, B: offen | 9.55 Fr. | 1.3x |
