@@ -1,6 +1,6 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-05 00:14 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-05 00:30 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
@@ -10,8 +10,8 @@ _Stand: 2026-11-05 00:14 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % K
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 253.03 Fr. | **-46.97 Fr.** | -16 % |
-| B: Hälfte bei 4x, Rest läuft | 326.01 Fr. | **+26.01 Fr.** | +9 % |
+| A: alles bei 4x | 247.16 Fr. | **-52.84 Fr.** | -18 % |
+| B: Hälfte bei 4x, Rest läuft | 320.14 Fr. | **+20.14 Fr.** | +7 % |
 
 Nur abgeschlossene Coins (Regel A, ohne offene): 6 Coins, **-15.38 Fr.** (-26 %)
 
@@ -28,27 +28,27 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -40.90 Fr. | -14 % |
-| alles bei 3x | -61.79 Fr. | -21 % |
-| alles bei 4x | -53.50 Fr. | -18 % |
-| alles bei 5x | -44.28 Fr. | -15 % |
-| alles bei 10x | +1.80 Fr. | +1 % |
-| alles bei 20x | +93.96 Fr. | +31 % |
+| alles bei 2x | -44.10 Fr. | -15 % |
+| alles bei 3x | -65.83 Fr. | -22 % |
+| alles bei 4x | -59.37 Fr. | -20 % |
+| alles bei 5x | -50.15 Fr. | -17 % |
+| alles bei 10x | -4.07 Fr. | -1 % |
+| alles bei 20x | +88.09 Fr. | +29 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Max. erreicht |
 |---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 20.5x |
-| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 26.72 Fr. | 3.4x |
-| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 13.37 Fr. | 1.8x |
-| [5STAR](https://dexscreener.com/solana/68pp3xccwhxg5qijgjcyuwsv764ttbevlm23ck85e85a) | A: offen, B: offen | 13.08 Fr. | 1.5x |
-| [MEMECOIN](https://dexscreener.com/solana/af3p8v8eowqumkfasm47jbxe6pxxnibhxipc2pwp2reu) | A: offen, B: offen | 11.41 Fr. | 1.2x |
+| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 24.90 Fr. | 3.4x |
+| [MEOWNERO](https://dexscreener.com/solana/9vjkgqsgkcpg3rygmat9grc6eotvdmmucd4oearjvogd) | A: offen, B: offen | 13.56 Fr. | 1.8x |
+| [MEMECOIN](https://dexscreener.com/solana/af3p8v8eowqumkfasm47jbxe6pxxnibhxipc2pwp2reu) | A: offen, B: offen | 11.68 Fr. | 1.3x |
+| [UAV](https://dexscreener.com/solana/fwaqynqgehz58rwkyrr6bcp4c4runhpcq8dxytfrzvcr) | A: offen, B: offen | 10.75 Fr. | 1.2x |
 | [SA](https://dexscreener.com/solana/4km4wu8na28qqay9gnmunknzxvfefqpyh3czyse1jlwv) | A: tot, B: tot | 0.29 Fr. | 1.7x |
 | [Ahsoka](https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj) | A: tot, B: tot | 0.06 Fr. | 1.3x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 1.0x |
 
-Der beste Coin macht 81 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
+Der beste Coin macht 83 % aller Gewinne aus (hoher Wert = Ergebnis hängt an einem einzigen Treffer).
 
 ## Aussagekraft
 
