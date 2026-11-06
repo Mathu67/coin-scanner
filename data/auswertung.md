@@ -1,17 +1,17 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-06 08:07 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-06 09:13 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
-- Läuft seit **2.9 Tagen**, **40 Coins** gekauft (Einsatz 400.00 Fr.)
+- Läuft seit **3.0 Tagen**, **40 Coins** gekauft (Einsatz 400.00 Fr.)
 - Status Regel A: 1 bei 4x verkauft, 10 tot, 29 noch offen
 - Noch offene Positionen sind mit dem letzten Kurs bewertet (nicht endgültig).
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 236.20 Fr. | **-163.80 Fr.** | -41 % |
-| B: Hälfte bei 4x, Rest läuft | 309.18 Fr. | **-90.82 Fr.** | -23 % |
+| A: alles bei 4x | 227.22 Fr. | **-172.78 Fr.** | -43 % |
+| B: Hälfte bei 4x, Rest läuft | 300.20 Fr. | **-99.80 Fr.** | -25 % |
 
 Nur abgeschlossene Coins (Regel A, ohne offene): 11 Coins, **-64.48 Fr.** (-59 %)
 
@@ -28,22 +28,22 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -128.63 Fr. | -32 % |
-| alles bei 3x | -168.05 Fr. | -42 % |
-| alles bei 4x | -170.33 Fr. | -43 % |
-| alles bei 5x | -161.11 Fr. | -40 % |
-| alles bei 10x | -115.03 Fr. | -29 % |
-| alles bei 20x | -22.87 Fr. | -6 % |
+| alles bei 2x | -137.21 Fr. | -34 % |
+| alles bei 3x | -177.67 Fr. | -44 % |
+| alles bei 4x | -179.31 Fr. | -45 % |
+| alles bei 5x | -170.10 Fr. | -43 % |
+| alles bei 10x | -124.02 Fr. | -31 % |
+| alles bei 20x | -31.86 Fr. | -8 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Max. erreicht |
 |---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 20.5x |
-| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 16.15 Fr. | 3.7x |
-| [UAV](https://dexscreener.com/solana/fwaqynqgehz58rwkyrr6bcp4c4runhpcq8dxytfrzvcr) | A: offen, B: offen | 15.84 Fr. | 2.0x |
-| [VETO](https://dexscreener.com/solana/6fx1enzuahbwk9tjm8ptp9wobsejugn8xxzob9pkvquf) | A: offen, B: offen | 11.32 Fr. | 1.2x |
-| [PIRATE](https://dexscreener.com/solana/2ounpacqvbodqwj7ft6eghmcgsckpmrzaqn6a9vhkp6d) | A: offen, B: offen | 10.58 Fr. | 1.4x |
+| [TrumpWars](https://dexscreener.com/solana/7ppuyh3b5f61zc6jcfjaftwthkwne1jgwhpddanlh8eo) | A: offen, B: offen | 16.79 Fr. | 3.7x |
+| [UAV](https://dexscreener.com/solana/fwaqynqgehz58rwkyrr6bcp4c4runhpcq8dxytfrzvcr) | A: offen, B: offen | 15.15 Fr. | 2.0x |
+| [VETO](https://dexscreener.com/solana/6fx1enzuahbwk9tjm8ptp9wobsejugn8xxzob9pkvquf) | A: offen, B: offen | 11.69 Fr. | 1.3x |
+| [MEMECOIN](https://dexscreener.com/solana/af3p8v8eowqumkfasm47jbxe6pxxnibhxipc2pwp2reu) | A: offen, B: offen | 10.25 Fr. | 1.3x |
 | [Ahsoka](https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj) | A: tot, B: tot | 0.06 Fr. | 1.3x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 1.0x |
 | [AMD](https://dexscreener.com/solana/e9wpfxjqvwvdjkculu2xs742t6ehbn2cnzv2ps24fz14) | A: tot, B: tot | 0.02 Fr. | 1.2x |
