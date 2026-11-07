@@ -36,7 +36,7 @@ EINSATZ_CHF = 10.0          # simulierter Einsatz pro Coin
 GEBUEHR_PCT = 4.0           # realistischere Kosten pro Trade (Kauf UND Verkauf): Swap-Gebühr,
                             # Priority-Fee, Slippage bei dünner Liquidität
 TAKE_PROFIT_X = 4.0         # 4x = +300 % -> verkaufen
-MAX_KAEUFE_PRO_TAG = 10     # Schutz, falls der Markt komplett heiss läuft
+MAX_KAEUFE_PRO_TAG = None   # kein Tageslimit (seit 7.11.2026); Zahl eintragen, um wieder zu begrenzen
 
 # Regel B: bei 4x die Hälfte verkaufen, den Rest laufen lassen
 B_TEIL_ANTEIL = 0.5         # so viel wird bei 4x verkauft
@@ -574,7 +574,7 @@ def scanne(state):
     paare = hole_paare(kandidaten)
 
     for mint, p in paare.items():
-        if kaeufe_heute >= MAX_KAEUFE_PRO_TAG:
+        if MAX_KAEUFE_PRO_TAG and kaeufe_heute >= MAX_KAEUFE_PRO_TAG:
             print("Tageslimit erreicht")
             break
         ok, grund = markt_check(p)
