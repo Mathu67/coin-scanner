@@ -1,6 +1,6 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-07 18:58 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-07 19:02 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
@@ -10,19 +10,19 @@ _Stand: 2026-11-07 18:58 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % K
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 432.29 Fr. | **-197.71 Fr.** | -31 % |
-| B: Hälfte bei 4x, Rest läuft | 545.35 Fr. | **-84.65 Fr.** | -13 % |
-| C: Einsatz bei 2x raus, Rest ohne Stop | 547.58 Fr. | **-82.42 Fr.** | -13 % |
+| A: alles bei 4x | 433.21 Fr. | **-196.79 Fr.** | -31 % |
+| B: Hälfte bei 4x, Rest läuft | 545.22 Fr. | **-84.78 Fr.** | -13 % |
+| C: Einsatz bei 2x raus, Rest ohne Stop | 548.19 Fr. | **-81.81 Fr.** | -13 % |
 
 ### Regel D: Verluste begrenzen, Gewinner laufen lassen
 
 _Stop bei 0.6x, nach 48 h raus wenn unter Einstieg, bei 2x Einsatz zurück, Rest ohne Deckel, Trailing-Stop 50 % ab 5x. Nur für Coins ab Start von D, deshalb hier der Vergleich auf denselben Coins._
 
 - Vergleich auf den **13 Coins seit Start von Regel D** (Einsatz 130.00 Fr.):
-  - A: **-0.94 Fr.** (-1 %)
-  - B: **+13.93 Fr.** (+11 %)
-  - C: **+14.79 Fr.** (+11 %)
-  - D: **-35.68 Fr.** (-27 %)
+  - A: **-0.01 Fr.** (-0 %)
+  - B: **+15.84 Fr.** (+12 %)
+  - C: **+17.38 Fr.** (+13 %)
+  - D: **-34.88 Fr.** (-27 %)
 
 D abgeschlossen: Stop-Loss 7x
 
@@ -45,22 +45,22 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -203.05 Fr. | -32 % |
-| alles bei 3x | -221.52 Fr. | -35 % |
-| alles bei 4x | -206.46 Fr. | -33 % |
-| alles bei 5x | -178.81 Fr. | -28 % |
-| alles bei 10x | -45.45 Fr. | -7 % |
-| alles bei 20x | +23.37 Fr. | +4 % |
+| alles bei 2x | -201.74 Fr. | -32 % |
+| alles bei 3x | -221.01 Fr. | -35 % |
+| alles bei 4x | -205.53 Fr. | -33 % |
+| alles bei 5x | -177.88 Fr. | -28 % |
+| alles bei 10x | -48.57 Fr. | -8 % |
+| alles bei 20x | +22.19 Fr. | +4 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Wert C | Max. erreicht |
 |---|---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 94.32 Fr. | 20.5x |
-| [WEALTH](https://dexscreener.com/solana/5n8v68fcantrqvaxzrmbryde5jflrgm65pffsmia6nro) | A: verkauft, B: offen | 62.08 Fr. | 49.93 Fr. | 9.9x |
-| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: offen | 53.95 Fr. | 57.73 Fr. | 10.6x |
-| [PIRATE](https://dexscreener.com/solana/2ounpacqvbodqwj7ft6eghmcgsckpmrzaqn6a9vhkp6d) | A: offen, B: offen | 25.97 Fr. | 21.88 Fr. | 3.9x |
-| [0DAY](https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa) | A: offen, B: offen | 25.70 Fr. | 22.78 Fr. | 2.8x |
+| [WEALTH](https://dexscreener.com/solana/5n8v68fcantrqvaxzrmbryde5jflrgm65pffsmia6nro) | A: verkauft, B: offen | 60.05 Fr. | 48.08 Fr. | 9.9x |
+| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: offen | 54.92 Fr. | 59.08 Fr. | 10.6x |
+| [PIRATE](https://dexscreener.com/solana/2ounpacqvbodqwj7ft6eghmcgsckpmrzaqn6a9vhkp6d) | A: offen, B: offen | 26.44 Fr. | 22.10 Fr. | 3.9x |
+| [0DAY](https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa) | A: offen, B: offen | 25.09 Fr. | 22.47 Fr. | 2.8x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 0.03 Fr. | 1.0x |
 | [AMD](https://dexscreener.com/solana/e9wpfxjqvwvdjkculu2xs742t6ehbn2cnzv2ps24fz14) | A: tot, B: tot | 0.02 Fr. | 0.02 Fr. | 1.2x |
 | [AMD](https://dexscreener.com/solana/6zv8dyrdxh56au2ebhpzzbmkprp5ixbkprj7hb2pj3rr) | A: tot, B: tot | 0.01 Fr. | 0.01 Fr. | 1.1x |
@@ -76,7 +76,7 @@ Grenzen der Simulation: Bei einem echten Rugpull zwischen zwei Kurs-Checks würd
 
 | Coin | Letzte Entscheidung | Liquidität | MCap | zuerst gesehen |
 |---|---|---|---|---|
-| [GTA6COP](https://dexscreener.com/solana/9sebidesbustw8xbbaczb6ab2ty72p6xp51mftpuwhp6) GTA6 Mendez | Markt-Filter: zu jung | 19'197 $ | 67'920 $ | 2026-11-07 |
+| [GTA6COP](https://dexscreener.com/solana/9sebidesbustw8xbbaczb6ab2ty72p6xp51mftpuwhp6) GTA6 Mendez | Markt-Filter: zu jung | 18'463 $ | 60'706 $ | 2026-11-07 |
 | [CLAUDEPAID](https://dexscreener.com/solana/7tx6tl3e14nvhqgk4mfp3wdebmwp3rezsqgflxmrunuy) ClaudePaid | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-07 |
 | [$GTA6](https://dexscreener.com/solana/fytgbkzjhhcsymys7zbfu5ibxkrmwv8frvswvtdmoekz) GTA6 | Markt-Filter: zu jung | 0 $ | 242 $ | 2026-11-07 |
 | [ANTS](https://dexscreener.com/solana/8qnemh37lbcbq2ljaw3tl6fffykbzsqm3ctblhb9krdq) Anthropic | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-07 |
