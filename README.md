@@ -18,7 +18,9 @@ Durchsucht alle 5 Minuten neue Solana-Memecoins und prüft offene Positionen all
 **Abschreiben**, wenn der Coin tot ist: −95 % oder mehr, Liquidität unter 1'000 $ oder 1 Tag lang nicht auffindbar.
 Pro Kauf und Verkauf werden je 4 % Gebühren/Slippage abgezogen (realistisch für Memecoins).
 Zusätzlich läuft Regel B mit: bei 4x die Hälfte verkaufen, den Rest bis 20x oder bis der Kurs auf 50 % der Spitze fällt.
-Bei jedem Lauf entsteht `data/auswertung.md` (Regel A gegen B, Trefferquote, Zielvergleich).
+Regel C: bei 2x so viel verkaufen, dass der Einsatz zurück ist; der Rest läuft ohne Stop bis 20x oder bis er tot ist.
+Kaputte Preise (Sprung über 20x in einer Minute ohne Bestätigung, oder MCap über 1 Mrd. $) werden ignoriert.
+Bei jedem Lauf entsteht `data/auswertung.md` (Regel A, B und C, Trefferquote, Zielvergleich).
 
 Am 1. jedes Monats kommt die **Monatsbilanz** für alle Coins, die im Vormonat gekauft wurden.
 

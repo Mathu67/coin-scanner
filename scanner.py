@@ -5,10 +5,12 @@ Was er macht (läuft über GitHub Actions, im Dauerlauf mit Kurs-Check alle 60 S
   1. Sammelt neue/aktive Solana-Coins (DexScreener + RugCheck).
   2. Prüft sie gegen Anti-Rugpull-Filter.
   3. "Kauft" jeden Treffer simuliert für 10 Fr.
-  4. Verfolgt jede Position GLEICHZEITIG mit zwei Verkaufsregeln:
+  4. Verfolgt jede Position GLEICHZEITIG mit drei Verkaufsregeln:
        A: alles bei +300 % (4x) verkaufen.
        B: bei 4x nur die Hälfte verkaufen, den Rest laufen lassen
           (Verkauf bei 20x oder wenn der Kurs 50 % unter seine Spitze fällt).
+       C: bei 2x so viel verkaufen, dass der Einsatz (10 Fr.) zurück ist, den Rest
+          ohne Stop laufen lassen (Verkauf bei 20x, sonst bis er tot ist).
      Tot ist ein Coin bei -95 %, < 1'000 $ Liquidität oder 1 Tag nicht auffindbar.
   5. Schreibt bei jedem Lauf data/auswertung.md (A gegen B, Trefferquote, Zielvergleich).
   6. Schickt am Monatsanfang die Monatsbilanz (als GitHub-Issue -> E-Mail,
@@ -40,6 +42,19 @@ MAX_KAEUFE_PRO_TAG = 10     # Schutz, falls der Markt komplett heiss läuft
 B_TEIL_ANTEIL = 0.5         # so viel wird bei 4x verkauft
 B_REST_ZIEL_X = 20.0        # Rest wird bei 20x verkauft ...
 B_TRAILING = 0.5            # ... oder wenn der Kurs auf 50 % seiner Spitze fällt
+
+# Regel C: bei 2x den Einsatz rausnehmen, Rest läuft ohne Stop
+C_AUSLOESER_X = 2.0         # ab hier wird der Einsatz zurückgeholt
+C_REST_ZIEL_X = 20.0        # Rest wird bei 20x verkauft, sonst läuft er, bis er tot ist
+
+# Plausibilitäts-Filter gegen kaputte Preise (z.B. Rocco am 7.11.2026: 49'677x in einer Minute)
+PLAUSI_SPRUNG_X = 20.0      # Preis mehr als 20x über dem letzten Check -> erst beim nächsten Check glauben
+PLAUSI_MAX_MCAP_USD = 1_000_000_000   # Marktkapitalisierung über 1 Mrd. $ -> Preis ignorieren
+
+# Positionen mit nachweislich falschen Preisdaten: werden einmalig zurückgesetzt
+KORREKTUR_MINTS = {
+    "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": "Rocco: falscher Preis 43 $ (49'677x) am 7.11.2026",
+}
 
 # Zielvergleich in der Auswertung: "Was wäre gewesen, wenn alles bei Nx verkauft worden wäre?"
 ZIEL_VERGLEICH = [2, 3, 4, 5, 10, 20]
@@ -253,17 +268,82 @@ def stelle_b_sicher(pos):
     return pos["b"]
 
 
+def stelle_c_sicher(pos):
+    """Regel C pro Position anlegen. Bei älteren Positionen rückwirkend aus dem bisherigen
+    Höchststand geschätzt (2x erreicht = Einsatz genau bei 2x zurückgeholt)."""
+    if "c" in pos:
+        return pos["c"]
+    c = {"status": "offen", "teil": False, "erloes_teil": 0.0, "anteil_teil": 0.0}
+    hx = pos.get("hoechst_x", 1.0)
+    tot = pos["status"] == "tot" or stelle_b_sicher(pos)["status"] == "tot"
+    if "letzter_x" in pos:  # Position lief schon vor Regel C
+        c["rueckwirkend"] = True
+    if hx >= C_AUSLOESER_X:
+        voll = wert(pos, pos["einstieg_preis"] * C_AUSLOESER_X)
+        a = min(1.0, EINSATZ_CHF / voll)
+        c.update(teil=True, anteil_teil=round(a, 4), erloes_teil=round(voll * a, 4),
+                 teil_x=C_AUSLOESER_X)
+        if hx >= C_REST_ZIEL_X:
+            rest = wert(pos, pos["einstieg_preis"] * C_REST_ZIEL_X, 1 - a)
+            c.update(status="verkauft", erloes=round(c["erloes_teil"] + rest, 4),
+                     grund=f"Rest bei {C_REST_ZIEL_X:.0f}x (rückwirkend)")
+        elif tot:
+            c.update(status="tot", erloes=c["erloes_teil"], grund="Rest tot (rückwirkend)")
+    elif tot:
+        c.update(status="tot", erloes=pos.get("erloes", 0.0), grund=pos.get("grund", "tot"))
+    pos["c"] = c
+    return c
+
+
+def korrigiere_daten(state):
+    """Setzt Positionen mit nachweislich falschen Preisdaten einmalig zurück auf 'offen'."""
+    for pos in state["positionen"]:
+        grund = KORREKTUR_MINTS.get(pos["mint"])
+        if not grund or pos.get("korrigiert"):
+            continue
+        for k in ("erloes", "grund", "geschlossen"):
+            pos.pop(k, None)
+        pos.update(status="offen", letzter_preis=pos["einstieg_preis"], letzter_x=1.0,
+                   hoechst_x=1.0, korrigiert=grund)
+        pos["b"] = {"status": "offen", "teil": False, "erloes_teil": 0.0}
+        pos.pop("c", None)
+        print(f"  * {pos['symbol']} korrigiert: {grund}")
+
+
+def preis_plausibel(pos, p, preis):
+    """Filtert kaputte Preise: absurde Marktkapitalisierung oder ein Riesensprung in einer Minute,
+    der beim nächsten Check nicht bestätigt wird."""
+    mcap = p.get("marketCap") or p.get("fdv") or 0
+    if mcap > PLAUSI_MAX_MCAP_USD:
+        print(f"  ? {pos['symbol']}: Preis ignoriert (MCap {mcap:,.0f} $ unplausibel)")
+        return False
+    letzter = pos.get("letzter_preis") or pos["einstieg_preis"]
+    if preis > letzter * PLAUSI_SPRUNG_X:
+        v = pos.get("verdacht_preis")
+        if v and 0.5 * v <= preis <= 2 * v:
+            pos.pop("verdacht_preis", None)
+            return True  # zweimal hintereinander gesehen -> glauben
+        pos["verdacht_preis"] = preis
+        print(f"  ? {pos['symbol']}: Sprung auf {preis / pos['einstieg_preis']:.0f}x, warte auf Bestätigung")
+        return False
+    pos.pop("verdacht_preis", None)
+    return True
+
+
 def update_positionen(state):
+    korrigiere_daten(state)
     offen = []
     for p in state["positionen"]:
         b = stelle_b_sicher(p)
-        if p["status"] == "offen" or b["status"] == "offen":
+        c = stelle_c_sicher(p)
+        if p["status"] == "offen" or b["status"] == "offen" or c["status"] == "offen":
             offen.append(p)
     if not offen:
         return
     paare = hole_paare({p["mint"] for p in offen})
     for pos in offen:
         b = pos["b"]
+        c = pos["c"]
         p = paare.get(pos["mint"])
         if not p or not p.get("priceUsd"):
             seit = pos.setdefault("fehlt_seit", jetzt().isoformat())
@@ -272,11 +352,15 @@ def update_positionen(state):
                     schliesse(pos, "tot", 0.0, "nicht mehr auffindbar")
                 if b["status"] == "offen":
                     schliesse_b(pos, "tot", 0.0, "nicht mehr auffindbar")
+                if c["status"] == "offen":
+                    schliesse_c(pos, "tot", c["erloes_teil"], "nicht mehr auffindbar")
             continue
         pos.pop("fehlt_seit", None)
         pos.pop("fehlt", None)
         preis = float(p["priceUsd"])
         liq = (p.get("liquidity") or {}).get("usd") or 0
+        if not preis_plausibel(pos, p, preis):
+            continue
         x = preis / pos["einstieg_preis"]
         pos["letzter_preis"] = preis
         pos["letzter_x"] = round(x, 4)
@@ -316,6 +400,25 @@ def update_positionen(state):
             elif x <= TOT_WERT_ANTEIL:
                 schliesse_b(pos, "tot", wert(pos, preis), f"{(x - 1) * 100:.0f}%")
 
+        # ---- Regel C: bei 2x Einsatz rausnehmen, Rest ohne Stop bis 20x oder tot
+        if c["status"] == "offen":
+            if not c["teil"] and x >= C_AUSLOESER_X:
+                voll = wert(pos, preis)
+                a = min(1.0, EINSATZ_CHF / voll)
+                c.update(teil=True, anteil_teil=round(a, 4), erloes_teil=round(voll * a, 4),
+                         teil_x=round(x, 3))
+                print(f"  ~ {pos['symbol']}: C holt Einsatz bei {x:.1f}x raus ({a * 100:.0f} % verkauft)")
+            if c["teil"]:
+                rest = wert(pos, preis, 1 - c["anteil_teil"])
+                if x >= C_REST_ZIEL_X:
+                    schliesse_c(pos, "verkauft", c["erloes_teil"] + rest, f"Rest bei {x:.0f}x")
+                elif liq < TOT_LIQ_USD or x <= TOT_WERT_ANTEIL:
+                    schliesse_c(pos, "tot", c["erloes_teil"] + rest, f"Rest tot ({x:.2f}x)")
+            elif liq < TOT_LIQ_USD:
+                schliesse_c(pos, "tot", wert(pos, preis), f"Liquidität {liq:.0f}$")
+            elif x <= TOT_WERT_ANTEIL:
+                schliesse_c(pos, "tot", wert(pos, preis), f"{(x - 1) * 100:.0f}%")
+
 
 def schliesse(pos, status, erloes, grund):
     pos["status"] = status
@@ -332,6 +435,15 @@ def schliesse_b(pos, status, erloes, grund):
     b["grund"] = grund
     b["geschlossen"] = jetzt().isoformat()
     print(f"  -> {pos['symbol']}: B {status} ({grund}), Erlös {fr(erloes)}")
+
+
+def schliesse_c(pos, status, erloes, grund):
+    c = pos["c"]
+    c["status"] = status
+    c["erloes"] = round(erloes, 4)
+    c["grund"] = grund
+    c["geschlossen"] = jetzt().isoformat()
+    print(f"  -> {pos['symbol']}: C {status} ({grund}), Erlös {fr(erloes)}")
 
 
 def notiere_schlagwort(state, mint, p, entscheid):
@@ -412,6 +524,7 @@ def scanne(state):
             "letzter_x": 1.0,
             "status": "offen",
             "b": {"status": "offen", "teil": False, "erloes_teil": 0.0},
+            "c": {"status": "offen", "teil": False, "erloes_teil": 0.0, "anteil_teil": 0.0},
             "info": grund,
         })
         beob.pop(mint, None)
@@ -436,6 +549,17 @@ def pos_wert_b(p):
             return b["erloes_teil"] + wert(p, preis, 1 - B_TEIL_ANTEIL)
         return wert(p, preis)
     return b.get("erloes", 0.0)
+
+
+def pos_wert_c(p):
+    """Wert nach Regel C (Einsatz bei 2x raus, Rest ohne Stop)."""
+    c = stelle_c_sicher(p)
+    if c["status"] == "offen":
+        preis = p.get("letzter_preis", p["einstieg_preis"])
+        if c["teil"]:
+            return c["erloes_teil"] + wert(p, preis, 1 - c["anteil_teil"])
+        return wert(p, preis)
+    return c.get("erloes", 0.0)
 
 
 def pos_wert_ziel(p, ziel_x):
@@ -466,9 +590,12 @@ def bilanz_text(state, monat):
     mon = [p for p in alle if p["gekauft"][:7] == monat]
     for p in alle:
         stelle_b_sicher(p)
+        stelle_c_sicher(p)
 
     e, w, g = ergebnis(mon, pos_wert)
     _, wb, gb = ergebnis(mon, pos_wert_b)
+    _, wc, gc = ergebnis(mon, pos_wert_c)
+    _, gwc, ggc = ergebnis(alle, pos_wert_c)
     ge, gw, gg = ergebnis(alle, pos_wert)
     _, gwb, ggb = ergebnis(alle, pos_wert_b)
     verkauft = [p for p in mon if p["status"] == "verkauft"]
@@ -481,20 +608,22 @@ def bilanz_text(state, monat):
          f"- Gekaufte Coins: **{len(mon)}** → Einsatz **{fr(e)}**",
          f"- Regel A (alles bei 4x): **{vz(g)}** ({prozent(g, e)}) – "
          f"{len(verkauft)} verkauft, {len(tot)} tot, {len(offen)} offen",
-         f"- Regel B (Hälfte bei 4x, Rest läuft): **{vz(gb)}** ({prozent(gb, e)})", "",
+         f"- Regel B (Hälfte bei 4x, Rest läuft): **{vz(gb)}** ({prozent(gb, e)})",
+         f"- Regel C (Einsatz bei 2x raus, Rest ohne Stop): **{vz(gc)}** ({prozent(gc, e)})", "",
          "## Gesamt seit Start",
          f"- {len(alle)} Coins, Einsatz {fr(ge)}",
          f"- Regel A: **{vz(gg)}** ({prozent(gg, ge)})",
-         f"- Regel B: **{vz(ggb)}** ({prozent(ggb, ge)})", ""]
+         f"- Regel B: **{vz(ggb)}** ({prozent(ggb, ge)})",
+         f"- Regel C: **{vz(ggc)}** ({prozent(ggc, ge)})", ""]
 
     if mon:
         sortiert = sorted(mon, key=pos_wert, reverse=True)
         z += ["## Alle Coins dieses Monats", "",
-              "| Coin | Status A | Wert A | Wert B | Max. erreicht |", "|---|---|---|---|---|"]
+              "| Coin | Status A | Wert A | Wert B | Wert C | Max. erreicht |", "|---|---|---|---|---|---|"]
         for p in sortiert:
             z.append(f"| [{p['symbol']}]({p['url']}) | {p['status']}"
                      f"{' – ' + p['grund'] if p.get('grund') else ''} | {fr(pos_wert(p))} | "
-                     f"{fr(pos_wert_b(p))} | {p.get('hoechst_x', 1):.1f}x |")
+                     f"{fr(pos_wert_b(p))} | {fr(pos_wert_c(p))} | {p.get('hoechst_x', 1):.1f}x |")
     return "\n".join(z)
 
 
@@ -503,6 +632,7 @@ def auswertung_text(state):
     alle = state["positionen"]
     for p in alle:
         stelle_b_sicher(p)
+        stelle_c_sicher(p)
     n = len(alle)
     z = ["# Coin-Scanner – Auswertung", "",
          f"_Stand: {jetzt().strftime('%Y-%m-%d %H:%M')} UTC. Paper Trading, kein echtes Geld, "
@@ -514,6 +644,7 @@ def auswertung_text(state):
     tage = (jetzt() - datetime.fromisoformat(start)).total_seconds() / 86400
     e, wa, ga = ergebnis(alle, pos_wert)
     _, wb, gb = ergebnis(alle, pos_wert_b)
+    _, wc, gc = ergebnis(alle, pos_wert_c)
     a_offen = sum(1 for p in alle if p["status"] == "offen")
     a_tot = sum(1 for p in alle if p["status"] == "tot")
     a_verk = sum(1 for p in alle if p["status"] == "verkauft")
@@ -525,7 +656,15 @@ def auswertung_text(state):
           f"- Noch offene Positionen sind mit dem letzten Kurs bewertet (nicht endgültig).", "",
           "| Regel | Wert heute | Ergebnis | Rendite |", "|---|---|---|---|",
           f"| A: alles bei 4x | {fr(wa)} | **{vz(ga)}** | {prozent(ga, e)} |",
-          f"| B: Hälfte bei 4x, Rest läuft | {fr(wb)} | **{vz(gb)}** | {prozent(gb, e)} |", ""]
+          f"| B: Hälfte bei 4x, Rest läuft | {fr(wb)} | **{vz(gb)}** | {prozent(gb, e)} |",
+          f"| C: Einsatz bei 2x raus, Rest ohne Stop | {fr(wc)} | **{vz(gc)}** | {prozent(gc, e)} |", ""]
+    rw = sum(1 for p in alle if p["c"].get("rueckwirkend"))
+    if rw:
+        z += [f"_Regel C gibt es seit 7.11.2026. Bei {rw} älteren Coins ist C rückwirkend aus dem "
+              "Höchststand geschätzt (Einsatz genau bei 2x raus, Rest bei 20x oder tot)._", ""]
+    korr = [p for p in alle if p.get("korrigiert")]
+    for p in korr:
+        z += [f"_Korrigiert: {p['korrigiert']}. Position neu ab Einstieg bewertet._", ""]
 
     # nur abgeschlossene Coins (ohne offene) -> ehrlicher Blick
     zu = [p for p in alle if p["status"] != "offen"]
@@ -562,10 +701,10 @@ def auswertung_text(state):
     flop = sortiert[-3:]
     gesamt_gewinn = sum(pos_wert_b(p) - EINSATZ_CHF for p in alle if pos_wert_b(p) > EINSATZ_CHF)
     z += ["## Beste und schlechteste Coins (Regel B)", "",
-          "| Coin | Status | Wert B | Max. erreicht |", "|---|---|---|---|"]
+          "| Coin | Status | Wert B | Wert C | Max. erreicht |", "|---|---|---|---|---|"]
     for p in top + [q for q in flop if q not in top]:
         z.append(f"| [{p['symbol']}]({p.get('url', '')}) | A: {p['status']}, B: {p['b']['status']} | "
-                 f"{fr(pos_wert_b(p))} | {p.get('hoechst_x', 1):.1f}x |")
+                 f"{fr(pos_wert_b(p))} | {fr(pos_wert_c(p))} | {p.get('hoechst_x', 1):.1f}x |")
     if gesamt_gewinn > 0 and sortiert:
         bester = pos_wert_b(sortiert[0]) - EINSATZ_CHF
         z += ["", f"Der beste Coin macht {bester / gesamt_gewinn * 100:.0f} % aller Gewinne aus "
