@@ -47,6 +47,18 @@ B_TRAILING = 0.5            # ... oder wenn der Kurs auf 50 % seiner Spitze fäl
 C_AUSLOESER_X = 2.0         # ab hier wird der Einsatz zurückgeholt
 C_REST_ZIEL_X = 20.0        # Rest wird bei 20x verkauft, sonst läuft er, bis er tot ist
 
+# Regel D (ab 7.11.2026): Verluste früh begrenzen, Gewinner ohne Deckel laufen lassen
+D_START = "2026-11-07T10:30:00+00:00"   # nur Coins, die ab hier gekauft werden (kein Schätzen)
+D_STOP_X = 0.6              # vor dem Teilverkauf: alles raus, wenn der Kurs auf 0.6x fällt (-40 %)
+D_ZEIT_STOP_H = 48          # nach 48 h ohne Teilverkauf und unter Einstieg: alles raus (blutet sonst aus)
+D_AUSLOESER_X = 2.0         # bei 2x den Einsatz zurückholen (wie C)
+D_TRAIL_AB_X = 5.0          # Rest: Trailing-Stop erst, wenn er mal 5x erreicht hat ...
+D_TRAILING = 0.5            # ... dann verkaufen, sobald er auf 50 % seiner Spitze fällt (kein 20x-Deckel)
+
+# Kursverlauf pro Coin (data/verlauf/<mint>.csv), damit man Regeln später exakt nachrechnen kann
+VERLAUF_SCHRITT = 0.05      # neuer Punkt, wenn sich der Kurs um 5 % bewegt hat ...
+VERLAUF_MAX_MIN = 15        # ... oder spätestens alle 15 Minuten
+
 # Plausibilitäts-Filter gegen kaputte Preise (z.B. Rocco am 7.11.2026: 49'677x in einer Minute)
 PLAUSI_SPRUNG_X = 20.0      # Preis mehr als 20x über dem letzten Check -> erst beim nächsten Check glauben
 PLAUSI_MAX_MCAP_USD = 1_000_000_000   # Marktkapitalisierung über 1 Mrd. $ -> Preis ignorieren
@@ -295,6 +307,39 @@ def stelle_c_sicher(pos):
     return c
 
 
+def stelle_d_sicher(pos):
+    """Regel D pro Position anlegen. Ältere Coins (vor D_START) sind bewusst nicht dabei:
+    Ob ein Stop-Loss gegriffen hätte, hängt von der Reihenfolge der Kurse ab, die fehlt."""
+    if "d" in pos:
+        return pos["d"]
+    if pos["gekauft"] < D_START:
+        pos["d"] = {"status": "nicht dabei"}
+    else:
+        pos["d"] = {"status": "offen", "teil": False, "erloes_teil": 0.0, "anteil_teil": 0.0,
+                    "spitze_x": 1.0}
+    return pos["d"]
+
+
+def notiere_verlauf(pos, x, liq):
+    """Hängt einen Kurspunkt an data/verlauf/<mint>.csv an (nur bei Bewegung oder alle 15 Min.)."""
+    v = pos.setdefault("verlauf_letzt", {})
+    t = time.time()
+    lx = v.get("x")
+    if lx and abs(x / lx - 1) < VERLAUF_SCHRITT and t - v.get("t", 0) < VERLAUF_MAX_MIN * 60:
+        return
+    pfad = STATE_FILE.parent / "verlauf" / f"{pos['mint']}.csv"
+    try:
+        pfad.parent.mkdir(exist_ok=True)
+        neu = not pfad.exists()
+        with pfad.open("a", encoding="utf-8") as f:
+            if neu:
+                f.write("zeit,x,liq_usd\n")
+            f.write(f"{jetzt().strftime('%Y-%m-%dT%H:%M:%S')},{x:.5g},{liq:.0f}\n")
+        pos["verlauf_letzt"] = {"x": x, "t": t}
+    except OSError as e:
+        print(f"  ! Verlauf nicht geschrieben: {e!r}")
+
+
 def korrigiere_daten(state):
     """Setzt Positionen mit nachweislich falschen Preisdaten einmalig zurück auf 'offen'."""
     for pos in state["positionen"]:
@@ -336,7 +381,8 @@ def update_positionen(state):
     for p in state["positionen"]:
         b = stelle_b_sicher(p)
         c = stelle_c_sicher(p)
-        if p["status"] == "offen" or b["status"] == "offen" or c["status"] == "offen":
+        d = stelle_d_sicher(p)
+        if "offen" in (p["status"], b["status"], c["status"], d["status"]):
             offen.append(p)
     if not offen:
         return
@@ -344,6 +390,7 @@ def update_positionen(state):
     for pos in offen:
         b = pos["b"]
         c = pos["c"]
+        d = pos["d"]
         p = paare.get(pos["mint"])
         if not p or not p.get("priceUsd"):
             seit = pos.setdefault("fehlt_seit", jetzt().isoformat())
@@ -354,6 +401,8 @@ def update_positionen(state):
                     schliesse_b(pos, "tot", 0.0, "nicht mehr auffindbar")
                 if c["status"] == "offen":
                     schliesse_c(pos, "tot", c["erloes_teil"], "nicht mehr auffindbar")
+                if d["status"] == "offen":
+                    schliesse_d(pos, "tot", d["erloes_teil"], "nicht mehr auffindbar")
             continue
         pos.pop("fehlt_seit", None)
         pos.pop("fehlt", None)
@@ -366,6 +415,7 @@ def update_positionen(state):
         pos["letzter_x"] = round(x, 4)
         pos["hoechst_x"] = max(pos.get("hoechst_x", 1.0), x)
         pos["tiefst_x"] = min(pos.get("tiefst_x", 1.0), x)
+        notiere_verlauf(pos, x, liq)
 
         # ---- Regel A: alles bei 4x verkaufen
         if pos["status"] == "offen":
@@ -419,6 +469,30 @@ def update_positionen(state):
             elif x <= TOT_WERT_ANTEIL:
                 schliesse_c(pos, "tot", wert(pos, preis), f"{(x - 1) * 100:.0f}%")
 
+        # ---- Regel D: Stop bei 0.6x, Zeit-Stop 48 h, Einsatz bei 2x raus, Rest mit Trailing ab 5x
+        if d["status"] == "offen":
+            d["spitze_x"] = max(d.get("spitze_x", 1.0), x)
+            alter_h = (jetzt() - datetime.fromisoformat(pos["gekauft"])).total_seconds() / 3600
+            if not d["teil"] and x >= D_AUSLOESER_X:
+                voll = wert(pos, preis)
+                a = min(1.0, EINSATZ_CHF / voll)
+                d.update(teil=True, anteil_teil=round(a, 4), erloes_teil=round(voll * a, 4),
+                         teil_x=round(x, 3))
+                print(f"  ~ {pos['symbol']}: D holt Einsatz bei {x:.1f}x raus ({a * 100:.0f} % verkauft)")
+            if d["teil"]:
+                rest = wert(pos, preis, 1 - d["anteil_teil"])
+                if d["spitze_x"] >= D_TRAIL_AB_X and x <= d["spitze_x"] * D_TRAILING:
+                    schliesse_d(pos, "verkauft", d["erloes_teil"] + rest,
+                                f"Trailing-Stop (Spitze {d['spitze_x']:.1f}x, jetzt {x:.1f}x)")
+                elif liq < TOT_LIQ_USD or x <= TOT_WERT_ANTEIL:
+                    schliesse_d(pos, "tot", d["erloes_teil"] + rest, f"Rest tot ({x:.2f}x)")
+            elif liq < TOT_LIQ_USD:
+                schliesse_d(pos, "tot", wert(pos, preis), f"Liquidität {liq:.0f}$")
+            elif x <= D_STOP_X:
+                schliesse_d(pos, "verkauft", wert(pos, preis), f"Stop-Loss bei {x:.2f}x")
+            elif alter_h >= D_ZEIT_STOP_H and x < 1.0:
+                schliesse_d(pos, "verkauft", wert(pos, preis), f"Zeit-Stop nach {alter_h:.0f} h ({x:.2f}x)")
+
 
 def schliesse(pos, status, erloes, grund):
     pos["status"] = status
@@ -444,6 +518,15 @@ def schliesse_c(pos, status, erloes, grund):
     c["grund"] = grund
     c["geschlossen"] = jetzt().isoformat()
     print(f"  -> {pos['symbol']}: C {status} ({grund}), Erlös {fr(erloes)}")
+
+
+def schliesse_d(pos, status, erloes, grund):
+    d = pos["d"]
+    d["status"] = status
+    d["erloes"] = round(erloes, 4)
+    d["grund"] = grund
+    d["geschlossen"] = jetzt().isoformat()
+    print(f"  -> {pos['symbol']}: D {status} ({grund}), Erlös {fr(erloes)}")
 
 
 def notiere_schlagwort(state, mint, p, entscheid):
@@ -525,6 +608,8 @@ def scanne(state):
             "status": "offen",
             "b": {"status": "offen", "teil": False, "erloes_teil": 0.0},
             "c": {"status": "offen", "teil": False, "erloes_teil": 0.0, "anteil_teil": 0.0},
+            "d": {"status": "offen", "teil": False, "erloes_teil": 0.0, "anteil_teil": 0.0,
+                  "spitze_x": 1.0},
             "info": grund,
         })
         beob.pop(mint, None)
@@ -560,6 +645,35 @@ def pos_wert_c(p):
             return c["erloes_teil"] + wert(p, preis, 1 - c["anteil_teil"])
         return wert(p, preis)
     return c.get("erloes", 0.0)
+
+
+def pos_wert_d(p):
+    """Wert nach Regel D (Stop 0.6x, Zeit-Stop, Einsatz bei 2x raus, Trailing ab 5x)."""
+    d = stelle_d_sicher(p)
+    if d["status"] == "offen":
+        preis = p.get("letzter_preis", p["einstieg_preis"])
+        if d["teil"]:
+            return d["erloes_teil"] + wert(p, preis, 1 - d["anteil_teil"])
+        return wert(p, preis)
+    return d.get("erloes", 0.0)
+
+
+def mit_d(ps):
+    return [p for p in ps if stelle_d_sicher(p)["status"] != "nicht dabei"]
+
+
+def d_vergleich(ps):
+    """Fairer Vergleich: alle vier Regeln nur auf den Coins, bei denen D dabei ist."""
+    dp = mit_d(ps)
+    if not dp:
+        return [f"- Regel D (Stop 0.6x, Zeit-Stop {D_ZEIT_STOP_H} h, Einsatz bei 2x raus, Trailing ab "
+                f"{D_TRAIL_AB_X:.0f}x): noch keine Coins (läuft für Käufe ab {D_START[:10]})"]
+    e = len(dp) * EINSATZ_CHF
+    z = [f"- Vergleich auf den **{len(dp)} Coins seit Start von Regel D** (Einsatz {fr(e)}):"]
+    for name, fn in (("A", pos_wert), ("B", pos_wert_b), ("C", pos_wert_c), ("D", pos_wert_d)):
+        _, _, g = ergebnis(dp, fn)
+        z.append(f"  - {name}: **{vz(g)}** ({prozent(g, e)})")
+    return z
 
 
 def pos_wert_ziel(p, ziel_x):
@@ -609,12 +723,14 @@ def bilanz_text(state, monat):
          f"- Regel A (alles bei 4x): **{vz(g)}** ({prozent(g, e)}) – "
          f"{len(verkauft)} verkauft, {len(tot)} tot, {len(offen)} offen",
          f"- Regel B (Hälfte bei 4x, Rest läuft): **{vz(gb)}** ({prozent(gb, e)})",
-         f"- Regel C (Einsatz bei 2x raus, Rest ohne Stop): **{vz(gc)}** ({prozent(gc, e)})", "",
+         f"- Regel C (Einsatz bei 2x raus, Rest ohne Stop): **{vz(gc)}** ({prozent(gc, e)})",
+         *d_vergleich(mon), "",
          "## Gesamt seit Start",
          f"- {len(alle)} Coins, Einsatz {fr(ge)}",
          f"- Regel A: **{vz(gg)}** ({prozent(gg, ge)})",
          f"- Regel B: **{vz(ggb)}** ({prozent(ggb, ge)})",
-         f"- Regel C: **{vz(ggc)}** ({prozent(ggc, ge)})", ""]
+         f"- Regel C: **{vz(ggc)}** ({prozent(ggc, ge)})",
+         *d_vergleich(alle), ""]
 
     if mon:
         sortiert = sorted(mon, key=pos_wert, reverse=True)
@@ -633,6 +749,7 @@ def auswertung_text(state):
     for p in alle:
         stelle_b_sicher(p)
         stelle_c_sicher(p)
+        stelle_d_sicher(p)
     n = len(alle)
     z = ["# Coin-Scanner – Auswertung", "",
          f"_Stand: {jetzt().strftime('%Y-%m-%d %H:%M')} UTC. Paper Trading, kein echtes Geld, "
@@ -659,6 +776,18 @@ def auswertung_text(state):
           f"| B: Hälfte bei 4x, Rest läuft | {fr(wb)} | **{vz(gb)}** | {prozent(gb, e)} |",
           f"| C: Einsatz bei 2x raus, Rest ohne Stop | {fr(wc)} | **{vz(gc)}** | {prozent(gc, e)} |", ""]
     rw = sum(1 for p in alle if p["c"].get("rueckwirkend"))
+    z += ["### Regel D: Verluste begrenzen, Gewinner laufen lassen", "",
+          f"_Stop bei {D_STOP_X}x, nach {D_ZEIT_STOP_H} h raus wenn unter Einstieg, bei {D_AUSLOESER_X:.0f}x "
+          f"Einsatz zurück, Rest ohne Deckel, Trailing-Stop {D_TRAILING * 100:.0f} % ab {D_TRAIL_AB_X:.0f}x. "
+          "Nur für Coins ab Start von D, deshalb hier der Vergleich auf denselben Coins._", "",
+          *d_vergleich(alle), ""]
+    dg = [p for p in mit_d(alle) if p["d"]["status"] != "offen"]
+    if dg:
+        gruende = {}
+        for p in dg:
+            k = "tot" if p["d"]["status"] == "tot" else p["d"].get("grund", "").split(" ")[0]
+            gruende[k] = gruende.get(k, 0) + 1
+        z += ["D abgeschlossen: " + ", ".join(f"{k} {v}x" for k, v in sorted(gruende.items())), ""]
     if rw:
         z += [f"_Regel C gibt es seit 7.11.2026. Bei {rw} älteren Coins ist C rückwirkend aus dem "
               "Höchststand geschätzt (Einsatz genau bei 2x raus, Rest bei 20x oder tot)._", ""]
