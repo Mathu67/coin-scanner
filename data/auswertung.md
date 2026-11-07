@@ -1,6 +1,6 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-07 22:53 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-07 23:03 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
@@ -10,19 +10,19 @@ _Stand: 2026-11-07 22:53 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % K
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 436.67 Fr. | **-223.33 Fr.** | -34 % |
-| B: Hälfte bei 4x, Rest läuft | 507.88 Fr. | **-152.12 Fr.** | -23 % |
-| C: Einsatz bei 2x raus, Rest ohne Stop | 519.57 Fr. | **-140.43 Fr.** | -21 % |
+| A: alles bei 4x | 436.02 Fr. | **-223.98 Fr.** | -34 % |
+| B: Hälfte bei 4x, Rest läuft | 507.23 Fr. | **-152.77 Fr.** | -23 % |
+| C: Einsatz bei 2x raus, Rest ohne Stop | 521.67 Fr. | **-138.33 Fr.** | -21 % |
 
 ### Regel D: Verluste begrenzen, Gewinner laufen lassen
 
 _Stop bei 0.6x, nach 48 h raus wenn unter Einstieg, bei 2x Einsatz zurück, Rest ohne Deckel, Trailing-Stop 50 % ab 5x. Nur für Coins ab Start von D, deshalb hier der Vergleich auf denselben Coins._
 
 - Vergleich auf den **16 Coins seit Start von Regel D** (Einsatz 160.00 Fr.):
-  - A: **+0.04 Fr.** (+0 %)
-  - B: **+1.59 Fr.** (+1 %)
-  - C: **-10.76 Fr.** (-7 %)
-  - D: **-40.43 Fr.** (-25 %)
+  - A: **+0.81 Fr.** (+1 %)
+  - B: **+2.36 Fr.** (+1 %)
+  - C: **-7.88 Fr.** (-5 %)
+  - D: **-39.64 Fr.** (-25 %)
 
 D abgeschlossen: Stop-Loss 9x
 
@@ -45,22 +45,22 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -211.22 Fr. | -32 % |
-| alles bei 3x | -236.26 Fr. | -36 % |
-| alles bei 4x | -232.08 Fr. | -35 % |
-| alles bei 5x | -204.43 Fr. | -31 % |
-| alles bei 10x | -110.03 Fr. | -17 % |
-| alles bei 20x | -77.31 Fr. | -12 % |
+| alles bei 2x | -213.75 Fr. | -32 % |
+| alles bei 3x | -237.95 Fr. | -36 % |
+| alles bei 4x | -232.73 Fr. | -35 % |
+| alles bei 5x | -205.08 Fr. | -31 % |
+| alles bei 10x | -109.15 Fr. | -17 % |
+| alles bei 20x | -72.11 Fr. | -11 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Wert C | Max. erreicht |
 |---|---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 94.32 Fr. | 20.5x |
-| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: verkauft | 40.63 Fr. | 32.69 Fr. | 10.6x |
-| [WEALTH](https://dexscreener.com/solana/5n8v68fcantrqvaxzrmbryde5jflrgm65pffsmia6nro) | A: verkauft, B: verkauft | 33.55 Fr. | 32.11 Fr. | 9.9x |
-| [0DAY](https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa) | A: offen, B: offen | 29.28 Fr. | 24.55 Fr. | 3.2x |
-| [PI](https://dexscreener.com/solana/chvbggycqqv1wtlgdh9mux8kgdgbaipvzkqyfqpbwtvf) | A: offen, B: offen | 19.45 Fr. | 19.75 Fr. | 2.8x |
+| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: verkauft | 40.63 Fr. | 35.69 Fr. | 10.6x |
+| [WEALTH](https://dexscreener.com/solana/5n8v68fcantrqvaxzrmbryde5jflrgm65pffsmia6nro) | A: verkauft, B: verkauft | 33.55 Fr. | 32.81 Fr. | 9.9x |
+| [0DAY](https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa) | A: offen, B: offen | 30.42 Fr. | 25.12 Fr. | 3.4x |
+| [PI](https://dexscreener.com/solana/chvbggycqqv1wtlgdh9mux8kgdgbaipvzkqyfqpbwtvf) | A: offen, B: offen | 20.07 Fr. | 20.06 Fr. | 2.8x |
 | [AI](https://dexscreener.com/solana/j7zf2zipjlfctwtqxstq1ulaarxn3ljxhpiipkavexpp) | A: tot, B: tot | 0.03 Fr. | 0.03 Fr. | 1.0x |
 | [AMD](https://dexscreener.com/solana/e9wpfxjqvwvdjkculu2xs742t6ehbn2cnzv2ps24fz14) | A: tot, B: tot | 0.02 Fr. | 0.02 Fr. | 1.2x |
 | [AMD](https://dexscreener.com/solana/6zv8dyrdxh56au2ebhpzzbmkprp5ixbkprj7hb2pj3rr) | A: tot, B: tot | 0.01 Fr. | 0.01 Fr. | 1.1x |
@@ -76,8 +76,9 @@ Grenzen der Simulation: Bei einem echten Rugpull zwischen zwei Kurs-Checks würd
 
 | Coin | Letzte Entscheidung | Liquidität | MCap | zuerst gesehen |
 |---|---|---|---|---|
-| [GTA6](https://dexscreener.com/solana/5afbwvsqpjf4cgejq4tajzyypyuvyktrrn3sahnrpnmv) GTA VI | Markt-Filter: zu alt | 115'031 $ | 12'448'931 $ | 2026-11-07 |
-| [GTA6COP](https://dexscreener.com/solana/9sebidesbustw8xbbaczb6ab2ty72p6xp51mftpuwhp6) GTA6 Mendez | Markt-Filter: zu jung | 16'276 $ | 48'494 $ | 2026-11-07 |
+| [GTA6](https://dexscreener.com/solana/9tyhyxseygouvuj66vcjkr4bppi65h2muamuveuyy9wm) GTA VI | Markt-Filter: zu jung | 57'732 $ | 71'274 $ | 2026-11-07 |
+| [GTA6](https://dexscreener.com/solana/5afbwvsqpjf4cgejq4tajzyypyuvyktrrn3sahnrpnmv) GTA VI | Markt-Filter: zu alt | 114'679 $ | 12'623'656 $ | 2026-11-07 |
+| [GTA6COP](https://dexscreener.com/solana/9sebidesbustw8xbbaczb6ab2ty72p6xp51mftpuwhp6) GTA6 Mendez | Markt-Filter: zu jung | 16'176 $ | 47'921 $ | 2026-11-07 |
 | [CLAUDEPAID](https://dexscreener.com/solana/7tx6tl3e14nvhqgk4mfp3wdebmwp3rezsqgflxmrunuy) ClaudePaid | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-07 |
 | [$GTA6](https://dexscreener.com/solana/fytgbkzjhhcsymys7zbfu5ibxkrmwv8frvswvtdmoekz) GTA6 | Markt-Filter: zu jung | 0 $ | 242 $ | 2026-11-07 |
 | [ANTS](https://dexscreener.com/solana/8qnemh37lbcbq2ljaw3tl6fffykbzsqm3ctblhb9krdq) Anthropic | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-07 |
@@ -115,4 +116,3 @@ Grenzen der Simulation: Bei einem echten Rugpull zwischen zwei Kurs-Checks würd
 | [GTA](https://dexscreener.com/solana/6qd5k4vkgpsgsm9x1dqxjtby5ng6zcdkisnvfpfgyps4) Grab That Ass | Markt-Filter: Liquidität 0$ | 0 $ | 482'299 $ | 2026-11-06 |
 | [GTA6](https://dexscreener.com/solana/fbtjdtkp5xawwhc35ayxhmgh4apyjv2jfrr3cmufztf9) GTA 6 Coin | Markt-Filter: Liquidität 0$ | 0 $ | 2'705 $ | 2026-11-06 |
 | [GTA 6 Coin](https://dexscreener.com/solana/faxavxgap2rkfdbyhy4x2kv9wnlhhpwaud2hgmkfi239) GTA6 | Markt-Filter: kein USD-Preis | 0 $ | 0 $ | 2026-11-06 |
-| [GTA 6 Coin](https://dexscreener.com/solana/caci57bhzxvf9mjzv9f4bgay22ukramr5jvvt7cxbn4q) GTA6 | Markt-Filter: Liquidität 1642$ | 1'642 $ | 1'602 $ | 2026-11-06 |
