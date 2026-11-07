@@ -790,7 +790,7 @@ def checkpoint(state):
         return
     schreibe_auswertung(state)
     befehl = ("git add data && (git diff --cached --quiet || git commit -qm 'Scanner-Zwischenstand') "
-              "&& git pull -q --rebase origin main && git push -q")
+              "&& (git pull -q --rebase -X theirs origin main || (git rebase --abort; false)) && git push -q")
     try:
         subprocess.run(befehl, shell=True, check=True, timeout=120, cwd=Path(__file__).parent)
         print("  (Zwischenstand gesichert)")
@@ -821,6 +821,15 @@ def main():
         # Dauerlauf: so viele Minuten lang laufen lassen (0 = nur ein Durchgang)
         dauer_s = float(os.getenv("SCAN_DAUER_MIN", "0") or 0) * 60
         start = time.time()
+        if os.getenv("GITHUB_EVENT_NAME") == "schedule":
+            # Spätestens um hh:03 UTC aufhören, auch wenn GitHub den Lauf verspätet gestartet hat.
+            # So überlappt er nie mit dem nächsten Lauf (Start hh:07) -> keine wartenden/abgebrochenen Läufe.
+            n = jetzt()
+            bis = n.replace(minute=3, second=0, microsecond=0)
+            if bis <= n:
+                bis = datetime.fromtimestamp(bis.timestamp() + 3600, timezone.utc)
+            dauer_s = min(dauer_s, max(60.0, (bis - n).total_seconds()))
+            print(f"Dauerlauf bis {bis:%H:%M} UTC ({dauer_s / 60:.0f} Min.)")
         letzter_scan = 0.0
         letzter_check = time.time()
         while True:
