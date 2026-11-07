@@ -8,7 +8,7 @@
    "gekauft": "2026-11-03T09:33:47.530088+00:00",
    "einstieg_preis": 0.0001235,
    "einstieg_mcap": 121798,
-   "letzter_preis": 1.249e-05,
+   "letzter_preis": 1.331e-05,
    "hoechst_x": 1.3125506072874495,
    "status": "offen",
    "info": "Top10 25%, LP 100% gesperrt",
@@ -17,7 +17,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.1011,
+   "letzter_x": 0.1078,
    "tiefst_x": 0.09635627530364373,
    "c": {
     "status": "offen",
@@ -30,8 +30,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.10161943319838057,
-    "t": 1794092024.5836236
+    "x": 0.10777327935222672,
+    "t": 1794095563.6074588
    }
   },
   {
@@ -42,7 +42,7 @@
    "gekauft": "2026-11-03T09:33:49.013352+00:00",
    "einstieg_preis": 0.001056,
    "einstieg_mcap": 1056606,
-   "letzter_preis": 0.0004934,
+   "letzter_preis": 0.0004242,
    "hoechst_x": 2.4374999999999996,
    "status": "offen",
    "info": "Top10 12%, LP 100% gesperrt",
@@ -51,7 +51,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.4672,
+   "letzter_x": 0.4017,
    "tiefst_x": 0.37206439393939394,
    "c": {
     "status": "offen",
@@ -65,8 +65,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.4743371212121212,
-    "t": 1794092309.7162461
+    "x": 0.4017045454545454,
+    "t": 1794095563.6077049
    }
   },
   {
@@ -77,7 +77,7 @@
    "gekauft": "2026-11-03T09:34:10.302784+00:00",
    "einstieg_preis": 0.0007009,
    "einstieg_mcap": 700938,
-   "letzter_preis": 0.0002189,
+   "letzter_preis": 0.0002111,
    "hoechst_x": 1.0709088315023543,
    "status": "offen",
    "info": "Top10 20%, LP 100% gesperrt",
@@ -86,7 +86,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.3123,
+   "letzter_x": 0.3012,
    "tiefst_x": 0.279640462262805,
    "c": {
     "status": "offen",
@@ -99,8 +99,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.3123127407618776,
-    "t": 1794092489.710385
+    "x": 0.312740761877586,
+    "t": 1794095443.6222305
    }
   },
   {
@@ -225,10 +225,10 @@
    "gekauft": "2026-11-03T18:16:00.023765+00:00",
    "einstieg_preis": 0.000115,
    "einstieg_mcap": 111080,
-   "letzter_preis": 4.091e-05,
+   "letzter_preis": 4.153e-05,
    "hoechst_x": 1.0869565217391304,
    "tiefst_x": 0.16721739130434782,
-   "letzter_x": 0.3557,
+   "letzter_x": 0.3611,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -247,8 +247,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.3411304347826087,
-    "t": 1794091679.6424816
+    "x": 0.36113043478260864,
+    "t": 1794095563.607788
    }
   },
   {
@@ -336,10 +336,10 @@
    "gekauft": "2026-11-03T22:35:11.623256+00:00",
    "einstieg_preis": 0.0003238,
    "einstieg_mcap": 323865,
-   "letzter_preis": 0.0001589,
+   "letzter_preis": 0.0001378,
    "hoechst_x": 1.865348980852378,
    "tiefst_x": 0.31593576281655344,
-   "letzter_x": 0.4907,
+   "letzter_x": 0.4256,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -358,8 +358,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.4907350216182829,
-    "t": 1794092489.710678
+    "x": 0.42557134033353916,
+    "t": 1794095563.6078494
    }
   },
   {
@@ -487,10 +487,10 @@
    "gekauft": "2026-11-04T02:04:36.056791+00:00",
    "einstieg_preis": 0.0001308,
    "einstieg_mcap": 128477,
-   "letzter_preis": 7.187e-06,
+   "letzter_preis": 7.213e-06,
    "hoechst_x": 1.8103975535168195,
    "tiefst_x": 0.052064220183486234,
-   "letzter_x": 0.0549,
+   "letzter_x": 0.0551,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -509,8 +509,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.05497706422018348,
-    "t": 1794092024.5839481
+    "x": 0.05514525993883792,
+    "t": 1794095563.6079044
    }
   },
   {
@@ -521,10 +521,10 @@
    "gekauft": "2026-11-04T02:34:37.068814+00:00",
    "einstieg_preis": 0.0001036,
    "einstieg_mcap": 101060,
-   "letzter_preis": 0.0001659,
+   "letzter_preis": 0.0001801,
    "hoechst_x": 3.7055984555984556,
    "tiefst_x": 0.9012548262548262,
-   "letzter_x": 1.6014,
+   "letzter_x": 1.7384,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -544,8 +544,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.6505791505791507,
-    "t": 1794092024.5840514
+    "x": 1.7384169884169884,
+    "t": 1794095563.607956
    }
   },
   {
@@ -556,10 +556,10 @@
    "gekauft": "2026-11-04T02:34:38.573243+00:00",
    "einstieg_preis": 0.0001273,
    "einstieg_mcap": 127393,
-   "letzter_preis": 5.61e-05,
+   "letzter_preis": 5.873e-05,
    "hoechst_x": 1.704634721131186,
    "tiefst_x": 0.3694422623723488,
-   "letzter_x": 0.4407,
+   "letzter_x": 0.4614,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -578,8 +578,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.44069128043990574,
-    "t": 1794092489.7107513
+    "x": 0.4403770620581304,
+    "t": 1794094768.8395998
    }
   },
   {
@@ -590,10 +590,10 @@
    "gekauft": "2026-11-04T03:53:34.324384+00:00",
    "einstieg_preis": 0.0001778,
    "einstieg_mcap": 175479,
-   "letzter_preis": 0.0001714,
+   "letzter_preis": 0.00017,
    "hoechst_x": 1.3470191226096737,
    "tiefst_x": 0.9465691788526434,
-   "letzter_x": 0.964,
+   "letzter_x": 0.9561,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -612,8 +612,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.9640044994375702,
-    "t": 1794092024.5841155
+    "x": 0.9561304836895388,
+    "t": 1794095563.608011
    }
   },
   {
@@ -624,10 +624,10 @@
    "gekauft": "2026-11-04T03:53:35.700930+00:00",
    "einstieg_preis": 0.001415,
    "einstieg_mcap": 1360688,
-   "letzter_preis": 0.0002617,
+   "letzter_preis": 0.000295,
    "hoechst_x": 1.439575971731449,
    "tiefst_x": 0.17696113074204947,
-   "letzter_x": 0.1849,
+   "letzter_x": 0.2085,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -646,8 +646,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.1862897526501767,
-    "t": 1794092024.5841599
+    "x": 0.2046643109540636,
+    "t": 1794094828.8340864
    }
   },
   {
@@ -773,10 +773,10 @@
    "gekauft": "2026-11-05T00:04:46.872324+00:00",
    "einstieg_preis": 0.0001506,
    "einstieg_mcap": 150648,
-   "letzter_preis": 5.209e-05,
+   "letzter_preis": 6.286e-05,
    "hoechst_x": 1.850597609561753,
    "tiefst_x": 0.2241035856573705,
-   "letzter_x": 0.3459,
+   "letzter_x": 0.4174,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -795,8 +795,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.34588313413014604,
-    "t": 1794092489.710803
+    "x": 0.400863213811421,
+    "t": 1794095443.6225283
    }
   },
   {
@@ -807,10 +807,10 @@
    "gekauft": "2026-11-05T00:04:48.303688+00:00",
    "einstieg_preis": 0.006539,
    "einstieg_mcap": 6446340,
-   "letzter_preis": 0.006658,
+   "letzter_preis": 0.00685,
    "hoechst_x": 1.3093745220981803,
    "tiefst_x": 0.6557577611255544,
-   "letzter_x": 1.0182,
+   "letzter_x": 1.0476,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -829,8 +829,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.047866646276189,
-    "t": 1794092024.5842068
+    "x": 1.047560789111485,
+    "t": 1794095563.6080709
    }
   },
   {
@@ -841,10 +841,10 @@
    "gekauft": "2026-11-05T00:04:49.769727+00:00",
    "einstieg_preis": 0.0001897,
    "einstieg_mcap": 189501,
-   "letzter_preis": 0.0002273,
+   "letzter_preis": 0.0002371,
    "hoechst_x": 1.9905113336847655,
    "tiefst_x": 0.8856088560885608,
-   "letzter_x": 1.1982,
+   "letzter_x": 1.2499,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -863,8 +863,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.1982076963626778,
-    "t": 1794092024.5842478
+    "x": 1.2498682129678438,
+    "t": 1794095563.6081212
    }
   },
   {
@@ -913,10 +913,10 @@
    "gekauft": "2026-11-05T00:04:52.627901+00:00",
    "einstieg_preis": 0.0009593,
    "einstieg_mcap": 951877,
-   "letzter_preis": 0.0006945,
+   "letzter_preis": 0.0007087,
    "hoechst_x": 1.5198582299593455,
    "tiefst_x": 0.606483894506411,
-   "letzter_x": 0.724,
+   "letzter_x": 0.7388,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -935,8 +935,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.7261544876472429,
-    "t": 1794092024.584287
+    "x": 0.7387678515584281,
+    "t": 1794095563.6081707
    }
   },
   {
@@ -947,10 +947,10 @@
    "gekauft": "2026-11-05T00:04:55.500139+00:00",
    "einstieg_preis": 0.0001783,
    "einstieg_mcap": 178353,
-   "letzter_preis": 3.878e-05,
+   "letzter_preis": 3.368e-05,
    "hoechst_x": 2.022994952327538,
-   "tiefst_x": 0.21245092540661809,
-   "letzter_x": 0.2175,
+   "tiefst_x": 0.1873247335950645,
+   "letzter_x": 0.1889,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -970,8 +970,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.22714526079641056,
-    "t": 1794092024.5843232
+    "x": 0.1888951205832866,
+    "t": 1794095563.608219
    }
   },
   {
@@ -1063,10 +1063,10 @@
    "gekauft": "2026-11-05T00:14:58.244442+00:00",
    "einstieg_preis": 0.0001131,
    "einstieg_mcap": 109242,
-   "letzter_preis": 3.316e-05,
+   "letzter_preis": 2.231e-05,
    "hoechst_x": 1.5552608311229001,
    "tiefst_x": 0.13572060123784263,
-   "letzter_x": 0.2932,
+   "letzter_x": 0.1973,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1085,8 +1085,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.2992926613616269,
-    "t": 1794092024.584361
+    "x": 0.19168877099911583,
+    "t": 1794095443.6226187
    }
   },
   {
@@ -1097,10 +1097,10 @@
    "gekauft": "2026-11-06T00:02:00.404227+00:00",
    "einstieg_preis": 0.0001151,
    "einstieg_mcap": 111252,
-   "letzter_preis": 0.0001746,
+   "letzter_preis": 0.0001653,
    "hoechst_x": 1.6602953953084274,
    "tiefst_x": 0.6440486533449175,
-   "letzter_x": 1.5169,
+   "letzter_x": 1.4361,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1119,8 +1119,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.466550825369244,
-    "t": 1794091904.5714378
+    "x": 1.4743701129452649,
+    "t": 1794095443.6226788
    }
   },
   {
@@ -1131,10 +1131,10 @@
    "gekauft": "2026-11-06T00:02:01.765166+00:00",
    "einstieg_preis": 0.0001321,
    "einstieg_mcap": 130583,
-   "letzter_preis": 2.375e-05,
+   "letzter_preis": 2.425e-05,
    "hoechst_x": 1.3096139288417865,
    "tiefst_x": 0.17978803936411808,
-   "letzter_x": 0.1798,
+   "letzter_x": 0.1836,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1153,8 +1153,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.18213474640423918,
-    "t": 1794092024.5844028
+    "x": 0.18357305071915214,
+    "t": 1794095563.6082747
    }
   },
   {
@@ -1165,10 +1165,10 @@
    "gekauft": "2026-11-06T00:02:04.408610+00:00",
    "einstieg_preis": 0.0001938,
    "einstieg_mcap": 190721,
-   "letzter_preis": 0.0002148,
+   "letzter_preis": 0.0002062,
    "hoechst_x": 1.9122807017543861,
    "tiefst_x": 0.3746646026831785,
-   "letzter_x": 1.1084,
+   "letzter_x": 1.064,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1187,8 +1187,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.1176470588235294,
-    "t": 1794091904.5715034
+    "x": 1.0639834881320949,
+    "t": 1794095563.6083233
    }
   },
   {
@@ -1199,10 +1199,10 @@
    "gekauft": "2026-11-06T00:02:06.546607+00:00",
    "einstieg_preis": 0.0002906,
    "einstieg_mcap": 280483,
-   "letzter_preis": 0.0002382,
+   "letzter_preis": 0.0002441,
    "hoechst_x": 1.0973847212663455,
    "tiefst_x": 0.8107364074328974,
-   "letzter_x": 0.8197,
+   "letzter_x": 0.84,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1221,8 +1221,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.8434273916035787,
-    "t": 1794092024.5844414
+    "x": 0.8341362697866483,
+    "t": 1794095195.9739854
    }
   },
   {
@@ -1233,10 +1233,10 @@
    "gekauft": "2026-11-06T00:02:09.202215+00:00",
    "einstieg_preis": 0.0001783,
    "einstieg_mcap": 178342,
-   "letzter_preis": 0.0002968,
+   "letzter_preis": 0.000288,
    "hoechst_x": 3.8984856982613576,
    "tiefst_x": 0.709478407178912,
-   "letzter_x": 1.6646,
+   "letzter_x": 1.6153,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1256,8 +1256,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.6079641054402691,
-    "t": 1794091904.5715528
+    "x": 1.6472237801458216,
+    "t": 1794095135.9863951
    }
   },
   {
@@ -1306,10 +1306,10 @@
    "gekauft": "2026-11-06T00:02:11.898425+00:00",
    "einstieg_preis": 0.000154,
    "einstieg_mcap": 154036,
-   "letzter_preis": 0.0001169,
+   "letzter_preis": 0.0001085,
    "hoechst_x": 1.0675324675324676,
    "tiefst_x": 0.5875974025974026,
-   "letzter_x": 0.7591,
+   "letzter_x": 0.7045,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1328,8 +1328,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.7558441558441558,
-    "t": 1794092024.5844812
+    "x": 0.7045454545454545,
+    "t": 1794095563.6084075
    }
   },
   {
@@ -1340,10 +1340,10 @@
    "gekauft": "2026-11-06T00:02:13.215135+00:00",
    "einstieg_preis": 0.0002292,
    "einstieg_mcap": 224190,
-   "letzter_preis": 0.0001069,
+   "letzter_preis": 9.324e-05,
    "hoechst_x": 1.6889179755671901,
-   "tiefst_x": 0.4572425828970332,
-   "letzter_x": 0.4664,
+   "tiefst_x": 0.406195462478185,
+   "letzter_x": 0.4068,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1362,8 +1362,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.462478184991274,
-    "t": 1794092369.7061982
+    "x": 0.406195462478185,
+    "t": 1794095256.0293899
    }
   },
   {
@@ -1412,10 +1412,10 @@
    "gekauft": "2026-11-06T00:02:17.225923+00:00",
    "einstieg_preis": 0.0001228,
    "einstieg_mcap": 121971,
-   "letzter_preis": 0.0006643,
+   "letzter_preis": 0.0005434,
    "hoechst_x": 9.86156351791531,
    "tiefst_x": 0.5429967426710098,
-   "letzter_x": 5.4096,
+   "letzter_x": 4.4251,
    "status": "verkauft",
    "b": {
     "status": "verkauft",
@@ -1443,8 +1443,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 5.447068403908795,
-    "t": 1794092084.5773187
+    "x": 4.425081433224755,
+    "t": 1794095563.6084628
    }
   },
   {
@@ -1455,10 +1455,10 @@
    "gekauft": "2026-11-07T00:04:38.236723+00:00",
    "einstieg_preis": 0.000868,
    "einstieg_mcap": 846292,
-   "letzter_preis": 0.0005878,
+   "letzter_preis": 0.0005888,
    "hoechst_x": 1.1240783410138249,
    "tiefst_x": 0.6504608294930876,
-   "letzter_x": 0.6772,
+   "letzter_x": 0.6783,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1478,8 +1478,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.7014976958525346,
-    "t": 1794091904.5716083
+    "x": 0.6882488479262673,
+    "t": 1794094888.8547468
    }
   },
   {
@@ -1490,10 +1490,10 @@
    "gekauft": "2026-11-07T00:04:40.233745+00:00",
    "einstieg_preis": 0.001471,
    "einstieg_mcap": 1439653,
-   "letzter_preis": 0.0007339,
+   "letzter_preis": 0.0007749,
    "hoechst_x": 1.0842963970088375,
    "tiefst_x": 0.3074779061862678,
-   "letzter_x": 0.4989,
+   "letzter_x": 0.5268,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1512,8 +1512,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.5006118286879674,
-    "t": 1794092024.5845668
+    "x": 0.5267845003399048,
+    "t": 1794095563.6085155
    }
   },
   {
@@ -1524,10 +1524,10 @@
    "gekauft": "2026-11-07T00:04:43.003115+00:00",
    "einstieg_preis": 0.008138,
    "einstieg_mcap": 8102103,
-   "letzter_preis": 0.003746,
+   "letzter_preis": 0.004394,
    "hoechst_x": 2.617350700417793,
    "tiefst_x": 0.4278692553452937,
-   "letzter_x": 0.4603,
+   "letzter_x": 0.5399,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1547,8 +1547,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.452691078889162,
-    "t": 1794092309.7166133
+    "x": 0.5399361022364219,
+    "t": 1794095563.6085641
    }
   },
   {
@@ -1559,10 +1559,10 @@
    "gekauft": "2026-11-07T00:04:44.392345+00:00",
    "einstieg_preis": 0.0001865,
    "einstieg_mcap": 180695,
-   "letzter_preis": 0.0002377,
+   "letzter_preis": 0.0001985,
    "hoechst_x": 1.7431635388739946,
    "tiefst_x": 0.7351206434316353,
-   "letzter_x": 1.2745,
+   "letzter_x": 1.0643,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1581,8 +1581,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.2745308310991956,
-    "t": 1794092429.709391
+    "x": 1.064343163538874,
+    "t": 1794095563.6086147
    }
   },
   {
@@ -1593,10 +1593,10 @@
    "gekauft": "2026-11-07T00:04:45.746314+00:00",
    "einstieg_preis": 0.0005912,
    "einstieg_mcap": 573589,
-   "letzter_preis": 0.000101,
+   "letzter_preis": 9.021e-05,
    "hoechst_x": 1.1608592692828148,
-   "tiefst_x": 0.1556156968876861,
-   "letzter_x": 0.1708,
+   "tiefst_x": 0.14658322056833561,
+   "letzter_x": 0.1526,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1615,8 +1615,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.1708389715832206,
-    "t": 1794092489.710906
+    "x": 0.14673545331529095,
+    "t": 1794095195.974088
    }
   },
   {
@@ -1670,10 +1670,10 @@
    "gekauft": "2026-11-07T00:04:51.841234+00:00",
    "einstieg_preis": 0.0007674,
    "einstieg_mcap": 756304,
-   "letzter_preis": 0.00116,
+   "letzter_preis": 0.001135,
    "hoechst_x": 1.5741464685952569,
    "tiefst_x": 0.955824863174355,
-   "letzter_x": 1.5116,
+   "letzter_x": 1.479,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1692,8 +1692,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 1.522022413343758,
-    "t": 1794091679.64308
+    "x": 1.4790200677612717,
+    "t": 1794095563.6086683
    }
   },
   {
@@ -1785,10 +1785,10 @@
    "gekauft": "2026-11-07T00:04:56.021777+00:00",
    "einstieg_preis": 0.0005846,
    "einstieg_mcap": 576641,
-   "letzter_preis": 0.0004761,
+   "letzter_preis": 0.0005308,
    "hoechst_x": 1.8046527540198425,
    "tiefst_x": 0.4503934314060896,
-   "letzter_x": 0.8144,
+   "letzter_x": 0.908,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1807,8 +1807,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.7955867259664727,
-    "t": 1794092024.5846555
+    "x": 0.9134450906602805,
+    "t": 1794095503.5442798
    }
   },
   {
@@ -1819,10 +1819,10 @@
    "gekauft": "2026-11-07T10:51:18.704366+00:00",
    "einstieg_preis": 0.000107,
    "einstieg_mcap": 107026,
-   "letzter_preis": 2.463e-05,
+   "letzter_preis": 2.405e-05,
    "hoechst_x": 1.014018691588785,
-   "tiefst_x": 0.23018691588785048,
-   "letzter_x": 0.2302,
+   "tiefst_x": 0.22121495327102803,
+   "letzter_x": 0.2248,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1847,8 +1847,8 @@
    },
    "info": "Top10 22%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.23018691588785048,
-    "t": 1794092249.693199
+    "x": 0.2247663551401869,
+    "t": 1794095563.60872
    }
   },
   {
@@ -1859,10 +1859,10 @@
    "gekauft": "2026-11-07T10:51:20.055951+00:00",
    "einstieg_preis": 0.0002066,
    "einstieg_mcap": 204350,
-   "letzter_preis": 0.0006819,
+   "letzter_preis": 0.0006119,
    "hoechst_x": 3.3635043562439497,
    "tiefst_x": 0.9825750242013552,
-   "letzter_x": 3.3006,
+   "letzter_x": 2.9618,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1886,8 +1886,8 @@
    },
    "info": "Top10 3%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 3.3635043562439497,
-    "t": 1794092309.7166967
+    "x": 2.961761858664085,
+    "t": 1794095563.6087677
    }
   },
   {
@@ -1898,10 +1898,10 @@
    "gekauft": "2026-11-07T10:51:21.326486+00:00",
    "einstieg_preis": 0.0002859,
    "einstieg_mcap": 285941,
-   "letzter_preis": 0.0001673,
+   "letzter_preis": 0.0001195,
    "hoechst_x": 1.8530954879328434,
-   "tiefst_x": 0.5711787338230151,
-   "letzter_x": 0.5852,
+   "tiefst_x": 0.4176285414480588,
+   "letzter_x": 0.418,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1926,8 +1926,8 @@
    },
    "info": "Top10 20%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.5711787338230151,
-    "t": 1794092369.7065942
+    "x": 0.4176285414480588,
+    "t": 1794094948.9278388
    }
   },
   {
@@ -1938,10 +1938,10 @@
    "gekauft": "2026-11-07T10:51:22.645539+00:00",
    "einstieg_preis": 0.0002626,
    "einstieg_mcap": 253939,
-   "letzter_preis": 0.0002597,
+   "letzter_preis": 0.0002241,
    "hoechst_x": 1.1862147753236862,
    "tiefst_x": 0.8214013709063215,
-   "letzter_x": 0.989,
+   "letzter_x": 0.8534,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1963,8 +1963,8 @@
    },
    "info": "Top10 13%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.9889565879664891,
-    "t": 1794092084.577648
+    "x": 0.8533891850723534,
+    "t": 1794095383.5439408
    }
   },
   {
@@ -1975,10 +1975,10 @@
    "gekauft": "2026-11-07T10:51:23.915680+00:00",
    "einstieg_preis": 0.0002685,
    "einstieg_mcap": 268518,
-   "letzter_preis": 0.0005846,
+   "letzter_preis": 0.0004603,
    "hoechst_x": 2.808193668528864,
    "tiefst_x": 0.5013035381750465,
-   "letzter_x": 2.1773,
+   "letzter_x": 1.7143,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2004,8 +2004,8 @@
    },
    "info": "Top10 20%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 2.161266294227188,
-    "t": 1794091619.6300924
+    "x": 1.7143389199255121,
+    "t": 1794095503.5444016
    }
   },
   {
@@ -2016,10 +2016,10 @@
    "gekauft": "2026-11-07T10:51:25.182931+00:00",
    "einstieg_preis": 0.0001895,
    "einstieg_mcap": 186342,
-   "letzter_preis": 0.0007616,
+   "letzter_preis": 0.0009478,
    "hoechst_x": 10.591029023746703,
    "tiefst_x": 0.21804749340369392,
-   "letzter_x": 4.019,
+   "letzter_x": 5.0016,
    "status": "verkauft",
    "b": {
     "status": "verkauft",
@@ -2050,8 +2050,8 @@
    },
    "info": "Top10 25%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 3.8564643799472296,
-    "t": 1794092249.6933014
+    "x": 5.001583113456465,
+    "t": 1794095563.608836
    },
    "erloes": 39.0768,
    "grund": "+324%",
@@ -2065,10 +2065,10 @@
    "gekauft": "2026-11-07T10:51:26.447819+00:00",
    "einstieg_preis": 0.0001454,
    "einstieg_mcap": 145471,
-   "letzter_preis": 0.0001581,
+   "letzter_preis": 0.0001987,
    "hoechst_x": 1.5880330123796422,
    "tiefst_x": 0.6417469050894085,
-   "letzter_x": 1.0873,
+   "letzter_x": 1.3666,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2090,8 +2090,8 @@
    },
    "info": "Top10 25%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 1.1066024759284732,
-    "t": 1794092084.5777254
+    "x": 1.3830811554332874,
+    "t": 1794094768.8401446
    }
   },
   {
@@ -2151,10 +2151,10 @@
    "gekauft": "2026-11-07T10:56:26.885950+00:00",
    "einstieg_preis": 0.0001361,
    "einstieg_mcap": 129178,
-   "letzter_preis": 1.906e-05,
+   "letzter_preis": 1.692e-05,
    "hoechst_x": 1.0,
    "tiefst_x": 0.1233651726671565,
-   "letzter_x": 0.14,
+   "letzter_x": 0.1243,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2179,8 +2179,8 @@
    },
    "info": "Top10 20%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.14393828067597356,
-    "t": 1794091904.5718167
+    "x": 0.12432035268185158,
+    "t": 1794095563.6088924
    }
   },
   {
@@ -2240,10 +2240,10 @@
    "gekauft": "2026-11-07T14:43:54.675027+00:00",
    "einstieg_preis": 0.0001061,
    "einstieg_mcap": 102493,
-   "letzter_preis": 9.1e-05,
+   "letzter_preis": 7.893e-05,
    "hoechst_x": 1.235626767200754,
    "tiefst_x": 0.7219604147031103,
-   "letzter_x": 0.8577,
+   "letzter_x": 0.7439,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2265,8 +2265,8 @@
    },
    "info": "Top10 22%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.8818096135721019,
-    "t": 1794092369.7066677
+    "x": 0.7679547596606974,
+    "t": 1794095195.9742475
    }
   },
   {
@@ -2277,10 +2277,10 @@
    "gekauft": "2026-11-07T15:40:52.814184+00:00",
    "einstieg_preis": 0.0007074,
    "einstieg_mcap": 697993,
-   "letzter_preis": 0.0008031,
-   "hoechst_x": 1.2468193384223918,
+   "letzter_preis": 0.0008532,
+   "hoechst_x": 1.3199038733389878,
    "tiefst_x": 0.9320045236075771,
-   "letzter_x": 1.1353,
+   "letzter_x": 1.2061,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2298,12 +2298,12 @@
     "teil": false,
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
-    "spitze_x": 1.2468193384223918
+    "spitze_x": 1.3199038733389878
    },
    "info": "Top10 2%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 1.136273678258411,
-    "t": 1794092429.7097254
+    "x": 1.2499293186316087,
+    "t": 1794095383.5441005
    }
   },
   {
@@ -2314,10 +2314,10 @@
    "gekauft": "2026-11-07T17:00:02.364732+00:00",
    "einstieg_preis": 0.0002248,
    "einstieg_mcap": 216380,
-   "letzter_preis": 2.307e-05,
+   "letzter_preis": 1.801e-05,
    "hoechst_x": 1.0645017793594307,
-   "tiefst_x": 0.10262455516014236,
-   "letzter_x": 0.1026,
+   "tiefst_x": 0.06766014234875445,
+   "letzter_x": 0.0801,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2342,8 +2342,8 @@
    },
    "info": "Top10 20%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.10262455516014236,
-    "t": 1794092489.711006
+    "x": 0.0791370106761566,
+    "t": 1794095503.5444927
    }
   },
   {
@@ -2354,10 +2354,10 @@
    "gekauft": "2026-11-07T19:44:33.338050+00:00",
    "einstieg_preis": 0.0003092,
    "einstieg_mcap": 304996,
-   "letzter_preis": 0.0003008,
-   "hoechst_x": 1.026843467011643,
+   "letzter_preis": 0.0003102,
+   "hoechst_x": 1.0339586028460546,
    "tiefst_x": 0.7998059508408797,
-   "letzter_x": 0.9728,
+   "letzter_x": 1.0032,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2375,12 +2375,12 @@
     "teil": false,
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
-    "spitze_x": 1.026843467011643
+    "spitze_x": 1.0339586028460546
    },
    "info": "Top10 4%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.9702457956015523,
-    "t": 1794092369.7067583
+    "x": 1.008732212160414,
+    "t": 1794095256.0298145
    }
   },
   {
@@ -2391,10 +2391,10 @@
    "gekauft": "2026-11-07T19:49:54.213975+00:00",
    "einstieg_preis": 0.0007104,
    "einstieg_mcap": 710462,
-   "letzter_preis": 0.0003735,
+   "letzter_preis": 0.0001673,
    "hoechst_x": 1.0729166666666665,
-   "tiefst_x": 0.5028153153153153,
-   "letzter_x": 0.5258,
+   "tiefst_x": 0.1932713963963964,
+   "letzter_x": 0.2355,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2419,8 +2419,8 @@
    },
    "info": "Top10 23%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.5284346846846847,
-    "t": 1794092429.7097986
+    "x": 0.23212274774774774,
+    "t": 1794095443.6229467
    }
   },
   {
@@ -2431,10 +2431,10 @@
    "gekauft": "2026-11-07T22:03:38.335117+00:00",
    "einstieg_preis": 0.0005813,
    "einstieg_mcap": 581346,
-   "letzter_preis": 0.0006104,
-   "hoechst_x": 1.0521245484259418,
+   "letzter_preis": 0.0006125,
+   "hoechst_x": 1.0536728023395836,
    "tiefst_x": 0.9913985893686564,
-   "letzter_x": 1.0501,
+   "letzter_x": 1.0537,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2452,124 +2452,16 @@
     "teil": false,
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
-    "spitze_x": 1.0521245484259418
+    "spitze_x": 1.0536728023395836
    },
    "info": "Top10 14%, LP 99% gesperrt",
    "verlauf_letzt": {
-    "x": 1.0521245484259418,
-    "t": 1794091799.6736495
+    "x": 1.0536728023395836,
+    "t": 1794095563.6089633
    }
   }
  ],
  "beobachtet": {
-  "4wDx9YtWv2ZQpgBVf77KeEZk518B7Qb3oUCKfeRApump": "2026-11-03T23:03:46.091461+00:00",
-  "3RgQXXZSkr6wdfeMu6sb1WjdDJxqsq9DeWgUKWeFFGEt": "2026-11-03T23:03:46.091477+00:00",
-  "FN2TAfVSyKPd6iupxBLESmuNNeYRyGNwnLxEbHZ9pump": "2026-11-03T23:03:46.091479+00:00",
-  "HhoBzNfQqr2jH5BiWgLZwaPd3E7GJckLoKkRd4uT6cHU": "2026-11-03T23:03:46.091491+00:00",
-  "CbPVBfEETx2VufiKkCpHG1VVdTf46Xwh5SU7syvnpump": "2026-11-03T23:03:46.091499+00:00",
-  "BnzipzTLf1QG7jgVx5GtfXXkZRgJjVL5pz3FXvmeGtMx": "2026-11-03T23:03:46.091509+00:00",
-  "8smRF5esCVQKjqeNg9CV183FaqepMqBwXafHZUkCcR44": "2026-11-03T23:03:46.091515+00:00",
-  "BxJYmdRerC4LiRbzU2EnmAdeqwB3ZgsXH1HhP8Zpump": "2026-11-03T23:03:46.091541+00:00",
-  "Bs6JCkrw7eec3a5yBzBGefbt6ZCHRLuBqurzmkXfTonP": "2026-11-03T23:03:46.091551+00:00",
-  "81MiS8RuVvivg58gUZNxVzBEU3h2KLzkRPyYAeeQt7oQ": "2026-11-03T23:03:46.091552+00:00",
-  "5HsVcH8KmoUTH79HqbDtgR8eZs2KgJiEejWQELJnpump": "2026-11-03T23:03:46.091555+00:00",
-  "HCtyTUM1U7LWzwoJtAQ46yCz8r4yB6nLmbMM5Kb4pump": "2026-11-03T23:03:46.091556+00:00",
-  "izFrx1rTVGijKkKmAyo6GCh4CHKf3Z7TXJNusqopump": "2026-11-03T23:08:46.006137+00:00",
-  "9Hb9Y67Fj1QQChJHQhk77p8YLsEkEXegDCakGBxktVf3": "2026-11-03T23:08:46.006153+00:00",
-  "43o3HLtqPmhKrfbowRgKRLeBuBhuwPZapDx3UZ7Lpump": "2026-11-03T23:08:46.006165+00:00",
-  "2oPJ4LXQVui5e2AjsdR2VjTJUvTcDpcswxKCX3Hrpump": "2026-11-03T23:08:46.006168+00:00",
-  "6teEqybbzx5PUPiDAKmPq6nUosdLGbVsXWSQzuxA3fH1": "2026-11-03T23:08:46.006170+00:00",
-  "B2WH2ihCC9mVMEsCFuLSCK4vdF4tEcS3aj3tUbFsgPvx": "2026-11-03T23:08:46.006188+00:00",
-  "HjygGxwScqrzTcAhtY1ZpKy41fkhGkSAzovqhEjipump": "2026-11-03T23:08:46.006199+00:00",
-  "8KuAoBYg6GeZfkKNTVLsjk4MSpre3HNWh1K8pMH9YaZe": "2026-11-03T23:08:46.006209+00:00",
-  "J7aszHGGZwYAgKKAjn5S6dptE1b1ZYFZLcv9sQEKpump": "2026-11-03T23:08:46.006218+00:00",
-  "KkYniLZXef8Gc6XUVxw9JvDmNLpoUia8obVdCEC2uiu": "2026-11-03T23:08:46.006246+00:00",
-  "89u5Z43UcbHHGrvY525VeTHuJBpXXvT9RdwjuzFLpump": "2026-11-03T23:13:45.917827+00:00",
-  "B3ywsPdTpqnxgr1Z3bp7oJjBLYJqRtB2HGY965Ynbonk": "2026-11-03T23:13:45.917829+00:00",
-  "Fbc9C2bNySn7o8YU5NkMo63MGRi1YP8peqGWQvjhpump": "2026-11-03T23:13:45.917831+00:00",
-  "EWBmXiKMm6ozNCvc9tViHKypXVsH5oaGURqq9YWfqtqh": "2026-11-03T23:13:45.917853+00:00",
-  "7zpm273GD9bEo6QGFxWKi6vtSvk6JjuXeKQkn35npN1h": "2026-11-03T23:13:45.917856+00:00",
-  "3r5oubZdrTioBsDazsWUt7iy1DK3uLKUz41xthBqMdL5": "2026-11-03T23:13:45.917891+00:00",
-  "FvzfxBQUfqu9PDywRzTZ5ZYeLvioTv67PP9PEBMEpump": "2026-11-03T23:13:45.917904+00:00",
-  "CZkUqjYg2Uxa55xhVSAKXZvEEf6nUjxUdeQatmF1pump": "2026-11-03T23:13:45.917913+00:00",
-  "97UpQuj8ozKiNbzboMQiaUwXtmjYoedmGUVnrwb4pump": "2026-11-03T23:13:45.917917+00:00",
-  "6bdoewo6aGihA2TvEibQgwF3Z25HJkreE8W4k2hbvAMD": "2026-11-03T23:13:45.917930+00:00",
-  "EqxZkdULYnQr3Z281K8AoHQCAR1D1KjGSuPU1q3Tpump": "2026-11-03T23:18:46.412805+00:00",
-  "5z2pCV4gg7BKDm4tYeyqJXGjuNEqw7rupnDQCcqUk5Yr": "2026-11-03T23:18:46.412822+00:00",
-  "GaGJsB3tdbAgPEKinPVEhNUSPXxx2w3tbgdkqrTB7vnS": "2026-11-03T23:18:46.412827+00:00",
-  "6sUegZA1vDudZGyn2PhoerSFsdddK2hwpcCR7i8sCHmo": "2026-11-03T23:18:46.412849+00:00",
-  "Cqay1HxfkposbfASrhq4qWxi4CJ9q8LxyVQwZwXJZNXG": "2026-11-03T23:18:46.412856+00:00",
-  "Dsn96j5wWQjZSoMUfj3PWWWZGSL7kbraYsbDeNZx8q4Y": "2026-11-03T23:18:46.412890+00:00",
-  "8moMbLVNZsEVBR1HZzXqBhs9SuMmLcUmnbuGwVsbQjC9": "2026-11-03T23:18:46.412917+00:00",
-  "CkTPsHoMZLvSqKPGJ7utysRrp9Co7RgVoCB5jgdF17n": "2026-11-03T23:18:46.412918+00:00",
-  "FwwPfZc51gAp7yQv3h8zqa8QCVVK4jZNtwKdkXHeq8St": "2026-11-03T23:18:46.412924+00:00",
-  "CvdPD6VsdBRT2N2YtZg5DQaRunrLVGp2uB95KxY7D1WF": "2026-11-03T23:18:46.412925+00:00",
-  "28mMSX6AtAoDHGCHqut9EazEBqTnooqzDP21CdgDCALL": "2026-11-03T23:23:45.946152+00:00",
-  "FPY2DhHWpNgKxd6cyvL1rfExkZgNGjs2XwiZtF9ppump": "2026-11-03T23:23:45.946163+00:00",
-  "DHeVNYFqK4CsvGAUqvPJRHZwPB9APTXscu7vg44opump": "2026-11-03T23:23:45.946182+00:00",
-  "5pp1fLLPtYbsac3ipNsF7aTLtJHRJfA6eQ2NTXaYaSSw": "2026-11-03T23:23:45.946187+00:00",
-  "ERphpxFk5xmtW9Hk8wx8bXGXBDzxKNawc72tr4S6aooC": "2026-11-03T23:23:45.946207+00:00",
-  "9P5EeTBKWLfwH4j4hr6LvwhnoPbxMxBPGwuwwdr2Tyiv": "2026-11-03T23:23:45.946227+00:00",
-  "6wount8EhfPVwa26vCEjBVou1TNixgG5ucw97HjSRBLX": "2026-11-03T23:23:45.946232+00:00",
-  "CDYa1a34aUyZkLZ9vYTafG1SEQff4xXRpBk93gsnpump": "2026-11-03T23:23:45.946237+00:00",
-  "6uonkNiUvAwA9JoTz4yzDA6Jx5CXp2rQmMVv8iMWzXEd": "2026-11-03T23:23:45.946244+00:00",
-  "DTAnEk3hAn9Tv89gFd9wzYvW1jtxJKp11fDd2ttYpump": "2026-11-03T23:23:45.946245+00:00",
-  "EwvoPWNt8QNxf2gJYRxTFA5zq9UpMAtzNYCZ8tqrpump": "2026-11-03T23:23:45.946250+00:00",
-  "86GQDPCWt6wX7dgMc7PC45BsvAYj9wqLbo7BLchqpump": "2026-11-03T23:23:45.946267+00:00",
-  "5FyK8BZJ7KxVzKwHm6iAeWRmHNfy5JiPcscwYeHspump": "2026-11-03T23:28:45.965587+00:00",
-  "EiAqHuuAVLtoXSbYog7Nthix2sfAHSdfnpQvc5miBgF5": "2026-11-03T23:28:45.965625+00:00",
-  "Bz2kab9aGrEHNGbRHPpE4fy26pWKAARcCysGihJTsgSF": "2026-11-03T23:28:45.965634+00:00",
-  "AEcq2GJ5FLxz9irykn4J4sCoFXGcCm1WiwGUzjMQLQTi": "2026-11-03T23:28:45.965650+00:00",
-  "HwJYKH7HCs2ZSgdDCVvSxXXHfs1HxsoH97sCPQ16nXEv": "2026-11-03T23:28:45.965656+00:00",
-  "7Ahj6n3oQX4icckkZGHezaPcabBshbvaWHbcYRgipump": "2026-11-03T23:28:45.965663+00:00",
-  "5GdVy4ZXfPppHJ1puseWayAA7yeb34Evn23LcTFfpump": "2026-11-03T23:28:45.965694+00:00",
-  "74Y7pGneYhrGfDnco9XycDmSYY6kgXArac7rWw5Ypump": "2026-11-03T23:28:45.965704+00:00",
-  "uXGNJ5cPq61CZG7w7XwX36HGV1bkSNeH5FsFr7SLL3L": "2026-11-03T23:28:45.965716+00:00",
-  "2W3n8KLXu2Doi3ARaoUaoZvXktAjsvgzbVkJeWQeA615": "2026-11-03T23:28:45.965721+00:00",
-  "G3ZwFWvDHrRHqoje8xRgJCmomxcV1Chod4ah6TadoKE3": "2026-11-03T23:28:45.965736+00:00",
-  "FTbue5f2sR4xWnep6FNu6UKsY3Q8FcphrzmYkfnRQk8q": "2026-11-03T23:33:45.968541+00:00",
-  "ANmjjjPTnsUYEasnutkaGsS9ixPCbicLALjpa3GJPXAj": "2026-11-03T23:33:45.968542+00:00",
-  "54SbfG9bVZ9NVPtKzVA92XKXhvGaDubFUhjXe98Wpump": "2026-11-03T23:33:45.968579+00:00",
-  "DzAxZccQsFwgN7J1HNLE1Dbocnqb9iRUe73uWVj1GnZT": "2026-11-03T23:33:45.968589+00:00",
-  "5NjpyfgYLkre8Yv3QcgRg4zCeN3793QvEEB4auwLNdAi": "2026-11-03T23:33:45.968592+00:00",
-  "CGEusaoTB4Va8k8XqUsWSi73koo4we3HotpNfEbkpump": "2026-11-03T23:33:45.968600+00:00",
-  "8RJHh5UzMCJKYAZTByU4ELkZ1McBExFDHmVXpTappump": "2026-11-03T23:33:45.968605+00:00",
-  "GtjX7G1VcQoAMPhjqSixmofLLVdFZkMg245dj7CPpump": "2026-11-03T23:33:45.968611+00:00",
-  "CE886YVzmAudi9AN3qid3QKevHNUAu56FNCZLN55pump": "2026-11-03T23:33:45.968616+00:00",
-  "Gwk9PwTUvtyRzSPfvjqUHgBDFo8FNEwBJuvfQh5SzEg5": "2026-11-03T23:33:45.968625+00:00",
-  "5qgKCUVDyv68eVEUrH3WRFbZ3uryE2vjgntHxcUjpump": "2026-11-03T23:41:08.294820+00:00",
-  "8jHak3Ns1CpPZ2HGifuApA8Z9hjdYjW7ZrH4GyJRiGP4": "2026-11-03T23:41:08.294832+00:00",
-  "5XvbZrTnfUCLhUBxABtPn3ShM5Q1TefuDtNtptwapump": "2026-11-03T23:41:08.294838+00:00",
-  "CtMpJDp2pLm7uwRr1eyk29dTQEioQzMu5jv46AAJpump": "2026-11-03T23:41:08.294839+00:00",
-  "AXTqfDdYVvGCS65pE74uKZcoLH4SnW6FmpEBfXuWpump": "2026-11-03T23:41:08.294862+00:00",
-  "CWfZejqKJ4UDyrR41vJM8hVS4fnSgxKEyL1NJusVpump": "2026-11-03T23:41:08.294874+00:00",
-  "GxExhBYYFUxtTGfCVwSo1Y4c1wiAg4LsWs6sYE3Ppump": "2026-11-03T23:41:08.294876+00:00",
-  "EHKPjxz71i2mAPL9bkSwPTMYzhHkGJbJfMUAiYwSBMu5": "2026-11-03T23:41:08.294879+00:00",
-  "7ScVG7eL9f3RGhwBzck87WxHz9eeV3aYDR5hDFopump": "2026-11-03T23:41:08.294894+00:00",
-  "CXqjrmt2YtB3iWcUAo5mYhuzLrTAXLhrTAApdByAr1aV": "2026-11-03T23:41:08.294904+00:00",
-  "Bj1uvN1aYDkhK6E9im36XRtPN9jkjuyuroZVWXympump": "2026-11-03T23:41:08.294924+00:00",
-  "DnPaNat6oKMECjNi9PgVAwS1WPP9hx6ChWZhtC4Cpump": "2026-11-03T23:41:08.294929+00:00",
-  "2h2TkrCzQY2vawrHW8WrBnqC5uPP8QHSP2VVd7r4pump": "2026-11-03T23:41:08.294929+00:00",
-  "7yA3EYajoVT9eQ5f6LhX8j6NAK8HbyKxXDoqp4GoC1ZH": "2026-11-03T23:46:08.275864+00:00",
-  "C2ZXa4qBifmw3gSjh6fb1axoafi2XUvr7ofSz6U4Gwxz": "2026-11-03T23:46:08.275910+00:00",
-  "9wjaaSeD7TbVCfkACEKeDRDuPoSv2jBh2uJ4MdR6pump": "2026-11-03T23:46:08.275912+00:00",
-  "4ZCc9fAtEcFoU24mBL2175rx6w5xbdzUKp9UtD2ipump": "2026-11-03T23:46:08.275936+00:00",
-  "D5ro9HdViJ5CPVf1gMWA1bC621wc7iE4ZEjFs1q2j2X8": "2026-11-03T23:46:08.275937+00:00",
-  "EaJCaEhqWRQ8yHHqnbZynyJc1hn3o4yq9hUxM8M9BXCS": "2026-11-03T23:46:08.275953+00:00",
-  "3SUEux7FS8JCVNYybcqqMgDwFgrP6B1iDeumyJwm6S3Z": "2026-11-03T23:46:08.275962+00:00",
-  "9TNSswoX7Bogoc1KwvV7h4jvhJDE3K1PwN3odjGZpump": "2026-11-03T23:46:08.275963+00:00",
-  "B9NyZR1RS7zqE39oPDpSELJwTT8HoFayUWfgRsbCqVk7": "2026-11-03T23:46:08.275965+00:00",
-  "J7hTVA3dPZcoR6nSPdUu3MmHnJhf47MQfmmjWKGppump": "2026-11-03T23:46:08.275967+00:00",
-  "2xhLrWqMNZxTVnYyRNhZLpNz7zjUqZNVctJqbUJUgu5r": "2026-11-03T23:51:08.299442+00:00",
-  "GqdutYfCPgdD316apCtqdnYVPGnN9dGNQQ1kCcP3wpE2": "2026-11-03T23:51:08.299471+00:00",
-  "5vQbR6gH1SvVCGqEy6Z8XBHHRR7Rp3FfqZEFmvpFpump": "2026-11-03T23:51:08.299473+00:00",
-  "8Kiwxy1dLJUY82XHDxJwPawSvDWqLZnQ5n1XpWq1sRYQ": "2026-11-03T23:51:08.299486+00:00",
-  "13cmP1Yrq1sZo8FoeJ4PeN2e64NsLDTkaFkiMuqGpump": "2026-11-03T23:51:08.299487+00:00",
-  "ACyjbQHwutEgR233kE9rDyAJpjLnRQ1Utt1xEGy8W6Uw": "2026-11-03T23:51:08.299504+00:00",
-  "7JJQwT5EJY3YhbzWY48VneAaaCdpomzBzu6uChDwpump": "2026-11-03T23:51:08.299522+00:00",
-  "3t7aFdorBQqnoTGLQmbF9mens9N8trC39vu8gy3AJjNz": "2026-11-03T23:51:08.299523+00:00",
-  "3bYESqxPQCswr3EWb8EdMe5tuXzju8CkzYPzBbKjpump": "2026-11-03T23:51:08.299531+00:00",
-  "tYcQUiGZ4AJj4EcBck5BtZEXnwjXzpB2eHdraoiZgPp": "2026-11-03T23:51:08.299546+00:00",
   "C86Hp8ZHNquaWsx1fChSu3AkAnEDSfELkahZrvo1pump": "2026-11-03T23:56:08.266033+00:00",
   "E3W1x8fV8WZWykr2q8pMfFgwAFJtVxjPyvwWh5CHpump": "2026-11-03T23:56:08.266041+00:00",
   "DRc1nW6ZVidixv5ia6ca8qTe7bfBn2LpVeyCSPSVpump": "2026-11-03T23:56:08.266053+00:00",
@@ -3195,7 +3087,6 @@
   "ExMqFSSn9KKJrL1LWcdutZK1NaoX99YM4rxDux4Qpump": "2026-11-04T06:33:21.952578+00:00",
   "8HbCTpUZ52mH7p99yAGbVzi3mFgs5XacmHSPbnUJh8JH": "2026-11-04T06:33:21.952589+00:00",
   "CReUqZiJF8fixFzjgqYHhNimzvAormzzywLBZm91njqY": "2026-11-04T06:33:21.952594+00:00",
-  "BS7WyR1eyvFioAoj4mKXofr7X288F4gdE3Aywp9a7ptJ": "2026-11-04T06:33:21.952727+00:00",
   "FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": "2026-11-04T06:38:21.929718+00:00",
   "3U9K85yRJXV8tHSK6bg2xuoyxvJbhWcNGPxSjURKpump": "2026-11-04T06:38:21.929737+00:00",
   "29eUacDYVjzGRRKpvjsgrmoENVDxrCSGQvaxpKmppump": "2026-11-04T06:38:21.929758+00:00",
@@ -3663,7 +3554,6 @@
   "mMQiCmVus15P3kdzoQKNLa6eEjFXQaewhMbfMEeE1c2": "2026-11-04T12:04:37.131258+00:00",
   "Gq64Z2ekjoYRLL6rLvEEoTxf1KqtzbwEVUXHSJnMkR4z": "2026-11-04T13:02:11.254172+00:00",
   "ummQMYk4CfcvegK1NDXNMxCZpN8p6T4o7bCeC88pump": "2026-11-04T13:02:11.254206+00:00",
-  "4rrBRpbcUJDwV5hV9jYQXKtdzz45CYW56Uf8Ci2fYGvp": "2026-11-04T13:02:11.254222+00:00",
   "3znLTTRfRnRo8uvLvJGecMtET8CQnHdtyugKfYb7MtbE": "2026-11-04T13:02:11.254233+00:00",
   "C3j6YhjnUBRzokqfGeH6x2pPnBYNP4zSvKiXFRumCyQy": "2026-11-04T13:02:11.254235+00:00",
   "G7Jyx4aVQ3RJ14M4cmNaCUBJNPp3NfJ69KZrs2HNpump": "2026-11-04T13:02:11.254246+00:00",
@@ -4712,7 +4602,6 @@
   "BGqJ76mdEoy5pgG9Jyv4JxRoFekxa7GJu2YQh92t1euV": "2026-11-04T22:58:28.037255+00:00",
   "FAittRTvJZ9Gh259upk9bVxA3y5TJP3WQ8fD1GbpugFm": "2026-11-04T22:58:28.037262+00:00",
   "4h89RFd8MXn9ogerd8cfiuFbqHPJxiZh9g4CUvyjF1yM": "2026-11-04T22:58:28.037268+00:00",
-  "CyKZbrCAM4Sydk96bTDN2VFrZyJ11Ca1vZ9DX6Gapump": "2026-11-04T23:03:28.048032+00:00",
   "E4vkMYKkx8n2rsoZLzQngrJp2ANfs6d5NrMeByvrpump": "2026-11-04T23:03:28.048076+00:00",
   "6HycpqCyXimTETqCpqhFzaCpWfAbRBtvxT8qPqHHZ11N": "2026-11-04T23:03:28.048107+00:00",
   "BZ5u2J6MBaaTZMZL5WcFkpTUXhVBrLeqCvh4Efyzpump": "2026-11-04T23:03:28.048130+00:00",
@@ -4732,7 +4621,6 @@
   "6MU7fnvZVCmvg4kFeq74y6EuWJPtbFTtmzUpKdPmqxmd": "2026-11-04T23:08:28.055856+00:00",
   "7PrPqjZAtvxvTPTQgPZvL7qtHgCbkKUJR97WzBZtpump": "2026-11-04T23:08:28.055876+00:00",
   "GCtwBge2u95bPdQ7F5PDskeWdimzFsrDz2D1N2utFeG6": "2026-11-04T23:08:28.055887+00:00",
-  "Enn6dABdpAt4sXv2QaCqRUdJuR5ihK3PP8zoReVVpump": "2026-11-04T23:08:28.055894+00:00",
   "EsGVwSYRp2ofqZJxg65C1wGVkRKKY3QXqp7ShsqNreps": "2026-11-04T23:08:28.055899+00:00",
   "5tAwFyT2D6Y7Tv5Q33aT7F3pSqrTHVBZTycFQU7yuFPW": "2026-11-04T23:13:28.020974+00:00",
   "6TVSkgRZuMmoJYE2CuqGyBpeK9F4GcvzAa4UT3ampump": "2026-11-04T23:13:28.020983+00:00",
@@ -4744,7 +4632,6 @@
   "EBKzRmSTb1LSzBMseUSKDNHbPHvCAE2mLNVCJMvLpump": "2026-11-04T23:13:28.021091+00:00",
   "4gXhzq5sv6usmFpXX2QDxF4BKoj6EGcF1aSQ2cRspump": "2026-11-04T23:13:28.021093+00:00",
   "CChLrLd3JabMifAwFZSqSNs86kPBedkonWm6kEgGpump": "2026-11-04T23:13:28.021102+00:00",
-  "GJg1FpxtBkwjmue9G4887h9rcEj3KucRHDdK54zCpump": "2026-11-04T23:18:28.039029+00:00",
   "7B3cBnoShdWAmbALBdp5J4VZFkrn7ZdgQri3Sf4vpump": "2026-11-04T23:18:28.039032+00:00",
   "H2N16sRp9QFWYqQWv2SqMwB3BjkhNGaxuRCVvBqKpump": "2026-11-04T23:18:28.039034+00:00",
   "3gKTYyssQv2YWqY86bTthE5wtYxUgZxhkobc5c98pump": "2026-11-04T23:18:28.039089+00:00",
@@ -4764,7 +4651,6 @@
   "8wx5mmfgMnsWttaic3DEdpZCLfs62fcvpJuduRP6QhXb": "2026-11-04T23:23:28.021559+00:00",
   "FDXzb5t31wjtuvM9c9CJrmkCzGqZo72QwqyJC5qapump": "2026-11-04T23:23:28.021564+00:00",
   "7pLZYiCxV1eUnHQLbAyKNQHuM2LWTvv3vCKtxxKeVaPC": "2026-11-04T23:23:28.021602+00:00",
-  "B9Mxr3WFvvkb2bVdvVBJZYTfryfD6tqfBht7D55dpump": "2026-11-04T23:23:28.021609+00:00",
   "EYAnCygBLszVkYkUy112jTJw678DBrpLRqTdcp1spump": "2026-11-04T23:28:28.014476+00:00",
   "AwqgV6RAhzdp5H8q1LqjQNp29i7WXwid3ezKPeAzpump": "2026-11-04T23:28:28.014507+00:00",
   "CCy9C2CV9vYEShn3dsbRWthpmJhjnvc8nP5LPyZypump": "2026-11-04T23:28:28.014512+00:00",
@@ -4776,7 +4662,6 @@
   "DHsQ9gThjRGGTWncWbiNwkbeAPqdDx72htwFMTFjpump": "2026-11-04T23:28:28.014631+00:00",
   "DnQBWAW6vHppuCVHwREAGcJibyhz6G3T1FsXJrALbhfd": "2026-11-04T23:28:28.014665+00:00",
   "2n1LFtjqgqA3anwanfeCw3ry5kZj2KgsmkNbKcKXpump": "2026-11-04T23:33:27.995293+00:00",
-  "81QQ5FUfGs9pFkN9NK47FCPHCPSXmdvAgz2nDccBpump": "2026-11-04T23:33:27.995304+00:00",
   "2WzUHzCFhr7G9w55Knh7vL5RUVUQUWG8pyTDwmLtpump": "2026-11-04T23:33:27.995308+00:00",
   "6XhLC36ttzCAA8Zj5joTR6NotJiRTrcvvitUGiHMpump": "2026-11-04T23:33:27.995343+00:00",
   "HQDGSpZSk5roBw1gV737k416S4q1maxvraN4PXmopump": "2026-11-04T23:33:27.995350+00:00",
@@ -4800,7 +4685,6 @@
   "8vRgukR955ZQLLAfbDw2YpbFu5wvdedp6PRgymVfC4g3": "2026-11-04T23:43:44.454470+00:00",
   "5EmDaRPEw23xzn8oT3XJzWcBe5yP69hbVQKPqiqTpump": "2026-11-04T23:43:44.454478+00:00",
   "M1d3w8Kcjmwhbn93QM1PGbSyZEFas8hr9hV7Gy2pump": "2026-11-04T23:43:44.454481+00:00",
-  "2jTipNyyGcCjtJzQ7q8KetpZu3NYxHS24BzvqHbgpump": "2026-11-04T23:43:44.454514+00:00",
   "G32VMgqcrC9fn7Pt5reyNbFiKT7KvK3jTA16j3T4ewVb": "2026-11-04T23:43:44.454516+00:00",
   "DnXX5KvRG5mGP6vzLmJu2LKVioXMUTtgft82bkfxpump": "2026-11-04T23:43:44.454521+00:00",
   "22yKkViACRDVve981FuNYzNpmaDobUrDRifRip8jpump": "2026-11-04T23:43:44.454538+00:00",
@@ -4837,7 +4721,6 @@
   "7kKcJsKgAfCLBDkihVPmtVnYPNexcyXcFKCDXi1Bpump": "2026-11-04T23:58:44.496377+00:00",
   "7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump": "2026-11-04T23:58:44.496381+00:00",
   "77Zpdzxx5r2wEw9GCTaXgk4BK66PmSRgd68h4MBRpump": "2026-11-04T23:58:44.496386+00:00",
-  "AcagiqgcXvTtE6aUUF5w7bySxj8p277B1EQsTG82pump": "2026-11-04T23:58:44.496399+00:00",
   "CKDRu5E6uwzH3or423W991YH7qD9MY1hHaBCZfri5whz": "2026-11-04T23:58:44.496401+00:00",
   "7WSwmaPW4VXpESN3aLP1ZnEzVNmbUtMpAzXouWdYpump": "2026-11-04T23:58:44.496421+00:00",
   "HHRLfJBaa2upq8AEQYE7tdQFgjkAZ4i8aPJLS5nVpump": "2026-11-04T23:58:44.496428+00:00",
@@ -4885,7 +4768,6 @@
   "BiT3Sdq1z6aYjJ1Zf3U8HPPmWo1ghiEZgTCB9aqdb99X": "2026-11-05T00:19:03.523843+00:00",
   "oWcgaTAonv5ndVLp7ccepXFnR7H6F9RXtQHmoeuKR8i": "2026-11-05T00:19:03.523845+00:00",
   "CP5aMresq2yYQj7RcefzYkFrjEsFXUjpJgYij6hkpump": "2026-11-05T00:19:03.523863+00:00",
-  "EvhNHxVDH16MZzcaFg8BP5pFX4rezTRUTbu2EbtJpump": "2026-11-05T00:19:03.523872+00:00",
   "7ucDLTHHhKGnKGd8q5k8feLXbKVwHh985dkBuTpSpump": "2026-11-05T00:19:03.523902+00:00",
   "8mpLUSTyAkiCBZsdar32xgoYXdbJ3wSm9MYjWBmDpump": "2026-11-05T00:19:03.523908+00:00",
   "DTRh1n9WcYiKPLQU4dvPpbQbiLM32PUvTqhhXZ96pump": "2026-11-05T00:19:03.523921+00:00",
@@ -4910,7 +4792,6 @@
   "3cufvMguHxPpR9zs6sc8FXqhnauUQuxQVzbooEXACUUd": "2026-11-05T00:29:03.445509+00:00",
   "HWyxtYdGFbEFbKA98Kiu3pZbPnPhp6EiDwqgCmK4pump": "2026-11-05T00:29:03.445521+00:00",
   "J5niLh16qPUzhADvj4cZtB6hb4LfRj3Tj9wfyVscpump": "2026-11-05T00:29:03.445532+00:00",
-  "6GjZvj8aT5t4jEi7xiMkK3nqqKNiYVes1n5Va8Zfpump": "2026-11-05T00:29:03.445542+00:00",
   "6D6PQn13XTCjfWntavRNAHpWw1athtwaPFQZwnR39854": "2026-11-05T00:34:05.179145+00:00",
   "G1ZdgSvexLjyzsqVbK6HXWs5ECoT4HMMuQLvTzNkpump": "2026-11-05T00:34:05.179173+00:00",
   "DSULXjQS8RYJajCehYjGs4MnDbP5NRaBiaGXR9GRc1aZ": "2026-11-05T00:34:05.179176+00:00",
@@ -5321,7 +5202,6 @@
   "8jKmR97gF4Sv2cneowsxVUFAPeqkGuK8QRn32YF4cKHc": "2026-11-05T05:08:54.203104+00:00",
   "444Dk4A5MWbqWV4YHZenpjnJ6YdaYQRFndAGCKbVpump": "2026-11-05T05:13:54.274797+00:00",
   "4hgePaReCnzu8177KcbftPkPLb4fK9PVW4J6iwbgGPWj": "2026-11-05T05:13:54.274803+00:00",
-  "3ropwqf75V8qbtRHBdQMQjnFSeDYtFmRkWUpKtdeXQ3V": "2026-11-05T05:13:54.274820+00:00",
   "7Tqi5r1sN5o241keDbtfhcwX7HENowrxiLhUEci6pump": "2026-11-05T05:13:54.274824+00:00",
   "GAabpn5hNAcXEBJig59ktZSaJ4sFjQ332QdRGCNSpump": "2026-11-05T05:13:54.274842+00:00",
   "591gFAtWWEncb3tDwbn4sL3bWbkihyAFnLHyzEuzpump": "2026-11-05T05:13:54.274851+00:00",
@@ -10623,7 +10503,6 @@
   "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se": "2026-11-07T17:37:11.796051+00:00",
   "Fh7VjkpnZii3aNWCaKahAxw3s2X3BhUcYjbeCU1vpump": "2026-11-07T17:37:11.796053+00:00",
   "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump": "2026-11-07T17:37:11.796057+00:00",
-  "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": "2026-11-07T17:37:11.796066+00:00",
   "ESsJudHZ9BYFcwMQRe7xoWfgxK3BeEgkfexHmnqipump": "2026-11-07T17:37:11.796074+00:00",
   "6QAcBK6c5w7P48opBaS9Zu4uTsMgopyVeaij6QoZpump": "2026-11-07T17:37:11.796077+00:00",
   "A9jFHc2G5AsT4vL5Lq1WHUFLsqnQ9W5pVjrQDoxUBAGS": "2026-11-07T17:37:11.796093+00:00",
@@ -10972,7 +10851,62 @@
   "24xU1knwTULynA6gKRtpX6HzomSap2wqMMHuaEBRpump": "2026-11-07T23:01:30.905444+00:00",
   "Hys6qHrRLvF7V9DYjGF8L4tEUJ68orcHZriPSpyhpump": "2026-11-07T23:01:30.905445+00:00",
   "EQBhFAGwLxUwVBmBWRAFo9r8VTmcvAn5cxMS9BWqpump": "2026-11-07T23:01:30.905453+00:00",
-  "FmR3ivveQbA2NyTpq8GPRzD6XrqUc1H7RrAd1VnTpump": "2026-11-07T23:01:30.905466+00:00"
+  "FmR3ivveQbA2NyTpq8GPRzD6XrqUc1H7RrAd1VnTpump": "2026-11-07T23:01:30.905466+00:00",
+  "57HJp64yiE1HzZMbU8dj2eFsZDzM6B8Lq2tq8jJ3fPnU": "2026-11-07T23:37:22.007944+00:00",
+  "7N3Ru2mnaShV46GHNHsUuo7n2zGiKAdX7pGRNYPWpump": "2026-11-07T23:37:22.007962+00:00",
+  "3EafjpE83KLduv2R8Gy9bpD8DhNp8e5w7ShJWYs2CwDd": "2026-11-07T23:37:22.007984+00:00",
+  "H4zC7PfNLufcE2QSZukLdQUZpZ6itm9ju5WBSSB1XZGF": "2026-11-07T23:37:22.007987+00:00",
+  "HZf39pW3fWrmwEmhVhkTENj7a3AAUC5fizgrVpDzpump": "2026-11-07T23:37:22.007996+00:00",
+  "Ch6cxwpSbEgUDW1hrhC1JDLVmCUZaTCxDfUoY3Sepump": "2026-11-07T23:37:22.008009+00:00",
+  "Pk38YDYjBWTejaoG75owCU1ACeYeQWeKkv6Rsm7BgfY": "2026-11-07T23:37:22.008011+00:00",
+  "5xhBT8JNotrQZgrNKq4C7Vvhc8bYpGbbJk37vjRwBAGS": "2026-11-07T23:37:22.008016+00:00",
+  "5qRnZYidAtDy1sFjtRPQLLBZBNAB7CEWaYA43C4PKuNs": "2026-11-07T23:37:22.008021+00:00",
+  "3oMCKFkLgrNSijgHTjxg4LRC6DrQDQdgokEM9y2A2QYF": "2026-11-07T23:37:22.008026+00:00",
+  "8MHHRJvpbXwCYKKdHRitEMpTVejFgtJGeUD8r8DPpump": "2026-11-07T23:37:22.008027+00:00",
+  "TVLWbPwE5YuDxW4KS91Lbzb7FhKPkdpqYzToxkGpump": "2026-11-07T23:37:22.008035+00:00",
+  "68EB2XWzg6ZMUg1VXgWEHgx4WP1X1JG8mWY4SB86pump": "2026-11-07T23:37:22.008036+00:00",
+  "sfsnZfbCTVecrV9mf5NFLSHSwNY3RgqLPNXkUvjpump": "2026-11-07T23:37:22.008040+00:00",
+  "63M5qNzgfra3f5Eef1QEHGEgfBdmt8NfVTWtTyeoAAPW": "2026-11-07T23:37:22.008046+00:00",
+  "Ae2xtyk5XJDaymW4x7WtVoWJ1bihgXNBAcHT8oZ2pump": "2026-11-07T23:37:22.008049+00:00",
+  "5sQjhnBeCXk38W1T3cahe8ve1zKSiCzyrBYLb6zWpump": "2026-11-07T23:37:22.008060+00:00",
+  "14nWwaPhgQrNYQfKUv36QYb5cPTftZVQWqnymbXNspwn": "2026-11-07T23:37:22.008068+00:00",
+  "HMFrT2kiqWBGgiPWXqQuavi3Y7eezEySgwn1yDwfpump": "2026-11-07T23:37:22.008074+00:00",
+  "2Vyn71PUv4t9dDcA6dDDRSgmS4eeq7kBr93MPfkzbfun": "2026-11-07T23:37:22.008077+00:00",
+  "AtsxeXEVGCSJFDQKFpxucEjxk5vk9SUkU21mrCSFpump": "2026-11-07T23:37:22.008084+00:00",
+  "HSrxpyAYpFHLJ4j9GXrAasyapD2AZQDdMepp2eZRpump": "2026-11-07T23:37:22.008086+00:00",
+  "5DXtqcCcSGJWvuJSoE6nmhm4qpQYrWv1x5W45QMvpump": "2026-11-07T23:37:22.008087+00:00",
+  "Hqw3W2KwhBLikdMm7ELNddiAemkHBvoFipGHyezVpump": "2026-11-07T23:42:30.306301+00:00",
+  "DvdKSufhKzWAhV5anwjJTDtTRaAYYNNwup2rgQH28vVk": "2026-11-07T23:42:30.306312+00:00",
+  "83mHhpEEsTsghenAd9HTxiNfBQZqaSpwg3tg84ZzT28D": "2026-11-07T23:42:30.306322+00:00",
+  "DoD2yHgVZjJwSr4x1VTzQ9jRdbMn9GukenBaNvBZeDff": "2026-11-07T23:42:30.306369+00:00",
+  "GY9ZahghhTjLcey4WEbGXytFwnkj6xXQvkzy2hyepump": "2026-11-07T23:42:30.306379+00:00",
+  "8HsoKhgsdhCLy8oGvNYYo4X6GreC5mbDmWGaiiZChcDv": "2026-11-07T23:42:30.306384+00:00",
+  "AdcN6x4M4ujrcAam1kgApn7XAssbDGtG8zX5Tgc9pump": "2026-11-07T23:42:30.306406+00:00",
+  "6EWonkqRxakXQX83rDVHE1tC64kwBv3rBzN2o4hepump": "2026-11-07T23:42:30.306409+00:00",
+  "F9ZUMhVULAsh3sR3UNsnY8mEvhoadyNA5RCuYDxnpump": "2026-11-07T23:42:30.306413+00:00",
+  "4G1yGCUReHWADFkscfQ5rDhyZRwu4E3z3MrgiixTpump": "2026-11-07T23:42:30.306424+00:00",
+  "CQgQf585j8y9kiXBGuk7yLAb4hFYMRzbZbySjGDw9grq": "2026-11-07T23:42:30.306433+00:00",
+  "G9K296hfH1ZNhjoYJNyy8eBk5s1pHjMxcLKhaotrpump": "2026-11-07T23:47:37.464938+00:00",
+  "8VknhXe2ZivneAEKyjAsiTgRzk5De3oss1RHfEfApump": "2026-11-07T23:47:37.464942+00:00",
+  "6qfNVGKC6kymHLVnGn9aMmHDgfUqSmpuBLi3n1Qdpump": "2026-11-07T23:47:37.464950+00:00",
+  "GmRg1bVRdtvWwcFTgekV6mPQKj1ArJmqFxmiCTnJpump": "2026-11-07T23:47:37.464958+00:00",
+  "5Sabk4Pft9T1KqCYUZvdvN6GsHZ3U83voVAWpwkyu9kn": "2026-11-07T23:47:37.464973+00:00",
+  "2AH8NjKbeEKZAVimztHFgtN8fd9tgKzfCg4t4T2JfthK": "2026-11-07T23:47:37.464997+00:00",
+  "G6DerZrqM7bSPkx2viVBtrdGDqJY5hb7kdXJhV8qe7oz": "2026-11-07T23:47:37.465006+00:00",
+  "HQmB5ZqDdhfE4g4bCKhqqFU9noMsvccN1eBCUihzpump": "2026-11-07T23:47:37.465024+00:00",
+  "4FDbNmKf1TthTCpFV3tSbcdNy4jftfSMhe9QwZckpump": "2026-11-07T23:47:37.465036+00:00",
+  "2mfedfHzmkXDqtfC17rts2hWG13TSh69utiV8VNPr317": "2026-11-07T23:47:37.465046+00:00",
+  "FWh8zfFXXt7Mk9vbUdNmXgnFkzF91AjEvyfCPPpipump": "2026-11-07T23:52:45.066155+00:00",
+  "Bk7xPBiXrWfuojTBJhUqMPAHLz1WifYDDNaDCTjmxw8M": "2026-11-07T23:52:45.066182+00:00",
+  "BgCVvggxd168DixFJdZUVazxFcfqAigPyViuQh3fpump": "2026-11-07T23:52:45.066214+00:00",
+  "8RAE51rhQbxrxYuuxd8vGdwjiPo71e3zJLUXKExzqYm2": "2026-11-07T23:52:45.066215+00:00",
+  "E8orjnFwTsGiLNJSTjwC2jGCywy7Zn2VGpTt8WYipump": "2026-11-07T23:52:45.066224+00:00",
+  "4pvckjr5iF6vCknppdHhyEYHbdmdqSHnErBTiTbquyum": "2026-11-07T23:52:45.066233+00:00",
+  "CAtctbVqxdknz2yC6Vy4fVs8Vf4rbJdNWCt2TWQvpump": "2026-11-07T23:52:45.066243+00:00",
+  "2MXMpgNXx9WQym3cFrtNifFJPXPLRXmKteFXAdwQotDP": "2026-11-07T23:52:45.066247+00:00",
+  "6z1Axmrxffsrw6gyM6vy2CKwu1ZyYobDizjuCcfLoat": "2026-11-07T23:52:45.066253+00:00",
+  "7VBh4HbaVxHfobPuRfzKx94m7GCxHvozKmhXJp6smHYc": "2026-11-07T23:52:45.066282+00:00",
+  "5faoHCZ75wAN8jCZMbdVWUs9XFPoaTxZvy6P4R52dw4e": "2026-11-07T23:52:45.066285+00:00"
  },
  "abgelehnt": {
   "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": {
@@ -11085,6 +11019,11 @@
    "zeit": "2026-11-07T10:56:25.619514+00:00",
    "grund": "Risiko: Low Liquidity",
    "symbol": "Busted"
+  },
+  "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
+   "zeit": "2026-11-07T23:39:26.962264+00:00",
+   "grund": "Top-10 halten 37%",
+   "symbol": "CHILL"
   }
  },
  "letzte_bilanz": "2026-11",
@@ -11160,11 +11099,11 @@
    "verlauf": [
     "Markt-Filter: zu alt"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372916+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.635473+00:00",
    "entscheid": "Markt-Filter: zu alt",
-   "alter_h": 1786.6,
-   "liquiditaet_usd": 366682,
-   "mcap_usd": 11938704
+   "alter_h": 1787.5,
+   "liquiditaet_usd": 365246,
+   "mcap_usd": 11778888
   },
   "G4vV9RNiYEMXWXVe7pQtad49BMNMPRQPAa1oU7hSpump": {
    "symbol": "Busted",
@@ -11595,20 +11534,20 @@
    "url": "https://dexscreener.com/solana/3eqywqjvh7ve25umgz53jmufajkcfu5uzkapvsgdz6tv",
    "zuerst_gesehen": "2026-11-05T00:04:55.501581+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 13786$",
-    "Markt-Filter: Liquidität 13561$",
-    "Markt-Filter: Liquidität 12909$",
-    "Markt-Filter: Liquidität 12855$",
     "Markt-Filter: Liquidität 13134$",
     "Markt-Filter: Liquidität 12761$",
     "Markt-Filter: Liquidität 12807$",
-    "Markt-Filter: Liquidität 12814$"
+    "Markt-Filter: Liquidität 12814$",
+    "Markt-Filter: Liquidität 13106$",
+    "Markt-Filter: Liquidität 13241$",
+    "Markt-Filter: Liquidität 13124$",
+    "Markt-Filter: Liquidität 13243$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.367307+00:00",
-   "entscheid": "Markt-Filter: Liquidität 12814$",
-   "alter_h": 35.7,
-   "liquiditaet_usd": 12814,
-   "mcap_usd": 30989
+   "zuletzt_gesehen": "2026-11-07T23:54:48.628712+00:00",
+   "entscheid": "Markt-Filter: Liquidität 13243$",
+   "alter_h": 36.6,
+   "liquiditaet_usd": 13243,
+   "mcap_usd": 32729
   },
   "Fu8WjrgCVafqYBieJDu6BrT5N3EEwezrvtfG862opump": {
    "symbol": "PLAYGTA",
@@ -11676,9 +11615,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.367438+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.628831+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 69.2,
+   "alter_h": 70.1,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -11831,9 +11770,9 @@
     "Markt-Filter: Liquidität 1639$",
     "Markt-Filter: Liquidität 1642$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.367657+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629093+00:00",
    "entscheid": "Markt-Filter: Liquidität 1642$",
-   "alter_h": 61.3,
+   "alter_h": 62.2,
    "liquiditaet_usd": 1642,
    "mcap_usd": 1602
   },
@@ -11943,9 +11882,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.367842+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629314+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 55.7,
+   "alter_h": 56.5,
    "liquiditaet_usd": 0,
    "mcap_usd": 3081
   },
@@ -11955,20 +11894,20 @@
    "url": "https://dexscreener.com/solana/7m44bf1ekzq1e4vgbdprlg7qgkz3q5ywts9ysgdehjs4",
    "zuerst_gesehen": "2026-11-07T00:04:36.838682+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 6976$",
-    "Markt-Filter: Liquidität 7027$",
     "Markt-Filter: Liquidität 7032$",
     "Markt-Filter: Liquidität 6981$",
     "Markt-Filter: Liquidität 6875$",
     "Markt-Filter: Liquidität 6788$",
     "Markt-Filter: Liquidität 6669$",
-    "Markt-Filter: Liquidität 6632$"
+    "Markt-Filter: Liquidität 6632$",
+    "Markt-Filter: Liquidität 6685$",
+    "Markt-Filter: Liquidität 6643$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.367857+00:00",
-   "entscheid": "Markt-Filter: Liquidität 6632$",
-   "alter_h": 55.6,
-   "liquiditaet_usd": 6632,
-   "mcap_usd": 8224
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629330+00:00",
+   "entscheid": "Markt-Filter: Liquidität 6643$",
+   "alter_h": 56.5,
+   "liquiditaet_usd": 6643,
+   "mcap_usd": 8243
   },
   "HR8a1erQ4LyTKW5XYrHzPy9na5Gd6GHhccXhQywzpump": {
    "symbol": "GTA",
@@ -11979,9 +11918,9 @@
     "Markt-Filter: Liquidität 1759$",
     "Markt-Filter: Liquidität 1751$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.367933+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629444+00:00",
    "entscheid": "Markt-Filter: Liquidität 1751$",
-   "alter_h": 53.9,
+   "alter_h": 54.8,
    "liquiditaet_usd": 1751,
    "mcap_usd": 1675
   },
@@ -12007,9 +11946,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.367971+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629485+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 53.0,
+   "alter_h": 53.9,
    "liquiditaet_usd": 0,
    "mcap_usd": 2507
   },
@@ -12023,9 +11962,9 @@
     "Markt-Filter: Liquidität 1728$",
     "Markt-Filter: Liquidität 1725$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.368001+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629522+00:00",
    "entscheid": "Markt-Filter: Liquidität 1725$",
-   "alter_h": 52.9,
+   "alter_h": 53.8,
    "liquiditaet_usd": 1725,
    "mcap_usd": 1644
   },
@@ -12037,9 +11976,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.368143+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629627+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 50.9,
+   "alter_h": 51.7,
    "liquiditaet_usd": 0,
    "mcap_usd": 2588
   },
@@ -12052,9 +11991,9 @@
     "Markt-Filter: Liquidität 1781$",
     "Markt-Filter: Liquidität 1763$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.368183+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.629671+00:00",
    "entscheid": "Markt-Filter: Liquidität 1763$",
-   "alter_h": 50.5,
+   "alter_h": 51.4,
    "liquiditaet_usd": 1763,
    "mcap_usd": 1657
   },
@@ -12143,9 +12082,9 @@
     "Markt-Filter: Liquidität 2643$",
     "Markt-Filter: Liquidität 2577$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.368646+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.630226+00:00",
    "entscheid": "Markt-Filter: Liquidität 2577$",
-   "alter_h": 33.3,
+   "alter_h": 34.1,
    "liquiditaet_usd": 2577,
    "mcap_usd": 2546
   },
@@ -12174,13 +12113,14 @@
     "Markt-Filter: Liquidität 2325$",
     "Markt-Filter: Liquidität 2320$",
     "Markt-Filter: Liquidität 2314$",
-    "Markt-Filter: Liquidität 2309$"
+    "Markt-Filter: Liquidität 2309$",
+    "Markt-Filter: Liquidität 2302$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.368659+00:00",
-   "entscheid": "Markt-Filter: Liquidität 2309$",
-   "alter_h": 35.9,
-   "liquiditaet_usd": 2309,
-   "mcap_usd": 2114
+   "zuletzt_gesehen": "2026-11-07T23:54:48.630241+00:00",
+   "entscheid": "Markt-Filter: Liquidität 2302$",
+   "alter_h": 36.7,
+   "liquiditaet_usd": 2302,
+   "mcap_usd": 2108
   },
   "Hfqyd2pC4AAtMULREkXAHugXxqVygtJkiTnQxD9NFV5y": {
    "symbol": "GTAmid",
@@ -12190,9 +12130,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.368961+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.630605+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 30.4,
+   "alter_h": 31.3,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -12223,9 +12163,9 @@
     "Markt-Filter: Liquidität 1948$",
     "Markt-Filter: Liquidität 1913$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.369131+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.630780+00:00",
    "entscheid": "Markt-Filter: Liquidität 1913$",
-   "alter_h": 28.2,
+   "alter_h": 29.1,
    "liquiditaet_usd": 1913,
    "mcap_usd": 1771
   },
@@ -12237,9 +12177,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.369166+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.630816+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 27.5,
+   "alter_h": 28.4,
    "liquiditaet_usd": 0,
    "mcap_usd": 2520
   },
@@ -12251,9 +12191,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.369209+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.630871+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 27.0,
+   "alter_h": 27.9,
    "liquiditaet_usd": 0,
    "mcap_usd": 2492
   },
@@ -12269,9 +12209,9 @@
     "Markt-Filter: Liquidität 1714$",
     "Markt-Filter: Liquidität 1737$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.369474+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.631122+00:00",
    "entscheid": "Markt-Filter: Liquidität 1737$",
-   "alter_h": 23.8,
+   "alter_h": 24.6,
    "liquiditaet_usd": 1737,
    "mcap_usd": 1667
   },
@@ -12283,9 +12223,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.369527+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.631147+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 23.6,
+   "alter_h": 24.4,
    "liquiditaet_usd": 0,
    "mcap_usd": 2514
   },
@@ -12300,9 +12240,9 @@
     "Markt-Filter: Liquidität 1662$",
     "Markt-Filter: Liquidität 1651$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.370582+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.632394+00:00",
    "entscheid": "Markt-Filter: Liquidität 1651$",
-   "alter_h": 18.0,
+   "alter_h": 18.9,
    "liquiditaet_usd": 1651,
    "mcap_usd": 1614
   },
@@ -12315,9 +12255,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.371656+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.633732+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 12.4,
+   "alter_h": 13.3,
    "liquiditaet_usd": 0,
    "mcap_usd": 8696
   },
@@ -12344,9 +12284,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372144+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.634353+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 7.8,
+   "alter_h": 8.7,
    "liquiditaet_usd": 0,
    "mcap_usd": 2506
   },
@@ -12358,9 +12298,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372161+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.634370+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 7.3,
+   "alter_h": 8.2,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -12370,11 +12310,12 @@
    "url": "https://dexscreener.com/solana/fytgbkzjhhcsymys7zbfu5ibxkrmwv8frvswvtdmoekz",
    "zuerst_gesehen": "2026-11-07T17:44:45.840048+00:00",
    "verlauf": [
-    "Markt-Filter: zu jung"
+    "Markt-Filter: zu jung",
+    "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372394+00:00",
-   "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 5.3,
+   "zuletzt_gesehen": "2026-11-07T23:54:48.634652+00:00",
+   "entscheid": "Markt-Filter: Liquidität 0$",
+   "alter_h": 6.2,
    "liquiditaet_usd": 0,
    "mcap_usd": 242
   },
@@ -12386,9 +12327,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372443+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.634724+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 5.1,
+   "alter_h": 5.9,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -12400,11 +12341,11 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372539+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.634847+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 4.7,
-   "liquiditaet_usd": 16176,
-   "mcap_usd": 47921
+   "alter_h": 5.5,
+   "liquiditaet_usd": 17539,
+   "mcap_usd": 55336
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "symbol": "GTA6",
@@ -12414,11 +12355,11 @@
    "verlauf": [
     "Markt-Filter: zu alt"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372905+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.635440+00:00",
    "entscheid": "Markt-Filter: zu alt",
-   "alter_h": 225.1,
-   "liquiditaet_usd": 114679,
-   "mcap_usd": 12623656
+   "alter_h": 226.0,
+   "liquiditaet_usd": 117688,
+   "mcap_usd": 12510022
   },
   "3kQbP4tTBtUQ13TifHEon7X6ms9MhYtTr43m612owo5P": {
    "symbol": "GTA6",
@@ -12428,11 +12369,25 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-07T23:03:13.372869+00:00",
+   "zuletzt_gesehen": "2026-11-07T23:54:48.635278+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 1.0,
-   "liquiditaet_usd": 57732,
-   "mcap_usd": 71274
+   "alter_h": 1.9,
+   "liquiditaet_usd": 63587,
+   "mcap_usd": 86408
+  },
+  "Ch6cxwpSbEgUDW1hrhC1JDLVmCUZaTCxDfUoY3Sepump": {
+   "symbol": "GTA",
+   "name": "Giga Titty Ass",
+   "url": "https://dexscreener.com/solana/hfbpprcrwajwktjuceukn6bad3yz7vdcnhyp6rb1rpzy",
+   "zuerst_gesehen": "2026-11-07T23:39:26.963120+00:00",
+   "verlauf": [
+    "Markt-Filter: zu jung"
+   ],
+   "zuletzt_gesehen": "2026-11-07T23:54:48.635344+00:00",
+   "entscheid": "Markt-Filter: zu jung",
+   "alter_h": 0.8,
+   "liquiditaet_usd": 22962,
+   "mcap_usd": 91146
   }
  }
 }
