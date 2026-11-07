@@ -8,7 +8,7 @@
    "gekauft": "2026-11-03T09:33:47.530088+00:00",
    "einstieg_preis": 0.0001235,
    "einstieg_mcap": 121798,
-   "letzter_preis": 1.623e-05,
+   "letzter_preis": 1.588e-05,
    "hoechst_x": 1.3125506072874495,
    "status": "offen",
    "info": "Top10 25%, LP 100% gesperrt",
@@ -17,7 +17,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.1314,
+   "letzter_x": 0.1286,
    "tiefst_x": 0.09635627530364373,
    "c": {
     "status": "offen",
@@ -25,6 +25,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.13085020242914983,
+    "t": 1794048565.0067184
    }
   },
   {
@@ -35,7 +42,7 @@
    "gekauft": "2026-11-03T09:33:49.013352+00:00",
    "einstieg_preis": 0.001056,
    "einstieg_mcap": 1056606,
-   "letzter_preis": 0.000833,
+   "letzter_preis": 0.0008174,
    "hoechst_x": 2.4374999999999996,
    "status": "offen",
    "info": "Top10 12%, LP 100% gesperrt",
@@ -44,7 +51,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.7888,
+   "letzter_x": 0.7741,
    "tiefst_x": 0.5788825757575756,
    "c": {
     "status": "offen",
@@ -53,6 +60,13 @@
     "anteil_teil": 0.5425,
     "rueckwirkend": true,
     "teil_x": 2.0
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.7819128787878787,
+    "t": 1794048565.0071528
    }
   },
   {
@@ -63,7 +77,7 @@
    "gekauft": "2026-11-03T09:34:10.302784+00:00",
    "einstieg_preis": 0.0007009,
    "einstieg_mcap": 700938,
-   "letzter_preis": 0.0002606,
+   "letzter_preis": 0.0002593,
    "hoechst_x": 1.0709088315023543,
    "status": "offen",
    "info": "Top10 20%, LP 100% gesperrt",
@@ -72,7 +86,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.3718,
+   "letzter_x": 0.37,
    "tiefst_x": 0.3100299614780996,
    "c": {
     "status": "offen",
@@ -80,6 +94,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.369810243972036,
+    "t": 1794048565.0073097
    }
   },
   {
@@ -115,6 +136,9 @@
     "rueckwirkend": true,
     "erloes": 0.4301,
     "grund": "-95%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -150,6 +174,9 @@
     "rueckwirkend": true,
     "erloes": 0.0595,
     "grund": "-99%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -185,6 +212,9 @@
     "rueckwirkend": true,
     "erloes": 0.0302,
     "grund": "-100%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -195,10 +225,10 @@
    "gekauft": "2026-11-03T18:16:00.023765+00:00",
    "einstieg_preis": 0.000115,
    "einstieg_mcap": 111080,
-   "letzter_preis": 3.656e-05,
+   "letzter_preis": 3.612e-05,
    "hoechst_x": 1.0869565217391304,
    "tiefst_x": 0.16721739130434782,
-   "letzter_x": 0.3179,
+   "letzter_x": 0.3141,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -212,6 +242,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.3179130434782609,
+    "t": 1794048565.007434
    }
   },
   {
@@ -247,6 +284,9 @@
     "rueckwirkend": true,
     "erloes": 0.4367,
     "grund": "-95%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -283,6 +323,9 @@
     "teil_x": 2.0,
     "erloes": 10.0,
     "grund": "Rest tot (rückwirkend)"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -293,10 +336,10 @@
    "gekauft": "2026-11-03T22:35:11.623256+00:00",
    "einstieg_preis": 0.0003238,
    "einstieg_mcap": 323865,
-   "letzter_preis": 0.0002422,
+   "letzter_preis": 0.0002444,
    "hoechst_x": 1.865348980852378,
    "tiefst_x": 0.6272390364422483,
-   "letzter_x": 0.748,
+   "letzter_x": 0.7548,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -310,6 +353,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.7495367510809141,
+    "t": 1794048565.0075514
    }
   },
   {
@@ -348,6 +398,9 @@
     "teil_x": 2.0,
     "erloes": 94.32,
     "grund": "Rest bei 20x (rückwirkend)"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -383,6 +436,9 @@
     "rueckwirkend": true,
     "erloes": 0.4308,
     "grund": "-95%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -418,6 +474,9 @@
     "rueckwirkend": true,
     "erloes": 0.29,
     "grund": "-97%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -445,6 +504,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.06333333333333334,
+    "t": 1794048565.0076768
    }
   },
   {
@@ -455,10 +521,10 @@
    "gekauft": "2026-11-04T02:34:37.068814+00:00",
    "einstieg_preis": 0.0001036,
    "einstieg_mcap": 101060,
-   "letzter_preis": 0.00023,
+   "letzter_preis": 0.000234,
    "hoechst_x": 3.7055984555984556,
    "tiefst_x": 0.9012548262548262,
-   "letzter_x": 2.2201,
+   "letzter_x": 2.2587,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -473,6 +539,13 @@
     "anteil_teil": 0.5425,
     "rueckwirkend": true,
     "teil_x": 2.0
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 2.2519305019305023,
+    "t": 1794048565.0077913
    }
   },
   {
@@ -500,6 +573,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.4623723487824038,
+    "t": 1794048565.007912
    }
   },
   {
@@ -527,6 +607,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 1.0253093363329584,
+    "t": 1794048565.008026
    }
   },
   {
@@ -537,10 +624,10 @@
    "gekauft": "2026-11-04T03:53:35.700930+00:00",
    "einstieg_preis": 0.001415,
    "einstieg_mcap": 1360688,
-   "letzter_preis": 0.0004467,
+   "letzter_preis": 0.0004114,
    "hoechst_x": 1.439575971731449,
-   "tiefst_x": 0.29978798586572436,
-   "letzter_x": 0.3157,
+   "tiefst_x": 0.2901766784452297,
+   "letzter_x": 0.2907,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -554,6 +641,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.2950530035335689,
+    "t": 1794048565.0081546
    }
   },
   {
@@ -590,6 +684,9 @@
     "teil_x": 2.0,
     "erloes": 10.0,
     "grund": "Rest tot (rückwirkend)"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -625,6 +722,9 @@
     "rueckwirkend": true,
     "erloes": 0.2482,
     "grund": "-97%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -660,6 +760,9 @@
     "rueckwirkend": true,
     "erloes": 0.1844,
     "grund": "-98%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -670,10 +773,10 @@
    "gekauft": "2026-11-05T00:04:46.872324+00:00",
    "einstieg_preis": 0.0001506,
    "einstieg_mcap": 150648,
-   "letzter_preis": 5.213e-05,
+   "letzter_preis": 5.061e-05,
    "hoechst_x": 1.850597609561753,
    "tiefst_x": 0.2241035856573705,
-   "letzter_x": 0.3461,
+   "letzter_x": 0.3361,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -687,6 +790,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.32622841965471444,
+    "t": 1794048565.0082755
    }
   },
   {
@@ -697,10 +807,10 @@
    "gekauft": "2026-11-05T00:04:48.303688+00:00",
    "einstieg_preis": 0.006539,
    "einstieg_mcap": 6446340,
-   "letzter_preis": 0.005746,
+   "letzter_preis": 0.005987,
    "hoechst_x": 1.3093745220981803,
    "tiefst_x": 0.6557577611255544,
-   "letzter_x": 0.8787,
+   "letzter_x": 0.9156,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -714,6 +824,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.8944792781770914,
+    "t": 1794048565.0083854
    }
   },
   {
@@ -724,10 +841,10 @@
    "gekauft": "2026-11-05T00:04:49.769727+00:00",
    "einstieg_preis": 0.0001897,
    "einstieg_mcap": 189501,
-   "letzter_preis": 0.0001886,
+   "letzter_preis": 0.0001857,
    "hoechst_x": 1.9905113336847655,
    "tiefst_x": 0.8856088560885608,
-   "letzter_x": 0.9942,
+   "letzter_x": 0.9789,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -741,6 +858,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.9789140748550342,
+    "t": 1794048565.0084965
    }
   },
   {
@@ -776,6 +900,9 @@
     "rueckwirkend": true,
     "erloes": 0.0206,
     "grund": "-100%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -786,10 +913,10 @@
    "gekauft": "2026-11-05T00:04:52.627901+00:00",
    "einstieg_preis": 0.0009593,
    "einstieg_mcap": 951877,
-   "letzter_preis": 0.0007106,
+   "letzter_preis": 0.0007001,
    "hoechst_x": 1.5198582299593455,
    "tiefst_x": 0.606483894506411,
-   "letzter_x": 0.7407,
+   "letzter_x": 0.7298,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -803,6 +930,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.7419993745439383,
+    "t": 1794048565.008609
    }
   },
   {
@@ -813,10 +947,10 @@
    "gekauft": "2026-11-05T00:04:55.500139+00:00",
    "einstieg_preis": 0.0001783,
    "einstieg_mcap": 178353,
-   "letzter_preis": 8.006e-05,
+   "letzter_preis": 7.631e-05,
    "hoechst_x": 2.022994952327538,
    "tiefst_x": 0.4028603477285474,
-   "letzter_x": 0.449,
+   "letzter_x": 0.428,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -831,6 +965,13 @@
     "anteil_teil": 0.5425,
     "rueckwirkend": true,
     "teil_x": 2.0
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.4490185081323612,
+    "t": 1794048565.0087194
    }
   },
   {
@@ -866,6 +1007,9 @@
     "rueckwirkend": true,
     "erloes": 0.3855,
     "grund": "-96%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -876,10 +1020,10 @@
    "gekauft": "2026-11-05T00:14:56.810907+00:00",
    "einstieg_preis": 0.0001132,
    "einstieg_mcap": 113252,
-   "letzter_preis": 9.938e-06,
+   "letzter_preis": 9.27e-06,
    "hoechst_x": 1.0088339222614842,
    "tiefst_x": 0.07453180212014135,
-   "letzter_x": 0.0878,
+   "letzter_x": 0.0819,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -893,6 +1037,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.08189045936395759,
+    "t": 1794048813.329406
    }
   },
   {
@@ -903,10 +1054,10 @@
    "gekauft": "2026-11-05T00:14:58.244442+00:00",
    "einstieg_preis": 0.0001131,
    "einstieg_mcap": 109242,
-   "letzter_preis": 6.032e-05,
+   "letzter_preis": 5.869e-05,
    "hoechst_x": 1.5552608311229001,
    "tiefst_x": 0.13572060123784263,
-   "letzter_x": 0.5333,
+   "letzter_x": 0.5189,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -920,6 +1071,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.49885057471264366,
+    "t": 1794049048.9643013
    }
   },
   {
@@ -930,10 +1088,10 @@
    "gekauft": "2026-11-06T00:02:00.404227+00:00",
    "einstieg_preis": 0.0001151,
    "einstieg_mcap": 111252,
-   "letzter_preis": 0.0001482,
-   "hoechst_x": 1.3579496090356211,
+   "letzter_preis": 0.0001463,
+   "hoechst_x": 1.4378801042571676,
    "tiefst_x": 0.6440486533449175,
-   "letzter_x": 1.2876,
+   "letzter_x": 1.2711,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -947,6 +1105,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 1.2710686359687229,
+    "t": 1794049228.6835825
    }
   },
   {
@@ -957,10 +1122,10 @@
    "gekauft": "2026-11-06T00:02:01.765166+00:00",
    "einstieg_preis": 0.0001321,
    "einstieg_mcap": 130583,
-   "letzter_preis": 4.424e-05,
+   "letzter_preis": 4.554e-05,
    "hoechst_x": 1.3096139288417865,
    "tiefst_x": 0.2654806964420893,
-   "letzter_x": 0.3349,
+   "letzter_x": 0.3447,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -974,6 +1139,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.34473883421650264,
+    "t": 1794049228.6838393
    }
   },
   {
@@ -984,10 +1156,10 @@
    "gekauft": "2026-11-06T00:02:04.408610+00:00",
    "einstieg_preis": 0.0001938,
    "einstieg_mcap": 190721,
-   "letzter_preis": 0.0001164,
+   "letzter_preis": 0.0001105,
    "hoechst_x": 1.174406604747162,
    "tiefst_x": 0.3746646026831785,
-   "letzter_x": 0.6006,
+   "letzter_x": 0.5702,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1001,6 +1173,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.5975232198142415,
+    "t": 1794048565.0093036
    }
   },
   {
@@ -1011,10 +1190,10 @@
    "gekauft": "2026-11-06T00:02:06.546607+00:00",
    "einstieg_preis": 0.0002906,
    "einstieg_mcap": 280483,
-   "letzter_preis": 0.0002851,
+   "letzter_preis": 0.0002783,
    "hoechst_x": 1.0973847212663455,
    "tiefst_x": 0.8527185134205093,
-   "letzter_x": 0.9811,
+   "letzter_x": 0.9577,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1028,6 +1207,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.9401238816242258,
+    "t": 1794048565.009418
    }
   },
   {
@@ -1038,10 +1224,10 @@
    "gekauft": "2026-11-06T00:02:09.202215+00:00",
    "einstieg_preis": 0.0001783,
    "einstieg_mcap": 178342,
-   "letzter_preis": 0.0003549,
+   "letzter_preis": 0.0003367,
    "hoechst_x": 2.7863151991026363,
    "tiefst_x": 0.709478407178912,
-   "letzter_x": 1.9905,
+   "letzter_x": 1.8884,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1056,6 +1242,13 @@
     "anteil_teil": 0.5425,
     "rueckwirkend": true,
     "teil_x": 2.0
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 1.9641054402692093,
+    "t": 1794048565.009527
    }
   },
   {
@@ -1091,6 +1284,9 @@
     "rueckwirkend": true,
     "erloes": 0.0401,
     "grund": "-100%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -1101,10 +1297,10 @@
    "gekauft": "2026-11-06T00:02:11.898425+00:00",
    "einstieg_preis": 0.000154,
    "einstieg_mcap": 154036,
-   "letzter_preis": 0.0001152,
+   "letzter_preis": 0.0001151,
    "hoechst_x": 1.0675324675324676,
    "tiefst_x": 0.6212337662337662,
-   "letzter_x": 0.7481,
+   "letzter_x": 0.7474,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1118,6 +1314,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.7474025974025974,
+    "t": 1794048565.0096464
    }
   },
   {
@@ -1128,10 +1331,10 @@
    "gekauft": "2026-11-06T00:02:13.215135+00:00",
    "einstieg_preis": 0.0002292,
    "einstieg_mcap": 224190,
-   "letzter_preis": 0.0001281,
+   "letzter_preis": 0.0001302,
    "hoechst_x": 1.6889179755671901,
    "tiefst_x": 0.47643979057591623,
-   "letzter_x": 0.5589,
+   "letzter_x": 0.5681,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1145,6 +1348,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.5859511343804539,
+    "t": 1794048988.6481912
    }
   },
   {
@@ -1180,6 +1390,9 @@
     "rueckwirkend": true,
     "erloes": 0.2092,
     "grund": "-98%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -1190,17 +1403,17 @@
    "gekauft": "2026-11-06T00:02:17.225923+00:00",
    "einstieg_preis": 0.0001228,
    "einstieg_mcap": 121971,
-   "letzter_preis": 0.0005707,
-   "hoechst_x": 4.893322475570033,
+   "letzter_preis": 0.0006063,
+   "hoechst_x": 5.141693811074918,
    "tiefst_x": 0.5429967426710098,
-   "letzter_x": 4.6474,
+   "letzter_x": 4.9373,
    "status": "verkauft",
    "b": {
     "status": "offen",
     "teil": true,
     "erloes_teil": 18.4358,
     "teil_x": 4.001,
-    "spitze_preis": 0.0006009
+    "spitze_preis": 0.0006314
    },
    "info": "Top10 24%, LP 100% gesperrt",
    "erloes": 36.8715,
@@ -1213,6 +1426,13 @@
     "anteil_teil": 0.5425,
     "rueckwirkend": true,
     "teil_x": 2.0
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 5.061074918566775,
+    "t": 1794049108.6535864
    }
   },
   {
@@ -1223,10 +1443,10 @@
    "gekauft": "2026-11-07T00:04:38.236723+00:00",
    "einstieg_preis": 0.000868,
    "einstieg_mcap": 846292,
-   "letzter_preis": 0.0009326,
-   "hoechst_x": 1.1147465437788018,
+   "letzter_preis": 0.0009738,
+   "hoechst_x": 1.1240783410138249,
    "tiefst_x": 0.7514976958525346,
-   "letzter_x": 1.0744,
+   "letzter_x": 1.1219,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1241,6 +1461,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 1.0850230414746544,
+    "t": 1794048565.0099876
    }
   },
   {
@@ -1251,10 +1478,10 @@
    "gekauft": "2026-11-07T00:04:40.233745+00:00",
    "einstieg_preis": 0.001471,
    "einstieg_mcap": 1439653,
-   "letzter_preis": 0.0004697,
+   "letzter_preis": 0.0004673,
    "hoechst_x": 1.0842963970088375,
    "tiefst_x": 0.3074779061862678,
-   "letzter_x": 0.3193,
+   "letzter_x": 0.3177,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1268,6 +1495,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.3240652617267165,
+    "t": 1794048565.010098
    }
   },
   {
@@ -1278,10 +1512,10 @@
    "gekauft": "2026-11-07T00:04:43.003115+00:00",
    "einstieg_preis": 0.008138,
    "einstieg_mcap": 8102103,
-   "letzter_preis": 0.0191,
+   "letzter_preis": 0.02078,
    "hoechst_x": 2.617350700417793,
    "tiefst_x": 1.0,
-   "letzter_x": 2.347,
+   "letzter_x": 2.5535,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1296,6 +1530,13 @@
     "anteil_teil": 0.5425,
     "rueckwirkend": true,
     "teil_x": 2.0
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 2.538707299090686,
+    "t": 1794049168.6493185
    }
   },
   {
@@ -1306,10 +1547,10 @@
    "gekauft": "2026-11-07T00:04:44.392345+00:00",
    "einstieg_preis": 0.0001865,
    "einstieg_mcap": 180695,
-   "letzter_preis": 0.0002082,
+   "letzter_preis": 0.0002133,
    "hoechst_x": 1.276675603217158,
    "tiefst_x": 0.7351206434316353,
-   "letzter_x": 1.1164,
+   "letzter_x": 1.1437,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1323,6 +1564,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 1.1506702412868632,
+    "t": 1794049168.6495786
    }
   },
   {
@@ -1333,10 +1581,10 @@
    "gekauft": "2026-11-07T00:04:45.746314+00:00",
    "einstieg_preis": 0.0005912,
    "einstieg_mcap": 573589,
-   "letzter_preis": 0.0002416,
+   "letzter_preis": 0.0002303,
    "hoechst_x": 1.1608592692828148,
    "tiefst_x": 0.3824424898511502,
-   "letzter_x": 0.4087,
+   "letzter_x": 0.3895,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1350,6 +1598,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.405277401894452,
+    "t": 1794048565.0104492
    }
   },
   {
@@ -1360,10 +1615,10 @@
    "gekauft": "2026-11-07T00:04:47.126365+00:00",
    "einstieg_preis": 0.002395,
    "einstieg_mcap": 2364606,
-   "letzter_preis": 0.001164,
+   "letzter_preis": 0.001191,
    "hoechst_x": 1.1064718162839249,
    "tiefst_x": 0.4526096033402922,
-   "letzter_x": 0.486,
+   "letzter_x": 0.4973,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1377,6 +1632,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.5089770354906055,
+    "t": 1794048565.0105584
    }
   },
   {
@@ -1387,10 +1649,10 @@
    "gekauft": "2026-11-07T00:04:51.841234+00:00",
    "einstieg_preis": 0.0007674,
    "einstieg_mcap": 756304,
-   "letzter_preis": 0.0009211,
+   "letzter_preis": 0.0009532,
    "hoechst_x": 1.3708626531144124,
    "tiefst_x": 0.955824863174355,
-   "letzter_x": 1.2003,
+   "letzter_x": 1.2421,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1404,6 +1666,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 1.2069324993484492,
+    "t": 1794048565.0106666
    }
   },
   {
@@ -1439,6 +1708,9 @@
     "rueckwirkend": true,
     "erloes": 0.1392,
     "grund": "-98%"
+   },
+   "d": {
+    "status": "nicht dabei"
    }
   },
   {
@@ -1449,10 +1721,10 @@
    "gekauft": "2026-11-07T00:04:54.608618+00:00",
    "einstieg_preis": 0.000158,
    "einstieg_mcap": 151991,
-   "letzter_preis": 6.734e-05,
+   "letzter_preis": 7.209e-05,
    "hoechst_x": 1.0379746835443038,
    "tiefst_x": 0.35227848101265824,
-   "letzter_x": 0.4262,
+   "letzter_x": 0.4563,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1466,6 +1738,13 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.46360759493670894,
+    "t": 1794048753.3318906
    }
   },
   {
@@ -1476,10 +1755,10 @@
    "gekauft": "2026-11-07T00:04:56.021777+00:00",
    "einstieg_preis": 0.0005846,
    "einstieg_mcap": 576641,
-   "letzter_preis": 0.0003419,
+   "letzter_preis": 0.0003308,
    "hoechst_x": 1.2399931577146768,
    "tiefst_x": 0.4503934314060896,
-   "letzter_x": 0.5848,
+   "letzter_x": 0.5659,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1493,6 +1772,346 @@
     "erloes_teil": 0.0,
     "anteil_teil": 0.0,
     "rueckwirkend": true
+   },
+   "d": {
+    "status": "nicht dabei"
+   },
+   "verlauf_letzt": {
+    "x": 0.5916866233321929,
+    "t": 1794048565.0108836
+   }
+  },
+  {
+   "mint": "CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq",
+   "symbol": "ZCATS",
+   "name": "Anonymous Cats",
+   "url": "https://dexscreener.com/solana/2k5cyxlichjuzqzs4aq7t62bzzva6f21pnbqntsrpgev",
+   "gekauft": "2026-11-07T10:51:18.704366+00:00",
+   "einstieg_preis": 0.000107,
+   "einstieg_mcap": 107026,
+   "letzter_preis": 0.0001056,
+   "hoechst_x": 1.014018691588785,
+   "tiefst_x": 0.9803738317757009,
+   "letzter_x": 0.9869,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.014018691588785
+   },
+   "info": "Top10 22%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 1.0,
+    "t": 1794048693.3250344
+   }
+  },
+  {
+   "mint": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
+   "symbol": "0DAY",
+   "name": "Everyday is Zeroday",
+   "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
+   "gekauft": "2026-11-07T10:51:20.055951+00:00",
+   "einstieg_preis": 0.0002066,
+   "einstieg_mcap": 204350,
+   "letzter_preis": 0.0002404,
+   "hoechst_x": 1.1636011616650532,
+   "tiefst_x": 1.0,
+   "letzter_x": 1.1636,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.1636011616650532
+   },
+   "info": "Top10 3%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 1.1636011616650532,
+    "t": 1794049228.6840525
+   }
+  },
+  {
+   "mint": "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
+   "symbol": "FUSE",
+   "name": "FloatFuse",
+   "url": "https://dexscreener.com/solana/b5ozhrdmdazrjodsjsl9eqw6fe9m46ag98bvxh3h1qni",
+   "gekauft": "2026-11-07T10:51:21.326486+00:00",
+   "einstieg_preis": 0.0002859,
+   "einstieg_mcap": 285941,
+   "letzter_preis": 0.0002867,
+   "hoechst_x": 1.0097936341378104,
+   "tiefst_x": 0.9968520461699895,
+   "letzter_x": 1.0028,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.0097936341378104
+   },
+   "info": "Top10 20%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 1.0,
+    "t": 1794048693.325374
+   }
+  },
+  {
+   "mint": "H4Yco8GenmbchjBhNRinG96cXBgNJhFRPFyJYPwKpump",
+   "symbol": "VETO",
+   "name": "VETO",
+   "url": "https://dexscreener.com/solana/2uabu1j7p8sovvh3kqceblbasdv6v8ebaqk6qesgddwr",
+   "gekauft": "2026-11-07T10:51:22.645539+00:00",
+   "einstieg_preis": 0.0002626,
+   "einstieg_mcap": 253939,
+   "letzter_preis": 0.0002626,
+   "hoechst_x": 1.0,
+   "tiefst_x": 1.0,
+   "letzter_x": 1.0,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.0
+   },
+   "info": "Top10 13%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 1.0,
+    "t": 1794048693.3254957
+   }
+  },
+  {
+   "mint": "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP",
+   "symbol": "PI",
+   "name": "Privacy Inu",
+   "url": "https://dexscreener.com/solana/chvbggycqqv1wtlgdh9mux8kgdgbaipvzkqyfqpbwtvf",
+   "gekauft": "2026-11-07T10:51:23.915680+00:00",
+   "einstieg_preis": 0.0002685,
+   "einstieg_mcap": 268518,
+   "letzter_preis": 0.0002612,
+   "hoechst_x": 1.002607076350093,
+   "tiefst_x": 0.9728119180633147,
+   "letzter_x": 0.9728,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.002607076350093
+   },
+   "info": "Top10 20%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 1.001117318435754,
+    "t": 1794048693.3256137
+   }
+  },
+  {
+   "mint": "87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT",
+   "symbol": "José",
+   "name": "Be Like José",
+   "url": "https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry",
+   "gekauft": "2026-11-07T10:51:25.182931+00:00",
+   "einstieg_preis": 0.0001895,
+   "einstieg_mcap": 186342,
+   "letzter_preis": 0.0001952,
+   "hoechst_x": 1.0300791556728233,
+   "tiefst_x": 0.9519788918205805,
+   "letzter_x": 1.0301,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.0300791556728233
+   },
+   "info": "Top10 25%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 0.9846965699208444,
+    "t": 1794048693.3257313
+   }
+  },
+  {
+   "mint": "JATk4idqfAyU21F6w3xf2Rbyj9j8FnYxVWLMfoweqExh",
+   "symbol": "WHITE",
+   "name": "WHITE MONSTER",
+   "url": "https://dexscreener.com/solana/gxx1ttdg4qw62pvvgicj1xgdztbay1yw6ah4rqagb8z4",
+   "gekauft": "2026-11-07T10:51:26.447819+00:00",
+   "einstieg_preis": 0.0001454,
+   "einstieg_mcap": 145471,
+   "letzter_preis": 0.0001452,
+   "hoechst_x": 1.0,
+   "tiefst_x": 0.998624484181568,
+   "letzter_x": 0.9986,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.0
+   },
+   "info": "Top10 25%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 1.0,
+    "t": 1794048693.3258474
+   }
+  },
+  {
+   "mint": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
+   "symbol": "HODL",
+   "name": "Diamond Hands",
+   "url": "https://dexscreener.com/solana/ans69udtbmcwbw7zucyxlz4hmcqkvzpmtcw9zjpzqgkr",
+   "gekauft": "2026-11-07T10:51:27.719802+00:00",
+   "einstieg_preis": 0.004099,
+   "einstieg_mcap": 4080945,
+   "letzter_preis": 0.004072,
+   "hoechst_x": 1.0121980970968527,
+   "tiefst_x": 0.9848743595999023,
+   "letzter_x": 0.9934,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.0121980970968527
+   },
+   "info": "Top10 1%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 0.9985362283483776,
+    "t": 1794048693.32596
+   }
+  },
+  {
+   "mint": "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump",
+   "symbol": "SLINGFOLIO",
+   "name": "Slingfolio",
+   "url": "https://dexscreener.com/solana/7g4rvlmnbubytt2cd8uuz6qhybfqdzzrknkl9633zsqa",
+   "gekauft": "2026-11-07T10:56:26.885950+00:00",
+   "einstieg_preis": 0.0001361,
+   "einstieg_mcap": 129178,
+   "letzter_preis": 0.0001296,
+   "hoechst_x": 1.0,
+   "tiefst_x": 0.9522409992652462,
+   "letzter_x": 0.9522,
+   "status": "offen",
+   "b": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0
+   },
+   "c": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0
+   },
+   "d": {
+    "status": "offen",
+    "teil": false,
+    "erloes_teil": 0.0,
+    "anteil_teil": 0.0,
+    "spitze_x": 1.0
+   },
+   "info": "Top10 20%, LP 100% gesperrt",
+   "verlauf_letzt": {
+    "x": 1.0,
+    "t": 1794048988.6486776
    }
   }
  ],
@@ -1513,7 +2132,6 @@
   "47UoAdV65ULdpAeNQgALeG4a9jgdifPpu35UxyUTpump": "2026-11-03T12:05:00.378165+00:00",
   "GNguh2ibQjvzEkoRhFrkcZN8qywCqjdxUyXtf7wepump": "2026-11-03T12:05:00.378196+00:00",
   "4akGe7Nxw5jnyr1qDBmoCsofiGWGtzLqNhN7UtrUpump": "2026-11-03T12:05:00.378203+00:00",
-  "5NSMTnd5pFjAV1owBs383cd7ung5npLYCadtS6iBpump": "2026-11-03T12:05:00.378213+00:00",
   "3LDaXnFhWc282vDufuTfwpCNYZUMjPBSVANtu3zPnEdB": "2026-11-03T12:05:00.378224+00:00",
   "4amJBwKADgegqmHKVLGijeZPs23W4sErWwj9wVUfpump": "2026-11-03T12:05:00.378238+00:00",
   "HE5g4xmkJsYVVXDS41iZT8iA8sydUaAi1V4Q5Y96pump": "2026-11-03T12:05:00.378241+00:00",
@@ -1521,7 +2139,6 @@
   "7B8Q4b1sEoA9Y161271p4fmr5wWLnLJHLMos9SmnzSkQ": "2026-11-03T12:05:00.378249+00:00",
   "DRqM9HTZQVgiKT7rTRPL6aTN83eCWY6BBGReHveYpump": "2026-11-03T12:05:00.378272+00:00",
   "6u3ibCS3XRZ6UMdLoVEpAW11jiw2JUBVFqQ1Tq5V8Dzd": "2026-11-03T13:29:44.135691+00:00",
-  "NZKde9SGT5oug3BVhamo89ifqhFKMiHdUGGRRHrpump": "2026-11-03T13:29:44.135695+00:00",
   "6MFJZLFcz4Nj4yYjCze25EHCyhQsFAaKd8B6PWYdpump": "2026-11-03T13:29:44.135726+00:00",
   "7ccVybMESHTbF8rbSuCb96qyVA8YuejEAeJK3GhzTeTT": "2026-11-03T13:29:44.135728+00:00",
   "DuATi7r26LzLdFHEc8diPFmSNbPZn24ZafQthjZ26uPM": "2026-11-03T13:29:44.135736+00:00",
@@ -1531,7 +2148,6 @@
   "GrWGGFTnq6jxv3UBbaPwFC79HPKhVkP519CCuAJc2Q6G": "2026-11-03T13:29:44.135760+00:00",
   "4up8RwmTFU6qVaZaS4pWa8R8qH8DE13NvAF6rRo2pump": "2026-11-03T13:29:44.135764+00:00",
   "9EwDaQqRvsYmAgoLJ39JgscjDu54367iULrjCMpLpump": "2026-11-03T13:29:44.135788+00:00",
-  "G6fogMihKcNpnLBfbKCjTqr2QgLRJpxDp1J9EZ6kpump": "2026-11-03T13:29:44.135790+00:00",
   "BBuLUMFCMvArEsmomownfy8qGSdDyH2orKXywvxy9fTw": "2026-11-03T13:29:44.135793+00:00",
   "AuEbs745YumLfebV8pxaMGRAS9zkiRquWaE9hSvRSTNK": "2026-11-03T13:29:44.135799+00:00",
   "DjVaEA7bQjxS3C2WAfjwbkvHijR6ihYGsnLf5QcDK7NU": "2026-11-03T13:29:44.135802+00:00",
@@ -1548,7 +2164,6 @@
   "Ewa32hySLFaccw8SjtW2XiHWHt8nznanL1Zfdj23pump": "2026-11-03T15:09:04.218177+00:00",
   "3Z1UbXCd1a3jzroaPzxpmaPv2d36C7QQR2YCcErwjWxo": "2026-11-03T15:09:04.218180+00:00",
   "78n8VkepVBnZDxJCiCMwpth5sArknKZ7bji9m26Tpump": "2026-11-03T15:09:04.218182+00:00",
-  "6JrsviCgzki77Zr35RBGYpuKDGo628hDYDCuB7mBpump": "2026-11-03T15:09:04.218187+00:00",
   "3eKua2cPVhSKgkK7BbQoBR9MUqQNwmUpYKBsBYSSpump": "2026-11-03T15:09:04.218196+00:00",
   "66uCeEPjjnoeGgqBZKHE1ieWo9Uw5mufK9XaFY23pump": "2026-11-03T15:09:04.218209+00:00",
   "2qa2RsyhhoUhF5CyoMMvnWWQ6WrM7NQFu39pJdEY61vz": "2026-11-03T15:09:04.218213+00:00",
@@ -1640,7 +2255,6 @@
   "3RhbWzaLdRnRFMbaRfh7V1uocWSwKTEpPdAvw9StNpuZ": "2026-11-03T17:26:19.943955+00:00",
   "Af6GakihHHnds537VVZHxZx63C5N7JwqtjxGeyjYpump": "2026-11-03T17:26:19.943957+00:00",
   "8zGdRqHfsyypTUHcPAmozNB2xbEn5ceYLsJjsssHVm2A": "2026-11-03T17:26:19.943963+00:00",
-  "4YBfjTYRNkicmagujrxKdQpYv93XYwnThSXPpqcApump": "2026-11-03T17:26:19.943997+00:00",
   "J1mHCQKTgULnrAyR6UbE1FoRXLJv97XPbaqWWtospump": "2026-11-03T17:26:19.944015+00:00",
   "5rwoVZpFMPTRHGz636McFp1rsaubyUyymsJeRHirpump": "2026-11-03T17:26:19.944019+00:00",
   "DzvdRnkapMpn8GJG5KChKATayRSTX9toLDvaKsPQpump": "2026-11-03T17:31:19.981433+00:00",
@@ -1925,7 +2539,6 @@
   "ChyF9toJcDBtofcmnP1TTCL1TdUa1w6HHNtMQjuYnCzo": "2026-11-03T19:58:16.916059+00:00",
   "SXAbh7nkdvYZJ1c6nPnFxD4g1pHM3oJNh2FcMNXpump": "2026-11-03T19:58:16.916061+00:00",
   "AfTzfZEqtrhq3Toj4xEqp3PcjbZmm5B4e9CcG1eApump": "2026-11-03T19:58:16.916074+00:00",
-  "t2TGpqDS81fNNXCST8hxNrRsfVPxJdw41Cct4yLpump": "2026-11-03T19:58:16.916078+00:00",
   "8L6SctMfNgie7my9xjNbH3y8S7o5SW1LH6foimWtYCLQ": "2026-11-03T19:58:16.916098+00:00",
   "2dRNW7w2d49EvuMLL3Ffi66wZLYspgXnPqsJ1YRnpump": "2026-11-03T19:58:16.916100+00:00",
   "C13pKsFzp8VvZnW1ATML3aopUczN3ZYrrKnVSMEbpump": "2026-11-03T19:58:16.916106+00:00",
@@ -2371,7 +2984,6 @@
   "G3ZwFWvDHrRHqoje8xRgJCmomxcV1Chod4ah6TadoKE3": "2026-11-03T23:28:45.965736+00:00",
   "FTbue5f2sR4xWnep6FNu6UKsY3Q8FcphrzmYkfnRQk8q": "2026-11-03T23:33:45.968541+00:00",
   "ANmjjjPTnsUYEasnutkaGsS9ixPCbicLALjpa3GJPXAj": "2026-11-03T23:33:45.968542+00:00",
-  "3DYBAnkeAXQWv68nEjwxZXJGobkXZchEGi4mwW6Tu7ci": "2026-11-03T23:33:45.968565+00:00",
   "54SbfG9bVZ9NVPtKzVA92XKXhvGaDubFUhjXe98Wpump": "2026-11-03T23:33:45.968579+00:00",
   "DzAxZccQsFwgN7J1HNLE1Dbocnqb9iRUe73uWVj1GnZT": "2026-11-03T23:33:45.968589+00:00",
   "5NjpyfgYLkre8Yv3QcgRg4zCeN3793QvEEB4auwLNdAi": "2026-11-03T23:33:45.968592+00:00",
@@ -2385,14 +2997,12 @@
   "6MvhE2xWKmZRC9twRzC2UzG9yN1RCiuEec8VrHCXpump": "2026-11-03T23:41:08.294835+00:00",
   "5XvbZrTnfUCLhUBxABtPn3ShM5Q1TefuDtNtptwapump": "2026-11-03T23:41:08.294838+00:00",
   "CtMpJDp2pLm7uwRr1eyk29dTQEioQzMu5jv46AAJpump": "2026-11-03T23:41:08.294839+00:00",
-  "FUNtwYkmTzxeHtTJu8hVJZ9nEXXdFh18e32eLZCEyaEM": "2026-11-03T23:41:08.294861+00:00",
   "AXTqfDdYVvGCS65pE74uKZcoLH4SnW6FmpEBfXuWpump": "2026-11-03T23:41:08.294862+00:00",
   "CWfZejqKJ4UDyrR41vJM8hVS4fnSgxKEyL1NJusVpump": "2026-11-03T23:41:08.294874+00:00",
   "GxExhBYYFUxtTGfCVwSo1Y4c1wiAg4LsWs6sYE3Ppump": "2026-11-03T23:41:08.294876+00:00",
   "EHKPjxz71i2mAPL9bkSwPTMYzhHkGJbJfMUAiYwSBMu5": "2026-11-03T23:41:08.294879+00:00",
   "7ScVG7eL9f3RGhwBzck87WxHz9eeV3aYDR5hDFopump": "2026-11-03T23:41:08.294894+00:00",
   "CXqjrmt2YtB3iWcUAo5mYhuzLrTAXLhrTAApdByAr1aV": "2026-11-03T23:41:08.294904+00:00",
-  "5ct6MLzVuDBWbMGYfr42CWg1u6iC9raHn1kWvXvYpump": "2026-11-03T23:41:08.294906+00:00",
   "Bj1uvN1aYDkhK6E9im36XRtPN9jkjuyuroZVWXympump": "2026-11-03T23:41:08.294924+00:00",
   "DnPaNat6oKMECjNi9PgVAwS1WPP9hx6ChWZhtC4Cpump": "2026-11-03T23:41:08.294929+00:00",
   "2h2TkrCzQY2vawrHW8WrBnqC5uPP8QHSP2VVd7r4pump": "2026-11-03T23:41:08.294929+00:00",
@@ -2467,10 +3077,8 @@
   "8eYVMXSGGJSgZF5aZkHKNEDWPqeh9Xw3URCTfaMHAZbD": "2026-11-04T00:16:08.290047+00:00",
   "FwwhJBm5tRPigkg4Bj4wX13mpr3v8wt9Nzsf3E4rpump": "2026-11-04T00:16:08.290049+00:00",
   "WGyid76hiVzNokkrN117LAAfoqEYHhw1SrrtZEvpump": "2026-11-04T00:16:08.290063+00:00",
-  "2fi3zbz1rY4PxfhBuPMVpizeHTWCyBRZqFPbBrnQpump": "2026-11-04T00:16:08.290069+00:00",
   "gN8HzbU71XSMk8HFiurTfNEYSF4Nh5VWKnLZtNbJfp7": "2026-11-04T00:21:08.301099+00:00",
   "83NR5CSvHeAdXutVVCXA96bs4FmPHqgQ4Aphvyuufrv2": "2026-11-04T00:21:08.301111+00:00",
-  "FGrJjaKYT2et7voESztVF1T4qFQhrVjusaV3dRxJpump": "2026-11-04T00:21:08.301129+00:00",
   "6JAgwSXeWLXEAwsYpM4YBivKx8oouRqWxrSZn6SCpump": "2026-11-04T00:21:08.301158+00:00",
   "5dc11aBZVAv3Ckq88Aj4QoBbwYo1WKQx2JY9Bw2mpump": "2026-11-04T00:21:08.301162+00:00",
   "CytKFht4zcE5BrQfav4NSW3pKYqPE6Y5WKi5N1zbrYUs": "2026-11-04T00:21:08.301185+00:00",
@@ -2481,7 +3089,6 @@
   "2YDdv2HdL3aDKZtbjQwruss4VQ5AjJaH6f4a2UYLpump": "2026-11-04T00:21:08.301202+00:00",
   "JCdE6KcCEUcgmhiCQfXTL11524wSgqJCnGtYDA757q4a": "2026-11-04T00:26:08.528417+00:00",
   "CB4oWSRq315QPvdvihamTnReFSaYyYXQM53oNQB3JRcx": "2026-11-04T00:26:08.528423+00:00",
-  "3YsENuGDtUFJ4bKcQLN6weLwFxyh31i8MKUw6asBpump": "2026-11-04T00:26:08.528433+00:00",
   "FJuCxbsA5fACbx2WpgFLLbzwWemnpzjGmqx6RhCipump": "2026-11-04T00:26:08.528441+00:00",
   "D28v5NR4FLti3yFTXZkdHp3UBzbVH9XytiQfk4z9pump": "2026-11-04T00:26:08.528450+00:00",
   "5hKArjRj2E4MRvNfaDxSjqSPCtvbSZJAa5JCg2tUpump": "2026-11-04T00:26:08.528496+00:00",
@@ -2501,7 +3108,6 @@
   "8usHJxuwfrKmxBgkQUA5LhSgc7o8mDsXLXBZRHpcpump": "2026-11-04T00:31:08.282077+00:00",
   "CEdZgFMXtu8unrTq6kCJELSK2UrZAPtdq4kFFfPuYFmJ": "2026-11-04T00:31:08.282080+00:00",
   "8GbBwnvGaiR3WUq9bZyiooXEG5ahQxA4BSDthXLnVyZM": "2026-11-04T00:31:08.282112+00:00",
-  "HV5dDHodf46zXunYAPbYpYs7THtrriiptqzczHKvpump": "2026-11-04T00:59:50.206804+00:00",
   "CKZJs4XnRhejmLmD46GZ92PxgxMtQ6dwNJ6iC6vipump": "2026-11-04T00:59:50.206808+00:00",
   "2aeY5EEQWQ9jATPfJaJA5AC5UfzWB2yCqC8FDNK4kALk": "2026-11-04T00:59:50.206820+00:00",
   "3uZ3gSwZFQt4NERESnoDsFatpg2ncMgFDv2xgCRVpump": "2026-11-04T00:59:50.206825+00:00",
@@ -2510,13 +3116,9 @@
   "6BpcYWX8CHEYsqmTSJ73YTBWkNhE6cmarvZDBUDYpump": "2026-11-04T00:59:50.206853+00:00",
   "8hUNboygh8Q6ZWt2JFDVHAf61ZJM9fpvjnL4FX3Mpump": "2026-11-04T00:59:50.206869+00:00",
   "DA1weNZdxkVTeusVJ6wZPEaPNZLqSJVukGzjJxcepump": "2026-11-04T00:59:50.206887+00:00",
-  "DyUR3ZpJj5iu8WBG7zk1YbamJE5k9afZhoM7xYCbpump": "2026-11-04T00:59:50.206889+00:00",
   "Cc7vK7iSDtxCKY5tGMdwBKMSR44BQYh8pNHskpKs9Qs1": "2026-11-04T00:59:50.206895+00:00",
   "5VgLBMrzFzKHVeoJizkapYZLdjn8o4AbfeQC6N4wpump": "2026-11-04T00:59:50.206902+00:00",
   "Bw5xETJuhPE9RQDZj79J8qnHcWbAZbxvvGSaKsdjpump": "2026-11-04T00:59:50.206913+00:00",
-  "8W5rPypoX9bGvzUsziDEq2ZtjzPhGBVboPhUAXuZpump": "2026-11-04T00:59:50.206915+00:00",
-  "2Nhb9M58caMHufHzEa2DhNA1FEsVVL8axXu6iidvQfDe": "2026-11-04T00:59:50.206917+00:00",
-  "69GXjuoQGxNb75BgQ54qUf6j2aDgXHVSkAcefuiqe58u": "2026-11-04T01:04:50.220893+00:00",
   "BnBvvZEk2aPP9B8CRNjPzYxm26MMFaaXhrNkUEq7pump": "2026-11-04T01:04:50.220896+00:00",
   "9KTmhMCoX3eTZtktZyFpRKgE6QKsdxJnr38FhPH9VPsc": "2026-11-04T01:04:50.220915+00:00",
   "DiYHK8xiJPsiVBNGSgYHrZ8rqecW1z4YWNQt8FXNpump": "2026-11-04T01:04:50.220951+00:00",
@@ -2527,17 +3129,14 @@
   "A9ZgayriQWc4j8CvLCpUarAMVS7eSwBmNndbTXZXoubJ": "2026-11-04T01:04:50.221006+00:00",
   "5nyVYv3V1Ns3WMM842FYoq1JSK2Q6smU1RL6KV4ipump": "2026-11-04T01:04:50.221025+00:00",
   "2NySFyBQKMUxEMY9Ltd7RizrWKnVtBbwd3f5nSH2CiMe": "2026-11-04T01:04:50.221058+00:00",
-  "FDGdzwKowt4hLkgMFtNik3dL5JeCrvFQqkgxJyGgSG6x": "2026-11-04T01:09:50.230570+00:00",
   "DYhi7294XwXJqfgsh9E3hr2feeaDrqJuw875P1kaCmsB": "2026-11-04T01:09:50.230579+00:00",
   "GE8w89o4WJYLRZcTcu9AmRogkSUZefKEovx22Lmbpump": "2026-11-04T01:09:50.230595+00:00",
   "7qZUe3iyeQmUsj66TwjzkTyrWXPrjTriybvDZWe9pump": "2026-11-04T01:09:50.230612+00:00",
   "AXgXCVhA19DRUrudwu3T9A24euAoqpMFE64TyZa2dzA2": "2026-11-04T01:09:50.230622+00:00",
-  "HZWx1WGSygHc4MUu1dsDpC91LKNwzFyrRu3D6FvKpump": "2026-11-04T01:09:50.230626+00:00",
   "Dx6BbCQDUMcxh71BWQyaRooFFfFudsDJM8PrPYM6Qf3g": "2026-11-04T01:09:50.230628+00:00",
   "tFkGu5UBPEd17Ciwj6DF2e7JvQ5GweSV5gv4j73tbGc": "2026-11-04T01:09:50.230644+00:00",
   "GT7kQdT3JvZ8vFBW4jjYGYBsrNrE9U4UFspJJAXapump": "2026-11-04T01:09:50.230647+00:00",
   "yBekyz77zKHcvDVuj4qTYfeE4xe42jLZQPePnvvSxQd": "2026-11-04T01:09:50.230681+00:00",
-  "DJ7QLU6qvaacEUyuV7JPAd6227zZqBDoGzbzcfqPpump": "2026-11-04T01:09:50.230684+00:00",
   "6i3oFRo48Xbnu7B9YH5DgypHRvsr47GagoJhSvs4pump": "2026-11-04T01:09:50.230688+00:00",
   "HVmHS3oASnXQcEY7qHKXn3CRDDjmku75SEXATc7vpump": "2026-11-04T01:09:50.230700+00:00",
   "Epp6cgWFQQX5FXJECUpv4G4ZjbJCQ13L8ASaSXbTpump": "2026-11-04T01:09:50.230705+00:00",
@@ -2547,7 +3146,6 @@
   "9hY83L3v9cz7BJTuSxQbAxSLEdwpHWHkELbRsV1YBuCA": "2026-11-04T01:14:50.224229+00:00",
   "ADoFMFtjpGR2TweKmwSTT2LYtdkiDD59gewPk3nopump": "2026-11-04T01:14:50.224237+00:00",
   "2tq1Y8nBGaafMAaKKgjGVnFkKoGLsfZuJFtriP4Qpump": "2026-11-04T01:14:50.224261+00:00",
-  "FEejVzuJWCRPRKH7CyWAqGEWDPCqj4ChfQNDsma6pump": "2026-11-04T01:14:50.224280+00:00",
   "8Prz9gW84RAQtFbh1KXdCxmVRPXPBNAMkXZCFiiRniHG": "2026-11-04T01:14:50.224286+00:00",
   "FGW1zFARUz9ux5dGW8KBAz3TxRMCfgGaYbMg2KZmBXHv": "2026-11-04T01:14:50.224291+00:00",
   "8z7EwmU7HbX46u4FbSCwcuBQ8sByz6SVSenAyWUapump": "2026-11-04T01:14:50.224297+00:00",
@@ -2594,7 +3192,6 @@
   "GsS614qWEqoMvyyQdiQkajrzLxE1YXSePaBjG4SSDUJF": "2026-11-04T01:34:50.172490+00:00",
   "6Twczxj7XwuFoDhHWTGvVSe2EVbKafMf9fXXbncRkofm": "2026-11-04T01:34:50.172501+00:00",
   "Ei47PVcGzowXwTzYspejpA2EwPd4kvVHASnoSK98pump": "2026-11-04T01:34:50.172511+00:00",
-  "3ekWNf8QZuxbNnXPGUA4t8dcG7rqvRvDkyM6Mf9hpump": "2026-11-04T01:39:50.243677+00:00",
   "GSdLAARrUrDvN62SR86p6usT4q6XbgZ2o8tfu9QRHvmY": "2026-11-04T01:39:50.243683+00:00",
   "9SLoT97sYNxmYYHx51Sn2TCvt1htmgPqyDuJFYrBix4s": "2026-11-04T01:39:50.243695+00:00",
   "D3nZx9dqgg12VfdAGwfLJv3XPhijPZt5Wwokpg7Jpump": "2026-11-04T01:39:50.243699+00:00",
@@ -2610,11 +3207,9 @@
   "CDCMy95T3v4qzffVE3C4S3uF2fDnR4GfoLKN9Wqjpump": "2026-11-04T01:44:50.315825+00:00",
   "E46LRY9HBSMpiR1h7aFAgJGEATmFNAHGmXannmPEMNpq": "2026-11-04T01:44:50.315841+00:00",
   "3XxZrPWs2WT5NBkxMiLE4xU7c3rYGTiP5aNfx8AJpump": "2026-11-04T01:44:50.315845+00:00",
-  "2kVEYDkv7YcZrPW1135xQk8wwgs3BUHQcdXbzBMppump": "2026-11-04T01:44:50.315861+00:00",
   "Ajb34NSteFRWiojVT3NkQBpmbH77ANnskqwDrFa3pump": "2026-11-04T01:44:50.315872+00:00",
   "Btiq6mrwqcQf9iJCZ4iQYyHemTtuYzPEi4zTa9xTezBd": "2026-11-04T01:44:50.315915+00:00",
   "FFS41A5Svwu8V5X84f4dnR9TMFQURX3UiAwkeX7npump": "2026-11-04T01:44:50.315919+00:00",
-  "nAtfsjupJJMrL5Ns6fCRUHRSTuRS3oh9NnshDNVz8xv": "2026-11-04T01:44:50.315935+00:00",
   "4ABrQVLEEpMJK9BD1f61L4k2uP9aQPoi5ZFpkUNUpump": "2026-11-04T01:44:50.315953+00:00",
   "CZjrUJ6UfF1Ae4bxUhTtc8HUdXZUWc1qgWYcZHLLpump": "2026-11-04T01:49:50.177963+00:00",
   "D9G98FKJyGbacYiJyXjsyh6m3FUMrBQ1QGFExA16USWp": "2026-11-04T01:49:50.177988+00:00",
@@ -2631,7 +3226,6 @@
   "9DVDGhWjBwtERtuMQx5VoFqqgEW18XB9iTzV3QMHpump": "2026-11-04T01:59:09.713870+00:00",
   "AowXVqYH8hTeFqReCKT7wBm1iMKaChSaiVcSta7Epump": "2026-11-04T01:59:09.713871+00:00",
   "7Zx11cHJmCYaJELGCkk6iiVvEfCL2Ldxp8nFtGjypump": "2026-11-04T01:59:09.713884+00:00",
-  "CqtohE9UjVtVgt58PYHUTK3T2jtynKo23TUesSRupump": "2026-11-04T01:59:09.713910+00:00",
   "9g6CEyMkp8jg2TobRzryffSp3on5aAmDsxYszv8SGtvj": "2026-11-04T01:59:09.713912+00:00",
   "BNPgGP1CPNhJ4o4uLzjL8zTYbtPhDpWAwjiaFprbpump": "2026-11-04T01:59:09.713915+00:00",
   "HEEeWZGPWH6z43C2fcy1i8FmUTsdqVQk2jFdUgMLpump": "2026-11-04T01:59:09.713938+00:00",
@@ -2653,7 +3247,6 @@
   "Ew4Z9UVK9U9kXoxSxMNoK33zAgXiuzVU5khuMx7apump": "2026-11-04T02:09:09.871609+00:00",
   "4iuU7CsVKS3UuA5rGv2x9jPfiKAyPXchWUtE2dCcYAPF": "2026-11-04T02:09:09.871641+00:00",
   "2CEzK2yNgqYPTbYS2cRv4w2SQBciXwSjERWUvWN43PD1": "2026-11-04T02:09:09.871648+00:00",
-  "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": "2026-11-04T02:09:09.871653+00:00",
   "6nKHTNKqjM39fgHYByuaiGrum7fNQBYGFRbzgfmpump": "2026-11-04T02:09:09.871658+00:00",
   "Fx8xXquQSfVGnfffbgZhP7NbCyUHSLTFDtasS94Spump": "2026-11-04T02:09:09.871660+00:00",
   "ALXy3MxJnEoctmqgJPRbSPmGYDGJG5kFk77jVufWX6pb": "2026-11-04T02:09:09.871671+00:00",
@@ -2661,7 +3254,6 @@
   "BAJnEpyyhTuuQZ22yeg6wDc5nAWo1FCqQmPB3A5T1Svo": "2026-11-04T02:09:09.871677+00:00",
   "FyWNFECRDtNVGBMqSwmFSVPB2wFMbtUdYHRVW5hnHeJX": "2026-11-04T02:09:09.871691+00:00",
   "7c6xv419owE1sNQzhGZAADUussSxAUhBwt2DAvSqqhXf": "2026-11-04T02:09:09.871712+00:00",
-  "2b8E4BvtGqqfNsLGKPWsSiutss1SPy7h1ANGoDvopump": "2026-11-04T02:14:09.919899+00:00",
   "HAofk3432JQaMVMAxmATYhWwUqvi9XkPKunx4HF9pump": "2026-11-04T02:14:09.919906+00:00",
   "HEE2mEX2vU21U6gNo7o95TjAJ79c5imPnnmdbaHt6ejB": "2026-11-04T02:14:09.919931+00:00",
   "7ZQM6x1QSoUwqBhMEgbSuPtMV52uHv5iaWBcWwXB2TEe": "2026-11-04T02:14:09.919944+00:00",
@@ -2673,7 +3265,6 @@
   "HwwL4k6zDSXDwH8XmgUDFEyfNfuwxekfG3oP673xmoon": "2026-11-04T02:14:09.920004+00:00",
   "BYwiMZrGXJGkYj4Gi84ji46fPbZiyg254iSaEAdWkkCf": "2026-11-04T02:14:09.920012+00:00",
   "4KmrgXqFBbTV7HEVySj3fBhz2dxc175Ge1ZivpjApump": "2026-11-04T02:19:09.685951+00:00",
-  "FvFU2Pj32JtBhUY4NLQFg3Ru3Yk4CL3jeJHJij44pump": "2026-11-04T02:19:09.685960+00:00",
   "8ER1q8GTqPnE71tZ63CzAT3JgFEPLZh9aDniEJWrpump": "2026-11-04T02:19:09.685980+00:00",
   "BGDJYupR3cYE5tsSSQSVxHtzF438USqt1fLfbv5ewVDi": "2026-11-04T02:19:09.685982+00:00",
   "89jjV7j2ji82FXXsGxiMrAPHcbYFs9wazrVSijK9pump": "2026-11-04T02:19:09.686004+00:00",
@@ -2724,7 +3315,6 @@
   "MfAXc4PP3pkctJygVi49FDf4ytxNCWLGt3Zf9ueK63x": "2026-11-04T02:39:09.784405+00:00",
   "MvJFAMEjtc7BgsaHXXBcWaXnGE9tsDD1xHbPFwwpump": "2026-11-04T02:39:09.784421+00:00",
   "DgoyuWa5A1CcRNC4qyrH9xBU5bbNJt1qP9eZiNiDpump": "2026-11-04T02:39:09.784422+00:00",
-  "GojcTAaaJjvG83MovnnhogiVrBxghvyogof1mey1pump": "2026-11-04T02:39:09.784440+00:00",
   "J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": "2026-11-04T02:39:09.784442+00:00",
   "F2WnwnVUmZB8YDzw7dGGGe9ghKaTxByALbaRERPhpump": "2026-11-04T02:44:09.781017+00:00",
   "D3PqBtBMopRGAD3UKeDborGzrEgm1K8xG77Vhvpopump": "2026-11-04T02:44:09.781029+00:00",
@@ -2747,7 +3337,6 @@
   "uU7ma3ZmtL1VUMiMT1eSpM9SqPCh2NZTTX1uMCnpump": "2026-11-04T02:49:09.694545+00:00",
   "JDa5cNv4hq6jy1kJ6eKVrpeQkZB6cHM42gWGaDCupump": "2026-11-04T02:49:09.694549+00:00",
   "5WS16WT32dvKYXgLaE9CijUJM6S98cioybZi5xtBpump": "2026-11-04T02:49:09.694552+00:00",
-  "37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump": "2026-11-04T02:49:09.694571+00:00",
   "6JzG565xGV5NbsfLW564XvwSyTAq8xJ2o5df2cq2pump": "2026-11-04T02:49:09.694574+00:00",
   "8RyqDSn16oLk5UrHML8rBKdfcPQZ4QageRL3PyXKpump": "2026-11-04T02:49:09.694593+00:00",
   "AcFVuWZwu9SmuyVXLN3TNnwYaVxZLvVch6MrVoeEpump": "2026-11-04T03:53:09.167930+00:00",
@@ -2755,31 +3344,20 @@
   "3w24LYDbPPH5rMsenc4VPZ14EtjRe6QSMJ5rtoDzzNjF": "2026-11-04T03:53:09.167953+00:00",
   "DZWStxKxumy4L5ZqUijYoMRWZzwq5gBqqc61Km42pump": "2026-11-04T03:53:09.167963+00:00",
   "HvRdss17AKoeYZbfLVtN5gt7SGDU1MRKHyTnHZikpump": "2026-11-04T03:53:09.167971+00:00",
-  "8ZSui6xyBJpu8gWny98cTM6JWKYo6jm69SeWWvYbpump": "2026-11-04T03:53:09.167972+00:00",
   "3q8ygQL596jzmnuZn8C5Djbwrb6Qbibmx8V8XRtMpump": "2026-11-04T03:53:09.167982+00:00",
   "FL2ggyFsBU2Tbe4xRB4DQNdx3R9srdnnPfQ4jTyLM1fe": "2026-11-04T03:53:09.167987+00:00",
-  "6ESBx8bbmyDQJsvgUV8aR1rpV4J1bV8amkuPuEFvpump": "2026-11-04T03:53:09.167988+00:00",
   "4VE99hUEwqkBthpXgjtJhNEKoH65mM5rPmHqB7jqpump": "2026-11-04T03:53:09.167989+00:00",
-  "D6wTxLMeKgn5d8MdHqXSS3dgcSHzGr2sNrfwfg74pump": "2026-11-04T03:53:09.167990+00:00",
-  "GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": "2026-11-04T03:53:09.167991+00:00",
   "C1iNfceoEeVmgCCo2U2rRL67spo2FuWpZpaLXfyFpump": "2026-11-04T03:53:09.167992+00:00",
-  "FicTXnzYTUSA3ahseJQ5RMroB2Fr2kqZ2WqPnJDnpump": "2026-11-04T03:53:09.167999+00:00",
   "FBYjDLfPM1FpZPX6Zc6SV7ut2D5veLA4iS4gppzepump": "2026-11-04T03:53:09.168005+00:00",
-  "4M5DceVdRSz6Cxjix5uU7PXFL6vuG2hJhQrydbk1pump": "2026-11-04T03:53:09.168006+00:00",
   "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": "2026-11-04T03:53:09.168011+00:00",
   "96EA4gsbxdC27nUWdkZ4mi94seD948CTqc3rZyt7Upbq": "2026-11-04T03:53:09.168014+00:00",
-  "2yo7E2ifPrg3Kauuz12JZv3DbRuZSwirZoRq5h78oJmG": "2026-11-04T03:53:09.168014+00:00",
-  "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": "2026-11-04T03:53:09.168015+00:00",
   "7BsxNti76wHXUySvqrQi3yMai23qyunns3wpsRf3pump": "2026-11-04T03:53:09.168019+00:00",
   "AAAhqThYetxmXUJgKGqeFQJUg52idFJFGHA9441Npump": "2026-11-04T03:53:09.168021+00:00",
-  "DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump": "2026-11-04T03:53:09.168025+00:00",
   "Dx7VEmEkW9ryNaKRDfkwoWWVBNP9m6wLmmk7DUi2w2GP": "2026-11-04T03:53:09.168028+00:00",
-  "KxwAdKe6GKv6BExpP3HAnBd5k22d2jbqNXebgD5pump": "2026-11-04T03:53:09.168029+00:00",
   "BKzBMVpGfpFxsVdKLwACCiCGxNeYCVp1uDg9prdTpump": "2026-11-04T03:58:09.254563+00:00",
   "kGRdrNG6ZBQCk77zU6c8WL82j6CT9YBsLHvKR4ipump": "2026-11-04T03:58:09.254571+00:00",
   "APUepHvfP4o94RZeFm68fkrqVEsA52pi3TTfycyPpump": "2026-11-04T03:58:09.254625+00:00",
   "975kaHF6hWq3NvomrSRknqtAnhWLWXuvuaAQUa7ppump": "2026-11-04T03:58:09.254630+00:00",
-  "9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": "2026-11-04T03:58:09.254631+00:00",
   "75bCq1XverEV5h8MQa5P4nv7mjWuaZr8agj9XyDoSWR1": "2026-11-04T03:58:09.254636+00:00",
   "ErCFxCjLHMBu3m6NGJvqKRyKN1R9ynS6uZ85gCAqpump": "2026-11-04T03:58:09.254637+00:00",
   "5AcuUvAg6Q16VmPqMKd6vAsYJ2Z7V7CedF3oDh1spump": "2026-11-04T03:58:09.254652+00:00",
@@ -2801,7 +3379,6 @@
   "HDpUBUXMq2ckPLw5dERL1itwz2kYwtKHSknWnPREfPBZ": "2026-11-04T04:03:09.303479+00:00",
   "31yDQZNm2uURncZhC2LaD2qHeCUrVKUJgr1bhYEWLbX5": "2026-11-04T04:08:09.233631+00:00",
   "nR84DL9MKsXRFnQCybaiBpb1cH4cLRebcbQJKHjpump": "2026-11-04T04:08:09.233638+00:00",
-  "EG9sQnqecbACdxkkG3XcGgg2WBwL1gU7DpgMJdKkpump": "2026-11-04T04:08:09.233641+00:00",
   "DjHKt7MrZQ1cCiBJgtD6aomQcUBsnxedrHqgdCTupump": "2026-11-04T04:08:09.233656+00:00",
   "7z5rqhTG13Anix2j4BkupuJnoqBm9vqE2is2ho5u6gHH": "2026-11-04T04:08:09.233674+00:00",
   "9CEoiXaZbaGnir5mXfGgkyEHax82ZxokgAfsG6G7pump": "2026-11-04T04:08:09.233678+00:00",
@@ -2809,7 +3386,6 @@
   "GpDP4P2owRm919dbPsTbfkUwy6q18934BeExVNUSpump": "2026-11-04T04:08:09.233689+00:00",
   "7RPiPfRCbunwwdtrv5agXeQnwWEw68erb7SGqQGHpump": "2026-11-04T04:08:09.233692+00:00",
   "8ND3pCfHgZy29REs7yKMaaveyP4cMeV8xop4MXH9pump": "2026-11-04T04:08:09.233700+00:00",
-  "2sYWUChpQ5u8pX1nmKQtiCcQYHrKAewLY4kqnqSGpump": "2026-11-04T04:08:09.233725+00:00",
   "DmF1DGESoMRjeiXw6UU3zEHhAxcMHGNxDpyp3iBeTVWe": "2026-11-04T04:08:09.233726+00:00",
   "2YrkgAejdcuy75zYyYyS94ccASxyRuWcSKHw3j3hihND": "2026-11-04T04:08:09.233744+00:00",
   "EmLwQ81VTL3yEbDaTekk7dXtAi63S3tY5Ub1NN4Cpump": "2026-11-04T04:08:09.233746+00:00",
@@ -2831,12 +3407,10 @@
   "7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": "2026-11-04T04:18:09.193182+00:00",
   "DHxyFr52TRjkA7XPmwkGAF8QkdttXpBRUavbpsXNpump": "2026-11-04T04:18:09.193198+00:00",
   "B54fyAMeUqZuJz4tAw5ygQ4qTR3ikF3ACsBJwpbE8mdk": "2026-11-04T04:18:09.193207+00:00",
-  "BxsNVvPuvCmHJRE6LyzqFAVoiTNhdHUVAgKNZhvApump": "2026-11-04T04:18:09.193209+00:00",
   "G1VKuufmbFvTPpPPsN4eAvdrMSQd7fsGkmtVtb8Apump": "2026-11-04T04:18:09.193210+00:00",
   "CKBKgtNK2iJkVXCvdhEXjggcyD5hGvrEjGcBzCT9pump": "2026-11-04T04:18:09.193211+00:00",
   "9FfQrnuneymBS16Wn2R7Jnnozzk9kcUsiecTfhwvpump": "2026-11-04T04:23:09.240941+00:00",
   "4bdkF5AcHnhuBHAhbqeUVYbo8mGj1u2n65jcohympump": "2026-11-04T04:23:09.240946+00:00",
-  "7mgLSBdYCqq8erhXMfHF1bk9WG4oZLWZTrz2sjv9pump": "2026-11-04T04:23:09.240956+00:00",
   "EnngUrVrLXYZgM8WVAjSQTEbHvLnmvmyrBhY4RZ4pump": "2026-11-04T04:23:09.240973+00:00",
   "47YTRKk1FbsBWJZMfWcwX1mh3A61n2nVzwTNXiLnSnbB": "2026-11-04T04:23:09.240976+00:00",
   "CP4GmmZKABkWfQp4pVnghJTxA4jSeoDMVNp6GfQxRenn": "2026-11-04T04:23:09.240982+00:00",
@@ -2856,12 +3430,10 @@
   "8wsAURrKTJFhVnp9cwKQLbe47ZsuGhm9ZsxqjLUepump": "2026-11-04T04:28:09.353194+00:00",
   "5ya3szoM1KziePaV1xaQzAwDozNs88enSQ2oQVw8pump": "2026-11-04T04:28:09.353199+00:00",
   "H1nLXdYoQbWfdP4qtB1qzcAdBa7YSB6mEcP1oLmfpump": "2026-11-04T04:28:09.353205+00:00",
-  "F4Um7uHXRoXZ92DXVZ6FoDUstnubJgaSzwEZuBZcpump": "2026-11-04T04:33:09.219049+00:00",
   "EEg9Qz7JDXzKDvT1Jp4o9uzHSxqvu7yiRTRvndNPpump": "2026-11-04T04:33:09.219051+00:00",
   "9KRGkWt2T47RQmhdoioYuDJYgwm2XJE15oAbzwAqpump": "2026-11-04T04:33:09.219057+00:00",
   "4xHQZsvTznC1BVfPLR4KfBRVRZGnbhNmZPxZhUgypump": "2026-11-04T04:33:09.219058+00:00",
   "2So1HLuqb3nNUY9BCwgdMP6M2iB9w6yPPLhPQCoypump": "2026-11-04T04:33:09.219062+00:00",
-  "FPVTSyvs8tLQr39oEaxbw1gqaVHV9AxK2mhGdVWTpump": "2026-11-04T04:33:09.219097+00:00",
   "HmRFkHorWTMKKKasXfubMkaVEAW9CjVJGKuFY2kD5mBe": "2026-11-04T04:33:09.219104+00:00",
   "VdMsMdskj9JhEXzGJgPQ3ZXQtaSpEKrNyAfx2gHpump": "2026-11-04T04:33:09.219107+00:00",
   "4SXKjvfbEa5LsWySK22tjmN25v3GdmJ9bQ61JSsFD7bu": "2026-11-04T04:33:09.219113+00:00",
@@ -2884,7 +3456,6 @@
   "8A4jWEwG5hBnhSBriLXgxtj7qHsXfAACv3j2A6y8pump": "2026-11-04T04:43:09.259985+00:00",
   "AGyyPisLsn138wdWqPuZGz1n64o7H1KfLvxDEvpzCYfP": "2026-11-04T04:43:09.259991+00:00",
   "B1VK4g17VeqxPiK2p7K2NWD1zohJGEvXCYqknQMTpump": "2026-11-04T04:43:09.260022+00:00",
-  "Bc8Nks1nyxXumWQDqqm8N6FF1ruwtqbD3DaezGwrpump": "2026-11-04T04:43:09.260026+00:00",
   "73ZJp4G2sX5DN4KCEeYCVSAr4RUyVFvHUt6iftuipump": "2026-11-04T04:43:09.260038+00:00",
   "6dHkGzH3hkyUuWSBCSiDCnsBJT6zkeeEfiLaRCtrpump": "2026-11-04T04:43:09.260060+00:00",
   "7TeSHWrmSv7UfgUFsGVvhwfC9eUie4RFDwFg4RWUpump": "2026-11-04T04:43:09.260065+00:00",
@@ -2892,7 +3463,6 @@
   "A3YGAtKeRVzFwkKYYNXcuBqBqYsaVVFe1uaTXTeRRhGV": "2026-11-04T04:43:09.260078+00:00",
   "E6hDW8hruRyRKNTq1gnNWUWVkxoDCCPvHjSpgb2ypump": "2026-11-04T04:43:09.260087+00:00",
   "96oXQeR9z7xAkuqKn5Tnuc41pSyuUpKhhSn6GPUUpump": "2026-11-04T04:43:09.260088+00:00",
-  "FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump": "2026-11-04T04:57:22.802452+00:00",
   "6nv3dPFXbmErHkF2ZSHTs2uHwUzz4y2Si3pkGQoFpump": "2026-11-04T04:57:22.802461+00:00",
   "FDtEtuQNW4WfSGZSaqigU5j9S6J1sDtPyh5dKa6xsTu2": "2026-11-04T04:57:22.802469+00:00",
   "H3JQVLYgynU5axwey5fejsjfimFkSdq5ywEWADCipump": "2026-11-04T04:57:22.802480+00:00",
@@ -2900,7 +3470,6 @@
   "N95jpfQ82xkjHSZXtVWz9Eu9eCsrwjT273EfeB9HJcz": "2026-11-04T04:57:22.802503+00:00",
   "6PTZcjbqt9Pytu91oNyA2hvWoBg8wK87g44KK4NUpump": "2026-11-04T04:57:22.802507+00:00",
   "9xHNxpUhL2p6zbfQXYoKGyTydmfR5qg8UM1G7MVk7T3k": "2026-11-04T04:57:22.802523+00:00",
-  "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": "2026-11-04T04:57:22.802528+00:00",
   "3BHazepBWw7zTQK4QqEe22V4tBv2uDSaWYPvXXyfLoat": "2026-11-04T04:57:22.802536+00:00",
   "GS3CKCuxSsohhiWYZqn57qLsD8kWLMfD8MDZTb2Lpump": "2026-11-04T04:57:22.802539+00:00",
   "6S78j3ABmiUkDDxvwz1JQrqNE8emio9gpCs6nS4MKSBi": "2026-11-04T04:57:22.802546+00:00",
@@ -2909,7 +3478,6 @@
   "EdqBmCRAJre2V8j2SGvM4vxLR51TYoR7cb4P9mNpbrz8": "2026-11-04T05:02:22.748938+00:00",
   "GkRYkKoGf7ujm8tcSNJBnr61Pi3eLTA6DjDEwj2Uijgu": "2026-11-04T05:02:22.749028+00:00",
   "29oyam8zj6KxSEXWDbDotvYMsKvfpWhEHY2BZzuapump": "2026-11-04T05:02:22.749032+00:00",
-  "FTQjEJi2Rch9y3GM5WeGQXEtVwdctXwYdqDysgzqKPqp": "2026-11-04T05:02:22.749045+00:00",
   "C28UdFJMdWY8VgFbDNNabw6rmQeq4tpJApbh1s3MLhLq": "2026-11-04T05:02:22.749070+00:00",
   "4oam5UYNzCUpkZJhiieXjNChDhuFhfbB8RwsGAZEpump": "2026-11-04T05:02:22.749077+00:00",
   "FGCxZ9umDuP9AMqJDzEe3gfMMRxTpz7xQGdQxz3ghzSL": "2026-11-04T05:02:22.749080+00:00",
@@ -2920,13 +3488,11 @@
   "3YdQYBGkCmkRBYZuKwiRz3marWGHxJFZXBAiha65DdKb": "2026-11-04T05:07:22.771148+00:00",
   "98ECd9tSkUR2jvfHEsQt7n3kiXEEUDLWtvrnfJXgpump": "2026-11-04T05:07:22.771154+00:00",
   "43WwGuP8N5r6SL5FusEZcWQFoZuitYpWzhhDzPtY7uuv": "2026-11-04T05:07:22.771159+00:00",
-  "FhZUZusjTmQtXSBR8XX1njGCJpv7dtJ14BFLYy7xpump": "2026-11-04T05:07:22.771169+00:00",
   "XirneGkjWUVtiQFbAtskB4ozcz7ruNJDGRuNYuWpump": "2026-11-04T05:07:22.771191+00:00",
   "7zzSe1ep2bGHZemKrYzUWXDzLhrteUZrjXexGi6Wpump": "2026-11-04T05:07:22.771198+00:00",
   "6mpzgT3Q3pVEfzUWZpJ7Dyk5S1fcS42krFXo6Sj7pump": "2026-11-04T05:07:22.771214+00:00",
   "CdyRTQ1L41fMcGZERkAtrRVuZc54n75VsW8su4U7pump": "2026-11-04T05:07:22.771221+00:00",
   "8SwrTS3vy6z8KRbMs36NEjGBXUEcuanB5Ao8M3NNSB73": "2026-11-04T05:07:22.771223+00:00",
-  "FCty2praQweB4XFhkpQLU48yMnVrLf5oTW7Kat2pump": "2026-11-04T05:07:22.771265+00:00",
   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": "2026-11-04T05:12:22.705013+00:00",
   "8RLP9puBJA9eewjCcwEWo63UvhQisGBzQ82NxYZKpump": "2026-11-04T05:12:22.705030+00:00",
   "HvFxy8DoSKxFVSRJb4PTX1cuKqdynEtKEePbV8Xnpump": "2026-11-04T05:12:22.705038+00:00",
@@ -3004,9 +3570,7 @@
   "E87jQYzPsKEPtwbxekEVfXEybAoSmTw6dLDbDewcpump": "2026-11-04T05:47:22.690350+00:00",
   "GBbfcKRz5grmZixDHUjYqzuam6ZQCZaAa9dx7rY2gyHH": "2026-11-04T05:47:22.690360+00:00",
   "3YtuT5vthbdcBVWRPJ59pybo4V96x1J8Z7f2Xxnipump": "2026-11-04T05:47:22.690375+00:00",
-  "CFz85wmZrKngS1FcT5h4ypGftCvcqxJjs7K37U9Fpump": "2026-11-04T05:47:22.690403+00:00",
   "Dg65Wnp8oV1NSpRzJg8izkqp36ErNimV6QTsaAcQpump": "2026-11-04T05:47:22.690422+00:00",
-  "HARSythhpSxhftR5wLaFCpzLxQS5aEJyfqPSGmeGDEoF": "2026-11-04T05:47:22.690424+00:00",
   "qpMYRc9wWag4M3gwbnGtyEJ5Ab84j3MGNbWVd5Tpump": "2026-11-04T05:47:22.690427+00:00",
   "E3ni7BkGfxvugYfK3Q7ex6wRp3UqFMrcFmZXh2wppump": "2026-11-04T05:47:22.690430+00:00",
   "4TmxQmPBeEJJ6DYfmPH6HTR7q1eWbmWRq32jWBPx9pQX": "2026-11-04T05:47:22.690432+00:00",
@@ -3033,7 +3597,6 @@
   "9taWYPhwWi5Yc9xNaMcXAdh2M1umfrz5kPLUAdV1pump": "2026-11-04T06:03:21.979908+00:00",
   "7e4jaMA1mT9HCecsAzGDK8v9bJx1jnZ1pyajfUPoQbQf": "2026-11-04T06:03:21.979911+00:00",
   "HthULD62rr4F1CwZedKUfzWQCTrLg6vYSWMHgH8XXuJo": "2026-11-04T06:03:21.979916+00:00",
-  "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": "2026-11-04T06:03:21.979924+00:00",
   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": "2026-11-04T06:08:22.051061+00:00",
   "JBowfh9ZhbMxmWmGF4LdGjCzL6QbM6ecA162Qm3Bpump": "2026-11-04T06:08:22.051064+00:00",
   "PDNaCnZpZKKfaCGZRbt3qRPtjETQakMhVDFBXFrb8BK": "2026-11-04T06:08:22.051071+00:00",
@@ -3043,7 +3606,6 @@
   "2e6YJUeMF7zfvsyL4n3axV1NhYWz1sHn43oZR7Dppump": "2026-11-04T06:08:22.051115+00:00",
   "6CNSzJCBfASg8ZYS7JdtYvRq6szNhMcGYMGvAbDCBJ7Q": "2026-11-04T06:08:22.051136+00:00",
   "7CAo2GD9ykuPC1WqLRNWQu2URWngtaNweRs8FWAPpump": "2026-11-04T06:08:22.051142+00:00",
-  "5CSUcPxyz9GSsQygoN1Pna4HpeiZpF8e6SHyqguLpump": "2026-11-04T06:08:22.051149+00:00",
   "Dq1Tv5Z1ahGPoVtrotfHqEvTaQpJhPw5t5vV75nVjZ4L": "2026-11-04T06:13:21.921100+00:00",
   "GQYrqA9aobVc9EL21wK6VrKoXNmnZcUJEhgNx39zpump": "2026-11-04T06:13:21.921130+00:00",
   "FJ41UrwufAG3wFqgzAAt9Mrp3Rt8DGNfB9CyANkwpump": "2026-11-04T06:13:21.921131+00:00",
@@ -3057,10 +3619,8 @@
   "8fsDyGR5VaZBGHuDy77fmFWd4aqb6WUtjUvy1ADdhu3r": "2026-11-04T06:18:22.090132+00:00",
   "EJVXbEQZGWUzNNdTfrCA9iT5havaux3fEgdJXv1EZddc": "2026-11-04T06:18:22.090136+00:00",
   "AriQz4431qaYEPekHn8wuHZLLjHfN5QqxS7oAcSFyPg9": "2026-11-04T06:18:22.090141+00:00",
-  "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": "2026-11-04T06:18:22.090152+00:00",
   "AZXUJ8bA7CA8h9bSVQ3x3nDtJoR7dLCb6US8woSS5GTq": "2026-11-04T06:18:22.090158+00:00",
   "GRp69eXYkFg3P8hDRKQN1FfWFfj6vThWKmj4U2BXuv3Y": "2026-11-04T06:18:22.090176+00:00",
-  "5x8PxU4MEVWpsceiEYwENhidhUndoBq6z79rXxbpump": "2026-11-04T06:18:22.090188+00:00",
   "YH72W4wZBqTnwAbYRjMPqqHCWkPynr5rzauvuX5temf": "2026-11-04T06:18:22.090216+00:00",
   "CeULkDicNiUztfgBw36cpJQ3BgR4VvofHjZjKFp3Q3W3": "2026-11-04T06:18:22.090219+00:00",
   "ESJWd4XGN6GbTwAng6MQWfqRqkkQZ8SedYVEiegV2BLf": "2026-11-04T06:18:22.090221+00:00",
@@ -3071,12 +3631,10 @@
   "CgnrGa664JboU6iKPcMe1L2Q8LXFKFBsot1AJwS9pump": "2026-11-04T06:23:21.952883+00:00",
   "6uEiRkpSPMGsEzXBCNmrfrWr3ReJDFTLAbHKXY6Upump": "2026-11-04T06:23:21.952890+00:00",
   "4FjHCJ6g94tju8FFnJAJTRQMprDWe8BpDxemSuJF7wgB": "2026-11-04T06:23:21.952894+00:00",
-  "AJJjNsEfEKRtTfoGBVzwZh7j2PBYwtNpRWFFDjCwpump": "2026-11-04T06:23:21.952896+00:00",
   "8xxo33PtHtAcvBAfdCz3qncMdo1fAKoSvvmiHkF1pump": "2026-11-04T06:23:21.952904+00:00",
   "Fd6opj7PDDQzDWb3N9PmmwuEh1xFfogBVwxzJJKth8gE": "2026-11-04T06:23:21.952924+00:00",
   "2gtPgvyS8U5zfJbmS8ncqg7xxu8Cg63xpvrXM4ExvqdN": "2026-11-04T06:23:21.952925+00:00",
   "DF8bRDCpGHqgM9mDbnUv6HKKZbp4Sge9yxmSyz65pump": "2026-11-04T06:23:21.952928+00:00",
-  "6rzHri2DasNgx25sqmAvTN5N1kmxRXNwJC4sVTLWpump": "2026-11-04T06:23:21.952931+00:00",
   "GHQWP4JhWDjYmhGMYmeXgoNLM3JbdbpHd2SdriBrDuJd": "2026-11-04T06:28:21.969779+00:00",
   "826qNvmnFY7iKgw54jmfwBk41231JVMkGZMgGUsPpump": "2026-11-04T06:28:21.969786+00:00",
   "BPYzNdo8PkHGSGuEoqKmSwGVoR1unbdPBeD2sqWbpump": "2026-11-04T06:28:21.969789+00:00",
@@ -3088,11 +3646,8 @@
   "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": "2026-11-04T06:28:21.969807+00:00",
   "55w268xC4GGZX4m9YAGpXP1aVhGzd7dcPX9xHxptCsXs": "2026-11-04T06:28:21.969810+00:00",
   "DLBgYYCw1gFAbEzbubQsYsPSFY1EAB2wp4bYizJXpump": "2026-11-04T06:28:21.969829+00:00",
-  "35A7LBtxYqZvbfYXmdCLHDMjSbCdRa8HX5g1khFcpump": "2026-11-04T06:28:21.969845+00:00",
-  "2F6gDaEABxCDz5tLnmtpMS3xPkVru6ybHi5t9ezvpump": "2026-11-04T06:28:21.969858+00:00",
   "8dm5qJZXMy3saMgJ6TE6V7g2UM3chWhAt1sEh7oapump": "2026-11-04T06:33:21.952413+00:00",
   "EdQTT2597NiLeJMHd716ZSvw7oJ9RY7ZLeF66LNKpump": "2026-11-04T06:33:21.952476+00:00",
-  "ExdQxJcXzNzhW6CC9phvoEVpKvJQJyg98CE228Uxpump": "2026-11-04T06:33:21.952486+00:00",
   "HkKLLNM6VGig554wN6vvjHZ847bHveHQsdHXg9Gu7w7q": "2026-11-04T06:33:21.952503+00:00",
   "7rtAAS2pkXWo6rXmfzUEiQn8bsAgdfUAv8PP9PEvwWqg": "2026-11-04T06:33:21.952516+00:00",
   "61MDQbmrjFw4tJaWHJmgqVksa2TjLsP69eBiVCifpump": "2026-11-04T06:33:21.952549+00:00",
@@ -3123,7 +3678,6 @@
   "4SRgupNJgXP3yeMnSFjZ9VMbiE3NA1CLt8dB1wVvjY6C": "2026-11-04T06:43:21.996610+00:00",
   "Gx9buCpPKSC91CJLdF5pj8UFAkNBastqPc7mPSwpump": "2026-11-04T06:43:21.996625+00:00",
   "X2ikKbqrVbJPfYVWAcHLEho61ckdEk1PiW1tiCvpump": "2026-11-04T06:43:21.996627+00:00",
-  "8djG15hUCgQ3x992CqDj5YKu79Xzinw83cpULvwwpump": "2026-11-04T06:43:21.996643+00:00",
   "Bz6mb39wf6SgH1aWh6n7tsA4dnwNZDrDhvuPrF5TxL7x": "2026-11-04T06:48:21.951165+00:00",
   "BDsZNZqvgCV9Tm2fAdZPxJw3MPZJqXR99wmNmWjepump": "2026-11-04T06:48:21.951171+00:00",
   "3RPtwycpDKDNAvp7Ud6nhb3fje7gHAT2b1ky9ZXPpump": "2026-11-04T06:48:21.951172+00:00",
@@ -3136,21 +3690,15 @@
   "HNcfDFSCMybCrDa2HFkdwgEeyVzEe4H9R7B7HAdgpump": "2026-11-04T06:48:21.951228+00:00",
   "DTo2kaDrd4WGmcsvvnu5ZS2ZX42b4fQNTpnyaSEbpump": "2026-11-04T07:11:34.077073+00:00",
   "EaDzQsXWhM2xZrodkGjSCGNUfREHrtfteJmNSajjNpvs": "2026-11-04T07:11:34.077092+00:00",
-  "HjUWqS5w1rtD6widqXwkbzPVFSn2qLHbXRRmNKQzpump": "2026-11-04T07:11:34.077106+00:00",
-  "5XsGvzqH1V5o7G6eTtQkb442AHisDjTuVULt5oHCpump": "2026-11-04T07:11:34.077107+00:00",
-  "ELG2WX7c67AFEbPRUqz6AP8m9xA1eaSXxNGtVA2qpump": "2026-11-04T07:11:34.077114+00:00",
   "4z8HHecVPu2q1CuampT1Nh6huBB9gUzru6N2GDSXs3zS": "2026-11-04T07:11:34.077115+00:00",
   "D7YBgVbEtq55QZdubR8cVvN1H2TFQis8s8fKhQqhrLgs": "2026-11-04T07:11:34.077118+00:00",
   "68ywGkPaZsnxFizXhav2eawMwgoBb175qw7iHYTEx9AJ": "2026-11-04T07:11:34.077125+00:00",
-  "D7J1ueVR8Ky4oazAZ8a89nLDciP8GeeWSa1mbNK6pump": "2026-11-04T07:11:34.077126+00:00",
   "Hcwqm7RTESGV6vc9owYRUTwYWRkoEug5YXNGrQwU1HF": "2026-11-04T07:11:34.077130+00:00",
   "5vMtWPYXrdXhRmb4Tjc5Ex2P77rsgku3Az5SKTDtNrnC": "2026-11-04T07:11:34.077134+00:00",
   "8f8TQiBnk6UHG1rBE6WkkRne37uaMxFEXqqGVNbpump": "2026-11-04T07:11:34.077148+00:00",
   "6HHQoM9TLDEfMY3WK9smiChpFh5eqd5zpZnyMSzZpump": "2026-11-04T07:11:34.077149+00:00",
   "AuX5xq7eCBodEhkr5bVAZEMGePZjLiGVJnycbZg5dXAu": "2026-11-04T07:11:34.077154+00:00",
-  "Hey3e2voJQXYAo7fWSzC9XLYqcZ4TC9Dm3RCiW1tpump": "2026-11-04T07:11:34.077158+00:00",
   "J6GNxLnmzZUkDQg9XQD771y2re341T6vcoTLtxj89KNk": "2026-11-04T07:16:34.036812+00:00",
-  "HiNK8dr3q1FhHXgNmaYxjGeLaeP2zC7c1tYidrsFpump": "2026-11-04T07:16:34.036819+00:00",
   "8H3Nkd4mXVBV8AK2vzdP7VdrTicMwNrQjSRziRAGfSr4": "2026-11-04T07:16:34.036820+00:00",
   "Ci6PtDu1VPkLE5V2KTHnJ54iCg2URn5WXQ7UZwCkpump": "2026-11-04T07:16:34.036828+00:00",
   "G8j1oAYNKfvuauTFujSxwDpWcNNp4drgemivZb3aBmas": "2026-11-04T07:16:34.036868+00:00",
@@ -3196,7 +3744,6 @@
   "CDHXS7yU6wkftMEDQHseo2fVWh6ntSizNnJCBGdZkxsG": "2026-11-04T07:36:34.014810+00:00",
   "DVEDoxkFPn3u1BpPWqvXoubK7zR7fuyjD8gfH95w3HCg": "2026-11-04T07:36:34.014812+00:00",
   "2K3aJTvHfkqehKyHcD8P9zGiPxpjr1z44JheYAS9pump": "2026-11-04T07:36:34.014816+00:00",
-  "FQE9h4fL65oDHMsR2MHcSe6d6DF4hFrFarsQQkVJpump": "2026-11-04T07:36:34.014817+00:00",
   "3i4ZJZg3bbzcxizMGVQQauRixPEmWePFmjFwLDhntgZB": "2026-11-04T07:36:34.014818+00:00",
   "BYcPpzhk1dpJZgYQKQHJApJTgjRSwjX9ADvCetpxtQeQ": "2026-11-04T07:36:34.014829+00:00",
   "8fivA3o2tNZs8VsQrLh47Z9CUvfhboYxaPg7cPaRpump": "2026-11-04T07:36:34.014831+00:00",
@@ -3210,9 +3757,7 @@
   "9L4B4Pw8NUyhRtbPX3tjw2K7fUieuPJcDfa2NrW7pump": "2026-11-04T07:41:33.979991+00:00",
   "DmA58MwVuMr5k9Zs7m8wkzDLXCE28d2qLFoRsEwgpump": "2026-11-04T07:41:33.979996+00:00",
   "5bej2Cec1QD16rRdijA1dgoNs61hkiCZGwgSYpF5pump": "2026-11-04T07:41:33.980004+00:00",
-  "72QNkZqiTBsq5dvn4DEwaC5qBPDkc7SZJ38xXy4jpump": "2026-11-04T07:41:33.980008+00:00",
   "2BZK3w2Xay9KtdcZssRxNWgKzrzH37YNp6iSY9iopump": "2026-11-04T07:41:33.980010+00:00",
-  "5ZndeMaC36YapnG4UpXsFg2DXDquHw6xEpBXGfmfpump": "2026-11-04T07:46:34.042242+00:00",
   "8gh6GeirDRQqzXCrYPDhdqEeVdJbuUUf158zL5xrpump": "2026-11-04T07:46:34.042253+00:00",
   "GxXQHp29d2xsVrfaf9p1TiFrDSWyPDPqxGgeEP9jZNUB": "2026-11-04T07:46:34.042257+00:00",
   "GLqyU7E17RdkMcK7ZnJwMwpqDu5m3SMupLShyPUSpump": "2026-11-04T07:46:34.042264+00:00",
@@ -3220,7 +3765,6 @@
   "EErWMaA5JZCRLESz5QtWQriCp7SUfwEksxn6RMscTJ9X": "2026-11-04T07:46:34.042294+00:00",
   "FE9c6Yx96N8KqZVvtMeNagTVakdeNdED5eGmrwvSjMuH": "2026-11-04T07:46:34.042297+00:00",
   "7TLbJjtktGiZQyXP9L4rBtfiC7CcMM3DQjdhG8rPpump": "2026-11-04T07:46:34.042309+00:00",
-  "AQ7cMDzAL68Ghp8cEXAw6BnszTK7ui5VdYnJBdT9pump": "2026-11-04T07:46:34.042313+00:00",
   "B6hBz91Gevz11PDTMnqREzeqiPirpMdbfxXk2sZbpump": "2026-11-04T07:46:34.042316+00:00",
   "BkDm8biuegwBjv7LPvoLTgfsPKPxJHpY16enk5xgpump": "2026-11-04T07:46:34.042317+00:00",
   "FqqRkFJyezMXkfPcshRpuuaR2ZjU46skkNdR6utxpump": "2026-11-04T07:46:34.042323+00:00",
@@ -3230,7 +3774,6 @@
   "3KsjQDgBfXHHrt8B6q4XfmZ3cGfVy7adM4ouELsRpump": "2026-11-04T07:51:33.979808+00:00",
   "AUiA3PE27HspmH855AEd7M4asawEjKczCYX4fzNRpump": "2026-11-04T07:51:33.979813+00:00",
   "8gg8rcz7soRcj39vr4M5EgJyjkbYo3hXewsLwWt5pump": "2026-11-04T07:51:33.979817+00:00",
-  "57NTXnoGkFzhCvJGjXhCxp4WmVEhhLa9273fLNngpump": "2026-11-04T07:51:33.979818+00:00",
   "DKtsNaskrSvmsFMDu4TvbwxHb1ZiD3iBQ52X4uJAiHr5": "2026-11-04T07:51:33.979828+00:00",
   "HFbjhyni6H4SLin1EFeUDE2umewvDDe2Pp3UWQvSzLaV": "2026-11-04T07:51:33.979832+00:00",
   "6SdK9qgHgAMie4suXZYtGuTMYTEHGi3rJJgekAxfpump": "2026-11-04T07:51:33.979838+00:00",
@@ -3249,24 +3792,16 @@
   "9ZVQuyXNhfgdeTiUnw6RVisKQZX4CBtwaQstzLDtpump": "2026-11-04T08:01:33.941399+00:00",
   "8yLUsXA6yih92kJh1nnQrDkQ6wThTsxRFLssDoGkneBR": "2026-11-04T08:01:33.941408+00:00",
   "gr5iXbbUnnokLKybP1HdLFQqzJ9m5W9XYpp8QtC2XE8": "2026-11-04T08:01:33.941419+00:00",
-  "5fgJwPNtsohc1FwjkjvmVWoXTbSzD8Z3zzbcuXdepump": "2026-11-04T08:01:33.941452+00:00",
   "3JmAtNWKHSiP8bLqK4orPTg6X7c1M7x25xJzdekeSAGA": "2026-11-04T08:01:33.941455+00:00",
   "DveQAPpvajrypfkYsbjLxT4yrBycsHphW4Cu1iQqDPjC": "2026-11-04T08:01:33.941472+00:00",
   "7b4ubZSbGZDzzWBQYEU1afxp17T3ceD3BcbSVV6fpump": "2026-11-04T08:01:33.941482+00:00",
   "99T2NYwDcrpWvCztLVZ2uP2Ex8vtGiDV2KqnC3nxpump": "2026-11-04T08:01:33.941488+00:00",
-  "64M1Z76Qd4S2eW11uX15sNPp97KCvunR4bhFFMFbpump": "2026-11-04T08:01:33.941493+00:00",
-  "8gWLy62F295G7sNmaYu6GAJZmF1LWu2zkhkFiy8epump": "2026-11-04T08:01:33.941495+00:00",
   "DywALDXSifNYW4MAXobeoLAbCmBv4ZjWr49MPjNupump": "2026-11-04T08:01:33.941502+00:00",
-  "Fu9n4TS5QkEKzMW66djz6T6fUspAbTuYsb7gcHSApump": "2026-11-04T08:56:57.912457+00:00",
   "5f3u42zNtAEj85PVbfcrtaDrtw8bAiMqxXCBgoXYJQNn": "2026-11-04T08:56:57.912461+00:00",
   "EjD5ULxQ2rL6aQTydfFT9koYe5Xk9wkJj2Vn2ugjd3An": "2026-11-04T08:56:57.912463+00:00",
-  "FfuBMS3rh9M61apXJDs14yAngVnYLWR7xkcX5FxMpump": "2026-11-04T08:56:57.912472+00:00",
-  "5HbD9q6c3oCfdRSbEzgt8vh4VAmp8ohN1ykBmwJipump": "2026-11-04T08:56:57.912475+00:00",
   "hgt1xvWRgpaRGfvjSAKZcr2nRxQWmEy8TidwWYzpump": "2026-11-04T08:56:57.912500+00:00",
   "BM1Q9KfjgVoERj1eipkPqueMvhz1kfkUfE835ZjJpump": "2026-11-04T08:56:57.912505+00:00",
   "4qn88WnrvzpUhxbpSAhWLDLWanJLQih7Kbagn551jryg": "2026-11-04T08:56:57.912508+00:00",
-  "8gtpQba3s4b8KhzVqhKDqZkwvfNSeZ2QX3jDfmpbpump": "2026-11-04T08:56:57.912519+00:00",
-  "5rZFiPbTz2AhZfQjSPo8BSEdPRsmtsf2tAVty13Ppump": "2026-11-04T08:56:57.912522+00:00",
   "HuTYA2G5ToJsjaUhqBcfvDF2VzPiw5FYAybdD2Lbpump": "2026-11-04T08:56:57.912533+00:00",
   "G8LgoYtSGFZFyFfZZq7i8XXT4cGyu6jaerLX6reFpump": "2026-11-04T08:56:57.912543+00:00",
   "FnrK74Vmzu7w4s3sydV4d6oGtRzWTgqnnZqn92G7pump": "2026-11-04T08:56:57.912544+00:00",
@@ -3274,7 +3809,6 @@
   "84a4aKaM7BHnHigcVk5ftGRSZL864XCCGskYUsCXpump": "2026-11-04T08:56:57.912561+00:00",
   "EcMESySvCxUapQNMC1iNEt6AwAkGwh1c8V93H1Kypump": "2026-11-04T08:56:57.912570+00:00",
   "2MK9MJCjwhW4ZJ2K6SAPFZSCG4vvgUygGNLfhTT7pump": "2026-11-04T08:56:57.912573+00:00",
-  "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": "2026-11-04T08:56:57.912576+00:00",
   "6wiG2w1FQNg8yHEfNqcUJWCH2i8Szcu97xjEYGLKsexX": "2026-11-04T09:01:57.921252+00:00",
   "DaDcfkP18nwde5VdjFBbm2vNGrgu2Pbfwwmy3wchpump": "2026-11-04T09:01:57.921257+00:00",
   "CEDwmGE6ihB8xJBTAUpKrWx3FbzfXTBXPaupRNVDnpic": "2026-11-04T09:01:57.921265+00:00",
@@ -3297,7 +3831,6 @@
   "8W2kcq3FAE7HtMir2xwqsKqSpymL6rgDG3gZLpxApump": "2026-11-04T09:06:57.878244+00:00",
   "27XHow4rxARmV2wpMikMT5whw2kVz9gieKQaUikYpump": "2026-11-04T09:11:57.867183+00:00",
   "CTpewYhSf2pt4ymiagf3KiVW1GUmce4QZ3ksD7iwxdKt": "2026-11-04T09:11:57.867185+00:00",
-  "8wzq9hZD5LZ969Q5mttHkJh4ZFNrVb1tmowdp7Yspump": "2026-11-04T09:11:57.867191+00:00",
   "5tLX9SV98SE6g11CJ4QVuWLnmjh7HtcCes6AdMBDsUH1": "2026-11-04T09:11:57.867208+00:00",
   "DT8pyYTKZK2UaRvRg1zEpXCZA3wX8LGpLqaxrEPUpump": "2026-11-04T09:11:57.867224+00:00",
   "7gZ9ep1ufbfxruCfT348exuWYSyv5GU9L6QzZ2gBYvid": "2026-11-04T09:11:57.867239+00:00",
@@ -3317,7 +3850,6 @@
   "2Z3UfTsd6zsym7hWLFiabV1Dts6mRh9jJfdzxLyiM4b5": "2026-11-04T09:16:57.820100+00:00",
   "74By9pbwNVPZz2aW684ywFgK943WpacrSNZdyXKypump": "2026-11-04T09:16:57.820102+00:00",
   "3d7cDvJcxNTQo1za16x2S3FJk9rX7eiSGgLQa8CdpxXU": "2026-11-04T09:16:57.820106+00:00",
-  "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump": "2026-11-04T09:16:57.820112+00:00",
   "7QrSHtNPzC6fyZUDHEp6e4wUZsd7nVrNoaiS12vXpump": "2026-11-04T09:21:57.845423+00:00",
   "GvfcZBejz173n1JB7pJUnRZbpkC6EJXUydBkA2GK9cir": "2026-11-04T09:21:57.845428+00:00",
   "QUh3eBmK2s355aG9wdKS9uQ9UCge3Vb9efAHS38dktN": "2026-11-04T09:21:57.845431+00:00",
@@ -3325,7 +3857,6 @@
   "6bHzYeoCGGXwJ85xePyumr9mPi8txdj2UvruLRTkpump": "2026-11-04T09:21:57.845478+00:00",
   "9fE5ZYqGCTTbnvVamg29aevZLE8JdKumMzFyYG91bonk": "2026-11-04T09:21:57.845479+00:00",
   "9ZK1VRivW6Z7MQWoi1UPV9iJjmRDmkzyszLWDof6pump": "2026-11-04T09:21:57.845480+00:00",
-  "9CRbVZxQshb9dMkh3yGvyARJRAHMGVuxiQRGhUsppump": "2026-11-04T09:21:57.845495+00:00",
   "ESMXggsAHmqhiJBtPAuqrnqhtePichfkRy3kUWeSHMKS": "2026-11-04T09:21:57.845498+00:00",
   "4EpiKVeXL9h91DBhShA1Zza4Eh1P4FaSQEcNZV9YBh65": "2026-11-04T09:21:57.845511+00:00",
   "4dg6RB1YXp4qtrmDUPYrRaMWGiUWg9MB44PrE8cUpump": "2026-11-04T09:21:57.845517+00:00",
@@ -3346,11 +3877,9 @@
   "CMKfuEVo9Gsu6Mczt67jpghqBVLShvBszQuNzZfEf3DZ": "2026-11-04T09:31:57.895535+00:00",
   "9D6XPR9uRLGVZxnMxhArkMPNuLuoMPPLues23uq8pump": "2026-11-04T09:31:57.895545+00:00",
   "6nkV46vARnfsAzCcdEvEUZ6XDfL67zjnpx73TBpFpump": "2026-11-04T09:31:57.895563+00:00",
-  "AH4W5u64yzPpaatA9vbXnNDJffVTDuzreM4q4x1zpump": "2026-11-04T09:31:57.895566+00:00",
   "Dwx6Y8eH5BBpxGx9jEr4ijLcbRKLXMAUaGd34foCqwm7": "2026-11-04T09:31:57.895579+00:00",
   "C5zmLB4jTMBvKhtimJhTM54hQoNaAP7Pm5SwxzJepump": "2026-11-04T09:31:57.895602+00:00",
   "HmKbZB1y55y2ssfqVS4uvC5UNsy4LA9dHFD6QsKcETUJ": "2026-11-04T09:31:57.895625+00:00",
-  "HdH5uyAUQcrnt4tcYxjfwaxgNpJznquSKxLvRatfpump": "2026-11-04T09:31:57.895646+00:00",
   "FC7xtkuH1YjjsnDpgo6ay2RXVwDMEbweAnVg6UBBEp4w": "2026-11-04T09:36:57.898636+00:00",
   "2nqCHvd34WhoZSem4J8c2Xjob6JHG4cXXj6RERJspump": "2026-11-04T09:36:57.898647+00:00",
   "7D5yyAziyRtX45hmkvRRzWu4WC3r21VoCP3GTEeZpump": "2026-11-04T09:36:57.898658+00:00",
@@ -3369,7 +3898,6 @@
   "2xFRRiV7gpn85uDtQe7Cy11Xo8gSzdMMaCsvAZLApump": "2026-11-04T09:41:57.897143+00:00",
   "8w9y1xcS1ygYwxnRjP6ViJb9EPXbjgxgEgvVdC9xpump": "2026-11-04T09:41:57.897183+00:00",
   "GsA1Jm53UJh6vmnwhagRK8TmeVCk2zw6quTAoyKDpump": "2026-11-04T09:41:57.897194+00:00",
-  "5FFDavVUsgPYeP99C1acSGcacMaAEuPDpm39LBECpump": "2026-11-04T09:41:57.897220+00:00",
   "BM3Yqa6j4Y3kFxHj99nw2L73oVjFmxQSUfLnttiXtHmF": "2026-11-04T09:41:57.897224+00:00",
   "HqD2K9d6e6cxnZyUdWSEL1CWrLCPpjs8N4kWUhZZbonk": "2026-11-04T09:46:57.821504+00:00",
   "FHFXkaSeZVRHR8V7XQAGLsuvq7tTcYexeZ9k7CQ7LSvo": "2026-11-04T09:46:57.821535+00:00",
@@ -3377,7 +3905,6 @@
   "3vrz4oofLdpRRCWmPNUK5QUvazDknWEQcaikh2mzpump": "2026-11-04T09:46:57.821549+00:00",
   "EdF6aqUgFqC8KqWdaSHqbP9SDRaMZYT4nsSpgRaMhuns": "2026-11-04T09:46:57.821554+00:00",
   "6nVP4Kb6oKQerPpXUb87DsYnoy2P1mt4r6zDvq1bpump": "2026-11-04T09:46:57.821574+00:00",
-  "44F8EqzpxjkMB1deLaxZM1rj2dFm8GKEEnRcBS7opump": "2026-11-04T09:46:57.821577+00:00",
   "HAirCwLC1DLMquYMuvAPXJSfda3wfYfLt3uAAQLvYkqZ": "2026-11-04T09:46:57.821599+00:00",
   "8evo7LkxExmRrFSEZzW5csK1KRjBNyYy5pyZLZPNg9Pf": "2026-11-04T09:46:57.821611+00:00",
   "4rWZhBXYsGGgoYMBX7kdbdbEdmXXYx8k1dA4mQMvpump": "2026-11-04T09:46:57.821615+00:00",
@@ -3389,10 +3916,7 @@
   "4JUWqmYesk2hhCRcSmCu52nLMEG5qMXvZctGnxuGu8Uk": "2026-11-04T10:02:37.022747+00:00",
   "J11XGeqfCJqDp8mvdsy3BCa8F2HGrfxvp7BgqgYVpump": "2026-11-04T10:02:37.022752+00:00",
   "BESifCw2bBX2QUvDrrop8SYCr4KvdBeuRZdDm8QSZXf7": "2026-11-04T10:02:37.022773+00:00",
-  "7zje2znMLwRgWwzbYAz2fp97cxBCKSaZTZovKKH54kti": "2026-11-04T10:02:37.022775+00:00",
   "FDKYFeukaP6iK9mn9fETpNK1j91q4o3cKqub9J2Lpump": "2026-11-04T10:02:37.022786+00:00",
-  "E31dH18hzJQeLstEYwLvdw3xMoJhoeSW3APZR68Ypump": "2026-11-04T10:02:37.022818+00:00",
-  "5HzUM3Wy96PpeurUp4vv3Lk4cBPmLjDXCdaxK4z8pump": "2026-11-04T10:02:37.022835+00:00",
   "5XgmnYYtKWxZtevDFuKuSN6zhVNtiVCrS7BMVi2Npump": "2026-11-04T10:07:37.006246+00:00",
   "6Bn5CPdNR6xAMDSTsRVCSNhPQLozd1RyjYWfF2kbRbCs": "2026-11-04T10:07:37.006256+00:00",
   "ExNHanxwbnmPVSsVNGJwFFbc82fCNub9rWwZoDz1pump": "2026-11-04T10:07:37.006259+00:00",
@@ -3403,14 +3927,12 @@
   "B2hrd6M7z4xaY4Cxe6eYBSedmYxDhyFDaEAaLyZhpump": "2026-11-04T10:07:37.006380+00:00",
   "5Gk34EhSCkMxJ2xXsqqBzHZeKYj5sD4DPss48kAAq1UX": "2026-11-04T10:07:37.006385+00:00",
   "8j2qVpomy48ot6CteRF8iFcBrJHbLhk4br6LTMmfpump": "2026-11-04T10:07:37.006400+00:00",
-  "APWThVHgwuJLfaHmXXAhWV2aTsrSwGyJVreGAoyPpump": "2026-11-04T10:07:37.006406+00:00",
   "HGJ5f58r4kt1659TFNJWprPJd3jE9Uv6qeFY9vuw1FZ2": "2026-11-04T10:07:37.006408+00:00",
   "3UuZYtmZjuNSnE8Bvs28YT7fZDF7cQyzcTbRKxMopump": "2026-11-04T10:12:36.999270+00:00",
   "2x3D73ZxJm9nNKL4rhm2RpKTd3VzVinhSNg6aDYX3Cif": "2026-11-04T10:12:36.999292+00:00",
   "Fc7k1WcYZWzy3GCFEcUbBohc2S4cq7D8oZpV1gronGYG": "2026-11-04T10:12:36.999341+00:00",
   "9eT8uFvZGYmskDtMS3N2zvSh97BC4t2oGtGArMtcpump": "2026-11-04T10:12:36.999343+00:00",
   "FdSKWLWyBKGTXfjuG7zU4Yc9L71mBuA1TL3RyegTpump": "2026-11-04T10:12:36.999352+00:00",
-  "FW66jyyCJ8LoB8cR2UuWbkQrWabpvjMrU2DE4B5Upump": "2026-11-04T10:12:36.999358+00:00",
   "HLgmrhycKagbzs9Gjy8VRzkJY1oFsC3WUD4saVnZpump": "2026-11-04T10:12:36.999380+00:00",
   "GPgXT1vwHwx2xGybCedkJ7v7mbSaHdBx7ENvW66Ppump": "2026-11-04T10:12:36.999384+00:00",
   "GkWohPoedp7fvN19ttfRecvAFeeTxEJuXEm1HjHF7K28": "2026-11-04T10:12:36.999397+00:00",
@@ -3434,7 +3956,6 @@
   "9BULA5iurQSodREnDN9GcsZNWJzFXvHqFXHZx72epump": "2026-11-04T10:22:36.952408+00:00",
   "25uaydMbGvM2zkxSiH6WhECCgQYdToNpuSvyeqdP5ym7": "2026-11-04T10:22:36.952417+00:00",
   "BRbxUN6R8rihjWPa1q1HFo27dH85zQCNbEnjsnmTVnVn": "2026-11-04T10:22:36.952425+00:00",
-  "48w9iJr3mNyKG9stXge2Cpdz7FgaG85EJL6q8Pzhpump": "2026-11-04T10:22:36.952430+00:00",
   "FGNLeSdSPdnj328Mjcp9JjFX4iEtQADVnVoWXjBWpump": "2026-11-04T10:27:36.984167+00:00",
   "DbJfLevE5fKGt8ywvTsU1wSH4XmtBtLB8fxuoWTRpump": "2026-11-04T10:27:36.984174+00:00",
   "Aq3sGEi8Y5nNR67KebRPUC5iwLH95wEtB4xsfvJypump": "2026-11-04T10:27:36.984189+00:00",
@@ -3452,7 +3973,6 @@
   "GhY3hTjm7pkPGjyA4NCpDt4ouW8BhZDJTrZEpKF4a6w": "2026-11-04T10:32:37.007223+00:00",
   "7q6CZkMgR8zWZHYEWJyoVgS7qopM1ianiboG9evtpump": "2026-11-04T10:32:37.007226+00:00",
   "C2d19pnuwVRTiZuX42bij13YddsfatUEqeViPEeSSpKY": "2026-11-04T10:32:37.007252+00:00",
-  "4P2L7q89WYK8tMKdtEuBEAKzvkzykEocsiEiUhHgqGEV": "2026-11-04T10:32:37.007262+00:00",
   "EDZNfc4FjuW8TaboaKiamYXySUFJL8HVPTSbAHRHpump": "2026-11-04T10:32:37.007273+00:00",
   "21mpqVduQpLfj1H5xjgV6ir1PBZKVNFHNykwfnqw8B6E": "2026-11-04T10:32:37.007275+00:00",
   "4gw9veGWCyW7fUZdiPz4ahFqyCfAM9jJe7tNxdvxQuNh": "2026-11-04T10:32:37.007290+00:00",
@@ -3469,7 +3989,6 @@
   "akcuU2L44zyV1aqthNgtSzAmBakvCMHmJ2jFLbLpump": "2026-11-04T10:37:36.983686+00:00",
   "EBQgyZZ72RZ9cd74VxnAedEN5rbEX2xTQ6GLYqaLd51E": "2026-11-04T10:37:36.983706+00:00",
   "8Z2xLE8rnEhjTi5CbBy3hrCeVSoSXFKUb9BmeCJWk6e7": "2026-11-04T10:42:37.098529+00:00",
-  "SHWmkEYUAP689b8GeAniLZaSV7tx1X8v37nSb9npump": "2026-11-04T10:42:37.098547+00:00",
   "HfmNJ3ZK7NYpuj1L6rZkQ4Y1cwrycyarMPTjywQcpump": "2026-11-04T10:42:37.098549+00:00",
   "8XGHQPiLt1zDesS6YM5rTtYfzUDVt481Md4VQCk2pump": "2026-11-04T10:42:37.098552+00:00",
   "DVu2yGYhsSAgnmeX566mEScE7zcGaZdVTkJx513c2Nsx": "2026-11-04T10:42:37.098554+00:00",
@@ -3478,7 +3997,6 @@
   "Eg4EXFXD6g6uJ9wZFvUe5xDoAxDQ4PLPpTtXr2FJpump": "2026-11-04T10:42:37.098665+00:00",
   "3dNXYxpUZR3WhCr9BN6BqMwVdwmrpxxQB5iUEHoSYgoX": "2026-11-04T10:42:37.098667+00:00",
   "7UUqPFmfBv8ijgZkwdD59idrWgQNzZ2foYVt3Wdmpump": "2026-11-04T10:42:37.098692+00:00",
-  "8jE1mqGSY8ZuE2uwYAgDHhZmeatKEEzrjEun3vV8pump": "2026-11-04T10:47:36.974407+00:00",
   "GxTw5mDBqyQBXD3v9geKv35jsnHdV8e6qH8oGEE6pump": "2026-11-04T10:47:36.974448+00:00",
   "BEaZYhygJvqBymXGck4cJo9NecZ6MPRee7UY2tvDmw3E": "2026-11-04T10:47:36.974453+00:00",
   "EQZHTZW2zgThAsTUqVczbkcqbgrLN11EoF6Jr5VVpump": "2026-11-04T10:47:36.974458+00:00",
@@ -3498,7 +4016,6 @@
   "5Fi45EWTDaCCVURTTM68iGgr52SCgz2iGtgPGxqgpump": "2026-11-04T10:52:36.949884+00:00",
   "HjBE6dg4VcKGV6NZz7TKg2XcP2fcAbWb8Mk47yRTpump": "2026-11-04T10:52:36.949892+00:00",
   "AURo8zVMqVEL1qtnKaP5uJMhjqDb3ETF2cKLjo1Cpump": "2026-11-04T10:52:36.949894+00:00",
-  "14U9w9vmMx662z6EDLgXoYncJTWZEw21B1X55QaNpump": "2026-11-04T10:52:36.949899+00:00",
   "2uct14tAV44SuqmfUdXk2ckFksGqkvn2gsBo5NqVpump": "2026-11-04T10:52:36.949935+00:00",
   "7zBcCXfJ1Zrj1HntdG4k6FVNFZghxgzaAmq7gR9npump": "2026-11-04T10:52:36.949945+00:00",
   "G4RBb2VQxQgRTmm7MmKmh5ya9uatSDP9nGJn2aLA6Q5M": "2026-11-04T10:52:36.949947+00:00",
@@ -3645,7 +4162,6 @@
   "7UyNWfKoyQLJCCviXDq4ShwiokKguiNSCjUMQ7SDpump": "2026-11-04T13:07:11.292422+00:00",
   "5z64nbPAC6roYPmUMxzhpfTmqeZWpphBDEUXCmaBAGS": "2026-11-04T13:07:11.292440+00:00",
   "2Y8LVDvpvGv1KybzfQDi8A7E9C3te8UPX6yqTTwhpump": "2026-11-04T13:07:11.292469+00:00",
-  "B93V9uyYRaQDKSG8iCQyyP61j3NCqCRRXPCgU3gpump": "2026-11-04T13:07:11.292476+00:00",
   "DfEEr8wF7LKnU7iCn7bVpLQkijvR1Qc4xRBp3oNkpump": "2026-11-04T13:07:11.292490+00:00",
   "38sB3L9DmCHAWRPTPXJdDJ4sZVXxtqGSuWZLR2hc9tap": "2026-11-04T13:07:11.292525+00:00",
   "E1ZpBCc8Bveu1JMSVJmjPWG6s3rGbEcUEAwBfwsMV4kb": "2026-11-04T13:07:11.292532+00:00",
@@ -3899,7 +4415,6 @@
   "G2oYUdrdgxd4xB2zLE4s23zTN7JhYbYiSLMcaLgwpump": "2026-11-04T15:56:23.795728+00:00",
   "2qJRvd1NpdM8hCiUtZjLEBgMwpHaqVy9ZZ6wByYhHoPY": "2026-11-04T15:56:23.795732+00:00",
   "6QQK4ecAQhPtdodoYDy5UDXvTZHmT93ov5qkALn5xCY3": "2026-11-04T15:56:23.795739+00:00",
-  "FaXtNnm14opBcapY2v2bGRSKCAriAmjyAEFmVdCo1Y6T": "2026-11-04T15:56:23.795750+00:00",
   "ErN2TDSbQcaQ7JjLjNyqkdyLJo2xNaMHXbjdgxnopump": "2026-11-04T15:56:23.795756+00:00",
   "3YHMj1TaPgxTWAZsV59jZAKXzYgeajWULb9sxrKVUuJq": "2026-11-04T16:01:23.843636+00:00",
   "B597ZxHFSbGU5puirxLMEDKrkW1hW6etrGKx2a13q826": "2026-11-04T16:01:23.843647+00:00",
@@ -4156,7 +4671,6 @@
   "9DLEaHBE5YEbWtGWZz54thSXsxdjwMdfuD8xX3mspump": "2026-11-04T17:54:11.881627+00:00",
   "8JKSxDtJa9cpCo8NdpfDyBfBvb3pxR4gjXeTcg9Zpump": "2026-11-04T17:59:11.770355+00:00",
   "6iTaUH9xQfKuVtkt9kXABDFVVY1GGi3k7Uj8G7GQAjyt": "2026-11-04T17:59:11.770360+00:00",
-  "798MiZK7LkCYWvgenauBKmcwBURRfbaumqhNQfpxpump": "2026-11-04T17:59:11.770369+00:00",
   "EdwLTRxJQMYsaeC8FEf4v1nDjUX8CC3rZkcPyKqkpump": "2026-11-04T17:59:11.770387+00:00",
   "EJzpkG79Mk4RYiwKQ7kJVvFNyvuUXmQJ6sxBHAeUpump": "2026-11-04T17:59:11.770400+00:00",
   "6tZD9PnnUNKt1YQ7S3SugZ7kmvFVzh62aCdn65u1pump": "2026-11-04T17:59:11.770403+00:00",
@@ -6945,7 +7459,6 @@
   "2ZHCzAWLs8JaUhXeX2CmT5HrGDpPZVdaNymY2UN7mmoH": "2026-11-05T21:18:49.408643+00:00",
   "DATNgMEQ8rAqMHjbuwvaPZbWjvuuH5R6zzkagyA8pump": "2026-11-05T21:18:49.408652+00:00",
   "FZFGp4AvVBxT2kPLcHpgFrXvMGkWzSBEn83QCkfpump": "2026-11-05T21:18:49.408705+00:00",
-  "HQstiRVdp2cB6s6p3v6WWe23r8K4EP9wnx9gS3yLpump": "2026-11-05T21:24:18.049697+00:00",
   "AjiBHcDHD2vu7MsbaV9w16nHXdguBj45HVgcAJPZpump": "2026-11-05T21:24:18.049729+00:00",
   "6YzQ1i2xc5nqL8wVkXqX4rDUuEmZvRh3yXCXJciA3JSJ": "2026-11-05T21:24:18.049733+00:00",
   "GGSaxCWBfBhhspw6omEZ3w2m6psMMpCwodMCGYUULQGk": "2026-11-05T21:24:18.049739+00:00",
@@ -7259,7 +7772,6 @@
   "DBiP9FC13bSskvPoGuqysfg6oPhMgvTdfjZrmFVkpump": "2026-11-06T00:00:45.622731+00:00",
   "8rzzvMx2TqPhk8gTxt8n9oHoRbxSr4mgHkvWRhopump": "2026-11-06T00:06:21.491596+00:00",
   "9Bj5r5GKcwQQx9QUbRpTRMJyiSWq2Lc4AiHKHA9PYczp": "2026-11-06T00:06:21.491606+00:00",
-  "2gmnGtsLYHdttFCn4jVpRFbsNPgHfNkgPh2mGFmopump": "2026-11-06T00:06:21.491614+00:00",
   "BYN9qKvqM29Ua5FRwj7gHd4NZVqzz6nwKXb5Udtwpump": "2026-11-06T00:06:21.491618+00:00",
   "362Xhr4QkXeyqGBiwTbThX2LGSuF5MMWTLgwbUeJj6yN": "2026-11-06T00:06:21.491620+00:00",
   "9SSe89entupJKK7bZ8WbaX1YY5b78CGUaUNzfGonst9d": "2026-11-06T00:06:21.491627+00:00",
@@ -8564,7 +9076,6 @@
   "D6pUharWFAyCLeVGbAyjt743x4Gzpnw2xBNeEifopump": "2026-11-06T15:07:11.180471+00:00",
   "Aim43nJ4mptJQNQ98vC6n7Q9TU9Vnu5AsQthcPQTpump": "2026-11-06T15:07:11.180479+00:00",
   "9ZtuW8JzjCPNirmhKne2EnWknTj7wjv7k4cRaFEhpump": "2026-11-06T15:07:11.180481+00:00",
-  "CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq": "2026-11-06T15:07:11.180500+00:00",
   "EEV2S5PyRfkVGeGpnQC4cyAQGcD5oKE1Pfcjyhd5xyKp": "2026-11-06T15:07:11.180504+00:00",
   "HAdK14Twfbtt4FPRyDonW3GehLmzSk9S97XzCqbfkdz7": "2026-11-06T15:07:11.180519+00:00",
   "EByhCef5kR9HjfGyeS4gVPTgNMdBVcdfLrTF62a3hyan": "2026-11-06T15:07:11.180525+00:00",
@@ -8928,12 +9439,10 @@
   "93mxbrjnVCy84HsiPmRVoV8AXevTkaJfYjdErx83i4B7": "2026-11-06T18:52:15.437575+00:00",
   "B5HAwRKNcPiWFDLpXoU7JcL3nYA8UBVRr7dqiv4ypump": "2026-11-06T18:52:15.437582+00:00",
   "2pE71Sdwnb3ftmXnwBehrpRvgyR9PLUg6iiDep2fLoat": "2026-11-06T18:52:15.437590+00:00",
-  "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump": "2026-11-06T18:52:15.437599+00:00",
   "6Tn1swDoJh6bK9o3Q2b42oFwteChQkJRWmNbQkpMpump": "2026-11-06T18:52:15.437607+00:00",
   "3DdpGerzurawBM44orVHcNaEL3D8wMTNHyH3h73jpump": "2026-11-06T18:52:15.437609+00:00",
   "4ZxkDMniDeKJ26Ro9KPRaDaCET5yB1hnLcdRJPKfLoat": "2026-11-06T18:52:15.437615+00:00",
   "4v4AzduiiFs1qccSMRhTtkpi2Q7q7cka9vBac9qXpump": "2026-11-06T18:52:15.437618+00:00",
-  "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": "2026-11-06T18:52:15.437624+00:00",
   "GT7wXqoYTgS2LycKCaB2XBoAMVjf1X4zPXd3T3zjpump": "2026-11-06T18:52:15.437645+00:00",
   "8aiSmBsUTF6TcWBp7ap6ifsFhCJPi8LKoZ5xTQxApump": "2026-11-06T18:52:15.437648+00:00",
   "FYMx4oFaTwGdTzV1DBP3RHB8DGbeAd7u6b7bejY7aRg9": "2026-11-06T18:52:15.437652+00:00",
@@ -8948,7 +9457,6 @@
   "4Q1FSyuH6tzpoUKdDLAvnbJJvAJZgs2yme1TPPJfK2aR": "2026-11-06T18:57:16.119683+00:00",
   "3TsqpVESgpTfbUa2j6fgfuKruATJnu8qCoqqtdWpatMi": "2026-11-06T18:57:16.119696+00:00",
   "Dx72ebFurXKuwnYSVccU93xgmgjRSSuf6Z8kHWyMpump": "2026-11-06T18:57:16.119699+00:00",
-  "HzbFxjEo8gJHEyaqtjUQLz53Zw2WXy1eHtz5h853k6Do": "2026-11-06T18:57:16.119717+00:00",
   "7Ewy4www8wH1BNuu3RdsEcCAhvAC1bEQEsCeskY9pump": "2026-11-06T18:57:16.119718+00:00",
   "76WfnbH3LhJ82BtSg9BNYHLQU8QAqjU3vYnEJhqXpump": "2026-11-06T18:57:16.119723+00:00",
   "Hoz9yDK6fmi3NyzxJGNdnp1x4UHnucpYbrnJNbCtCRVK": "2026-11-06T19:02:24.881116+00:00",
@@ -9114,7 +9622,6 @@
   "HYKtG8ZZUecv8b2eQwuFjBkRPb42JF8D6RuxAh6Bpump": "2026-11-06T20:25:53.632099+00:00",
   "6eijPRzDmZZHfWyqPu2QqyMUj3FZ8jCAFuXUcGbJpump": "2026-11-06T20:25:53.632105+00:00",
   "GdsKTvuwWjGxwnoVzPahgRTA69gwhunHh4vYPX1dpump": "2026-11-06T20:25:53.632117+00:00",
-  "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": "2026-11-06T20:31:01.659502+00:00",
   "A8GcRwoR6MxqcQcTyeqEnBWiSPsaKD1MB5xQUpu5g3jb": "2026-11-06T20:31:01.659504+00:00",
   "8Xb2g9ZaLCafHj6YYG7t7opyKCxxv9QqFR6w9nkHpump": "2026-11-06T20:31:01.659511+00:00",
   "DrZQ2CnttnTMbb512Py1LLwhyMk28oP9kHaPQhxxM5xa": "2026-11-06T20:31:01.659514+00:00",
@@ -9253,7 +9760,6 @@
   "GqY7mBt1sqdtPbB5GwvVv2dZcUwYffPZsXqmFLYHpump": "2026-11-06T21:31:34.575536+00:00",
   "97vMgPYmjacPHUjpWPGuXJzy4yDSqFPyX21oRjgdWBMz": "2026-11-06T21:31:34.575543+00:00",
   "E17ZXxrDSWbfAHwnKextmgPtBmZrT4zg5jJ3XnMpump": "2026-11-06T21:31:34.575559+00:00",
-  "DWYMGCuBvciLMFXZDf9SCnrGFiikUaoukUE22iQcpump": "2026-11-06T21:31:34.575568+00:00",
   "ETZDbstu8HUGtLKSi5jQJRVu85FS8sdAH86p7hn1pump": "2026-11-06T21:31:34.575578+00:00",
   "DPEPGPGCKdhZ9Y96HhsbcLU4vTtkWdfQvhgwaKhRpump": "2026-11-06T21:31:34.575608+00:00",
   "BcqZSHpALxdcFfoc7KhzjEysXfNZDhWVirzVfJG6pump": "2026-11-06T21:37:05.133058+00:00",
@@ -9272,8 +9778,6 @@
   "6vaSwevKLgFwWsK2ujP4LCCTVPvmUMQkZfzXCHv32kG8": "2026-11-06T22:42:01.327367+00:00",
   "8P8BNixECEJw33Xg2WmqFX2YjcMFVa2PkvaU7Y1Spump": "2026-11-06T22:42:01.327372+00:00",
   "92noEEixRaVdXduS6eKPKh9A7chxqojUr3TJ2L3hpump": "2026-11-06T22:42:01.327389+00:00",
-  "H4Yco8GenmbchjBhNRinG96cXBgNJhFRPFyJYPwKpump": "2026-11-06T22:42:01.327395+00:00",
-  "Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP": "2026-11-06T22:42:01.327396+00:00",
   "3CfRxp3mhciTYVYaSU2okmJWscVeNQZMAh7XqkbSpump": "2026-11-06T22:42:01.327408+00:00",
   "AFhcJJpfvVjrtydxjR8K2DJ5ikEG4KqEaQsEP8vRbrzt": "2026-11-06T22:42:01.327410+00:00",
   "BZ3LFGBya69a9UCsm29yXLQtD1WsHBpwWEm3piD1RFiR": "2026-11-06T22:42:01.327412+00:00",
@@ -9290,11 +9794,9 @@
   "9DnLgVbsw48yPJTx1y8xnW95WZMfXcNVzEtfbwqpump": "2026-11-06T22:42:01.327503+00:00",
   "GyDhpYYXPPaAgrjpDpVCxubaFrBNht4byXzS8Kv8pump": "2026-11-06T22:42:01.327509+00:00",
   "Bmhp8nat7zTFu3Ct8HpQftiHHmB6dnf4B9ivvYYzpump": "2026-11-06T22:42:01.327513+00:00",
-  "G1ij1UjWBcUFtVHz5GVDAopPNMQcbwtdegH94LU6Jray": "2026-11-06T22:42:01.327519+00:00",
   "AFEGQ39gtzfcPMyEP93PeJhjd6F5KzSaZZp1N2Bupump": "2026-11-06T22:42:01.327527+00:00",
   "GpTytuB579aLcb3hoCFQr99MMn4mUcbYbpyG6zd1pump": "2026-11-06T22:42:01.327529+00:00",
   "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump": "2026-11-06T22:42:01.327531+00:00",
-  "87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": "2026-11-06T22:42:01.327533+00:00",
   "DwidhLjuEgSoz2HLpDhK2khgiauF3w4YKRyeLGjWpump": "2026-11-06T22:42:01.327536+00:00",
   "C7QhBjG1Xk4mK6jot23MEeoNSUVkzHUE7pePbv6Epump": "2026-11-06T22:42:01.327540+00:00",
   "Gm9hi1vs51nGMCLuP6HA54eGdh15wToEsagttfGvpump": "2026-11-06T22:42:01.327548+00:00",
@@ -9316,7 +9818,6 @@
   "5PbzScph7MFBDWzeZ4Ufg5wBfKooZe4UftusLkGfLoat": "2026-11-06T22:53:58.001367+00:00",
   "4yjv2byerrpSNnqXXSBE5bDAcB3izsdAwNCmmLGBpump": "2026-11-06T22:53:58.001369+00:00",
   "9KNEcTGb87UufS5kUJc6Nb2uvJTjnHC9bCwthqcDpump": "2026-11-06T22:53:58.001371+00:00",
-  "BTCk1ZAAGrbSq7e4L7mg8oiRKRqafkUbeLQpXeGq9BTC": "2026-11-06T22:53:58.001422+00:00",
   "BnjnQbeJSChDzTRr9Cdxc5ceMBKA5j32ALhmuXMXpump": "2026-11-06T22:53:58.001424+00:00",
   "79G7G7UM8WRTr8Kbj5ndqZNW9qzedh8gJEBfSBcupump": "2026-11-06T22:53:58.001429+00:00",
   "4pux5emr75n1A7P9nTp7ZktAdmptEJGHkdXjWxCorhDj": "2026-11-06T22:53:58.001432+00:00",
@@ -9324,7 +9825,6 @@
   "9yQSjpqqBHZqgoNNZC9GpzAuC16UuTxKFgCVdATcJjbn": "2026-11-06T22:59:56.163013+00:00",
   "93n3CF6Sm5ybcmWpCFnVtsqXmHeeM2ZuDKS4iKuEpump": "2026-11-06T22:59:56.163034+00:00",
   "9sgBTuXNqm2hYWaFzDZupWkYf6aMi3VEVRPiAj78pump": "2026-11-06T22:59:56.163036+00:00",
-  "EU6bvkgzxk6L4z6W1X6dDsNiVy5mbwUojhePD964pump": "2026-11-06T22:59:56.163040+00:00",
   "HyV25o61sxMU7vik4hFuJzJXBLyk3zEmmcei71RQpump": "2026-11-06T22:59:56.163052+00:00",
   "9BqLeHqktnk8Qsdcu7twCMgnattanPbS47kMyp8upump": "2026-11-06T22:59:56.163064+00:00",
   "FU4ixVYWUKWhdqCuU8yNarFjy8UvxaqKNdtk444s8SMG": "2026-11-06T22:59:56.163072+00:00",
@@ -9355,7 +9855,6 @@
   "3T5Kart6GagS16DsTgrJK2pjqWwWUXEfqEQJT8z5urge": "2026-11-06T23:11:54.875213+00:00",
   "2wAWUepa3CD6rUsiejge7LAuHvwkFbM67Tgs6QodSwot": "2026-11-06T23:11:54.875238+00:00",
   "6ZYutJfUHgbmVYKJzsfDx3yeAqEpgvy4sSt74jt1pump": "2026-11-06T23:16:55.577278+00:00",
-  "JATk4idqfAyU21F6w3xf2Rbyj9j8FnYxVWLMfoweqExh": "2026-11-06T23:16:55.577306+00:00",
   "3GfjicrRYxPzsETLikjGQu6z5VJPDkxVUPgTps46pump": "2026-11-06T23:16:55.577310+00:00",
   "9KdYefTvCBv5L1ZWSxKs97UszGQBaNJvvcSkYAccpump": "2026-11-06T23:16:55.577316+00:00",
   "5FDaMYK3xgsSy9RCvvq1bxrL1ksCbnYtwSzwjbDupump": "2026-11-06T23:16:55.577320+00:00",
@@ -9374,7 +9873,6 @@
   "9q3B7SXaQxNAbxHbMRe3QVVrHYpR7cJFaUixjVXMpump": "2026-11-06T23:22:55.041299+00:00",
   "5BkzZTZYjMfFos9ZuT5boN4UB4hn9HxhspWyxqXozDCB": "2026-11-06T23:22:55.041357+00:00",
   "8i3yXEZGaJH1ZpKdvawZh7aPoc77xReAZhkptffXpump": "2026-11-06T23:22:55.041361+00:00",
-  "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": "2026-11-06T23:22:55.041371+00:00",
   "7oV8xSBArKqUCmG3eQPy2cn4WKWRgGGuA8g6Bx6spump": "2026-11-06T23:22:55.041381+00:00",
   "9sg8USZqmrXB84jUh59LbdhGAmz3wq4G39PgDT9fpump": "2026-11-06T23:22:55.041383+00:00",
   "ER5potLxf5uzLjvWeuhgTWxczAUbMvzXr9hhf4yAGkvv": "2026-11-06T23:28:53.453018+00:00",
@@ -9420,7 +9918,6 @@
   "4suYDetjwWffRH3XEW1LjPPsBw64RNKYE2AkBEss8PYa": "2026-11-06T23:45:10.429942+00:00",
   "AM8WaH5HEtpw1QszWiFbbuttRja8ZjqPP2KqJJvCpump": "2026-11-06T23:45:10.429945+00:00",
   "BmrbVBSofie8WPWKNLKbzvZ3aBH1VJt6DP2fKWCEvMBG": "2026-11-06T23:45:10.429947+00:00",
-  "HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": "2026-11-06T23:45:10.429952+00:00",
   "6uGxUZW6Udr9Dj3qwuemTgeF6ZyP9dcQXRW6kziU6x7g": "2026-11-06T23:45:10.429953+00:00",
   "FQ5S7wH6bGGksi2Kp3RYzVUbfVqbor9w5GMLoiCapump": "2026-11-06T23:51:01.710598+00:00",
   "BVfh1DGrKWX9q8BZNhWy7jZ2VouXdg5APMfHCDXJpump": "2026-11-06T23:51:01.710604+00:00",
@@ -9453,44 +9950,25 @@
   "6tuz4cRT74eeZdwbgAK9zS9jU69bAMhsb6cEKZ5ZART5": "2026-11-07T00:02:40.866680+00:00",
   "AZXWtph11hoi8ZtC4L15K67AG711526Sd7nJM645pump": "2026-11-07T00:02:40.866684+00:00",
   "5VR7nwDXCRpXDynZZJSd9FKjj2rThZda9A3SaDfLoat": "2026-11-07T00:02:40.866717+00:00",
-  "FjeYiDWmJnSHBW5mK3TNwuk3HKZhGhw46VhH7q8WBe6n": "2026-11-07T00:02:40.866719+00:00",
   "ErtvmnqDzgdA7sEP6181UGS3ustP1eixc5j8m6Hpump": "2026-11-07T00:02:40.866729+00:00",
   "DDGzhfEcNcQTD5AE18LLGxoqb8g8RkRSSJcBvcGvpump": "2026-11-07T00:02:40.866743+00:00",
-  "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP": "2026-11-07T00:07:59.166126+00:00",
-  "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": "2026-11-07T00:07:59.166128+00:00",
   "oXkhtQaSYNhoqhmJaX7v187HXkKGCw1voStNvompump": "2026-11-07T00:07:59.166130+00:00",
-  "FMqWsXKaAe41Kxfji7v5cpzQmr2gKAteAi9wREmkpump": "2026-11-07T00:07:59.166131+00:00",
   "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": "2026-11-07T00:07:59.166134+00:00",
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": "2026-11-07T00:07:59.166148+00:00",
-  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": "2026-11-07T00:07:59.166151+00:00",
   "GRx4xu2bAw7xrJnMpFv2ggTYVjguPD36bw1Hozqqpump": "2026-11-07T00:07:59.166157+00:00",
   "B9vJdtXfwRXy6djBtsNRiERFFPxkejYaq4tQG6WR8A4C": "2026-11-07T00:07:59.166165+00:00",
-  "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": "2026-11-07T00:07:59.166169+00:00",
   "HqpL6rkBu8UkEu2cPkNg8Kvtu5V9ZWiWvJPpWAWpBtZ7": "2026-11-07T00:07:59.166171+00:00",
   "7eVKV9f5bHakGcZrmkgGq9GTp774gk8yugFfWz9Q22mc": "2026-11-07T00:07:59.166172+00:00",
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": "2026-11-07T00:07:59.166173+00:00",
   "F7rp63r2f994fgwJTb12weJP3Z5ZL6eQP8vFTjGwpump": "2026-11-07T00:07:59.166176+00:00",
   "AZ317iuobRwX9deXQ5k3uBycVSDyjyvQgUkdPcsutjV1": "2026-11-07T00:07:59.166179+00:00",
-  "8xH5RFEkSyneYBhCZh5gi2svgdyrDCREW9SxCfKuYgFd": "2026-11-07T00:07:59.166185+00:00",
   "6JoTWPSkqEg2j6xnEtauSfhkq4cenfCsLfuxoD4Jpump": "2026-11-07T00:07:59.166194+00:00",
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": "2026-11-07T00:07:59.166202+00:00",
-  "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": "2026-11-07T00:07:59.166205+00:00",
-  "7F4MuWWeJwB5MFEU547Z6TiFgejp7Tkr5BML47hrg9By": "2026-11-07T00:07:59.166206+00:00",
   "HAjWsxCvzAazRuhDqvpDywcv3qRbSYkgdJ4zEjVVpump": "2026-11-07T00:07:59.166212+00:00",
-  "25YymNVsua1yZbapaiVuhCgS2w8KrFwt2p7hF3Aqpump": "2026-11-07T00:07:59.166217+00:00",
-  "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "2026-11-07T00:07:59.166219+00:00",
   "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": "2026-11-07T00:07:59.166222+00:00",
   "EvRJSc2DttVEuWPvEu2Y6eNfm5jYqokNcng2zXCypump": "2026-11-07T00:07:59.166233+00:00",
-  "CDhpXQLLoAxmTEPpVgPivX25TgGQaKDZ3Jf7n3YfwSCc": "2026-11-07T00:07:59.166234+00:00",
   "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": "2026-11-07T00:07:59.166239+00:00",
-  "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": "2026-11-07T00:07:59.166240+00:00",
-  "GH37DfLYgT9wPNzzE1TSvBKH4cCRndJwT1M2pRrPpump": "2026-11-07T00:07:59.166241+00:00",
   "p3Puu4thsP3VdCPrD1vss31DfTA6R82BJuZGtodpump": "2026-11-07T00:07:59.166244+00:00",
   "B62cA1xgSUM5Scpt5akroXNMxrN2a2XkzH22Jn79aRch": "2026-11-07T00:07:59.166247+00:00",
   "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": "2026-11-07T00:07:59.166252+00:00",
-  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": "2026-11-07T00:07:59.166254+00:00",
-  "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": "2026-11-07T00:07:59.166255+00:00",
-  "8VdrHbx444YZJZp1vNb9pXAv5aW4Kv7E7bk7Zwaapump": "2026-11-07T00:07:59.166259+00:00",
   "HPtJUCsfocw2oKKKyKoixHa7Azkkey1FrN99miSmpump": "2026-11-07T00:13:46.476228+00:00",
   "DMGE9Lyk4WBcaotjDNXFoqJJhgcxfd85nzqctiqwpump": "2026-11-07T00:13:46.476280+00:00",
   "DL3KDHZzshMqQrr8bkH1UoVdU1ZiNizSt9LhQHsrpump": "2026-11-07T00:13:46.476299+00:00",
@@ -9515,7 +9993,6 @@
   "FS79MpvFggHbEfWJvft7or6meRd6LEPZ2VrXubLRpump": "2026-11-07T00:25:23.931138+00:00",
   "FGi75VpU8V3VAkSzTtA4AvZDUnKqxyibKkdkp7XEpump": "2026-11-07T00:25:23.931172+00:00",
   "9irzXvqHLGdCXkHxQD9ZTZFbeYRVmBg1cT2oT7ppump": "2026-11-07T00:25:23.931177+00:00",
-  "HZXfbN8D6cYiZfKeep8kSM5pjEngaXh1TC8oAB4hpump": "2026-11-07T00:25:23.931184+00:00",
   "D5YKf96fzLcVUFsnFYp7MPGQirMSjA69Kz1oHkBij9gC": "2026-11-07T00:25:23.931206+00:00",
   "ZhefMtgWRoB1Z1zYUNrLcY4LFG4j2hTUdJ5rMDmpump": "2026-11-07T00:25:23.931221+00:00",
   "BYtWCGuvrd2kKCJuB1EMu4UQz27dFxzXZ31DC2D7riSA": "2026-11-07T00:25:23.931231+00:00",
@@ -9540,7 +10017,6 @@
   "6fVvY9S2S5dioiyXF4seNAt2hCsJ4iBUGjzicjdvpump": "2026-11-07T01:12:44.347153+00:00",
   "67jhDzy3Mzh9tpcH8iub8vmBqMMrhuc9s4TRQ3CXt6wd": "2026-11-07T01:12:44.347184+00:00",
   "ADDyZYKTkxfZTb6hFua3qMrwxz8SdhoAMJSvUjsTBAGS": "2026-11-07T01:12:44.347211+00:00",
-  "FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump": "2026-11-07T01:12:44.347227+00:00",
   "6g3Yw8WMwHzDy8BHe6Zvn5Eyk3uUiRLVdbAk2WVzpump": "2026-11-07T01:12:44.347236+00:00",
   "F1YNtNkbv2H4FJ95TCM65k1XmaZvv3sNSkS7kvmApump": "2026-11-07T01:12:44.347257+00:00",
   "8DN4BpNiAc3ojY8HMxKFWjaHnDGcFwFE45RYSsdrpump": "2026-11-07T01:12:44.347263+00:00",
@@ -9567,7 +10043,6 @@
   "TpxCFf8n7SJu6X4vW5CL3AM6UGFBHoFDndRhCfKpump": "2026-11-07T01:22:53.202550+00:00",
   "4hYZCjnwfUgPeL35QugNe4XzdZ14L3AcNH9qYPtY4qpi": "2026-11-07T01:22:53.202552+00:00",
   "CyFkmfcqn93jgQdJi99R9vakEwg5WY1jiBnx6Hgxpump": "2026-11-07T01:22:53.202564+00:00",
-  "9iaXwjVAtRQmDKuYuxMmT5GBKiVJ3dQ4ji1vWkEXY1Jz": "2026-11-07T01:22:53.202576+00:00",
   "G7mwgytxxp1QepQPo1mHyp9rLkSx45Rjw4JsykVUpump": "2026-11-07T01:22:53.202577+00:00",
   "GEY1eaBA6VRen9GaZXmDBV9TFrxzC94KvRGtayzgpump": "2026-11-07T01:22:53.202579+00:00",
   "3PiKkoRam4q77nZAJpvpGFw6VAnkyqVgBh34vxfQpump": "2026-11-07T01:22:53.202594+00:00",
@@ -9665,12 +10140,10 @@
   "EzL7yCSPsD1ofhqnoxSp94PCtcVhDp3U3UW3bihCpump": "2026-11-07T02:14:14.906646+00:00",
   "Eu73S3n7dreUrEmHDpffcnjgB6zDxGALgvAXdsjEpump": "2026-11-07T02:14:14.906654+00:00",
   "8oCaAmqUZKB4u39FUQosdCnibUwPjxnTksngTBtwpump": "2026-11-07T02:14:14.906665+00:00",
-  "41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump": "2026-11-07T02:14:14.906681+00:00",
   "6pUeTjF5emkd86EsfMiTRvgYbALT2Xp7hgbEXHrrpump": "2026-11-07T02:14:14.906686+00:00",
   "6MkEGHphuyku6M1JyBdFCLPbZVxWFskDMg883iGapump": "2026-11-07T02:14:14.906690+00:00",
   "EKMAVzy5arM8xiLpSXw3kBAzwsutyTDYqv2joPbrnJbb": "2026-11-07T02:14:14.906704+00:00",
   "DM7mxWu4euT8s4ohZiXQ4LqkGM69Azvf7YTkp8hLytRo": "2026-11-07T02:14:14.906707+00:00",
-  "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": "2026-11-07T02:14:14.906726+00:00",
   "BWKgkobk7UvXXkEkeVg7gHAw9jBBn7Bi66PTGHSgpump": "2026-11-07T02:14:14.906746+00:00",
   "BjnyodGwkHmd9dbbF8agvCUCxfcFE2c12NVMPw6qTb79": "2026-11-07T02:14:14.906764+00:00",
   "DNTjp5MWwfftRrh6hYv6DE9t6bHEssUbHxLXskinLoat": "2026-11-07T02:14:14.906768+00:00",
@@ -9705,7 +10178,6 @@
   "xkpeijg8sc45rUE2ot9BDB6337o6iVsLTB5whXcpump": "2026-11-07T02:31:37.691938+00:00",
   "7wXSFoENnY1jBQAJwmk54bPB6ndv6HvToC125io2pump": "2026-11-07T02:31:37.691943+00:00",
   "BKYnuYvjcTSgqf1cVmXwuKKPcE4R7eit5V26RoCDnXhM": "2026-11-07T02:31:37.691948+00:00",
-  "5DSkAwDZF9wKCrrbyGbQHBR92Usv8xm2renS7UGHpump": "2026-11-07T02:31:37.691949+00:00",
   "9SqsiHEHgfrZTWBRARaLxc5qVkxUXJa5N6c2D8Mqpump": "2026-11-07T02:31:37.691973+00:00",
   "376LQcn6ZTogtrUfA9yfsKjJhCuKYyCZ67mVH5iYpump": "2026-11-07T02:31:37.691991+00:00",
   "ERRJe9F2VRtC9kJd3DvN7KFvH5cViYN4BuXsb2juPiTT": "2026-11-07T02:31:37.692006+00:00",
@@ -9753,7 +10225,6 @@
   "xNG4NySJ2M7GoYNTsrcWqiFkjGk5BR31pbsZWBYpump": "2026-11-07T03:51:43.101691+00:00",
   "tSC3UHfJbB7uVhSqyjeco2DAKcBGuL3uDxvBhN9pump": "2026-11-07T03:51:43.101706+00:00",
   "C2cd8ykuEbCj3Y9kiHey5c1PbppL66pSxc1x8ybyjtbr": "2026-11-07T03:51:43.101717+00:00",
-  "BdouwEr3mwXkT6S6EmHNCjn9oEtykRKCKiUSTRF9pump": "2026-11-07T03:51:43.101719+00:00",
   "C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u": "2026-11-07T03:51:43.101720+00:00",
   "2Sp2h2Uaxiuvkfoj2cNEV4aeUoJToA9uLHUZ948Mpump": "2026-11-07T03:51:43.101722+00:00",
   "6KV1JMAgj7fwyeUJPLy3Qp8wveQkyLSbgcJkLKNapump": "2026-11-07T03:51:43.101725+00:00",
@@ -9809,7 +10280,6 @@
   "C63HUSuzVCi7tvimpJH7DfdRsMzBXLZmf5ee4ApUpump": "2026-11-07T04:17:52.894148+00:00",
   "DAK3k4GLPbAxvsMqdH4fP3nm5WKubq5uhRQMivaApump": "2026-11-07T04:17:52.894159+00:00",
   "HkiHpYFnb8XtjFQdGrkuksW7SE5em2V5KDp8ev2UWiuJ": "2026-11-07T04:17:52.894160+00:00",
-  "CGKevMsAwUP7evr52LyqHcy1yQV5GWww6HpLfQ1ZdjZS": "2026-11-07T04:17:52.894164+00:00",
   "DjhgfE1bkegRxCxW2xExPFxPdLSboV794tF4hCKfexHi": "2026-11-07T04:17:52.894166+00:00",
   "7HgMqtAFY97sy6wU2ndkDmKZ2zxXdbJS8bswnA23pump": "2026-11-07T04:17:52.894168+00:00",
   "ASnwtt3EWWiLZsamRxVsFXLabf2rkPMYhSB2VkFi27Ff": "2026-11-07T04:17:52.894172+00:00",
@@ -9913,7 +10383,6 @@
   "F5kJJLVgQ1mBESNamvxxENGgrsiWQcSU3hkXFq2pump": "2026-11-07T05:09:00.000416+00:00",
   "9wLSJL9d4TfqJrTdLxbwXsTPhJAVrwxWhCJWRgKqrzhC": "2026-11-07T05:09:00.000424+00:00",
   "BJpmp75xXPPzC3UYVe9FMqzZU7Xx6SSbnDTcXQ87pump": "2026-11-07T05:09:00.000435+00:00",
-  "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": "2026-11-07T05:09:00.000443+00:00",
   "BmjmoyjFmK2GQzhF9uWCU9mqsQP81pRVtTcSdHwUVNBf": "2026-11-07T05:14:51.438065+00:00",
   "EA8TgTsVhi11Vij1HdRJFJiNdf4SpQxiQP9X9cRapump": "2026-11-07T05:14:51.438069+00:00",
   "3BxsVGgNYKjbYf2cSC9NGygX5qM3xMZp9tCmntbzpump": "2026-11-07T05:14:51.438119+00:00",
@@ -10333,14 +10802,12 @@
   "Ad5kWCd1z7KefG5jQMnkzYmf2GgU5Gw5o2DiwVtDzATU": "2026-11-07T09:55:51.109273+00:00",
   "LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump": "2026-11-07T09:55:51.109282+00:00",
   "CrLV57D4caZrZTs9qcKvzbwAaki47264zA2EcDbnpump": "2026-11-07T09:55:51.109286+00:00",
-  "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": "2026-11-07T09:55:51.109290+00:00",
   "G6dhCjAYNEygvALyua6XAs3f5ggYFzZMCMYJ49cpump": "2026-11-07T09:55:51.109291+00:00",
   "2aTYTMEpcDQpSaXt3dYPmDX2ogSoZu5EXT6FyAcVpump": "2026-11-07T09:55:51.109298+00:00",
   "EUPSYS9qEZFavmrDYEgZ5UGFZFoqYpFEFMe6kkddpK56": "2026-11-07T09:55:51.109301+00:00",
   "6shxnGbLUumBGL35SMN1JhxLmWh5eEbPS1t6XwoFxTcx": "2026-11-07T09:55:51.109304+00:00",
   "H4wbXGu4Ez2VUZJimvFyULgXnRt5XF1E7e15yQz5pump": "2026-11-07T09:55:51.109314+00:00",
   "BwneKy9j627iUVc13DcDia3ajgBQjc8QJewiZcJMpump": "2026-11-07T09:55:51.109333+00:00",
-  "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": "2026-11-07T09:55:51.109345+00:00",
   "BjMz6cRFMfQm4ZJWYxM18TaPpUbsF9V112oDKREYpump": "2026-11-07T09:55:51.109353+00:00",
   "H48joWHPujKfWZim13rfKhUv3Jf88Pb1DwPL8Cgmpump": "2026-11-07T09:55:51.109366+00:00",
   "4wLWRhL7YL8Wu6kPaEHnNtrd6R8KF9QSpFBmEZkmfair": "2026-11-07T09:55:51.109368+00:00",
@@ -10454,7 +10921,43 @@
   "AUFwW8ogToV3TbpEFgh2j9QZjWfH9YwuzkYMaPFcpump": "2026-11-07T10:47:08.941534+00:00",
   "8kGw2GDv7vbtmd6f2FUxQ8SiQSfHEAnifokYondTpump": "2026-11-07T10:47:08.941541+00:00",
   "2Fvy64EyHYN35A8jocn7LhogdWZtxKBA5eyK6abwU5PY": "2026-11-07T10:47:08.941550+00:00",
-  "DE7Ufs6e8R1nsVdZZfLMVTRktWACcDFAQ8M3eB9apump": "2026-11-07T10:47:08.941561+00:00"
+  "DE7Ufs6e8R1nsVdZZfLMVTRktWACcDFAQ8M3eB9apump": "2026-11-07T10:47:08.941561+00:00",
+  "DQLnj4kkPSQ12J3AYzwsBwf3PzrTjiTcMb9TkxNWpump": "2026-11-07T10:49:25.905016+00:00",
+  "7Ae213NBbApnYwiwsawscoAsUroX5p27X8h2cruuQR9p": "2026-11-07T10:49:25.905018+00:00",
+  "9EBVQcJ7HmjRwwjbJm6dsXjwmDLNUEEYDyyzhBJkpump": "2026-11-07T10:49:25.905053+00:00",
+  "GKxTnWNFTVVq7K7e6zihhKBB21aZT89o363ADH9Xpump": "2026-11-07T10:49:25.905057+00:00",
+  "DjKGxqn3J5ij5pkJ8Rt16sRGLo8i2FLutFeCp3qYpump": "2026-11-07T10:49:25.905068+00:00",
+  "91XwaQgybdhPdVEnqXcvLcHrxLSxFarWHsSJ4j6Upump": "2026-11-07T10:49:25.905071+00:00",
+  "6rgmPb1BV75wDJhVvEv77zvrPwuv9MnYH2gjW6TFpump": "2026-11-07T10:49:25.905093+00:00",
+  "AUEzCk4J3gZVtQddyopWeUCYqxnCVy4aYPPx9yMppump": "2026-11-07T10:49:25.905143+00:00",
+  "7fh2toaf7nqUejfq4oKkc5nwPuQqkU1Y4RoPFh1Spump": "2026-11-07T10:49:25.905150+00:00",
+  "FCT9hwh8urBKjkj4zut3kzZbnqDQfw9yV1rPtteGedXP": "2026-11-07T10:49:25.905159+00:00",
+  "BDgxDfr4iERKsHVkYxK3ZB62Putkq5q1SvmjW67phFmF": "2026-11-07T10:54:34.265433+00:00",
+  "BhnEqyyGg4ifuFsUTjdHJQKHgXyAyDAJkwMgA1VQpump": "2026-11-07T10:54:34.265437+00:00",
+  "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": "2026-11-07T10:54:34.265440+00:00",
+  "BdyruKxNF7JKwP62Nc13VG5wjrWrxRFvah28kDY4HiEw": "2026-11-07T10:54:34.265450+00:00",
+  "AKts7B4Xh7Zi3YothY3doddF39cnYDxCE8aTfnyL66XP": "2026-11-07T10:54:34.265458+00:00",
+  "39Q2jyrDs44w5gFCaXwNfok9iXoaMNnQRHuAMBc9pump": "2026-11-07T10:54:34.265463+00:00",
+  "AxLygBn9NpEywgJzBYZpAHheKXGyzDdQMauEAP1rpump": "2026-11-07T10:54:34.265477+00:00",
+  "96GvfRGGfnC2HZj5fBxoVU8V3ASFW8ofref9avBppump": "2026-11-07T10:54:34.265483+00:00",
+  "A8M6LT4oFTimmAghA5pe635dHL4UJJA6DYhg7a3m9wBu": "2026-11-07T10:54:34.265487+00:00",
+  "4zj9v84wHfr1mkPMFz1Nw6oeFhoob6TjTbCMfZe7pump": "2026-11-07T10:54:34.265489+00:00",
+  "FAjsdRGhfi8efnbU2aPtXuqHCGEmaWc4SWqaEHsXdpay": "2026-11-07T10:54:34.265498+00:00",
+  "BdouwEr3mwXkT6S6EmHNCjn9oEtykRKCKiUSTRF9pump": "2026-11-07T10:54:34.265504+00:00",
+  "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": "2026-11-07T11:00:29.691437+00:00",
+  "6mQM1EPX7QjhEMgr3fzD3KimgnDRWtRuf1AdeJ9WJ9TH": "2026-11-07T11:00:29.691439+00:00",
+  "VVShAXXmtsUWSC9dvPymVjwjhRW7H8dwDScqhHrfsjg": "2026-11-07T11:00:29.691443+00:00",
+  "6P27KCdoJCh79D5q1K1BUkGC6YF2cUouXfzqjRCXpump": "2026-11-07T11:00:29.691447+00:00",
+  "FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump": "2026-11-07T11:00:29.691466+00:00",
+  "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": "2026-11-07T11:00:29.691483+00:00",
+  "5Mcqakqb9YXN3XbpHczWb4S1tS6RzWoLAudqm1cYkTtL": "2026-11-07T11:00:29.691503+00:00",
+  "BNJm3TDYcP5CwnFDYPdEjdUydK9NYgwd9yJYFuvbz1c2": "2026-11-07T11:00:29.691512+00:00",
+  "27f6J8uuxeojtaewKXWqJihL2ybb4hS8k6D4WLKipump": "2026-11-07T11:00:29.691516+00:00",
+  "9xBXJXrpGhekAZZbzdJu3Q4y7zAejPEZGkBMUPDEFnYq": "2026-11-07T11:00:29.691517+00:00",
+  "96ESxKx4bcigZEyuBA6vGaXe3Zm18EhDBtdp1zzsRZyG": "2026-11-07T11:00:29.691523+00:00",
+  "BoKBi5xrKkLs5txusvEiTeLYiWXGyqEmmTtmSfDPpump": "2026-11-07T11:00:29.691535+00:00",
+  "Cu7MGaaiUeaaiTy6MXHS42WdaiqLzGCGC2LVfLbTpump": "2026-11-07T11:00:29.691553+00:00",
+  "DSrgPs38dZiBw5cX5TGM1ftA7gDV1Dw82K6f7Z39pump": "2026-11-07T11:00:29.691557+00:00"
  },
  "abgelehnt": {
   "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": {
@@ -10547,6 +11050,26 @@
    "zeit": "2026-11-07T00:04:50.212712+00:00",
    "grund": "Top-10 halten 56%",
    "symbol": "GTA6K9"
+  },
+  "FjeYiDWmJnSHBW5mK3TNwuk3HKZhGhw46VhH7q8WBe6n": {
+   "zeit": "2026-11-07T10:51:29.033061+00:00",
+   "grund": "Top-10 halten 32%",
+   "symbol": "zPEPE"
+  },
+  "41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump": {
+   "zeit": "2026-11-07T10:51:30.301455+00:00",
+   "grund": "Risiko: Single holder ownership",
+   "symbol": "scamsem"
+  },
+  "BdouwEr3mwXkT6S6EmHNCjn9oEtykRKCKiUSTRF9pump": {
+   "zeit": "2026-11-07T10:51:31.565143+00:00",
+   "grund": "LP nur 0% gesperrt",
+   "symbol": "Alice"
+  },
+  "FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump": {
+   "zeit": "2026-11-07T10:56:25.619514+00:00",
+   "grund": "Risiko: Low Liquidity",
+   "symbol": "Busted"
   }
  },
  "letzte_bilanz": "2026-11",
@@ -10622,11 +11145,11 @@
    "verlauf": [
     "Markt-Filter: zu alt"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:44.392671+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.491907+00:00",
    "entscheid": "Markt-Filter: zu alt",
-   "alter_h": 1763.6,
-   "liquiditaet_usd": 357018,
-   "mcap_usd": 11445775
+   "alter_h": 1774.6,
+   "liquiditaet_usd": 373839,
+   "mcap_usd": 12451393
   },
   "G4vV9RNiYEMXWXVe7pQtad49BMNMPRQPAa1oU7hSpump": {
    "symbol": "Busted",
@@ -11022,9 +11545,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:36.837908+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.482949+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 60.2,
+   "alter_h": 71.2,
    "liquiditaet_usd": 0,
    "mcap_usd": 7559
   },
@@ -11036,13 +11559,15 @@
    "verlauf": [
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 2807$",
-    "Markt-Filter: Liquidität 3160$"
+    "Markt-Filter: Liquidität 3160$",
+    "Markt-Filter: Liquidität 3214$",
+    "Markt-Filter: Liquidität 3178$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:36.838005+00:00",
-   "entscheid": "Markt-Filter: Liquidität 3160$",
-   "alter_h": 51.7,
-   "liquiditaet_usd": 3160,
-   "mcap_usd": 2837
+   "zuletzt_gesehen": "2026-11-07T11:02:20.483108+00:00",
+   "entscheid": "Markt-Filter: Liquidität 3178$",
+   "alter_h": 62.6,
+   "liquiditaet_usd": 3178,
+   "mcap_usd": 2862
   },
   "2Bn32nLNQjk6rW4yBooMWZucMQnHLFmbsicbidqUpump": {
    "symbol": "ALLSTARS",
@@ -11051,13 +11576,15 @@
    "zuerst_gesehen": "2026-11-05T00:04:55.501581+00:00",
    "verlauf": [
     "Markt-Filter: Liquidität 0$",
-    "Markt-Filter: Liquidität 14276$"
+    "Markt-Filter: Liquidität 14276$",
+    "Markt-Filter: Liquidität 14598$",
+    "Markt-Filter: Liquidität 14690$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:36.838097+00:00",
-   "entscheid": "Markt-Filter: Liquidität 14276$",
-   "alter_h": 12.7,
-   "liquiditaet_usd": 14276,
-   "mcap_usd": 37572
+   "zuletzt_gesehen": "2026-11-07T11:02:20.483286+00:00",
+   "entscheid": "Markt-Filter: Liquidität 14690$",
+   "alter_h": 23.7,
+   "liquiditaet_usd": 14690,
+   "mcap_usd": 39514
   },
   "Fu8WjrgCVafqYBieJDu6BrT5N3EEwezrvtfG862opump": {
    "symbol": "PLAYGTA",
@@ -11068,9 +11595,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:36.838103+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.483299+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 49.6,
+   "alter_h": 60.5,
    "liquiditaet_usd": 0,
    "mcap_usd": 2573
   },
@@ -11124,9 +11651,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-06T00:02:09.202448+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.483491+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 22.2,
+   "alter_h": 57.2,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -11276,13 +11803,14 @@
    "url": "https://dexscreener.com/solana/caci57bhzxvf9mjzv9f4bgay22ukramr5jvvt7cxbn4q",
    "zuerst_gesehen": "2026-11-06T00:02:15.903342+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 1639$"
+    "Markt-Filter: Liquidität 1639$",
+    "Markt-Filter: Liquidität 1642$"
    ],
-   "zuletzt_gesehen": "2026-11-06T00:02:15.903344+00:00",
-   "entscheid": "Markt-Filter: Liquidität 1639$",
-   "alter_h": 14.3,
-   "liquiditaet_usd": 1639,
-   "mcap_usd": 1599
+   "zuletzt_gesehen": "2026-11-07T11:02:20.483822+00:00",
+   "entscheid": "Markt-Filter: Liquidität 1642$",
+   "alter_h": 49.3,
+   "liquiditaet_usd": 1642,
+   "mcap_usd": 1602
   },
   "8ARGDskX1rpjm14ZCBrexrozBKMPHASvrDy963GAxfiH": {
    "symbol": "GTA 6 Coin",
@@ -11390,11 +11918,11 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:36.838666+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.484081+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 32.7,
+   "alter_h": 43.7,
    "liquiditaet_usd": 0,
-   "mcap_usd": 3040
+   "mcap_usd": 3099
   },
   "27AYXq96kjPgsy2qMsLXTPAf47CJHZPHa5P2fQZ38Z77": {
    "symbol": "GTAVI",
@@ -11402,13 +11930,14 @@
    "url": "https://dexscreener.com/solana/7m44bf1ekzq1e4vgbdprlg7qgkz3q5ywts9ysgdehjs4",
    "zuerst_gesehen": "2026-11-07T00:04:36.838682+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 7130$"
+    "Markt-Filter: Liquidität 7130$",
+    "Markt-Filter: Liquidität 6999$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:36.838683+00:00",
-   "entscheid": "Markt-Filter: Liquidität 7130$",
-   "alter_h": 32.7,
-   "liquiditaet_usd": 7130,
-   "mcap_usd": 9223
+   "zuletzt_gesehen": "2026-11-07T11:02:20.484101+00:00",
+   "entscheid": "Markt-Filter: Liquidität 6999$",
+   "alter_h": 43.6,
+   "liquiditaet_usd": 6999,
+   "mcap_usd": 8951
   },
   "HR8a1erQ4LyTKW5XYrHzPy9na5Gd6GHhccXhQywzpump": {
    "symbol": "GTA",
@@ -11418,9 +11947,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 1759$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:36.838800+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.484237+00:00",
    "entscheid": "Markt-Filter: Liquidität 1759$",
-   "alter_h": 30.9,
+   "alter_h": 41.9,
    "liquiditaet_usd": 1759,
    "mcap_usd": 1682
   },
@@ -11432,9 +11961,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:38.236828+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.484274+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 30.0,
+   "alter_h": 41.0,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -11460,9 +11989,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 1740$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:40.233889+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.484320+00:00",
    "entscheid": "Markt-Filter: Liquidität 1740$",
-   "alter_h": 30.0,
+   "alter_h": 40.9,
    "liquiditaet_usd": 1740,
    "mcap_usd": 1659
   },
@@ -11474,11 +12003,11 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:43.003197+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.484454+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 27.9,
+   "alter_h": 38.9,
    "liquiditaet_usd": 0,
-   "mcap_usd": 2612
+   "mcap_usd": 2626
   },
   "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump": {
    "symbol": "GTA",
@@ -11488,9 +12017,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 1781$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:43.003264+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.484497+00:00",
    "entscheid": "Markt-Filter: Liquidität 1781$",
-   "alter_h": 27.6,
+   "alter_h": 38.5,
    "liquiditaet_usd": 1781,
    "mcap_usd": 1674
   },
@@ -11502,11 +12031,11 @@
    "verlauf": [
     "Markt-Filter: zu alt"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:44.392465+00:00",
+   "zuletzt_gesehen": "2026-11-07T10:51:29.033269+00:00",
    "entscheid": "Markt-Filter: zu alt",
-   "alter_h": 1467.1,
-   "liquiditaet_usd": 37452,
-   "mcap_usd": 205270
+   "alter_h": 1477.9,
+   "liquiditaet_usd": 37429,
+   "mcap_usd": 205430
   },
   "g45wQyfbv4UT4E19E7XxiQAyWua7GyrxVB5oca3pump": {
    "symbol": "Claude",
@@ -11558,9 +12087,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 1794$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:50.212884+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.485392+00:00",
    "entscheid": "Markt-Filter: Liquidität 1794$",
-   "alter_h": 14.8,
+   "alter_h": 25.7,
    "liquiditaet_usd": 1794,
    "mcap_usd": 1678
   },
@@ -11570,13 +12099,15 @@
    "url": "https://dexscreener.com/solana/bwfwgjeu3nitww44w2caeocvzqdybxhjhdnmkbgefg71",
    "zuerst_gesehen": "2026-11-07T00:04:50.213046+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 3590$"
+    "Markt-Filter: Liquidität 3590$",
+    "Markt-Filter: Liquidität 3102$",
+    "Markt-Filter: Liquidität 3091$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:50.213047+00:00",
-   "entscheid": "Markt-Filter: Liquidität 3590$",
-   "alter_h": 10.3,
-   "liquiditaet_usd": 3590,
-   "mcap_usd": 3925
+   "zuletzt_gesehen": "2026-11-07T11:02:20.485508+00:00",
+   "entscheid": "Markt-Filter: Liquidität 3091$",
+   "alter_h": 21.3,
+   "liquiditaet_usd": 3091,
+   "mcap_usd": 3206
   },
   "4PAtcdgNuh93Tn4LA2XkbDgee2PnoCb263j7hkyupump": {
    "symbol": "ROCCO",
@@ -11586,9 +12117,9 @@
    "verlauf": [
     "Markt-Filter: Liquidität 1791$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:50.213076+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.485548+00:00",
    "entscheid": "Markt-Filter: Liquidität 1791$",
-   "alter_h": 13.6,
+   "alter_h": 24.6,
    "liquiditaet_usd": 1791,
    "mcap_usd": 1688
   },
@@ -11598,13 +12129,14 @@
    "url": "https://dexscreener.com/solana/1ukbur4jm7vbzfa6anncn9gr2hkactfbl9yae7543xz",
    "zuerst_gesehen": "2026-11-07T00:04:50.213154+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 2332$"
+    "Markt-Filter: Liquidität 2332$",
+    "Markt-Filter: Liquidität 2334$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:50.213156+00:00",
-   "entscheid": "Markt-Filter: Liquidität 2332$",
-   "alter_h": 12.9,
-   "liquiditaet_usd": 2332,
-   "mcap_usd": 2137
+   "zuletzt_gesehen": "2026-11-07T11:02:20.485669+00:00",
+   "entscheid": "Markt-Filter: Liquidität 2334$",
+   "alter_h": 23.9,
+   "liquiditaet_usd": 2334,
+   "mcap_usd": 2138
   },
   "Hfqyd2pC4AAtMULREkXAHugXxqVygtJkiTnQxD9NFV5y": {
    "symbol": "GTAmid",
@@ -11614,9 +12146,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:53.210450+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.487030+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 7.4,
+   "alter_h": 18.4,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -11628,11 +12160,110 @@
    "verlauf": [
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-07T00:04:54.608787+00:00",
+   "zuletzt_gesehen": "2026-11-07T11:02:20.487287+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 6.4,
+   "alter_h": 17.4,
    "liquiditaet_usd": 0,
    "mcap_usd": 2524
+  },
+  "7Ewy4www8wH1BNuu3RdsEcCAhvAC1bEQEsCeskY9pump": {
+   "symbol": "MTA6",
+   "name": "Monke GTA6",
+   "url": "https://dexscreener.com/solana/fgfdumvdcglkcq4zeq11sgqhklbv3ew8pwybx1mum4ys",
+   "zuerst_gesehen": "2026-11-07T10:51:20.056077+00:00",
+   "verlauf": [
+    "Markt-Filter: Liquidität 1926$"
+   ],
+   "zuletzt_gesehen": "2026-11-07T11:02:20.487738+00:00",
+   "entscheid": "Markt-Filter: Liquidität 1926$",
+   "alter_h": 16.2,
+   "liquiditaet_usd": 1926,
+   "mcap_usd": 1784
+  },
+  "BNmzeqHoQsUKwdHN8cq7qo8ZFkF3uXNgY1q26PyJpump": {
+   "symbol": "GTA6DOG",
+   "name": "GTA6Dog",
+   "url": "https://dexscreener.com/solana/6d18zgikseb8qkrjadtlltv3ssgxiwhb7njstmjm1kut",
+   "zuerst_gesehen": "2026-11-07T10:51:20.056297+00:00",
+   "verlauf": [
+    "Markt-Filter: Liquidität 0$"
+   ],
+   "zuletzt_gesehen": "2026-11-07T11:02:20.487930+00:00",
+   "entscheid": "Markt-Filter: Liquidität 0$",
+   "alter_h": 15.5,
+   "liquiditaet_usd": 0,
+   "mcap_usd": 2520
+  },
+  "MMMNoe2uR9tYivHTze5ZztzRDqqes1p7NPcuVwCpump": {
+   "symbol": "GTA6FLAM",
+   "name": "GTA6Flamingo",
+   "url": "https://dexscreener.com/solana/9q8scnfw3zcph1v33emxent1jvaccnw2rvo9d5r4dk63",
+   "zuerst_gesehen": "2026-11-07T10:51:20.056477+00:00",
+   "verlauf": [
+    "Markt-Filter: Liquidität 0$"
+   ],
+   "zuletzt_gesehen": "2026-11-07T11:02:20.488135+00:00",
+   "entscheid": "Markt-Filter: Liquidität 0$",
+   "alter_h": 15.0,
+   "liquiditaet_usd": 0,
+   "mcap_usd": 2519
+  },
+  "D7eCYXewMoJ94xiXtbsiGu6XjyBEimwSpVyxYodnpump": {
+   "symbol": "GTA 6 Coin",
+   "name": "GTA6",
+   "url": "https://dexscreener.com/solana/cecxwx7qqt6jp4qa956vzpqyuhuqkmbvgsptxenxrcc9",
+   "zuerst_gesehen": "2026-11-07T10:51:26.447901+00:00",
+   "verlauf": [
+    "Markt-Filter: Liquidität 1715$",
+    "Markt-Filter: Liquidität 1757$"
+   ],
+   "zuletzt_gesehen": "2026-11-07T11:02:20.488980+00:00",
+   "entscheid": "Markt-Filter: Liquidität 1757$",
+   "alter_h": 11.8,
+   "liquiditaet_usd": 1757,
+   "mcap_usd": 1687
+  },
+  "91pRVcqQsnTTRcUNUCw2vEihJ4Ybh5gD23Ac2fEbpump": {
+   "symbol": "GTA6",
+   "name": "Jason Duval ",
+   "url": "https://dexscreener.com/solana/4l7yip761fgodtciqvdcbsbqy2jjts2uu6w8a6rhqbxw",
+   "zuerst_gesehen": "2026-11-07T10:51:27.719882+00:00",
+   "verlauf": [
+    "Markt-Filter: Liquidität 0$"
+   ],
+   "zuletzt_gesehen": "2026-11-07T11:02:20.489057+00:00",
+   "entscheid": "Markt-Filter: Liquidität 0$",
+   "alter_h": 11.6,
+   "liquiditaet_usd": 0,
+   "mcap_usd": 2532
+  },
+  "E4YoVyVmZ5X32G77f6WryvwpDzLdjRyjae2q7wpXpump": {
+   "symbol": "GTA 6 Coin",
+   "name": "GTA6",
+   "url": "https://dexscreener.com/solana/2hmk1t2s972sl7tmbugr8uh67txctefy5s74j6oaacv4",
+   "zuerst_gesehen": "2026-11-07T10:51:31.565582+00:00",
+   "verlauf": [
+    "Markt-Filter: zu jung"
+   ],
+   "zuletzt_gesehen": "2026-11-07T11:02:20.490464+00:00",
+   "entscheid": "Markt-Filter: zu jung",
+   "alter_h": 6.0,
+   "liquiditaet_usd": 1701,
+   "mcap_usd": 1664
+  },
+  "6837F5Jb47fPGogJhSymqk1rh2Vm2TTMSkBsDb7Apuvf": {
+   "symbol": "GTA6",
+   "name": "GTA VI",
+   "url": "https://dexscreener.com/solana/f1wcmn8lgkqqwsclbttggzewrr92aphvogxf8ajyx3pt",
+   "zuerst_gesehen": "2026-11-07T10:51:31.566799+00:00",
+   "verlauf": [
+    "Markt-Filter: zu jung"
+   ],
+   "zuletzt_gesehen": "2026-11-07T11:02:20.491727+00:00",
+   "entscheid": "Markt-Filter: zu jung",
+   "alter_h": 0.4,
+   "liquiditaet_usd": 20523,
+   "mcap_usd": 21016
   }
  }
 }
