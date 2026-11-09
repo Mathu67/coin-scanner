@@ -1,0 +1,5 @@
+{
+ "hinweis": "Top-Trader aus der Fomo-Rangliste. Erzeugt mit tools/fomo_top10.js (im Browser auf fomo.family). 'wallet' = Solana-Wallet, mit der der Trader wirklich handelt. 'aktiv': false = nicht mehr kopieren (alte Käufe bleiben in der Auswertung).",
+ "stand": null,
+ "trader": []
+}

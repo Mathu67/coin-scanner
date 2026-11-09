@@ -24,6 +24,23 @@ Bei jedem Lauf entsteht `data/auswertung.md` (Regel A, B und C, Trefferquote, Zi
 
 Am 1. jedes Monats kommt die **Monatsbilanz** für alle Coins, die im Vormonat gekauft wurden.
 
+## 👥 Copy-Trader (Top-Fomo-Trader kopieren)
+
+`copytrader.py` läuft im selben Workflow parallel zum Scanner. Er beobachtet die Solana-Wallets in
+`data/copy/wallets.json` jede Minute:
+- Kauft ein Trader einen **neuen** Coin (mind. 20 $, Liquidität ≥ 5'000 $) → simulierter Kauf für 10 Fr. zum Kurs, den der Bot dann sieht (also etwas später als der Trader).
+- Verkauft er einen Teil → gleicher Anteil wird verkauft. Unter 2 % seines Bestands → alles raus.
+- 4 % Kosten pro Kauf und Verkauf. Tot wie beim Scanner (−95 %, Liquidität < 1'000 $, 24 h weg).
+- Coins, die er beim Start schon hatte, werden nicht kopiert.
+
+Ergebnis: `data/copy/auswertung.md` (gesamt und pro Trader).
+
+**Wallets holen:** Fomo hat keine öffentliche Schnittstelle. Am Computer auf fomo.family einloggen,
+F12 → Console, `tools/fomo_top10.js` einfügen, einmal klicken. Das Skript nimmt die Top 10 der
+30-Tage-Rangliste (mind. 20 Trades, handelt auf Solana) und sucht die Wallet, mit der sie wirklich
+handeln (nicht die Profil-Adresse). Ergebnis in `data/copy/wallets.json` einfügen.
+Optional: Secret `SOLANA_RPC` (z. B. gratis Helius-Schlüssel), falls die öffentliche RPC bremst.
+
 ## Einrichten
 
 1. Repository **öffentlich** auf GitHub veröffentlichen (dann sind die Actions-Minuten unbegrenzt gratis).

@@ -70,3 +70,43 @@ jobs:
             sleep $((i * 20))
           done
           exit 1
+
+  copy:
+    # Copy-Trader: kopiert die Top-Fomo-Trader (data/copy/wallets.json), läuft parallel zum Scanner
+    if: ${{ inputs.bilanz != true }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Git einrichten
+        run: |
+          git config user.name "copy-trader"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Copy-Trader laufen lassen
+        env:
+          SCAN_DAUER_MIN: ${{ github.event_name == 'schedule' && '54' || inputs.dauer || '5' }}
+          SOLANA_RPC: ${{ secrets.SOLANA_RPC }}
+        run: python copytrader.py
+
+      - name: Stand speichern
+        if: always()
+        run: |
+          git add data/copy
+          git diff --cached --quiet || git commit -m "Copy-Trader-Update $(date -u +%F_%H:%M)"
+          for i in 1 2 3 4 5 6; do
+            if git pull --rebase -X theirs origin main && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push fehlgeschlagen (Versuch $i), warte..."
+            sleep $((i * 20))
+          done
+          exit 1
