@@ -51,7 +51,7 @@
    "gekauft": "2026-11-03T09:33:49.013352+00:00",
    "einstieg_preis": 0.001056,
    "einstieg_mcap": 1056606,
-   "letzter_preis": 0.0002066,
+   "letzter_preis": 0.0002141,
    "hoechst_x": 2.4374999999999996,
    "status": "offen",
    "info": "Top10 12%, LP 100% gesperrt",
@@ -60,7 +60,7 @@
     "teil": false,
     "erloes_teil": 0.0
    },
-   "letzter_x": 0.1956,
+   "letzter_x": 0.2027,
    "tiefst_x": 0.10284090909090908,
    "c": {
     "status": "offen",
@@ -354,10 +354,10 @@
    "gekauft": "2026-11-03T22:35:11.623256+00:00",
    "einstieg_preis": 0.0003238,
    "einstieg_mcap": 323865,
-   "letzter_preis": 0.0002125,
+   "letzter_preis": 0.0002076,
    "hoechst_x": 1.865348980852378,
    "tiefst_x": 0.29277331686226066,
-   "letzter_x": 0.6563,
+   "letzter_x": 0.6411,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -548,10 +548,10 @@
    "gekauft": "2026-11-04T02:34:37.068814+00:00",
    "einstieg_preis": 0.0001036,
    "einstieg_mcap": 101060,
-   "letzter_preis": 0.0001426,
+   "letzter_preis": 0.0001431,
    "hoechst_x": 3.7055984555984556,
    "tiefst_x": 0.9012548262548262,
-   "letzter_x": 1.3764,
+   "letzter_x": 1.3813,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -660,10 +660,10 @@
    "gekauft": "2026-11-04T03:53:35.700930+00:00",
    "einstieg_preis": 0.001415,
    "einstieg_mcap": 1360688,
-   "letzter_preis": 0.0002184,
+   "letzter_preis": 0.0002174,
    "hoechst_x": 1.439575971731449,
    "tiefst_x": 0.06914487632508834,
-   "letzter_x": 0.1543,
+   "letzter_x": 0.1536,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -682,8 +682,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.15901060070671377,
-    "t": 1794279005.2403193
+    "x": 0.15017667844522967,
+    "t": 1794279671.091035
    }
   },
   {
@@ -843,10 +843,10 @@
    "gekauft": "2026-11-05T00:04:48.303688+00:00",
    "einstieg_preis": 0.006539,
    "einstieg_mcap": 6446340,
-   "letzter_preis": 0.005768,
+   "letzter_preis": 0.005739,
    "hoechst_x": 1.474843248203089,
    "tiefst_x": 0.5311209665086405,
-   "letzter_x": 0.8821,
+   "letzter_x": 0.8777,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -865,8 +865,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.8830096345006881,
-    "t": 1794278673.620501
+    "x": 0.8738339195595658,
+    "t": 1794279611.0756495
    }
   },
   {
@@ -983,10 +983,10 @@
    "gekauft": "2026-11-05T00:04:55.500139+00:00",
    "einstieg_preis": 0.0001783,
    "einstieg_mcap": 178353,
-   "letzter_preis": 5.339e-05,
+   "letzter_preis": 5.351e-05,
    "hoechst_x": 2.022994952327538,
    "tiefst_x": 0.09489624228827818,
-   "letzter_x": 0.2994,
+   "letzter_x": 0.3001,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1133,10 +1133,10 @@
    "gekauft": "2026-11-06T00:02:00.404227+00:00",
    "einstieg_preis": 0.0001151,
    "einstieg_mcap": 111252,
-   "letzter_preis": 0.0001103,
+   "letzter_preis": 0.0001073,
    "hoechst_x": 1.9556907037358817,
    "tiefst_x": 0.6440486533449175,
-   "letzter_x": 0.9583,
+   "letzter_x": 0.9322,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1155,8 +1155,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.9860990443092962,
-    "t": 1794278578.9836292
+    "x": 0.9582971329278888,
+    "t": 1794279551.0761702
    }
   },
   {
@@ -1201,7 +1201,7 @@
    "gekauft": "2026-11-06T00:02:04.408610+00:00",
    "einstieg_preis": 0.0001938,
    "einstieg_mcap": 190721,
-   "letzter_preis": 1.428e-05,
+   "letzter_preis": 1.429e-05,
    "hoechst_x": 1.9122807017543861,
    "tiefst_x": 0.0736842105263158,
    "letzter_x": 0.0737,
@@ -1235,10 +1235,10 @@
    "gekauft": "2026-11-06T00:02:06.546607+00:00",
    "einstieg_preis": 0.0002906,
    "einstieg_mcap": 280483,
-   "letzter_preis": 0.0001778,
+   "letzter_preis": 0.0001737,
    "hoechst_x": 1.0973847212663455,
-   "tiefst_x": 0.6028905712319339,
-   "letzter_x": 0.6118,
+   "tiefst_x": 0.5977288368891948,
+   "letzter_x": 0.5977,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1269,10 +1269,10 @@
    "gekauft": "2026-11-06T00:02:09.202215+00:00",
    "einstieg_preis": 0.0001783,
    "einstieg_mcap": 178342,
-   "letzter_preis": 0.0001653,
+   "letzter_preis": 0.0001581,
    "hoechst_x": 4.805945036455412,
    "tiefst_x": 0.709478407178912,
-   "letzter_x": 0.9271,
+   "letzter_x": 0.8867,
    "status": "verkauft",
    "b": {
     "status": "verkauft",
@@ -1297,8 +1297,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.8900729108244533,
-    "t": 1794278793.6324832
+    "x": 0.8867077958496915,
+    "t": 1794279731.0868404
    },
    "erloes": 37.6393,
    "grund": "+308%",
@@ -1350,10 +1350,10 @@
    "gekauft": "2026-11-06T00:02:11.898425+00:00",
    "einstieg_preis": 0.000154,
    "einstieg_mcap": 154036,
-   "letzter_preis": 0.0001205,
+   "letzter_preis": 0.0001206,
    "hoechst_x": 1.4025974025974026,
    "tiefst_x": 0.5637662337662337,
-   "letzter_x": 0.7825,
+   "letzter_x": 0.7831,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1384,10 +1384,10 @@
    "gekauft": "2026-11-06T00:02:13.215135+00:00",
    "einstieg_preis": 0.0002292,
    "einstieg_mcap": 224190,
-   "letzter_preis": 4.798e-05,
+   "letzter_preis": 4.681e-05,
    "hoechst_x": 1.6889179755671901,
    "tiefst_x": 0.17443280977312392,
-   "letzter_x": 0.2093,
+   "letzter_x": 0.2042,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1456,10 +1456,10 @@
    "gekauft": "2026-11-06T00:02:17.225923+00:00",
    "einstieg_preis": 0.0001228,
    "einstieg_mcap": 121971,
-   "letzter_preis": 0.0009922,
+   "letzter_preis": 0.001046,
    "hoechst_x": 10.14657980456026,
    "tiefst_x": 0.5429967426710098,
-   "letzter_x": 8.0798,
+   "letzter_x": 8.5179,
    "status": "verkauft",
    "b": {
     "status": "verkauft",
@@ -1499,10 +1499,10 @@
    "gekauft": "2026-11-07T00:04:38.236723+00:00",
    "einstieg_preis": 0.000868,
    "einstieg_mcap": 846292,
-   "letzter_preis": 0.0006518,
+   "letzter_preis": 0.0006688,
    "hoechst_x": 1.1240783410138249,
    "tiefst_x": 0.5995391705069124,
-   "letzter_x": 0.7509,
+   "letzter_x": 0.7705,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1534,10 +1534,10 @@
    "gekauft": "2026-11-07T00:04:40.233745+00:00",
    "einstieg_preis": 0.001471,
    "einstieg_mcap": 1439653,
-   "letzter_preis": 0.0007663,
+   "letzter_preis": 0.0007744,
    "hoechst_x": 1.0842963970088375,
    "tiefst_x": 0.3074779061862678,
-   "letzter_x": 0.5209,
+   "letzter_x": 0.5264,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1612,10 +1612,10 @@
    "gekauft": "2026-11-07T00:04:44.392345+00:00",
    "einstieg_preis": 0.0001865,
    "einstieg_mcap": 180695,
-   "letzter_preis": 8.963e-05,
+   "letzter_preis": 8.369e-05,
    "hoechst_x": 1.7431635388739946,
    "tiefst_x": 0.39378016085790885,
-   "letzter_x": 0.4806,
+   "letzter_x": 0.4487,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -1634,8 +1634,8 @@
     "status": "nicht dabei"
    },
    "verlauf_letzt": {
-    "x": 0.48058981233243964,
-    "t": 1794278673.6206348
+    "x": 0.448739946380697,
+    "t": 1794279731.08715
    }
   },
   {
@@ -2072,7 +2072,7 @@
    "gekauft": "2026-11-07T10:51:23.915680+00:00",
    "einstieg_preis": 0.0002685,
    "einstieg_mcap": 268518,
-   "letzter_preis": 6.491e-05,
+   "letzter_preis": 6.492e-05,
    "hoechst_x": 2.808193668528864,
    "tiefst_x": 0.21553072625698322,
    "letzter_x": 0.2418,
@@ -2113,10 +2113,10 @@
    "gekauft": "2026-11-07T10:51:25.182931+00:00",
    "einstieg_preis": 0.0001895,
    "einstieg_mcap": 186342,
-   "letzter_preis": 0.0003495,
+   "letzter_preis": 0.0003481,
    "hoechst_x": 10.591029023746703,
    "tiefst_x": 0.21804749340369392,
-   "letzter_x": 1.8443,
+   "letzter_x": 1.8369,
    "status": "verkauft",
    "b": {
     "status": "verkauft",
@@ -2400,10 +2400,10 @@
    "gekauft": "2026-11-07T15:40:52.814184+00:00",
    "einstieg_preis": 0.0007074,
    "einstieg_mcap": 697993,
-   "letzter_preis": 0.001728,
+   "letzter_preis": 0.001726,
    "hoechst_x": 2.6830647441334463,
    "tiefst_x": 0.9320045236075771,
-   "letzter_x": 2.4427,
+   "letzter_x": 2.4399,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2539,10 +2539,10 @@
    "gekauft": "2026-11-07T19:49:54.213975+00:00",
    "einstieg_preis": 0.0007104,
    "einstieg_mcap": 710462,
-   "letzter_preis": 4.008e-05,
+   "letzter_preis": 4.056e-05,
    "hoechst_x": 1.0729166666666665,
    "tiefst_x": 0.05480011261261261,
-   "letzter_x": 0.0564,
+   "letzter_x": 0.0571,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2619,10 +2619,10 @@
    "gekauft": "2026-11-08T02:05:50.500744+00:00",
    "einstieg_preis": 0.0001278,
    "einstieg_mcap": 123133,
-   "letzter_preis": 1.363e-05,
+   "letzter_preis": 1.382e-05,
    "hoechst_x": 1.870892018779343,
    "tiefst_x": 0.08974960876369328,
-   "letzter_x": 0.1067,
+   "letzter_x": 0.1081,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2708,10 +2708,10 @@
    "gekauft": "2026-11-08T03:56:26.508267+00:00",
    "einstieg_preis": 0.0001219,
    "einstieg_mcap": 121956,
-   "letzter_preis": 1.477e-05,
+   "letzter_preis": 1.479e-05,
    "hoechst_x": 1.1616078753076293,
    "tiefst_x": 0.12116488925348647,
-   "letzter_x": 0.1212,
+   "letzter_x": 0.1213,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2797,10 +2797,10 @@
    "gekauft": "2026-11-08T05:52:23.744131+00:00",
    "einstieg_preis": 0.0007873,
    "einstieg_mcap": 779567,
-   "letzter_preis": 0.002159,
+   "letzter_preis": 0.002148,
    "hoechst_x": 2.9493204623396414,
    "tiefst_x": 0.9057538422456497,
-   "letzter_x": 2.7423,
+   "letzter_x": 2.7283,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -2836,10 +2836,10 @@
    "gekauft": "2026-11-08T06:03:20.366628+00:00",
    "einstieg_preis": 0.0002406,
    "einstieg_mcap": 234199,
-   "letzter_preis": 3.19e-05,
+   "letzter_preis": 3.187e-05,
    "hoechst_x": 3.177888611803824,
    "tiefst_x": 0.12788861180382377,
-   "letzter_x": 0.1326,
+   "letzter_x": 0.1325,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -3122,10 +3122,10 @@
    "gekauft": "2026-11-08T14:43:04.076002+00:00",
    "einstieg_preis": 0.0001688,
    "einstieg_mcap": 168835,
-   "letzter_preis": 4.065e-05,
+   "letzter_preis": 4.049e-05,
    "hoechst_x": 1.1700236966824644,
    "tiefst_x": 0.16800947867298577,
-   "letzter_x": 0.2408,
+   "letzter_x": 0.2399,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -3162,10 +3162,10 @@
    "gekauft": "2026-11-08T14:48:46.943454+00:00",
    "einstieg_preis": 0.000108,
    "einstieg_mcap": 105948,
-   "letzter_preis": 0.0001247,
+   "letzter_preis": 0.0001228,
    "hoechst_x": 4.025925925925926,
    "tiefst_x": 0.6607407407407407,
-   "letzter_x": 1.1546,
+   "letzter_x": 1.137,
    "status": "verkauft",
    "b": {
     "status": "verkauft",
@@ -3194,8 +3194,8 @@
    },
    "info": "Top10 21%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 1.2138888888888888,
-    "t": 1794279125.1477258
+    "x": 1.137037037037037,
+    "t": 1794279551.0765965
    },
    "erloes": 37.1029,
    "grund": "+303%",
@@ -3298,10 +3298,10 @@
    "gekauft": "2026-11-09T02:29:59.746683+00:00",
    "einstieg_preis": 0.002239,
    "einstieg_mcap": 2239186,
-   "letzter_preis": 0.001214,
+   "letzter_preis": 0.001185,
    "hoechst_x": 1.3224653863331843,
    "tiefst_x": 0.4970969182670835,
-   "letzter_x": 0.5422,
+   "letzter_x": 0.5293,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -3326,8 +3326,8 @@
    },
    "info": "Top10 19%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 0.5564984368021437,
-    "t": 1794279125.1477833
+    "x": 0.5283608753907995,
+    "t": 1794279671.0914917
    }
   },
   {
@@ -3524,10 +3524,10 @@
    "gekauft": "2026-11-09T14:58:06.829803+00:00",
    "einstieg_preis": 0.0008196,
    "einstieg_mcap": 819678,
-   "letzter_preis": 0.0003896,
+   "letzter_preis": 0.0003911,
    "hoechst_x": 1.0799170326988776,
    "tiefst_x": 0.41800878477306,
-   "letzter_x": 0.4754,
+   "letzter_x": 0.4772,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -3564,10 +3564,10 @@
    "gekauft": "2026-11-09T14:58:08.380752+00:00",
    "einstieg_preis": 0.0007424,
    "einstieg_mcap": 732828,
-   "letzter_preis": 0.000759,
+   "letzter_preis": 0.0007323,
    "hoechst_x": 1.1298491379310345,
    "tiefst_x": 0.7202316810344828,
-   "letzter_x": 1.0224,
+   "letzter_x": 0.9864,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -3589,8 +3589,8 @@
    },
    "info": "Top10 2%, LP 100% gesperrt",
    "verlauf_letzt": {
-    "x": 1.0457974137931034,
-    "t": 1794279337.0545378
+    "x": 0.959321120689655,
+    "t": 1794279611.0761192
    }
   },
   {
@@ -3601,10 +3601,10 @@
    "gekauft": "2026-11-09T17:10:55.720128+00:00",
    "einstieg_preis": 0.0001127,
    "einstieg_mcap": 109568,
-   "letzter_preis": 0.0001185,
+   "letzter_preis": 0.0001184,
    "hoechst_x": 1.5581188997338067,
    "tiefst_x": 0.9698314108251996,
-   "letzter_x": 1.0515,
+   "letzter_x": 1.0506,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -3638,10 +3638,10 @@
    "gekauft": "2026-11-10T02:44:31.701881+00:00",
    "einstieg_preis": 0.0001048,
    "einstieg_mcap": 104724,
-   "letzter_preis": 0.0001095,
+   "letzter_preis": 0.0001105,
    "hoechst_x": 1.0830152671755724,
    "tiefst_x": 1.0,
-   "letzter_x": 1.0448,
+   "letzter_x": 1.0544,
    "status": "offen",
    "b": {
     "status": "offen",
@@ -5597,7 +5597,6 @@
   "35R3bf7W3pH8Th1EUZ7W9tdtWXxhHJNS3oV12fLtpump": "2026-11-07T02:49:01.974730+00:00",
   "DYLdJyt3LyjeHkqxKNdSB6Cgrq2MTw9qnmbZKSyxpump": "2026-11-07T02:49:01.974741+00:00",
   "BorwVFDBKTUywRdpVHfogpnMp5e2dXRY3cQudH1MrJXK": "2026-11-07T03:51:43.101633+00:00",
-  "2PDF6ADXdHQYE8BnHWCq7b7CvLTTPfWGsjZnsNgKpump": "2026-11-07T03:51:43.101638+00:00",
   "B3HN8Q3xQmdV62PtpWNFHtPHkFZvPWsLEMdsW42Rpump": "2026-11-07T03:51:43.101651+00:00",
   "J42o9SYSJqwKbg6GNiGw9UpSVwXcywxfVwyqykoYpump": "2026-11-07T03:51:43.101653+00:00",
   "8mRWzHjG4CWTDpZd1YNRd8uKqZuxndz2mAZPNVhXpump": "2026-11-07T03:51:43.101658+00:00",
@@ -5606,7 +5605,6 @@
   "xNG4NySJ2M7GoYNTsrcWqiFkjGk5BR31pbsZWBYpump": "2026-11-07T03:51:43.101691+00:00",
   "tSC3UHfJbB7uVhSqyjeco2DAKcBGuL3uDxvBhN9pump": "2026-11-07T03:51:43.101706+00:00",
   "C2cd8ykuEbCj3Y9kiHey5c1PbppL66pSxc1x8ybyjtbr": "2026-11-07T03:51:43.101717+00:00",
-  "C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u": "2026-11-07T03:51:43.101720+00:00",
   "2Sp2h2Uaxiuvkfoj2cNEV4aeUoJToA9uLHUZ948Mpump": "2026-11-07T03:51:43.101722+00:00",
   "6KV1JMAgj7fwyeUJPLy3Qp8wveQkyLSbgcJkLKNapump": "2026-11-07T03:51:43.101725+00:00",
   "GcxccRfr9LEuLddoecKD5NjnqFwLbPhh4KENXwrTQmU1": "2026-11-07T03:56:56.507476+00:00",
@@ -8708,7 +8706,6 @@
   "56VRJtNRSnn1B231YcQLfSgR29gF1nn2vYhdgKG8pump": "2026-11-09T09:02:21.021159+00:00",
   "CpQkqkQkFWePHEZzhTuRBgcPjvxzjTovWC2SCxwZpump": "2026-11-09T09:02:21.021168+00:00",
   "CwZeWzxUDYY5CycF9uT947CKkrpt83zkDNEGCcWopump": "2026-11-09T09:02:21.021197+00:00",
-  "DRQq4oSMeNENScmriRvyGVnm368jr7NJhrRdUZLApump": "2026-11-09T09:02:21.021202+00:00",
   "FcUzBz4DnpBgbDfFZbPiMotSPiG1B5WU9zw6ym47pump": "2026-11-09T09:02:21.021204+00:00",
   "DXQ12sxgz6kEREqWQxkCGbCZvhqgcwQrRv6mAp214sA4": "2026-11-09T09:02:21.021223+00:00",
   "8VSHfg4bxJ4k2tMnoPKuBVdm6rAdTxd8PkvoePmwpump": "2026-11-09T09:02:21.021224+00:00",
@@ -9437,7 +9434,17 @@
   "H9dXck2gmuViCkzLoM1WiQVYgXRaw3XdorumFtKTpump": "2026-11-10T02:54:06.803360+00:00",
   "C5HtVmMFLGVfQfgqPr79Jozc5hJQXKQHZGdLveoFpump": "2026-11-10T02:54:06.803369+00:00",
   "5Kgzz1gbGFKfZVFxi65vR3U5dCtnYLycwdxnpS9ppump": "2026-11-10T02:54:06.803381+00:00",
-  "5pq87PQPzvXSLyKTUwWcDuSpVN7Z8yrTRQ7v2h1kpump": "2026-11-10T02:54:06.803383+00:00"
+  "5pq87PQPzvXSLyKTUwWcDuSpVN7Z8yrTRQ7v2h1kpump": "2026-11-10T02:54:06.803383+00:00",
+  "8HQAoMGxkqHQY5MRTgEKjC6XmqXsup21i1mYF1vuw7tb": "2026-11-10T02:57:52.869939+00:00",
+  "FTZRtYJq7ZR16WiwpQHWjkYT3XeLS6p8izNk8LQnpump": "2026-11-10T02:57:52.869940+00:00",
+  "CMH9TVPhmPCEy2hdV3kxPWQLQW8xEEtDkQaaD7YbrECb": "2026-11-10T02:57:52.869952+00:00",
+  "9GH2mQ1BPwCGvezpUq7Yd8NDX88nmY9BJvtKQGuFpump": "2026-11-10T02:57:52.869983+00:00",
+  "Ad4Tzyh9LgPR5dMrsZayU5S5xRZtwnBTWuakvz78pump": "2026-11-10T02:57:52.869990+00:00",
+  "HoWBkY5LJ4SvVUngNLZzbw6NJzrGGD19yvmmdNCHpump": "2026-11-10T02:57:52.869991+00:00",
+  "F63TocTpSuGSm9en4YvXJtocsbeKhSNwscQDCpJypump": "2026-11-10T02:57:52.869993+00:00",
+  "CHyXfWWJHjZKR6gUUxZBRJi1PPWXaPQGRyphZUBCpump": "2026-11-10T02:57:52.869999+00:00",
+  "D6eVvJbeS5VQzsBnWEGyBRRh534vrjLNXQj7Uvc42M6K": "2026-11-10T02:57:52.870013+00:00",
+  "9SohsvZmyC7ec3wD95ZsLN8A1C8uPjxLZsHGfqZdPZBo": "2026-11-10T02:57:52.870025+00:00"
  },
  "abgelehnt": {
   "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": {
@@ -9640,6 +9647,11 @@
    "zeit": "2026-11-10T02:05:44.633899+00:00",
    "grund": "Risiko: Mint Authority still enabled",
    "symbol": "SAT"
+  },
+  "DRQq4oSMeNENScmriRvyGVnm368jr7NJhrRdUZLApump": {
+   "zeit": "2026-11-10T02:59:09.291265+00:00",
+   "grund": "Top-10 halten 27%",
+   "symbol": "Scronty "
   }
  },
  "letzte_bilanz": "2026-11",
@@ -9715,11 +9727,11 @@
    "verlauf": [
     "Markt-Filter: zu alt"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138510+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292986+00:00",
    "entscheid": "Markt-Filter: zu alt",
    "alter_h": 1838.5,
-   "liquiditaet_usd": 345732,
-   "mcap_usd": 10581193
+   "liquiditaet_usd": 346858,
+   "mcap_usd": 10649555
   },
   "G4vV9RNiYEMXWXVe7pQtad49BMNMPRQPAa1oU7hSpump": {
    "symbol": "Busted",
@@ -10874,7 +10886,7 @@
     "Markt-Filter: Liquidität 1575$",
     "Markt-Filter: Liquidität 1585$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.134340+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.897349+00:00",
    "entscheid": "Markt-Filter: Liquidität 1585$",
    "alter_h": 69.9,
    "liquiditaet_usd": 1585,
@@ -10982,9 +10994,9 @@
     "Markt-Filter: Liquidität 7394$",
     "Markt-Filter: Liquidität 7287$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.134728+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.897761+00:00",
    "entscheid": "Markt-Filter: Liquidität 7287$",
-   "alter_h": 56.5,
+   "alter_h": 56.6,
    "liquiditaet_usd": 7287,
    "mcap_usd": 12159
   },
@@ -11017,9 +11029,9 @@
     "Markt-Filter: MCap 44537$",
     "Markt-Filter: MCap 44526$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.134875+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.897915+00:00",
    "entscheid": "Markt-Filter: MCap 44526$",
-   "alter_h": 52.9,
+   "alter_h": 53.0,
    "liquiditaet_usd": 45637,
    "mcap_usd": 44526
   },
@@ -11036,7 +11048,7 @@
     "Markt-Filter: Liquidität 1662$",
     "Markt-Filter: Liquidität 1661$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.134894+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.897934+00:00",
    "entscheid": "Markt-Filter: Liquidität 1661$",
    "alter_h": 51.8,
    "liquiditaet_usd": 1661,
@@ -11078,20 +11090,20 @@
    "url": "https://dexscreener.com/solana/2ueabe4txr5mchey6ckzvncyczh4mbvyqgtwwubtkk1o",
    "zuerst_gesehen": "2026-11-08T06:58:56.961222+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 3080$",
     "Markt-Filter: Liquidität 3131$",
     "Markt-Filter: Liquidität 3098$",
     "Markt-Filter: Liquidität 3108$",
     "Markt-Filter: Liquidität 3094$",
     "Markt-Filter: Liquidität 3111$",
     "Markt-Filter: Liquidität 3100$",
-    "Markt-Filter: Liquidität 3071$"
+    "Markt-Filter: Liquidität 3071$",
+    "Markt-Filter: Liquidität 3066$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.135092+00:00",
-   "entscheid": "Markt-Filter: Liquidität 3071$",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.898141+00:00",
+   "entscheid": "Markt-Filter: Liquidität 3066$",
    "alter_h": 44.6,
-   "liquiditaet_usd": 3071,
-   "mcap_usd": 2982
+   "liquiditaet_usd": 3066,
+   "mcap_usd": 2977
   },
   "Fz4znnoxsMV3aBJHm1xZx17zNsS6sUzpEKeWV7XJpump": {
    "symbol": "GTA6",
@@ -11129,20 +11141,20 @@
    "url": "https://dexscreener.com/solana/3ncbw8vtqranx4nkfd2heke6w8xzftwel9nhwy978qtr",
    "zuerst_gesehen": "2026-11-08T16:41:39.970796+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 1649$",
     "Markt-Filter: Liquidität 1975$",
     "Markt-Filter: Liquidität 2094$",
     "Markt-Filter: Liquidität 2002$",
     "Markt-Filter: Liquidität 1910$",
     "Markt-Filter: Liquidität 1477$",
     "Markt-Filter: Liquidität 1551$",
-    "Markt-Filter: Liquidität 1725$"
+    "Markt-Filter: Liquidität 1725$",
+    "Markt-Filter: Liquidität 1857$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.135366+00:00",
-   "entscheid": "Markt-Filter: Liquidität 1725$",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.898408+00:00",
+   "entscheid": "Markt-Filter: Liquidität 1857$",
    "alter_h": 34.7,
-   "liquiditaet_usd": 1725,
-   "mcap_usd": 4992
+   "liquiditaet_usd": 1857,
+   "mcap_usd": 5123
   },
   "Cr9M2eAEiUijP5VAJuUF3PwLX6rBm89D1CmJXcZBpump": {
    "symbol": "MOD",
@@ -11153,9 +11165,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.135408+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.898449+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 33.2,
+   "alter_h": 33.3,
    "liquiditaet_usd": 0,
    "mcap_usd": 354
   },
@@ -11185,9 +11197,9 @@
     "Markt-Filter: Liquidität 1675$",
     "Markt-Filter: Liquidität 1650$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.135560+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.898610+00:00",
    "entscheid": "Markt-Filter: Liquidität 1650$",
-   "alter_h": 30.4,
+   "alter_h": 30.5,
    "liquiditaet_usd": 1650,
    "mcap_usd": 1585
   },
@@ -11211,20 +11223,20 @@
    "url": "https://dexscreener.com/solana/bkaagfumhqvgxa3bqzyabmibsmvietuiapu95prauhx7",
    "zuerst_gesehen": "2026-11-09T01:05:31.618904+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 18610$",
     "Markt-Filter: Liquidität 19763$",
     "Markt-Filter: Liquidität 22212$",
     "Markt-Filter: Liquidität 22246$",
     "Markt-Filter: Liquidität 21904$",
     "Markt-Filter: Liquidität 22194$",
     "Markt-Filter: Liquidität 22202$",
-    "Markt-Filter: Liquidität 22687$"
+    "Markt-Filter: Liquidität 22687$",
+    "Markt-Filter: Liquidität 22261$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.135789+00:00",
-   "entscheid": "Markt-Filter: Liquidität 22687$",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.898836+00:00",
+   "entscheid": "Markt-Filter: Liquidität 22261$",
    "alter_h": 27.6,
-   "liquiditaet_usd": 22687,
-   "mcap_usd": 90384
+   "liquiditaet_usd": 22261,
+   "mcap_usd": 87178
   },
   "3JPqzDf4wqF8wkVR3yErsQJ9ma1wNFBC8zMR7ctCgVzi": {
    "symbol": "ANT",
@@ -11273,9 +11285,9 @@
     "Markt-Filter: Liquidität 1573$",
     "Markt-Filter: Liquidität 1578$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.135886+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.898920+00:00",
    "entscheid": "Markt-Filter: Liquidität 1578$",
-   "alter_h": 25.2,
+   "alter_h": 25.3,
    "liquiditaet_usd": 1578,
    "mcap_usd": 1545
   },
@@ -11303,7 +11315,7 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.135967+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.899019+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
    "alter_h": 24.3,
    "liquiditaet_usd": 0,
@@ -11318,7 +11330,7 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.136265+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.899291+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
    "alter_h": 21.5,
    "liquiditaet_usd": 0,
@@ -11333,7 +11345,7 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.136472+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.899498+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
    "alter_h": 20.7,
    "liquiditaet_usd": 0,
@@ -11354,7 +11366,7 @@
     "Markt-Filter: Liquidität 1959$",
     "Markt-Filter: Liquidität 1961$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.136740+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:07.899747+00:00",
    "entscheid": "Markt-Filter: Liquidität 1961$",
    "alter_h": 18.3,
    "liquiditaet_usd": 1961,
@@ -11366,20 +11378,20 @@
    "url": "https://dexscreener.com/solana/f66uvpj1bpqrknxe99bjtuqmg9smipnprqirue96ycfg",
    "zuerst_gesehen": "2026-11-09T16:03:18.167745+00:00",
    "verlauf": [
-    "Markt-Filter: Liquidität 16754$",
     "Markt-Filter: Liquidität 16417$",
     "Markt-Filter: Liquidität 15459$",
     "Markt-Filter: Liquidität 15711$",
     "Markt-Filter: Liquidität 15766$",
     "Markt-Filter: Liquidität 14222$",
     "Markt-Filter: Liquidität 14136$",
-    "Markt-Filter: Liquidität 14123$"
+    "Markt-Filter: Liquidität 14123$",
+    "Markt-Filter: Liquidität 14445$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.137321+00:00",
-   "entscheid": "Markt-Filter: Liquidität 14123$",
-   "alter_h": 11.0,
-   "liquiditaet_usd": 14123,
-   "mcap_usd": 37386
+   "zuletzt_gesehen": "2026-11-10T02:59:09.291826+00:00",
+   "entscheid": "Markt-Filter: Liquidität 14445$",
+   "alter_h": 11.1,
+   "liquiditaet_usd": 14445,
+   "mcap_usd": 38913
   },
   "524Uf5ui9NQvtMcxFL29No3Gz5e4Ne2iGdWR5Aympump": {
    "symbol": "GTA",
@@ -11394,9 +11406,9 @@
     "Markt-Filter: Liquidität 2135$",
     "Markt-Filter: Liquidität 2127$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.137342+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.291850+00:00",
    "entscheid": "Markt-Filter: Liquidität 2127$",
-   "alter_h": 11.9,
+   "alter_h": 12.0,
    "liquiditaet_usd": 2127,
    "mcap_usd": 1909
   },
@@ -11409,9 +11421,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 1735$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.137435+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.291942+00:00",
    "entscheid": "Markt-Filter: Liquidität 1735$",
-   "alter_h": 10.5,
+   "alter_h": 10.6,
    "liquiditaet_usd": 1735,
    "mcap_usd": 1647
   },
@@ -11425,9 +11437,9 @@
     "Markt-Filter: Liquidität 1804$",
     "Markt-Filter: Liquidität 1771$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.137668+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292180+00:00",
    "entscheid": "Markt-Filter: Liquidität 1771$",
-   "alter_h": 9.3,
+   "alter_h": 9.4,
    "liquiditaet_usd": 1771,
    "mcap_usd": 1652
   },
@@ -11440,9 +11452,9 @@
     "Markt-Filter: zu jung",
     "Markt-Filter: Liquidität 0$"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.137701+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292214+00:00",
    "entscheid": "Markt-Filter: Liquidität 0$",
-   "alter_h": 7.9,
+   "alter_h": 8.0,
    "liquiditaet_usd": 0,
    "mcap_usd": 537
   },
@@ -11454,9 +11466,9 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.137863+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292378+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 5.9,
+   "alter_h": 6.0,
    "liquiditaet_usd": 0,
    "mcap_usd": 2421
   },
@@ -11468,9 +11480,9 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.137908+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292431+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 5.1,
+   "alter_h": 5.2,
    "liquiditaet_usd": 0,
    "mcap_usd": 2414
   },
@@ -11482,7 +11494,7 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138057+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292588+00:00",
    "entscheid": "Markt-Filter: zu jung",
    "alter_h": 5.0,
    "liquiditaet_usd": 0,
@@ -11496,7 +11508,7 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138212+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292739+00:00",
    "entscheid": "Markt-Filter: zu jung",
    "alter_h": 0.9,
    "liquiditaet_usd": 1558,
@@ -11510,9 +11522,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138261+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292784+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 1.2,
+   "alter_h": 1.3,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -11524,11 +11536,11 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138349+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292870+00:00",
    "entscheid": "Markt-Filter: zu jung",
    "alter_h": 0.5,
-   "liquiditaet_usd": 14432,
-   "mcap_usd": 7932
+   "liquiditaet_usd": 13813,
+   "mcap_usd": 7634
   },
   "7BGTKca2FLyWmfFDomqiHFiK1t3greMDbo7SNdSGpump": {
    "symbol": "CLAUDE",
@@ -11538,9 +11550,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138363+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292886+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 0.3,
+   "alter_h": 0.4,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   },
@@ -11552,9 +11564,9 @@
    "verlauf": [
     "Markt-Filter: zu jung"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138389+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292912+00:00",
    "entscheid": "Markt-Filter: zu jung",
-   "alter_h": 0.2,
+   "alter_h": 0.3,
    "liquiditaet_usd": 0,
    "mcap_usd": 2401
   },
@@ -11566,9 +11578,9 @@
    "verlauf": [
     "Markt-Filter: kein USD-Preis"
    ],
-   "zuletzt_gesehen": "2026-11-10T02:55:35.138501+00:00",
+   "zuletzt_gesehen": "2026-11-10T02:59:09.292961+00:00",
    "entscheid": "Markt-Filter: kein USD-Preis",
-   "alter_h": 0.0,
+   "alter_h": 0.1,
    "liquiditaet_usd": 0,
    "mcap_usd": 0
   }
