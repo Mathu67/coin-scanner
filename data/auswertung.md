@@ -1,6 +1,6 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-10 21:03 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-10 21:04 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
