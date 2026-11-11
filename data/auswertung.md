@@ -1,41 +1,41 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-11 13:53 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-11 14:00 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
 - Läuft seit **8.2 Tagen**, **105 Coins** gekauft (Einsatz 1'050.00 Fr.)
-- Status Regel A: 7 bei 4x verkauft, 55 tot, 43 noch offen
+- Status Regel A: 8 bei 4x verkauft, 55 tot, 42 noch offen
 - Noch offene Positionen sind mit dem letzten Kurs bewertet (nicht endgültig).
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 544.92 Fr. | **-505.08 Fr.** | -48 % |
-| B: Hälfte bei 4x, Rest läuft | 580.19 Fr. | **-469.81 Fr.** | -45 % |
-| C: Einsatz bei 2x raus, Rest ohne Stop | 584.22 Fr. | **-465.78 Fr.** | -44 % |
+| A: alles bei 4x | 541.69 Fr. | **-508.31 Fr.** | -48 % |
+| B: Hälfte bei 4x, Rest läuft | 576.92 Fr. | **-473.08 Fr.** | -45 % |
+| C: Einsatz bei 2x raus, Rest ohne Stop | 581.79 Fr. | **-468.21 Fr.** | -45 % |
 
 ### Regel D: Verluste begrenzen, Gewinner laufen lassen
 
 _Stop bei 0.6x, nach 48 h raus wenn unter Einstieg, bei 2x Einsatz zurück, Rest ohne Deckel, Trailing-Stop 50 % ab 5x. Nur für Coins ab Start von D, deshalb hier der Vergleich auf denselben Coins._
 
 - Vergleich auf den **55 Coins seit Start von Regel D** (Einsatz 550.00 Fr.):
-  - A: **-215.18 Fr.** (-39 %)
-  - B: **-241.77 Fr.** (-44 %)
-  - C: **-256.52 Fr.** (-47 %)
-  - D: **-150.64 Fr.** (-27 %)
+  - A: **-218.79 Fr.** (-40 %)
+  - B: **-245.41 Fr.** (-45 %)
+  - C: **-259.14 Fr.** (-47 %)
+  - D: **-152.85 Fr.** (-28 %)
 
-D abgeschlossen: Stop-Loss 39x, Trailing-Stop 1x, tot 4x
+D abgeschlossen: Stop-Loss 40x, Trailing-Stop 1x, tot 4x
 
 _Regel C gibt es seit 7.11.2026. Bei 50 älteren Coins ist C rückwirkend aus dem Höchststand geschätzt (Einsatz genau bei 2x raus, Rest bei 20x oder tot)._
 
 _Korrigiert: Rocco: falscher Preis 43 $ (49'677x) am 7.11.2026. Position neu ab Einstieg bewertet._
 
-Nur abgeschlossene Coins (Regel A, ohne offene): 62 Coins, **-325.83 Fr.** (-53 %)
+Nur abgeschlossene Coins (Regel A, ohne offene): 63 Coins, **-298.91 Fr.** (-47 %)
 
 ## Wie oft steigt ein Coin?
 
 - Mindestens 2x erreicht: 25 von 105 (24 %)
-- Mindestens 4x erreicht: 7 von 105 (7 %)
+- Mindestens 4x erreicht: 8 von 105 (8 %)
 - Mindestens 10x erreicht: 3 von 105 (3 %)
 - Auf -95 % oder Liquidität weg (tot): 55 von 105 (52 %)
 
@@ -45,22 +45,22 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -451.98 Fr. | -43 % |
-| alles bei 3x | -516.79 Fr. | -49 % |
-| alles bei 4x | -520.21 Fr. | -50 % |
-| alles bei 5x | -555.06 Fr. | -53 % |
-| alles bei 10x | -462.81 Fr. | -44 % |
-| alles bei 20x | -496.65 Fr. | -47 % |
+| alles bei 2x | -453.52 Fr. | -43 % |
+| alles bei 3x | -522.23 Fr. | -50 % |
+| alles bei 4x | -523.50 Fr. | -50 % |
+| alles bei 5x | -558.19 Fr. | -53 % |
+| alles bei 10x | -465.94 Fr. | -44 % |
+| alles bei 20x | -500.04 Fr. | -48 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
 | Coin | Status | Wert B | Wert C | Max. erreicht |
 |---|---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 94.32 Fr. | 20.5x |
-| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: verkauft | 40.63 Fr. | 14.99 Fr. | 10.6x |
-| [ANTS](https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb) | A: verkauft, B: offen | 36.75 Fr. | 26.90 Fr. | 4.2x |
-| [NIHAO](https://dexscreener.com/solana/4rsluj8sbffmwm4ak6p4r5rbz7y2m9cgrefxvb29jbgn) | A: offen, B: offen | 35.68 Fr. | 28.42 Fr. | 3.9x |
-| [WEALTH](https://dexscreener.com/solana/5n8v68fcantrqvaxzrmbryde5jflrgm65pffsmia6nro) | A: verkauft, B: verkauft | 33.55 Fr. | 33.39 Fr. | 10.1x |
+| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: verkauft | 40.63 Fr. | 14.85 Fr. | 10.6x |
+| [NIHAO](https://dexscreener.com/solana/4rsluj8sbffmwm4ak6p4r5rbz7y2m9cgrefxvb29jbgn) | A: verkauft, B: offen | 36.94 Fr. | 29.07 Fr. | 4.1x |
+| [ANTS](https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb) | A: verkauft, B: offen | 36.69 Fr. | 26.85 Fr. | 4.2x |
+| [WEALTH](https://dexscreener.com/solana/5n8v68fcantrqvaxzrmbryde5jflrgm65pffsmia6nro) | A: verkauft, B: verkauft | 33.55 Fr. | 33.36 Fr. | 10.1x |
 | [ORBIT](https://dexscreener.com/solana/ajt7zptztfeo9cqu8yuwddtmoah7bmyt7kmkmhombcne) | A: tot, B: tot | 0.02 Fr. | 0.02 Fr. | 1.0x |
 | [BORLY](https://dexscreener.com/solana/7xwnpcwt4upj2hyuff4czvmmsvvws13k1w8ip6y4o5zq) | A: tot, B: tot | 0.01 Fr. | 0.01 Fr. | 1.6x |
 | [AMD](https://dexscreener.com/solana/6zv8dyrdxh56au2ebhpzzbmkprp5ixbkprj7hb2pj3rr) | A: tot, B: tot | 0.01 Fr. | 0.01 Fr. | 1.1x |
@@ -80,7 +80,7 @@ Grenzen der Simulation: Bei einem echten Rugpull zwischen zwei Kurs-Checks würd
 | [$GTA6](https://dexscreener.com/solana/fas2rmsutcfcvg3zbngb7bm9zxtopazxrkvhcynn7dyo) GTA6 | Markt-Filter: Liquidität 0$ | 0 $ | 1'363 $ | 2026-11-11 |
 | [GTA](https://dexscreener.com/solana/6praz8pjaatsaxxzy6hoeavnhpxek7ww2r6kanudxubn) Grand Theft Agent | Markt-Filter: Liquidität 3151$ | 3'151 $ | 3'143 $ | 2026-11-11 |
 | [$GTA6](https://dexscreener.com/solana/g7aswxsctw7phzw2bq8w2kljjfl2chgk66jwzc9st26p) GTA6 | Markt-Filter: Liquidität 0$ | 0 $ | 6 $ | 2026-11-11 |
-| [GTABOY](https://dexscreener.com/solana/apy5xjtrfcgymcenh7nqujdjkwjtau4p7vfxrhbg9znp) GTA IN REAL LIFE | Markt-Filter: Liquidität 13722$ | 13'722 $ | 36'323 $ | 2026-11-11 |
+| [GTABOY](https://dexscreener.com/solana/apy5xjtrfcgymcenh7nqujdjkwjtau4p7vfxrhbg9znp) GTA IN REAL LIFE | Markt-Filter: Liquidität 13255$ | 13'255 $ | 33'955 $ | 2026-11-11 |
 | [GTA6MAS](https://dexscreener.com/solana/cmnkx12v3w9tybs36poqalq9486gcbfvggxxmxuwfqj5) GTA6MAS | Markt-Filter: Liquidität 11457$ | 11'457 $ | 21'477 $ | 2026-11-11 |
 | [GTA 6 Coin](https://dexscreener.com/solana/3imvopi4a16w67aqup6uxqymolreo47aqgmzsg25dkmg) GTA6 | Markt-Filter: Liquidität 1521$ | 1'521 $ | 1'495 $ | 2026-11-11 |
 | [GTA 6](https://dexscreener.com/solana/ejggrdtfiyrxs2nkvchsyxtlof9pwo41q9vznvjrkcgf) GTA 6 | Markt-Filter: Liquidität 0$ | 0 $ | 2'318 $ | 2026-11-11 |
