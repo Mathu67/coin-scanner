@@ -1,6 +1,6 @@
 # Copy-Trader – Auswertung (Paper Trading)
 
-Stand: 13.11.2026 06:00 UTC. Je Kauf 10.00 Fr., 4 % Kosten pro Kauf und Verkauf. Verkauft wird, wenn der Trader verkauft (gleicher Anteil).
+Stand: 13.11.2026 07:14 UTC. Je Kauf 10.00 Fr., 4 % Kosten pro Kauf und Verkauf. Verkauft wird, wenn der Trader verkauft (gleicher Anteil).
 
 **Noch keine Wallets eingetragen** (data/copy/wallets.json).
 
