@@ -1,66 +1,606 @@
 {
- "hinweis": "Top 10 der Fomo-Rangliste 30 Tage (mind. 20 Trades). fomo_id = Fomo-Benutzer-ID; der Bot liest deren Trades über Fomo. 'aktiv': false = nicht mehr kopieren.",
- "stand": "2026-11-14T13:45:00Z",
+ "hinweis": "Top 100 der Fomo-Rangliste 30 Tage (mind. 20 Trades), holt der Bot einmal pro Tag selbst. 'aktiv': false = nicht mehr kopieren.",
+ "stand": "2026-11-14T17:07:25+00:00",
  "trader": [
   {
    "name": "leo",
    "fomo_id": "30d4f0d1-e895-524c-b45e-ec67c29ce1a8",
-   "pnl30d_usd": 427599,
-   "trades": 2613
+   "pnl30d_usd": 441371,
+   "trades": 2614
   },
   {
    "name": "joecroskey",
    "fomo_id": "f75d4889-0c28-50c6-a3eb-f344a4f89626",
-   "pnl30d_usd": 346803,
+   "pnl30d_usd": 341140,
    "trades": 41
-  },
-  {
-   "name": "end837",
-   "fomo_id": "7c99eb4f-7533-54b4-b3ce-bdbb2a1e9bb5",
-   "pnl30d_usd": 280962,
-   "trades": 286
   },
   {
    "name": "G41T3R98",
    "fomo_id": "9b455569-30d8-5815-9dab-de8544022ee3",
-   "pnl30d_usd": 264784,
+   "pnl30d_usd": 264785,
    "trades": 258
   },
   {
    "name": "bronbroncore",
    "fomo_id": "347f6d53-5824-5249-a880-b916e0ddb1ba",
-   "pnl30d_usd": 262074,
+   "pnl30d_usd": 228174,
    "trades": 317
   },
   {
    "name": "0xbr9",
    "fomo_id": "7a89b116-48f6-58fd-b10f-9388d03a9489",
    "pnl30d_usd": 216476,
-   "trades": 166
-  },
-  {
-   "name": "SOL589",
-   "fomo_id": "7c9a172c-8a3e-54f5-bba8-bf95d7769204",
-   "pnl30d_usd": 174154,
-   "trades": 133
+   "trades": 167
   },
   {
    "name": "peptidezz",
    "fomo_id": "97ddf5a2-7ae4-518f-8f80-3de21dabbb05",
-   "pnl30d_usd": 171429,
-   "trades": 54
+   "pnl30d_usd": 205677,
+   "trades": 56
+  },
+  {
+   "name": "end837",
+   "fomo_id": "7c99eb4f-7533-54b4-b3ce-bdbb2a1e9bb5",
+   "pnl30d_usd": 198376,
+   "trades": 286
+  },
+  {
+   "name": "SOL589",
+   "fomo_id": "7c9a172c-8a3e-54f5-bba8-bf95d7769204",
+   "pnl30d_usd": 173820,
+   "trades": 133
   },
   {
    "name": "panceramic",
    "fomo_id": "486ca834-1162-5bde-9157-c046c9fe3ce2",
-   "pnl30d_usd": 154683,
-   "trades": 756
+   "pnl30d_usd": 166048,
+   "trades": 757
   },
   {
    "name": "OLedsed",
    "fomo_id": "b520761f-e56f-51cc-9fa8-1a79c52c7c1f",
-   "pnl30d_usd": 130248,
-   "trades": 4356
+   "pnl30d_usd": 130837,
+   "trades": 4368
+  },
+  {
+   "name": "0xsneakky",
+   "fomo_id": "2f672788-0d2a-59f9-890d-b2c2316eb0bd",
+   "pnl30d_usd": 109364,
+   "trades": 9446
+  },
+  {
+   "name": "horseimnot",
+   "fomo_id": "711bb287-7c92-5db5-8bd0-423622d05206",
+   "pnl30d_usd": 106232,
+   "trades": 2832
+  },
+  {
+   "name": "erik7438",
+   "fomo_id": "84d94d01-ff0d-5af2-a4a9-d2c2a8d06d9c",
+   "pnl30d_usd": 103529,
+   "trades": 205
+  },
+  {
+   "name": "HimReaper",
+   "fomo_id": "096ca3ae-5370-53a1-93e1-01f0f588773c",
+   "pnl30d_usd": 98896,
+   "trades": 254
+  },
+  {
+   "name": "xbox360npc",
+   "fomo_id": "324da6aa-b45e-58e1-98db-25a40e31e8a2",
+   "pnl30d_usd": 95128,
+   "trades": 784
+  },
+  {
+   "name": "thenextbigthing555",
+   "fomo_id": "ee4d3a85-4e1c-5a66-9a5b-d355891a48f1",
+   "pnl30d_usd": 90469,
+   "trades": 860
+  },
+  {
+   "name": "ILoveAltGirls",
+   "fomo_id": "ba3e50d6-c5c9-58cb-9be8-8a5cad5896dd",
+   "pnl30d_usd": 86497,
+   "trades": 82
+  },
+  {
+   "name": "vvs000",
+   "fomo_id": "a3ef5413-c268-5a47-a10d-9502270de9b2",
+   "pnl30d_usd": 85150,
+   "trades": 625
+  },
+  {
+   "name": "PressingProfits",
+   "fomo_id": "c726dc4e-f1b9-550c-9810-fc6b247e85d0",
+   "pnl30d_usd": 80358,
+   "trades": 382
+  },
+  {
+   "name": "nadomac",
+   "fomo_id": "eebd5919-a9dd-5374-90ca-52fd7554bf42",
+   "pnl30d_usd": 78588,
+   "trades": 1260
+  },
+  {
+   "name": "trenches_eth",
+   "fomo_id": "a79a6fb7-f8f3-5d82-b8e0-e5b6893bfcb7",
+   "pnl30d_usd": 75486,
+   "trades": 903
+  },
+  {
+   "name": "guavaguy",
+   "fomo_id": "c14ff2bb-2b07-5e3c-8597-9019c4ab7a9c",
+   "pnl30d_usd": 75090,
+   "trades": 1415
+  },
+  {
+   "name": "DIARRA_MMD",
+   "fomo_id": "8ef641a2-d833-5516-878c-f3ab2959ff1d",
+   "pnl30d_usd": 75064,
+   "trades": 1004
+  },
+  {
+   "name": "luciol",
+   "fomo_id": "78cb286b-1186-522f-b668-67eadfbd3979",
+   "pnl30d_usd": 74933,
+   "trades": 40
+  },
+  {
+   "name": "SavageCountry",
+   "fomo_id": "8b944424-2a96-5f54-a1c7-213698ead264",
+   "pnl30d_usd": 70202,
+   "trades": 151
+  },
+  {
+   "name": "gtsb",
+   "fomo_id": "a62c9554-5faa-57a2-8079-8cbd222887b5",
+   "pnl30d_usd": 68912,
+   "trades": 304
+  },
+  {
+   "name": "EzFinance",
+   "fomo_id": "1d129a94-cbfd-50c8-aafd-f729ea981490",
+   "pnl30d_usd": 67494,
+   "trades": 104
+  },
+  {
+   "name": "vijung",
+   "fomo_id": "1499368f-e678-5413-a17f-f0d30b9e694e",
+   "pnl30d_usd": 66913,
+   "trades": 242
+  },
+  {
+   "name": "yellahamma87",
+   "fomo_id": "91dcddfe-a316-5894-914b-cbac1f9bf339",
+   "pnl30d_usd": 66593,
+   "trades": 59
+  },
+  {
+   "name": "noriega",
+   "fomo_id": "9ae0846e-02cd-5a4d-a604-4ee72c7ab5c9",
+   "pnl30d_usd": 66347,
+   "trades": 864
+  },
+  {
+   "name": "macfeurson",
+   "fomo_id": "baff79a0-b233-5af8-9659-5b2544661acd",
+   "pnl30d_usd": 64083,
+   "trades": 593
+  },
+  {
+   "name": "theslopper",
+   "fomo_id": "65c7c217-1950-5697-8e7a-3477aec5dd36",
+   "pnl30d_usd": 63992,
+   "trades": 2273
+  },
+  {
+   "name": "GTA1NER",
+   "fomo_id": "73fc8755-4f29-579e-b3d5-b8b7736fa46a",
+   "pnl30d_usd": 63438,
+   "trades": 118
+  },
+  {
+   "name": "Spittzxrp",
+   "fomo_id": "f001dffd-344e-5066-9536-c8c5ebd7866c",
+   "pnl30d_usd": 62548,
+   "trades": 1076
+  },
+  {
+   "name": "GoodMajorYak",
+   "fomo_id": "ec985412-b867-516c-a5d7-deb4f777bea2",
+   "pnl30d_usd": 61455,
+   "trades": 607
+  },
+  {
+   "name": "rvttrades",
+   "fomo_id": "1a72aae3-e438-5bd4-aaef-aaad7d3ef3f9",
+   "pnl30d_usd": 61359,
+   "trades": 176
+  },
+  {
+   "name": "FreshUpperHyena",
+   "fomo_id": "b4767854-90ec-5796-8b3e-af39ec18bc5d",
+   "pnl30d_usd": 60756,
+   "trades": 2660
+  },
+  {
+   "name": "NwCrypto4",
+   "fomo_id": "89087517-b0db-5f13-80b4-22fe5d600ad3",
+   "pnl30d_usd": 60564,
+   "trades": 458
+  },
+  {
+   "name": "panda_x28",
+   "fomo_id": "041e447d-7baf-5351-ace3-5f03a011f1eb",
+   "pnl30d_usd": 59308,
+   "trades": 3262
+  },
+  {
+   "name": "artofprerun",
+   "fomo_id": "c72fec90-9b72-52a3-b717-242a9645c945",
+   "pnl30d_usd": 59071,
+   "trades": 1528
+  },
+  {
+   "name": "MINHxDYNASTY",
+   "fomo_id": "b66e5b32-c043-519f-a0a2-16057b4b6235",
+   "pnl30d_usd": 58786,
+   "trades": 1149
+  },
+  {
+   "name": "Chickenjoe1",
+   "fomo_id": "19e3f684-37f2-5d66-b915-618f868ed15b",
+   "pnl30d_usd": 57714,
+   "trades": 274
+  },
+  {
+   "name": "a1lon9parody",
+   "fomo_id": "ba19a696-166d-5ad7-841b-10c9db3bcecd",
+   "pnl30d_usd": 56876,
+   "trades": 848
+  },
+  {
+   "name": "_Crashbandit_",
+   "fomo_id": "6f59e757-c7ab-5dde-934b-62514d926506",
+   "pnl30d_usd": 56797,
+   "trades": 892
+  },
+  {
+   "name": "andy",
+   "fomo_id": "5c37d339-d572-551c-b596-a0ddeec67b4e",
+   "pnl30d_usd": 56137,
+   "trades": 3553
+  },
+  {
+   "name": "lanjiaoslayer",
+   "fomo_id": "0fb4ad96-d157-5589-ac97-ed6985546842",
+   "pnl30d_usd": 55830,
+   "trades": 1315
+  },
+  {
+   "name": "hahahalol",
+   "fomo_id": "1d2dca5e-6f59-5438-bfe8-e12002c45ac0",
+   "pnl30d_usd": 55818,
+   "trades": 424
+  },
+  {
+   "name": "ResellCalendar",
+   "fomo_id": "ff03cead-db17-5f20-b8aa-b2cae7e15d6a",
+   "pnl30d_usd": 55543,
+   "trades": 5033
+  },
+  {
+   "name": "square1one_",
+   "fomo_id": "fe35e821-be1f-520d-a805-16d4cf21dce3",
+   "pnl30d_usd": 54148,
+   "trades": 46
+  },
+  {
+   "name": "Spoily",
+   "fomo_id": "e47959d5-82ea-5076-ae8a-066c96c5ea1e",
+   "pnl30d_usd": 49314,
+   "trades": 2561
+  },
+  {
+   "name": "0x3mp1r3",
+   "fomo_id": "5ce00230-95bd-5e68-bcae-f7e527cea57b",
+   "pnl30d_usd": 49110,
+   "trades": 436
+  },
+  {
+   "name": "Boltz",
+   "fomo_id": "a451f431-6717-5c33-bacd-e1e9ea9dd385",
+   "pnl30d_usd": 48520,
+   "trades": 229
+  },
+  {
+   "name": "shillcapital",
+   "fomo_id": "6acf5dac-d8a6-5afd-af20-60eff628116e",
+   "pnl30d_usd": 47003,
+   "trades": 1555
+  },
+  {
+   "name": "GrandSafeAnt",
+   "fomo_id": "1d8da492-143f-5ee7-8215-085ef495d026",
+   "pnl30d_usd": 46729,
+   "trades": 643
+  },
+  {
+   "name": "RussianKitty",
+   "fomo_id": "239d4f28-fc84-52fe-bc57-ceb16e392a15",
+   "pnl30d_usd": 46588,
+   "trades": 2145
+  },
+  {
+   "name": "Lahsin",
+   "fomo_id": "d14d5d34-3d14-5c64-8699-272fc3a50940",
+   "pnl30d_usd": 46359,
+   "trades": 209
+  },
+  {
+   "name": "arbitrary",
+   "fomo_id": "6d9090cb-2d23-5ae9-8a3a-33eb1a98f0ff",
+   "pnl30d_usd": 46331,
+   "trades": 1988
+  },
+  {
+   "name": "awtorkowski7",
+   "fomo_id": "c6f7b11d-fdc2-55c6-93db-565ee98ee30c",
+   "pnl30d_usd": 46300,
+   "trades": 436
+  },
+  {
+   "name": "lightningrat",
+   "fomo_id": "aea5530b-cb94-516b-9280-cc470860ea47",
+   "pnl30d_usd": 45459,
+   "trades": 74
+  },
+  {
+   "name": "retrad",
+   "fomo_id": "e07e4335-0588-5450-a07d-a06efa6af5eb",
+   "pnl30d_usd": 44892,
+   "trades": 798
+  },
+  {
+   "name": "Trenchexe",
+   "fomo_id": "c65daeb3-bf3c-5a89-87c0-cc9cea1ceff0",
+   "pnl30d_usd": 44823,
+   "trades": 925
+  },
+  {
+   "name": "Nichequantelsa",
+   "fomo_id": "a6351c6a-377e-5bf9-a969-f079f373a72c",
+   "pnl30d_usd": 44650,
+   "trades": 20755
+  },
+  {
+   "name": "abbcdefg",
+   "fomo_id": "bb8fdc18-1c36-53af-9ea8-ef8f6b36f3e8",
+   "pnl30d_usd": 43932,
+   "trades": 327
+  },
+  {
+   "name": "Darky1k",
+   "fomo_id": "9c0fc18c-94f9-5c8a-b724-88b119673e33",
+   "pnl30d_usd": 43685,
+   "trades": 178
+  },
+  {
+   "name": "FernandoGo70623",
+   "fomo_id": "e3cbb175-df7f-56d2-a4b2-ebf716f9f5c8",
+   "pnl30d_usd": 42121,
+   "trades": 581
+  },
+  {
+   "name": "Souul",
+   "fomo_id": "dfdda4f0-29be-5238-83eb-99ba8a9d73fb",
+   "pnl30d_usd": 41620,
+   "trades": 93
+  },
+  {
+   "name": "CookedSayers",
+   "fomo_id": "6d97a397-8a88-5d66-a22f-a4dd0e38a66e",
+   "pnl30d_usd": 41056,
+   "trades": 460
+  },
+  {
+   "name": "prevaile",
+   "fomo_id": "22140383-e690-592d-9cc9-2ac49f16040f",
+   "pnl30d_usd": 41011,
+   "trades": 5864
+  },
+  {
+   "name": "Krmi",
+   "fomo_id": "83b68785-4941-5790-9a02-a1f853bc4c97",
+   "pnl30d_usd": 40987,
+   "trades": 1476
+  },
+  {
+   "name": "runnityessirski",
+   "fomo_id": "6ff4426d-85f8-5e3f-b9ad-888fd056d004",
+   "pnl30d_usd": 40908,
+   "trades": 222
+  },
+  {
+   "name": "clipzfnf",
+   "fomo_id": "c34cabc6-1b1d-5ac3-ac57-05542259c50d",
+   "pnl30d_usd": 40304,
+   "trades": 1281
+  },
+  {
+   "name": "dgb11",
+   "fomo_id": "d59bee18-95ce-575d-a9cf-9612487ecd0e",
+   "pnl30d_usd": 39729,
+   "trades": 160
+  },
+  {
+   "name": "geegeeg",
+   "fomo_id": "0a1faeaa-cf7f-5396-aa41-b7c44287f108",
+   "pnl30d_usd": 38243,
+   "trades": 112
+  },
+  {
+   "name": "zhuchao",
+   "fomo_id": "1e64531c-d19f-56d4-9906-7c96827b706f",
+   "pnl30d_usd": 38161,
+   "trades": 138
+  },
+  {
+   "name": "OinkersRUs",
+   "fomo_id": "699d520e-b770-5d7b-997f-c4c4fe848f7d",
+   "pnl30d_usd": 37845,
+   "trades": 2181
+  },
+  {
+   "name": "CleanEqualRaven",
+   "fomo_id": "50a5f1b7-25e8-5a51-922c-7dccd7e1448b",
+   "pnl30d_usd": 37527,
+   "trades": 97
+  },
+  {
+   "name": "MidFancyLark",
+   "fomo_id": "b9a1f071-e96a-5b43-98c4-94ae7ee07fc4",
+   "pnl30d_usd": 36329,
+   "trades": 716
+  },
+  {
+   "name": "Arthrodir",
+   "fomo_id": "ac91f12d-0b5a-55f8-ae2c-2259dcd0e1fc",
+   "pnl30d_usd": 36013,
+   "trades": 69
+  },
+  {
+   "name": "topdoog",
+   "fomo_id": "8159a9be-d63d-58c6-85bf-7e6ce097fd85",
+   "pnl30d_usd": 35490,
+   "trades": 458
+  },
+  {
+   "name": "ibuyfloors",
+   "fomo_id": "49b7f10d-53ce-54fd-8f38-f385183cc674",
+   "pnl30d_usd": 35215,
+   "trades": 581
+  },
+  {
+   "name": "Dug7",
+   "fomo_id": "05d98d76-f402-582d-ba8c-8996cd2bc1a8",
+   "pnl30d_usd": 34711,
+   "trades": 831
+  },
+  {
+   "name": "PandeyMikhil",
+   "fomo_id": "2420ac00-dbc0-56fb-acea-241bbb4ead71",
+   "pnl30d_usd": 34613,
+   "trades": 40
+  },
+  {
+   "name": "Wang_Sato",
+   "fomo_id": "6609b205-20b6-5d92-85a7-5b262ac655a3",
+   "pnl30d_usd": 34316,
+   "trades": 133
+  },
+  {
+   "name": "Seeker369",
+   "fomo_id": "7d5e7ac4-66da-5e0a-a32f-3179496b2d11",
+   "pnl30d_usd": 32919,
+   "trades": 105
+  },
+  {
+   "name": "Hehehehehehehe",
+   "fomo_id": "5ffd7e65-1b29-55b3-906f-c20ef977e9b6",
+   "pnl30d_usd": 32751,
+   "trades": 3233
+  },
+  {
+   "name": "yutaaaa",
+   "fomo_id": "e7ed8ca2-b8ef-5a6e-bd0d-35bdd77f8e3e",
+   "pnl30d_usd": 31269,
+   "trades": 2021
+  },
+  {
+   "name": "MichaelLerro",
+   "fomo_id": "6f8ea71a-029f-58a7-b2f5-c1fe1bf0903b",
+   "pnl30d_usd": 31005,
+   "trades": 718
+  },
+  {
+   "name": "apc143",
+   "fomo_id": "4642acb4-8696-50c3-9e23-cd14d14233e8",
+   "pnl30d_usd": 30429,
+   "trades": 398
+  },
+  {
+   "name": "sweetdreams",
+   "fomo_id": "6613d66a-3167-51c4-ad9f-0afdf2753585",
+   "pnl30d_usd": 30167,
+   "trades": 23
+  },
+  {
+   "name": "fominator",
+   "fomo_id": "98efa495-f1a2-5c96-8d0d-b1437c94c214",
+   "pnl30d_usd": 30034,
+   "trades": 96
+  },
+  {
+   "name": "notEezzy",
+   "fomo_id": "8de0595d-0c64-5ca1-8a0c-364bd3196d11",
+   "pnl30d_usd": 29827,
+   "trades": 705
+  },
+  {
+   "name": "wild21",
+   "fomo_id": "ad63d259-4624-5ebc-aefa-195433cc7fd0",
+   "pnl30d_usd": 29213,
+   "trades": 46
+  },
+  {
+   "name": "ihatemobiletrading",
+   "fomo_id": "8cfd8d20-d653-53f6-b6e2-219e1d6431b9",
+   "pnl30d_usd": 28474,
+   "trades": 240
+  },
+  {
+   "name": "SharpAwakeTakin",
+   "fomo_id": "6bf7e9f1-1727-5508-8d6c-1c14b27ea40c",
+   "pnl30d_usd": 28355,
+   "trades": 338
+  },
+  {
+   "name": "828293939",
+   "fomo_id": "7c0c266b-dfda-517d-9243-c169bccc2fc5",
+   "pnl30d_usd": 28167,
+   "trades": 90
+  },
+  {
+   "name": "sebbie369",
+   "fomo_id": "2553061b-9d16-5456-a845-21fc11b91300",
+   "pnl30d_usd": 28133,
+   "trades": 224
+  },
+  {
+   "name": "okuracrypto",
+   "fomo_id": "53af8d02-a567-57f8-90fa-3080f4568463",
+   "pnl30d_usd": 27683,
+   "trades": 220
+  },
+  {
+   "name": "fizzwickBW",
+   "fomo_id": "2292e89a-3ba1-52ba-af2d-f0017af85203",
+   "pnl30d_usd": 27526,
+   "trades": 421
+  },
+  {
+   "name": "bystevenr",
+   "fomo_id": "37d7f7be-a3fb-52a1-80b6-181d668aadfb",
+   "pnl30d_usd": 27322,
+   "trades": 3273
+  },
+  {
+   "name": "TermiApes",
+   "fomo_id": "0bbcbac8-bab9-5de2-b166-bf91414a9f9a",
+   "pnl30d_usd": 27280,
+   "trades": 3343
   }
  ]
 }
