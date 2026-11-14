@@ -85,7 +85,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - run: pip install requests cryptography
 
       - name: Git einrichten
         run: |
@@ -95,7 +95,8 @@ jobs:
       - name: Copy-Trader laufen lassen
         env:
           SCAN_DAUER_MIN: ${{ github.event_name == 'schedule' && '54' || inputs.dauer || '5' }}
-          SOLANA_RPC: ${{ secrets.SOLANA_RPC }}
+          FOMO_REFRESH: ${{ secrets.FOMO_REFRESH }}        # Cookie privy-refresh-token (siehe README)
+          FOMO_SCHLUESSEL: ${{ secrets.FOMO_SCHLUESSEL }}  # beliebiger langer Text zum Verschlüsseln
         run: python copytrader.py
 
       - name: Stand speichern

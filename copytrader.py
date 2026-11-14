@@ -1,22 +1,29 @@
 """
 Copy-Trader (Paper Trading, kein echtes Geld)
 
-Beobachtet die Solana-Wallets der besten Fomo-Trader (Liste in data/copy/wallets.json) und
+Beobachtet die Trades der besten Fomo-Trader (Liste in data/copy/wallets.json) und
 macht ihre Memecoin-Käufe simuliert nach:
   - Kauft ein Trader einen neuen Coin -> wir "kaufen" für 10 Fr. zum Kurs, den wir dann sehen.
   - Verkauft er einen Teil -> wir verkaufen denselben Anteil unserer Position.
   - Pro Kauf und Verkauf 4 % Kosten (wie beim Scanner).
 
-Wie es funktioniert: Jede Minute werden die Token-Bestände jeder Wallet über die öffentliche
-Solana-Schnittstelle (RPC) abgefragt und mit der letzten Minute verglichen. Mehr Coins = Kauf,
-weniger Coins = Verkauf. Käufe und Verkäufe innerhalb derselben Minute sehen wir nicht
-(die könnte man echt auch nicht kopieren).
+Wie es funktioniert: Fomo handelt über eigene Sammel-Wallets, die Adressen in der App sind
+auf der Blockchain nicht sichtbar (geprüft 14.11.2026). Darum liest der Bot jede Minute die
+letzten Trades jedes Traders über die (inoffizielle) Fomo-Schnittstelle. Daraus führt er pro
+Trader eine Menge pro Coin (nur Käufe ab Start). Mehr Coins = Kauf, weniger = Verkauf.
 
-Optional: Secret SOLANA_RPC (z. B. kostenloser Helius-Schlüssel) statt der öffentlichen RPC.
+Login: Fomo verlangt einen Login. Nötig sind diese GitHub-Secrets:
+  FOMO_REFRESH     Wert des Cookies "privy-refresh-token" (einmalig aus dem Browser kopiert)
+  FOMO_SCHLUESSEL  beliebiger langer Text; damit wird ein erneuerter Login verschlüsselt
+                   in data/copy/login.enc gespeichert (das Repo ist öffentlich!)
+Der Bot holt sich damit jede Stunde selbst einen frischen Zugang (wie die App).
 """
 
+import base64
+import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -46,6 +53,7 @@ PLAUSI_MAX_MCAP_USD = 1_000_000_000
 # Diese Mints sind "Geld", keine Memecoins
 BASIS_MINTS = {
     "So11111111111111111111111111111111111111112",   # wSOL
+    "11111111111111111111111111111111",              # SOL (nativ)
     "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",  # USDC
     "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",  # USDT
 }
@@ -58,7 +66,21 @@ BASIS = Path(__file__).parent / "data" / "copy"
 WALLETS_FILE = BASIS / "wallets.json"
 STATE_FILE = BASIS / "state.json"
 AUSWERTUNG_FILE = BASIS / "auswertung.md"
+LOGIN_FILE = BASIS / "login.enc"
 RPC = os.getenv("SOLANA_RPC") or "https://api.mainnet-beta.solana.com"
+FOMO_API = "https://prod-api.fomo.family"
+FOMO_CHAINS = "1,56,143,4663,8453,1399811149"
+SOLANA_ID = 1399811149
+PRIVY_URL = "https://privy.fomo.family/api/v1/sessions"
+PRIVY_HEADERS = {   # so wie die Fomo-Web-App (Privy react-auth) es selbst macht
+    "privy-app-id": "cm6h485o300n3zj9yl6vpedq7",
+    "privy-client-id": "client-WY5gFSayQjxnQhG4rP6SnwPAyPZWZpNRhJ6b9rzMnYwqH",
+    "privy-client": "react-auth:3.48.0",
+    "origin": "https://fomo.family",
+    "referer": "https://fomo.family/",
+    "content-type": "application/json",
+    "accept": "application/json",
+}
 DEX = "https://api.dexscreener.com"
 HEADERS = {"User-Agent": "paper-copy-trader/1.0"}
 
@@ -114,7 +136,10 @@ def lade_wallets():
     if not WALLETS_FILE.exists():
         return []
     daten = json.loads(WALLETS_FILE.read_text(encoding="utf-8"))
-    return [w for w in daten.get("trader", []) if w.get("wallet") and w.get("aktiv", True)]
+    trader = [w for w in daten.get("trader", []) if w.get("fomo_id") and w.get("aktiv", True)]
+    for w in trader:
+        w["wallet"] = w["fomo_id"]   # interner Schlüssel (alte Felder heissen noch "wallet")
+    return trader
 
 
 def lade_state():
@@ -128,22 +153,149 @@ def speichere_state(state):
     STATE_FILE.write_text(json.dumps(state, indent=1, ensure_ascii=False), encoding="utf-8")
 
 
-# ---------------------------------------------------------------- Daten holen
-def bestand(wallet):
-    """{mint: Menge} aller Tokens dieser Wallet, oder None bei Fehler."""
-    ergebnis = {}
-    for prog in TOKEN_PROGRAMME:
-        r = rpc("getTokenAccountsByOwner", [wallet, {"programId": prog}, {"encoding": "jsonParsed"}])
-        if r is None:
+# ---------------------------------------------------------------- Fomo-Login
+class FomoLogin:
+    """Holt mit dem Refresh-Cookie jede Stunde einen frischen Zugang (Access-Token, 1 h gültig)."""
+
+    def __init__(self):
+        self.token = None
+        self.exp = 0.0
+        self.fehler = ""
+        self.schluessel = (os.getenv("FOMO_SCHLUESSEL") or "").strip()
+        kandidaten = [self._lade_gespeichert(), os.getenv("FOMO_REFRESH")]
+        self.kandidaten = []
+        for k in kandidaten:
+            k = (k or "").strip().strip('"')
+            if k and k not in self.kandidaten:
+                self.kandidaten.append(k)
+
+    def vorhanden(self):
+        return bool(self.kandidaten)
+
+    def _fernet(self):
+        from cryptography.fernet import Fernet
+        return Fernet(base64.urlsafe_b64encode(hashlib.sha256(self.schluessel.encode()).digest()))
+
+    def _lade_gespeichert(self):
+        if not self.schluessel or not LOGIN_FILE.exists():
             return None
-        for konto in r.get("value", []):
-            info = konto["account"]["data"]["parsed"]["info"]
-            mint = info["mint"]
-            menge = float(info["tokenAmount"].get("uiAmountString") or 0)
-            if mint not in BASIS_MINTS and menge > 0:
-                ergebnis[mint] = ergebnis.get(mint, 0.0) + menge
-        time.sleep(0.15)
-    return ergebnis
+        try:
+            return self._fernet().decrypt(LOGIN_FILE.read_bytes()).decode()
+        except Exception as e:
+            print(f"  ! login.enc nicht lesbar ({e.__class__.__name__}), nehme Secret FOMO_REFRESH")
+            return None
+
+    def _speichere(self, refresh):
+        if not self.schluessel:
+            print("  ! Fomo hat den Login erneuert, aber FOMO_SCHLUESSEL fehlt -> kann ihn nicht sichern")
+            return
+        BASIS.mkdir(parents=True, exist_ok=True)
+        LOGIN_FILE.write_bytes(self._fernet().encrypt(refresh.encode()))
+        print("  Login erneuert und verschlüsselt gespeichert")
+        if os.getenv("GITHUB_ACTIONS"):
+            befehl = ("git add data/copy/login.enc && git commit -qm 'Copy-Trader: Login erneuert' "
+                      "&& (git pull -q --rebase -X theirs origin main || (git rebase --abort; false)) && git push -q")
+            try:
+                subprocess.run(befehl, shell=True, check=True, timeout=120, cwd=Path(__file__).parent)
+            except Exception as e:
+                print(f"  ! login.enc nicht gepusht: {e!r}")
+
+    def erneuern(self):
+        for rt in list(self.kandidaten):
+            try:
+                r = requests.post(PRIVY_URL, headers={**HEADERS, **PRIVY_HEADERS},
+                                  cookies={"privy-refresh-token": rt},
+                                  json={"refresh_token": "deprecated"}, timeout=25)
+                j = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
+            except (requests.RequestException, ValueError) as e:
+                self.fehler = f"Privy nicht erreichbar: {e}"
+                continue
+            if r.ok and j.get("token"):
+                self.token = j["token"]
+                try:
+                    teil = self.token.split(".")[1]
+                    self.exp = json.loads(base64.urlsafe_b64decode(teil + "=" * (-len(teil) % 4)))["exp"]
+                except Exception:
+                    self.exp = time.time() + 3000
+                neu = r.cookies.get("privy-refresh-token")
+                if not neu:
+                    m = re.search(r"privy-refresh-token=([^;,\s]+)", r.headers.get("set-cookie", ""))
+                    neu = m.group(1) if m else None
+                if neu and neu != rt:
+                    self._speichere(neu)
+                    rt = neu
+                self.kandidaten = [rt]
+                self.fehler = ""
+                return True
+            self.fehler = f"Privy {r.status_code}: {j.get('error') or r.text[:120]}"
+            print(f"  ! Login-Erneuerung fehlgeschlagen: {self.fehler}")
+        return False
+
+    def header(self):
+        if not self.token or time.time() > self.exp - 300:
+            self.erneuern()
+        return {"authorization": f"Bearer {self.token}"} if self.token else {}
+
+
+LOGIN = None
+
+
+def fomo_get(pfad, tries=3):
+    """GET auf die Fomo-Schnittstelle, gibt responseObject zurück oder None."""
+    for i in range(tries):
+        h = LOGIN.header() if LOGIN else {}
+        if not h:
+            return None
+        try:
+            r = requests.get(FOMO_API + pfad, timeout=25, headers={
+                **HEADERS, **h, "x-supported-chains": FOMO_CHAINS,
+                "origin": "https://fomo.family", "referer": "https://fomo.family/"})
+            if r.status_code in (401, 403, 431):
+                LOGIN.token = None   # Zugang abgelaufen -> beim nächsten Versuch erneuern
+                continue
+            if r.status_code == 429 or r.status_code >= 500:
+                time.sleep(3 * (i + 1))
+                continue
+            r.raise_for_status()
+            return r.json().get("responseObject")
+        except (requests.RequestException, ValueError) as e:
+            print(f"  ! Fomo {pfad}: {e}")
+            time.sleep(2 * (i + 1))
+    return None
+
+
+# ---------------------------------------------------------------- Daten holen
+def bestand(w, state):
+    """{mint: Menge} der Coins, die der Trader seit Beobachtungsstart gekauft hat, oder None bei Fehler.
+
+    Liest die letzten 25 Trades über Fomo und rechnet neue Trades in die Mengen ein.
+    """
+    fid = w["fomo_id"]
+    ro = fomo_get(f"/v2/users/{fid}/swaps")
+    if ro is None:
+        return None
+    swaps = ro.get("swaps") or []
+    gesehen = state.setdefault("gesehen", {})
+    menge = state.setdefault("menge", {}).setdefault(fid, {})
+    if fid not in gesehen:
+        gesehen[fid] = [s["id"] for s in swaps]   # Start: alte Trades nur merken
+        return {}
+    alte = set(gesehen[fid])
+    neu = [s for s in swaps if s["id"] not in alte]
+    if swaps and len(neu) == len(swaps):
+        print(f"  ! {w['name']}: über 25 neue Trades in einer Minute, ältere fehlen")
+    for s in reversed(neu):   # älteste zuerst
+        if s.get("inNetworkId") != SOLANA_ID or s.get("outNetworkId") != SOLANA_ID:
+            continue
+        ein, aus = s.get("inTokenAddress"), s.get("outTokenAddress")
+        if ein and ein not in BASIS_MINTS and ein in menge:      # Coin weggegeben = Verkauf
+            menge[ein] = max(0.0, menge[ein] - float(s.get("inHumanAmount") or 0))
+            if menge[ein] <= 0:
+                del menge[ein]
+        if aus and aus not in BASIS_MINTS:                        # Coin bekommen = Kauf
+            menge[aus] = menge.get(aus, 0.0) + float(s.get("outHumanAmount") or 0)
+    gesehen[fid] = ([s["id"] for s in neu] + gesehen[fid])[:300]
+    return dict(menge)
 
 
 def hole_paare(mints):
@@ -231,7 +383,7 @@ def durchgang(state, wallets):
     alle_mints = set(p["mint"] for p in offene(state))
     neue_bestaende = {}
     for w in wallets:
-        b = bestand(w["wallet"])
+        b = bestand(w, state)
         if b is None:
             print(f"  ! Bestand von {w['name']} nicht lesbar, überspringe")
             continue
@@ -318,7 +470,10 @@ def auswertung_text(state, wallets):
          f"Stand: {jetzt():%d.%m.%Y %H:%M} UTC. Je Kauf {fr(EINSATZ_CHF)}, {GEBUEHR_PCT:g} % Kosten "
          f"pro Kauf und Verkauf. Verkauft wird, wenn der Trader verkauft (gleicher Anteil).\n"]
     if not wallets:
-        z.append("**Noch keine Wallets eingetragen** (data/copy/wallets.json).\n")
+        z.append("**Noch keine Trader eingetragen** (data/copy/wallets.json).\n")
+    if LOGIN is not None and (not LOGIN.vorhanden() or LOGIN.fehler):
+        z.append(f"**⚠️ Fomo-Login fehlt oder ist abgelaufen** ({LOGIN.fehler or 'Secret FOMO_REFRESH fehlt'}). "
+                 "Neu holen: siehe README, Abschnitt Copy-Trader.\n")
     if not ps:
         z.append("Noch keine kopierten Käufe.\n")
         return "\n".join(z)
@@ -380,16 +535,22 @@ def checkpoint(state, wallets):
 
 # ---------------------------------------------------------------- Hauptprogramm
 def main():
+    global LOGIN
     state = lade_state()
     wallets = lade_wallets()
+    LOGIN = FomoLogin()
     if "--auswertung" in sys.argv:
         print(auswertung_text(state, wallets))
         return
     if not wallets:
-        print("Keine Wallets in data/copy/wallets.json – nichts zu tun.")
+        print("Keine Trader in data/copy/wallets.json – nichts zu tun.")
         schreibe_auswertung(state, wallets)
         return
-    print(f"Beobachte {len(wallets)} Wallets: {', '.join(w['name'] for w in wallets)}")
+    if not LOGIN.vorhanden() or not LOGIN.erneuern():
+        print(f"Kein gültiger Fomo-Login: {LOGIN.fehler or 'Secret FOMO_REFRESH fehlt'} – nichts zu tun.")
+        schreibe_auswertung(state, wallets)
+        return
+    print(f"Fomo-Login ok. Beobachte {len(wallets)} Trader: {', '.join(w['name'] for w in wallets)}")
 
     dauer_s = float(os.getenv("SCAN_DAUER_MIN", "0") or 0) * 60
     if os.getenv("GITHUB_EVENT_NAME") == "schedule":

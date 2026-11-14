@@ -26,20 +26,32 @@ Am 1. jedes Monats kommt die **Monatsbilanz** für alle Coins, die im Vormonat g
 
 ## 👥 Copy-Trader (Top-Fomo-Trader kopieren)
 
-`copytrader.py` läuft im selben Workflow parallel zum Scanner. Er beobachtet die Solana-Wallets in
-`data/copy/wallets.json` jede Minute:
+`copytrader.py` läuft im selben Workflow parallel zum Scanner. Er liest jede Minute die letzten
+Trades der Trader in `data/copy/wallets.json` über die (inoffizielle) Fomo-Schnittstelle:
 - Kauft ein Trader einen **neuen** Coin (mind. 20 $, Liquidität ≥ 5'000 $) → simulierter Kauf für 10 Fr. zum Kurs, den der Bot dann sieht (also etwas später als der Trader).
-- Verkauft er einen Teil → gleicher Anteil wird verkauft. Unter 2 % seines Bestands → alles raus.
+- Verkauft er einen Teil → gleicher Anteil wird verkauft. Unter 2 % seiner Menge → alles raus.
 - 4 % Kosten pro Kauf und Verkauf. Tot wie beim Scanner (−95 %, Liquidität < 1'000 $, 24 h weg).
-- Coins, die er beim Start schon hatte, werden nicht kopiert.
+- Nur Solana-Trades. Coins, die er vor dem Start schon hatte, werden nicht kopiert.
 
 Ergebnis: `data/copy/auswertung.md` (gesamt und pro Trader).
 
-**Wallets holen:** Fomo hat keine öffentliche Schnittstelle. Am Computer auf fomo.family einloggen,
-F12 → Console, `tools/fomo_top10.js` einfügen, einmal klicken. Das Skript nimmt die Top 10 der
-30-Tage-Rangliste (mind. 20 Trades, handelt auf Solana) und sucht die Wallet, mit der sie wirklich
-handeln (nicht die Profil-Adresse). Ergebnis in `data/copy/wallets.json` einfügen.
-Optional: Secret `SOLANA_RPC` (z. B. gratis Helius-Schlüssel), falls die öffentliche RPC bremst.
+**Warum über Fomo und nicht die Blockchain?** Fomo handelt über eigene Sammel-Wallets. Die
+Adressen in der App existieren auf Solana nicht (geprüft 14.11.2026, Solscan: 0 Transaktionen).
+
+**Fomo-Login (einmalig, ca. 30 Tage gültig):** Fomo braucht einen Login. Der Bot erneuert ihn selbst,
+braucht dafür aber zwei Secrets (Settings → Secrets and variables → Actions → New repository secret):
+1. `FOMO_SCHLUESSEL`: irgendein langer Text (z. B. 30 zufällige Zeichen). Damit verschlüsselt der Bot
+   den erneuerten Login in `data/copy/login.enc` (das Repo ist öffentlich).
+2. `FOMO_REFRESH`: In Edge/Chrome ein **InPrivate-Fenster** öffnen (Ctrl+Shift+N), auf fomo.family
+   einloggen, F12 → **Application/Anwendung** → **Cookies** → `https://fomo.family` → Zeile
+   `privy-refresh-token` → Wert kopieren. Fenster danach einfach schliessen, **nicht ausloggen**.
+
+⚠️ Wer diesen Wert hat, kommt in das Fomo-Konto. Nur verwenden, solange darauf kein Geld liegt.
+Steht in der Auswertung „Fomo-Login fehlt oder ist abgelaufen“: Schritt 2 wiederholen.
+
+**Trader-Liste erneuern:** Auf fomo.family einloggen, F12 → Console, `tools/fomo_top10.js` einfügen.
+Nimmt die Top 10 der 30-Tage-Rangliste (mind. 20 Trades, handelt auf Solana) → in
+`data/copy/wallets.json` einfügen.
 
 ## Einrichten
 

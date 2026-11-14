@@ -1,5 +1,66 @@
 {
- "hinweis": "Top-Trader aus der Fomo-Rangliste. Erzeugt mit tools/fomo_top10.js (im Browser auf fomo.family). 'wallet' = Solana-Wallet, mit der der Trader wirklich handelt. 'aktiv': false = nicht mehr kopieren (alte Käufe bleiben in der Auswertung).",
- "stand": null,
- "trader": []
+ "hinweis": "Top 10 der Fomo-Rangliste 30 Tage (mind. 20 Trades). fomo_id = Fomo-Benutzer-ID; der Bot liest deren Trades über Fomo. 'aktiv': false = nicht mehr kopieren.",
+ "stand": "2026-11-14T13:45:00Z",
+ "trader": [
+  {
+   "name": "leo",
+   "fomo_id": "30d4f0d1-e895-524c-b45e-ec67c29ce1a8",
+   "pnl30d_usd": 427599,
+   "trades": 2613
+  },
+  {
+   "name": "joecroskey",
+   "fomo_id": "f75d4889-0c28-50c6-a3eb-f344a4f89626",
+   "pnl30d_usd": 346803,
+   "trades": 41
+  },
+  {
+   "name": "end837",
+   "fomo_id": "7c99eb4f-7533-54b4-b3ce-bdbb2a1e9bb5",
+   "pnl30d_usd": 280962,
+   "trades": 286
+  },
+  {
+   "name": "G41T3R98",
+   "fomo_id": "9b455569-30d8-5815-9dab-de8544022ee3",
+   "pnl30d_usd": 264784,
+   "trades": 258
+  },
+  {
+   "name": "bronbroncore",
+   "fomo_id": "347f6d53-5824-5249-a880-b916e0ddb1ba",
+   "pnl30d_usd": 262074,
+   "trades": 317
+  },
+  {
+   "name": "0xbr9",
+   "fomo_id": "7a89b116-48f6-58fd-b10f-9388d03a9489",
+   "pnl30d_usd": 216476,
+   "trades": 166
+  },
+  {
+   "name": "SOL589",
+   "fomo_id": "7c9a172c-8a3e-54f5-bba8-bf95d7769204",
+   "pnl30d_usd": 174154,
+   "trades": 133
+  },
+  {
+   "name": "peptidezz",
+   "fomo_id": "97ddf5a2-7ae4-518f-8f80-3de21dabbb05",
+   "pnl30d_usd": 171429,
+   "trades": 54
+  },
+  {
+   "name": "panceramic",
+   "fomo_id": "486ca834-1162-5bde-9157-c046c9fe3ce2",
+   "pnl30d_usd": 154683,
+   "trades": 756
+  },
+  {
+   "name": "OLedsed",
+   "fomo_id": "b520761f-e56f-51cc-9fa8-1a79c52c7c1f",
+   "pnl30d_usd": 130248,
+   "trades": 4356
+  }
+ ]
 }
