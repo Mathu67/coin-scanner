@@ -13,8 +13,7 @@
    "G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN": 11811358.46,
    "H4KUxsEgCp2yDpFvyDuGM5k6XevSKKrrKUxZ3Zr6nyJc": 491276.73,
    "EuXmwrSj6rAPMwqdG7tM3wrJWwvS9yvxQNo2uHj2pump": 5458435.36,
-   "2L9RzqPSwbRy7WaN7Qq1Dsq6ZjAU1t56bvFBafq8pump": 2069835.02,
-   "8yHPExxnmrXsbqSvmouMD5u829HuMgkTjpcvb4BUvWqb": 10922360.45
+   "5L2tBq2tBdid8qjVmaseYVABs3j1ZEsJa3RxZKPYpump": 5692763.6
   }
  },
  "positionen": [
@@ -30,13 +29,13 @@
    "erloes": 0.0,
    "trader_max": 11811358.46,
    "netto_start": 9.6,
-   "letzter_x": 0.7125086385625431,
+   "letzter_x": 0.8106427090532135,
    "hoechst_x": 1.0,
    "tiefst_x": 0.691085003455425,
    "verkaeufe": [],
    "status": "offen",
    "grund": "",
-   "zuletzt_gesehen": "2026-11-14T16:57:05+00:00"
+   "zuletzt_gesehen": "2026-11-14T17:02:05+00:00"
   },
   {
    "trader": "OLedsed",
@@ -50,13 +49,13 @@
    "erloes": 0.0,
    "trader_max": 491276.73,
    "netto_start": 9.6,
-   "letzter_x": 1.0346784363177806,
+   "letzter_x": 1.0327868852459017,
    "hoechst_x": 1.0346784363177806,
    "tiefst_x": 0.9955863808322823,
    "verkaeufe": [],
    "status": "offen",
    "grund": "",
-   "zuletzt_gesehen": "2026-11-14T16:57:05+00:00"
+   "zuletzt_gesehen": "2026-11-14T17:02:05+00:00"
   },
   {
    "trader": "OLedsed",
@@ -70,13 +69,13 @@
    "erloes": 0.0,
    "trader_max": 5458435.36,
    "netto_start": 9.6,
-   "letzter_x": 0.8829022988505746,
+   "letzter_x": 0.9019396551724137,
    "hoechst_x": 1.0021551724137931,
    "tiefst_x": 0.8829022988505746,
    "verkaeufe": [],
    "status": "offen",
    "grund": "",
-   "zuletzt_gesehen": "2026-11-14T16:57:05+00:00"
+   "zuletzt_gesehen": "2026-11-14T17:02:05+00:00"
   },
   {
    "trader": "OLedsed",
@@ -114,17 +113,52 @@
    "gekauft": "2026-11-14T16:50:05+00:00",
    "einstieg_usd": 5.174e-05,
    "liq_kauf": 18311,
-   "anteil": 1.0,
-   "erloes": 0.0,
+   "anteil": 0.0,
+   "erloes": 7.760748357170467,
    "trader_max": 2069835.02,
    "netto_start": 9.6,
-   "letzter_x": 0.9625048318515654,
+   "letzter_x": 0.8420950908388094,
    "hoechst_x": 1.071124855044453,
-   "tiefst_x": 0.913606494008504,
-   "verkaeufe": [],
+   "tiefst_x": 0.8420950908388094,
+   "verkaeufe": [
+    {
+     "zeit": "2026-11-14T17:01:05+00:00",
+     "teil": 1.0,
+     "x": 0.8421,
+     "grund": "Trader hat alles verkauft"
+    }
+   ],
+   "status": "verkauft",
+   "grund": "Trader hat alles verkauft",
+   "zuletzt_gesehen": "2026-11-14T17:00:05+00:00",
+   "geschlossen": "2026-11-14T17:01:05+00:00"
+  },
+  {
+   "trader": "OLedsed",
+   "wallet": "b520761f-e56f-51cc-9fa8-1a79c52c7c1f",
+   "mint": "5L2tBq2tBdid8qjVmaseYVABs3j1ZEsJa3RxZKPYpump",
+   "name": "DOOMER",
+   "gekauft": "2026-11-14T16:59:05+00:00",
+   "einstieg_usd": 9.025e-06,
+   "liq_kauf": 5849,
+   "anteil": 0.750000000658731,
+   "erloes": 6.139745136176809,
+   "trader_max": 7590351.46,
+   "netto_start": 9.6,
+   "letzter_x": 2.2548476454293627,
+   "hoechst_x": 2.6648199445983374,
+   "tiefst_x": 1.0,
+   "verkaeufe": [
+    {
+     "zeit": "2026-11-14T17:01:05+00:00",
+     "teil": 0.25,
+     "x": 2.6648,
+     "grund": "Trader verkauft Teil"
+    }
+   ],
    "status": "offen",
    "grund": "",
-   "zuletzt_gesehen": "2026-11-14T16:57:05+00:00"
+   "zuletzt_gesehen": "2026-11-14T17:02:05+00:00"
   }
  ],
  "gesehen": {
@@ -353,6 +387,10 @@
    "9d53a297-a04c-4939-a4f5-1a77dd6001f7"
   ],
   "b520761f-e56f-51cc-9fa8-1a79c52c7c1f": [
+   "806a43b5-5d04-4506-aae1-0e6714a5e399",
+   "45e4ac88-c220-4ab7-a8e1-592895bc3a3c",
+   "c6cb0d10-9504-46c4-91d2-25d1b0a6ce66",
+   "4aef391b-15da-4d4d-a1a0-89cab144097f",
    "c1cd43eb-d4de-4243-b320-af85f12e8ed2",
    "41953549-5fd7-4623-aa32-b27c14ad3d54",
    "91578435-47c0-459e-bcc8-8cf5314c380f",
@@ -419,8 +457,7 @@
    "G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN": 11811358.46,
    "H4KUxsEgCp2yDpFvyDuGM5k6XevSKKrrKUxZ3Zr6nyJc": 491276.73,
    "EuXmwrSj6rAPMwqdG7tM3wrJWwvS9yvxQNo2uHj2pump": 5458435.36,
-   "2L9RzqPSwbRy7WaN7Qq1Dsq6ZjAU1t56bvFBafq8pump": 2069835.02,
-   "8yHPExxnmrXsbqSvmouMD5u829HuMgkTjpcvb4BUvWqb": 10922360.45
+   "5L2tBq2tBdid8qjVmaseYVABs3j1ZEsJa3RxZKPYpump": 5692763.6
   }
  }
 }
