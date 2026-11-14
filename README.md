@@ -27,13 +27,17 @@ Am 1. jedes Monats kommt die **Monatsbilanz** für alle Coins, die im Vormonat g
 ## 👥 Copy-Trader (Top-Fomo-Trader kopieren)
 
 `copytrader.py` läuft im selben Workflow parallel zum Scanner. Er liest jede Minute die letzten
-Trades der Trader in `data/copy/wallets.json` über die (inoffizielle) Fomo-Schnittstelle:
+Trades der **Top 100 der 30-Tage-Rangliste** (mind. 20 Trades; holt er einmal pro Tag selbst nach
+`data/copy/wallets.json`) alle 30 Sekunden über die (inoffizielle) Fomo-Schnittstelle. Fällt jemand
+raus, folgt der Bot noch seinen Verkäufen, bis die kopierten Positionen zu sind.
 - Kauft ein Trader einen **neuen** Coin (mind. 20 $, Liquidität ≥ 5'000 $) → simulierter Kauf für 10 Fr. zum Kurs, den der Bot dann sieht (also etwas später als der Trader).
 - Verkauft er einen Teil → gleicher Anteil wird verkauft. Unter 2 % seiner Menge → alles raus.
 - 4 % Kosten pro Kauf und Verkauf. Tot wie beim Scanner (−95 %, Liquidität < 1'000 $, 24 h weg).
 - Nur Solana-Trades. Coins, die er vor dem Start schon hatte, werden nicht kopiert.
 
-Ergebnis: `data/copy/auswertung.md` (gesamt und pro Trader).
+Ergebnis: `data/copy/auswertung.md` (gesamt und pro Trader, jeweils auch **ohne den besten Coin**,
+plus gemessene **Verzögerung**: wie alt ein Trade ist, wenn der Bot ihn sieht). Ziel: nach 3–4 Wochen
+die 5–10 Trader finden, die nach Kosten beständig im Plus sind.
 
 **Warum über Fomo und nicht die Blockchain?** Fomo handelt über eigene Sammel-Wallets. Die
 Adressen in der App existieren auf Solana nicht (geprüft 14.11.2026, Solscan: 0 Transaktionen).

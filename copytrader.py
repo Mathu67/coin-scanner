@@ -35,7 +35,10 @@ import requests
 # ---------------------------------------------------------------- Einstellungen
 EINSATZ_CHF = 10.0
 GEBUEHR_PCT = 4.0
-CHECK_INTERVALL_S = 60
+CHECK_INTERVALL_S = 30       # alle 30 s alle Trader abfragen
+TOP_N = 100                  # so viele Trader der 30-Tage-Rangliste beobachten
+MIN_TRADES = 20              # Leute mit 1–2 Glückstreffern raus
+LISTE_ERNEUERN_H = 24        # Rangliste einmal pro Tag neu holen
 CHECKPOINT_MIN = 15
 
 # Was als echter Kauf zählt (sonst sind es Spam-Airdrops oder Kleinstbeträge)
@@ -282,9 +285,17 @@ def bestand(w, state):
         return {}
     alte = set(gesehen[fid])
     neu = [s for s in swaps if s["id"] not in alte]
-    if swaps and len(neu) == len(swaps):
+    if len(swaps) >= 25 and len(neu) == len(swaps):
         print(f"  ! {w['name']}: über 25 neue Trades in einer Minute, ältere fehlen")
+    jetzt_ts = time.time()
+    verz = state.setdefault("verzoegerung", [])
     for s in reversed(neu):   # älteste zuerst
+        try:   # wie alt ist der Trade, wenn wir ihn sehen?
+            alter = jetzt_ts - datetime.fromisoformat(s["createdAt"].replace("Z", "+00:00")).timestamp()
+            if 0 <= alter < 3600:
+                verz.append(round(alter, 1))
+        except (KeyError, ValueError, AttributeError):
+            pass
         if s.get("inNetworkId") != SOLANA_ID or s.get("outNetworkId") != SOLANA_ID:
             continue
         ein, aus = s.get("inTokenAddress"), s.get("outTokenAddress")
@@ -294,8 +305,56 @@ def bestand(w, state):
                 del menge[ein]
         if aus and aus not in BASIS_MINTS:                        # Coin bekommen = Kauf
             menge[aus] = menge.get(aus, 0.0) + float(s.get("outHumanAmount") or 0)
+    del verz[:-2000]
     gesehen[fid] = ([s["id"] for s in neu] + gesehen[fid])[:300]
     return dict(menge)
+
+
+def aktualisiere_liste(state, wallets):
+    """Top-N der 30-Tage-Rangliste holen (einmal pro Tag) und in wallets.json schreiben."""
+    stand = state.get("liste_stand")
+    if wallets and stand and (jetzt() - datetime.fromisoformat(stand)).total_seconds() < LISTE_ERNEUERN_H * 3600:
+        return wallets
+    roh, ids = [], set()
+    for pfad in ["/v2/leaderboard/30d", "/v2/leaderboard/30d?limit=200", "/v2/leaderboard/30d?page=2",
+                 "/v2/leaderboard/30d?offset=100", "/v2/leaderboard/30d?page=3"]:
+        ro = fomo_get(pfad)
+        liste = ro if isinstance(ro, list) else ((ro or {}).get("leaderboard")
+                                                  or next((v for v in (ro or {}).values() if isinstance(v, list)), []))
+        neu = [u for u in liste if u.get("id") and u["id"] not in ids]
+        ids.update(u["id"] for u in neu)
+        roh += neu
+        print(f"  Rangliste {pfad}: {len(liste)} Einträge, {len(neu)} neu")
+        if len(roh) >= TOP_N * 1.5:
+            break
+        time.sleep(0.5)
+    gut = sorted([u for u in roh if not u.get("isRestricted") and (u.get("numTrades") or u.get("swapCount") or 0) >= MIN_TRADES],
+                 key=lambda u: -(u.get("pnl30d") or 0))[:TOP_N]
+    if not gut:
+        print("  ! Rangliste nicht lesbar, behalte alte Liste")
+        return wallets
+    trader = [{"name": u.get("userHandle") or u.get("displayName") or u["id"][:8], "fomo_id": u["id"],
+               "pnl30d_usd": round(u.get("pnl30d") or 0), "trades": u.get("numTrades") or u.get("swapCount")}
+              for u in gut]
+    BASIS.mkdir(parents=True, exist_ok=True)
+    WALLETS_FILE.write_text(json.dumps({
+        "hinweis": f"Top {TOP_N} der Fomo-Rangliste 30 Tage (mind. {MIN_TRADES} Trades), holt der Bot einmal pro Tag selbst. "
+                   "'aktiv': false = nicht mehr kopieren.",
+        "stand": jetzt().isoformat(timespec="seconds"), "trader": trader}, indent=1, ensure_ascii=False) + "\n",
+        encoding="utf-8")
+    state["liste_stand"] = jetzt().isoformat(timespec="seconds")
+    print(f"  Rangliste erneuert: {len(trader)} Trader (von {len(roh)} geladen)")
+    return lade_wallets()
+
+
+def beobachtete(state, wallets):
+    """Liste + Trader, die rausgefallen sind, aber noch offene Positionen haben (nur noch deren Verkäufe)."""
+    ids = {w["fomo_id"] for w in wallets}
+    extra = {}
+    for p in offene(state):
+        if p["wallet"] not in ids and p["wallet"] not in extra:
+            extra[p["wallet"]] = {"name": p["trader"], "fomo_id": p["wallet"], "wallet": p["wallet"], "nur_verkauf": True}
+    return wallets + list(extra.values())
 
 
 def hole_paare(mints):
@@ -384,6 +443,7 @@ def durchgang(state, wallets):
     neue_bestaende = {}
     for w in wallets:
         b = bestand(w, state)
+        time.sleep(0.1)
         if b is None:
             print(f"  ! Bestand von {w['name']} nicht lesbar, überspringe")
             continue
@@ -404,7 +464,8 @@ def durchgang(state, wallets):
         alt = state["bestand"].get(w["wallet"])
         state["bestand"][w["wallet"]] = b
         if alt is None:
-            print(f"  {w['name']}: {len(b)} Coins im Bestand gemerkt (alte werden nicht kopiert)")
+            neu_gemerkt = state.setdefault("_neu_gemerkt", 0) + 1
+            state["_neu_gemerkt"] = neu_gemerkt
             continue
 
         # Verkäufe: Bestand eines Coins, den wir mit ihm halten, ist gesunken
@@ -426,7 +487,7 @@ def durchgang(state, wallets):
                   f"({'alles' if pos['status'] != 'offen' else 'Teil'})")
 
         # Käufe: neuer Coin (vorher 0) mit echtem Betrag
-        for mint, menge in b.items():
+        for mint, menge in (b.items() if not w.get("nur_verkauf") else []):
             if alt.get(mint, 0) > 0 or offene(state, trader=w["name"], mint=mint):
                 continue
             p = paare.get(mint)
@@ -436,6 +497,9 @@ def durchgang(state, wallets):
             if not preis or liq < MIN_LIQ_USD or menge * preis < MIN_KAUF_USD:
                 continue
             kaufe(state, w, mint, p, menge, preis, liq)
+
+    if state.pop("_neu_gemerkt", 0):
+        print("  Neue Trader: alte Trades gemerkt (werden nicht kopiert)")
 
     # Kurse aller offenen Positionen nachführen, Tote abschreiben
     for pos in offene(state):
@@ -474,6 +538,12 @@ def auswertung_text(state, wallets):
     if LOGIN is not None and (not LOGIN.vorhanden() or LOGIN.fehler):
         z.append(f"**⚠️ Fomo-Login fehlt oder ist abgelaufen** ({LOGIN.fehler or 'Secret FOMO_REFRESH fehlt'}). "
                  "Neu holen: siehe README, Abschnitt Copy-Trader.\n")
+    v = sorted(state.get("verzoegerung", []))
+    if v:
+        q = lambda f: v[min(len(v) - 1, int(len(v) * f))]
+        z.append(f"**Verzögerung** (wie alt ein Trade ist, wenn der Bot ihn sieht; Abfrage alle {CHECK_INTERVALL_S} s): "
+                 f"schnellster {v[0]:.0f} s, Median {q(0.5):.0f} s, 90 % unter {q(0.9):.0f} s ({len(v)} Trades gemessen). "
+                 f"Liegt der schnellste weit über 0 s, braucht Fomo selbst so lange, dann bringt schnelleres Abfragen nichts.\n")
     if not ps:
         z.append("Noch keine kopierten Käufe.\n")
         return "\n".join(z)
@@ -484,11 +554,19 @@ def auswertung_text(state, wallets):
     z.append(f"## Gesamt\n\n{len(ps)} Käufe ({offen} offen, {tot} tot). Einsatz {fr(einsatz)}, "
              f"Wert {fr(wert)} → **{fr(wert - einsatz)} ({(wert / einsatz - 1) * 100:+.1f} %)**. "
              f"Offene Positionen zum letzten Kurs bewertet.\n")
+    if len(ps) > 1:
+        bester = max(ps, key=pos_wert)
+        w2 = wert - pos_wert(bester)
+        e2 = einsatz - EINSATZ_CHF
+        z.append(f"**Ohne den besten Coin** ({bester['name']}): {fr(w2 - e2)} ({(w2 / e2 - 1) * 100:+.1f} %). "
+                 "Ist das deutlich schlechter, hängt alles an einem Glückstreffer.\n")
     if len(ps) < 30:
         z.append("_Unter 30 Käufen: noch kein Urteil möglich._\n")
 
-    z.append("## Pro Trader\n\n| Trader | Käufe | offen | Einsatz | Wert | Ergebnis | bester Coin |\n"
-             "|---|---|---|---|---|---|---|")
+    z.append("## Pro Trader\n\nSortiert nach Ergebnis. \"ohne Besten\" = Ergebnis ohne seinen besten Coin "
+             "(aussagekräftig erst ab ca. 5 Käufen).\n\n"
+             "| Trader | Käufe | offen | Einsatz | Wert | Ergebnis | ohne Besten | bester Coin |\n"
+             "|---|---|---|---|---|---|---|---|")
     namen = sorted({p["trader"] for p in ps})
     zeilen = []
     for n in namen:
@@ -496,8 +574,9 @@ def auswertung_text(state, wallets):
         e = len(tp) * EINSATZ_CHF
         v = sum(pos_wert(p) for p in tp)
         best = max(tp, key=pos_wert)
+        ohne = f"{((v - pos_wert(best)) / (e - EINSATZ_CHF) - 1) * 100:+.0f} %" if len(tp) > 1 else "–"
         zeilen.append((v - e, f"| {n} | {len(tp)} | {sum(1 for p in tp if p['status'] == 'offen')} | "
-                              f"{fr(e)} | {fr(v)} | {(v / e - 1) * 100:+.0f} % | "
+                              f"{fr(e)} | {fr(v)} | {(v / e - 1) * 100:+.0f} % | {ohne} | "
                               f"{best['name']} ({fr(pos_wert(best))}) |"))
     z += [s for _, s in sorted(zeilen, reverse=True)]
 
@@ -542,15 +621,16 @@ def main():
     if "--auswertung" in sys.argv:
         print(auswertung_text(state, wallets))
         return
-    if not wallets:
-        print("Keine Trader in data/copy/wallets.json – nichts zu tun.")
-        schreibe_auswertung(state, wallets)
-        return
     if not LOGIN.vorhanden() or not LOGIN.erneuern():
         print(f"Kein gültiger Fomo-Login: {LOGIN.fehler or 'Secret FOMO_REFRESH fehlt'} – nichts zu tun.")
         schreibe_auswertung(state, wallets)
         return
-    print(f"Fomo-Login ok. Beobachte {len(wallets)} Trader: {', '.join(w['name'] for w in wallets)}")
+    wallets = aktualisiere_liste(state, wallets)
+    if not wallets:
+        print("Keine Trader (Rangliste nicht lesbar, wallets.json leer) – nichts zu tun.")
+        schreibe_auswertung(state, wallets)
+        return
+    print(f"Fomo-Login ok. Beobachte {len(wallets)} Trader (+ Verkäufe von Rausgefallenen mit offenen Positionen)")
 
     dauer_s = float(os.getenv("SCAN_DAUER_MIN", "0") or 0) * 60
     if os.getenv("GITHUB_EVENT_NAME") == "schedule":
@@ -565,7 +645,8 @@ def main():
     while True:
         takt = time.time()
         try:
-            durchgang(state, wallets)
+            wallets = aktualisiere_liste(state, wallets)
+            durchgang(state, beobachtete(state, wallets))
         except Exception as e:
             print(f"  ! Fehler im Durchgang: {e!r}")
         speichere_state(state)
