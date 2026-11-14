@@ -1,6 +1,6 @@
 # Coin-Scanner – Auswertung
 
-_Stand: 2026-11-14 14:59 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
+_Stand: 2026-11-14 15:02 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % Kosten pro Kauf und Verkauf._
 
 ## Ergebnis
 
@@ -10,19 +10,19 @@ _Stand: 2026-11-14 14:59 UTC. Paper Trading, kein echtes Geld, Werte inkl. 4 % K
 
 | Regel | Wert heute | Ergebnis | Rendite |
 |---|---|---|---|
-| A: alles bei 4x | 780.83 Fr. | **-679.17 Fr.** | -47 % |
-| B: Hälfte bei 4x, Rest läuft | 767.16 Fr. | **-692.84 Fr.** | -47 % |
-| C: Einsatz bei 2x raus, Rest ohne Stop | 729.84 Fr. | **-730.16 Fr.** | -50 % |
+| A: alles bei 4x | 782.94 Fr. | **-677.06 Fr.** | -46 % |
+| B: Hälfte bei 4x, Rest läuft | 769.25 Fr. | **-690.75 Fr.** | -47 % |
+| C: Einsatz bei 2x raus, Rest ohne Stop | 732.44 Fr. | **-727.56 Fr.** | -50 % |
 
 ### Regel D: Verluste begrenzen, Gewinner laufen lassen
 
 _Stop bei 0.6x, nach 48 h raus wenn unter Einstieg, bei 2x Einsatz zurück, Rest ohne Deckel, Trailing-Stop 50 % ab 5x. Nur für Coins ab Start von D, deshalb hier der Vergleich auf denselben Coins._
 
 - Vergleich auf den **96 Coins seit Start von Regel D** (Einsatz 960.00 Fr.):
-  - A: **-387.00 Fr.** (-40 %)
-  - B: **-462.52 Fr.** (-48 %)
-  - C: **-507.97 Fr.** (-53 %)
-  - D: **-339.24 Fr.** (-35 %)
+  - A: **-384.84 Fr.** (-40 %)
+  - B: **-460.38 Fr.** (-48 %)
+  - C: **-505.68 Fr.** (-53 %)
+  - D: **-336.92 Fr.** (-35 %)
 
 D abgeschlossen: Stop-Loss 71x, Trailing-Stop 2x, Zeit-Stop 2x, tot 6x
 
@@ -45,12 +45,12 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 
 | Verkaufsziel | Ergebnis | Rendite |
 |---|---|---|
-| alles bei 2x | -660.63 Fr. | -45 % |
-| alles bei 3x | -753.38 Fr. | -52 % |
-| alles bei 4x | -716.54 Fr. | -49 % |
-| alles bei 5x | -757.99 Fr. | -52 % |
-| alles bei 10x | -762.43 Fr. | -52 % |
-| alles bei 20x | -825.22 Fr. | -57 % |
+| alles bei 2x | -658.42 Fr. | -45 % |
+| alles bei 3x | -751.25 Fr. | -51 % |
+| alles bei 4x | -714.43 Fr. | -49 % |
+| alles bei 5x | -755.88 Fr. | -52 % |
+| alles bei 10x | -759.89 Fr. | -52 % |
+| alles bei 20x | -822.18 Fr. | -56 % |
 
 ## Beste und schlechteste Coins (Regel B)
 
@@ -58,8 +58,8 @@ _Näherung aus den Minutenpreisen: Wer das Ziel erreicht hat, gilt genau zum Zie
 |---|---|---|---|---|
 | [HIGH](https://dexscreener.com/solana/cqvmzmwdveufa5rzkubidyr4zmdqdpoljatsw6wgspmu) | A: verkauft, B: verkauft | 116.37 Fr. | 94.32 Fr. | 20.5x |
 | [NOBUSHIBA](https://dexscreener.com/solana/dagau7g32pmkjf8ng2372xo2hygfgenx5yn7mwmkhfgf) | A: verkauft, B: verkauft | 43.40 Fr. | 10.08 Fr. | 6.7x |
-| [BRUH](https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv) | A: verkauft, B: offen | 41.55 Fr. | 31.00 Fr. | 5.5x |
-| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: verkauft | 40.63 Fr. | 12.09 Fr. | 10.6x |
+| [BRUH](https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv) | A: verkauft, B: offen | 41.53 Fr. | 30.99 Fr. | 5.5x |
+| [José](https://dexscreener.com/solana/cdpy6qhvhtn9dvjx1wjutdztzvmck5tfvnnxz51hdpry) | A: verkauft, B: verkauft | 40.63 Fr. | 12.08 Fr. | 10.6x |
 | [HWAN](https://dexscreener.com/solana/54gedrrdayfg4zcavcrymcvvzzfmeak3luwhr7q8qwi1) | A: verkauft, B: offen | 34.12 Fr. | 23.93 Fr. | 4.2x |
 | [DACITY](https://dexscreener.com/solana/89rsdzz3wncebojfruvi6omxbdytnrelfvqcvq1ophnq) | A: tot, B: tot | 0.01 Fr. | 0.01 Fr. | 1.2x |
 | [AMD](https://dexscreener.com/solana/6zv8dyrdxh56au2ebhpzzbmkprp5ixbkprj7hb2pj3rr) | A: tot, B: tot | 0.01 Fr. | 0.01 Fr. | 1.1x |
